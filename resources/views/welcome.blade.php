@@ -652,8 +652,8 @@
                         <span> 9:00 AM - 8:00 PM</span>
                     </p>
                     <p class="boldText">Email
-                        <span><a href="mailto:info@businesscapitalllc.com"
-                                target="_blank">info@businesscapitalllc.com</a></span>
+                        <span><a href="mailto:info@verifen.com"
+                                target="_blank">info@verifen.com</a></span>
                     </p>
                 </div>
 
