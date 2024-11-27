@@ -48,30 +48,30 @@
                     <img src="{{ asset('assets/images/globe_2.png') }}" class="fr-fic">
                     <ul class="languages">
                         <li class="selected"><a href="#"><span>EN</span></a></li>
-                        <li class="selected">/</li>
-                        <li><a href="#"><span>ES</span></a></li>
+                        {{-- <li class="selected">/</li> --}}
+                        {{-- <li><a href="#"><span>ES</span></a></li> --}}
                     </ul>
                 </div>
             </div>
 
             <div class="hdr-row">
-                <a href="index.html">
+                <a href="#">
                     <img src="{{ asset('assets/images/logo.png') }}" alt="Verifen">
                 </a>
                 <div class="hdr-menu">
                     <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span
                             class="icon-bar"></span></div>
                     <ul class="slimmenu">
-                        <li class="active"><a href="#">Why Verifen?</a></li>
-                        <li><a href="#">How It Works</a></li>
-                        <li><a href="#">Solutions</a></li>
-                        <li><a href="#">Funding</a></li>
-                        <li><a href="#">Benefits</a></li>
-                        <li><a href="#">Industries</a></li>
-                        <li><a href="#">Why Wait?</a></li>
-                        <li><a href="#">FAQs</a></li>
+                        <li class="active"><a href="#verifen">Why Verifen?</a></li>
+                        <li><a href="#howitworks">How It Works</a></li>
+                        {{-- <li><a href="#solutions">Solutions</a></li> --}}
+                        <li><a href="#solutions">Funding</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                        <li><a href="#industries">Industries</a></li>
+                        <li><a href="#whywait">Why Wait?</a></li>
+                        <li><a href="#faqs">FAQs</a></li>
                         <li class="button lastmenu">
-                            <a href="#" target="_blank">
+                            <a href="{{ route('application') }}" target="_blank">
                                 <span>Apply Now</span></a>
                         </li>
                     </ul>
@@ -96,7 +96,8 @@
                                             empowers businesses with quick,
                                             transparent, and affordable funding solutions tailored to meet your goals.
                                         </p>
-                                        <a class="applyButton" href="#" target="_blank"><span>Apply Now</span></a>
+                                        <a class="applyButton" href="{{ route('application') }}"
+                                            target="_blank"><span>Apply Now</span></a>
                                     </aside>
                                     <aside class="slider_right">
                                         <img src="{{ asset('assets/images/slider_img01.png') }}" alt="">
@@ -106,44 +107,42 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('assets/images/home-banner-2.jpg') }}" alt="">
-                    <div class="bnr-caption">
-                        <div class="container">
-                            <aside class="fadeInLeft animated">
-                                <h2><span>Welcome to </span>Elite Global Travel</h2>
-                                <p>Going beyond your expectations is our greatest satisfaction</p>
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('assets/images/home-banner-3.jpg') }}" alt="">
-                    <div class="bnr-caption">
-                        <div class="container">
-                            <aside class="fadeInLeft animated">
-                                <h2><span>Welcome to </span>Elite Global Travel</h2>
-                                <p>Going beyond your expectations is our greatest satisfaction</p>
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('assets/images/home-banner-4.jpg') }}" alt="">
-                    <div class="bnr-caption">
-                        <div class="container">
-                            <aside class="fadeInLeft animated">
-                                <h2><span>Welcome to </span>Elite Global Travel</h2>
-                                <p>Going beyond your expectations is our greatest satisfaction</p>
-                            </aside>
-                        </div>
-                    </div>
-                </div>
+                <!-- <div class="carousel-item">
+        <img src="{{ asset('assets/images/home-banner-2.jpg') }}" alt="">
+        <div class="bnr-caption">
+          <div class="container">
+            <aside class="fadeInLeft animated">
+              <h2><span>Welcome to </span>Elite Global Travel</h2>
+              <p>Going beyond your expectations is our greatest satisfaction</p>
+            </aside>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('assets/images/home-banner-3.jpg') }}" alt="">
+        <div class="bnr-caption">
+          <div class="container">
+            <aside class="fadeInLeft animated">
+              <h2><span>Welcome to </span>Elite Global Travel</h2>
+              <p>Going beyond your expectations is our greatest satisfaction</p>
+            </aside>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{{ asset('assets/images/home-banner-4.jpg') }}" alt="">
+        <div class="bnr-caption">
+          <div class="container">
+            <aside class="fadeInLeft animated">
+              <h2><span>Welcome to </span>Elite Global Travel</h2>
+              <p>Going beyond your expectations is our greatest satisfaction</p>
+            </aside>
+          </div>
+        </div>
+      </div> -->
             </div>
-            <a class="bnr-carousel-cntrl carousel-control-prev" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev"></a>
-            <a class="bnr-carousel-cntrl carousel-control-next" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next"></a>
+            <!-- <a class="bnr-carousel-cntrl carousel-control-prev" data-bs-target="#carouselExampleControls" data-bs-slide="prev"></a>
+    <a class="bnr-carousel-cntrl carousel-control-next" data-bs-target="#carouselExampleControls" data-bs-slide="next"></a> -->
         </div>
     </section>
 
@@ -208,7 +207,7 @@
 
 
     <!-- ================ Services Section ================ -->
-    <div class="directFunders">
+    <div id="verifen" class="directFunders">
         <div class="fixedContent">
             <div class="directFundersRow">
                 <div class="column2">
@@ -252,20 +251,56 @@
     </div>
 
 
+    <!-- ================ How It Works Section ================ -->
+    <section id="howitworks" class="howitWorksSec">
+        <div class="container">
+            <h2>How It Works</h2>
+            <p>Getting started with Verifen is easy and fast.</p>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="{{ asset('assets/images/ventilation_2.png') }}" class="fr-fic fr-dib "
+                            alt="Apply Online">
+                    </figure>
+                    <p>Apply Online: <span>Complete a simple application in minutes.</span></p>
+                </li>
+                <li>
+                    <figure>
+                        <img src="{{ asset('assets/images/insurance_1.png') }}" class="fr-fic fr-dib "
+                            alt="Get Approved">
+                    </figure>
+                    <p>Get Approved: <span>Receive approval within the same day.</span></p>
+                </li>
+                <li>
+                    <figure>
+                        <img src="{{ asset('assets/images/consulting_1.png') }}" class="fr-fic fr-dib "
+                            alt="Receive Funds">
+                    </figure>
+                    <p>Receive Funds: <span>Access your funding in as little as 48 hours.</span></p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
     <!-- ================ Funding Process Steps Section ================ -->
 
-    <div class="fundingProcessSteps">
+    <div id="solutions" class="fundingProcessSteps">
         <div class="container">
-            <h3>Funding Process Steps</h3>
+            <h3>Our Funding Solutions</h3>
             <h2>How to Secure Business Funding</h2>
 
             <div class="fundingProStepsFlex">
                 <div class="fundingProStepsLeft">
-                    <p>Business Capital LLC specializes in expedient funding solutions because we understand that many
-                        of our
-                        clients are under limited timelines. Our firm invested into our digital infrastructure for the
-                        purpose of
-                        making the funding process more efficient.</p>
+                    <p>At Verifen, we understand that every business is unique. That’s why we offer flexible,
+                        short-term funding options to meet your needs.</p>
+                    <h3>Ideal for:</h3>
+                    <ul>
+                        <li>Managing operational expenses.</li>
+                        <li>Expanding your business footprint.</li>
+                        <li>Investing in inventory or new projects.</li>
+                        <li>Bridging cash flow gaps.</li>
+                    </ul>
                 </div>
                 <div class="fundingProStepsRight">
                     <div class="processStepsNew">
@@ -274,9 +309,9 @@
                                 <h5>1.</h5>
                             </figcaption>
                             <figure>
-                                <h4>Apply &amp; Submit</h4>
-                                <p>Complete application online and submit the last three bank statements of the business
-                                    account.</p>
+                                <h4>Funding Amounts</h4>
+                                <p>From small capital injections to more significant amounts for significant projects
+                                </p>
                             </figure>
                         </div>
 
@@ -285,10 +320,8 @@
                                 <h5>2.</h5>
                             </figcaption>
                             <figure>
-                                <h4>Underwrite & Approve</h4>
-                                <p>Our underwriting team works diligently to provide the maximum capital for your
-                                    business. A Funding Specialist
-                                    will reach out and discuss your available funding options.</p>
+                                <h4>Repayment Flexibility</h4>
+                                <p>Terms that align with your cash flow</p>
                             </figure>
                         </div>
 
@@ -297,10 +330,8 @@
                                 <h5>3.</h5>
                             </figcaption>
                             <figure>
-                                <h4>Sign & Fund</h4>
-                                <p>After receiving a signed contract, a call will be scheduled with a member of our
-                                    Underwriting Team to
-                                    complete a brief interview and the funds will be released.</p>
+                                <h4>Transparency</h4>
+                                <p>No hidden fees, no gimmicks, no surprises</p>
                             </figure>
                         </div>
                     </div>
@@ -313,7 +344,7 @@
 
 
     <!-- ================ Services Section ================ -->
-    <section class="fundRight">
+    <section id="funding" class="fundRight">
         <div class="fundRightFlex">
             <div class="fundRightFlexLeft">
                 <figure>
@@ -322,57 +353,44 @@
                 </figure>
             </div>
             <div class="fundRightFlexRight">
-                <h2>Funding That's<br>Right For You</h2>
-                <p>Our aim is to approve and fund all of our clients expediently and easily. We value your time and
-                    wish to make the funding process as smooth as possible.</p>
-                <div class="dFlex">
-                    <div class="layoutBlock w50">
+                <h2>What We Offer Beyond Funding</h2>
+                <p>Verifen is more than a financial provider—we're your partner in growth.</p>
+                <div class="">
+                    <div class="layoutBlock">
                         <ul>
                             <li>
                                 <img src="{{ asset('assets/images/icon01.png') }}" class="fr-fic fr-dib "
-                                    alt="Lines of Credit">
-                                <a href="#">Lines of Credit</a>
+                                    alt="Business Optimization">
+                                <a href="#">Business Optimization:</a><br />
+                                <p>Expert advice to streamline operations and improve efficiency</p>
                             </li>
                             <li>
                                 <img src="{{ asset('assets/images/icon02.png') }}" class="fr-fic fr-dib "
-                                    alt="Short-Term Loans">
-                                <a href="#">Short-Term Loans</a>
+                                    alt="Marketing Support">
+                                <a href="#">Marketing Support:</a><br />
+                                <p>Tools and strategies to expand your reach and engage your audience</p>
                             </li>
                             <li>
                                 <img src="{{ asset('assets/images/icon03.png') }}" class="fr-fic fr-dib "
                                     alt="Long-Term Loans">
-                                <a href="#">Long-Term Loans</a>
+                                <a href="#">Operational Insights:</a><br />
+                                <p>Identifying bottlenecks and providing tailored solutions to keep your business
+                                    running smoothly</p>
                             </li>
                             <li>
                                 <img src="{{ asset('assets/images/icon04.png') }}" class="fr-fic fr-dib "
                                     alt="Invoice Factoring">
-                                <a href="#">Invoice Factoring</a></p>
+                                <a href="#">Growth Tools:</a><br />
+                                <p>Access resources that empower you to scale your business sustainably</p>
                             </li>
                         </ul>
                     </div>
-                    <div class="layoutBlock w50">
-                        <ul>
-                            <li>
-                                <img src="{{ asset('assets/images/icon05.png') }}" class="fr-fic fr-dib "
-                                    alt="Equipment Financing">
-                                <a href="#">Equipment Financing</a>
-                            </li>
-                            <li>
-                                <img src="{{ asset('assets/images/icon06.png') }}" class="fr-fic fr-dib "
-                                    alt="Merchant Cash Advance">
-                                <a href="#">Merchant Cash Advance</a>
-                            </li>
-                            <li>
-                                <img src="{{ asset('assets/images/icon07.png') }}" class="fr-fic fr-dib "
-                                    alt="SBA Loans">
-                                <a href="#">SBA Loans</a>
-                            </li>
-                        </ul>
-                    </div>
+
                 </div>
 
                 <div class="layoutBlock">
-                    <a class="applyButtonBlack mt-30" href="#" target="_blank">Apply Now</a>
+                    <a class="applyButtonBlack mt-30" href="{{ route('application') }}" target="_blank">Apply
+                        Now</a>
                 </div>
 
             </div>
@@ -382,8 +400,30 @@
         </div>
     </section>
 
+    <!-- ================ Benefits Section ================ -->
+    <div id="benefits" class="benefitsSec">
+        <div class="container">
+            <div class="benefitsSecRow">
+                <div class="benefitsSecleftCol">
+                    <h2>Key Benefits of Choosing Verifen</h2>
+                    <ul>
+                        <li><span>Fast Access to Funds:</span> Apply today and get funds within 48 hours.</li>
+                        <li><span>No Hidden Fees:</span> What you see is what you get.</li>
+                        <li><span>Flexible Repayment Terms:</span> Tailored to your business cash flow.</li>
+                        <li><span>Expert Support:</span> Our team guides you every step of the way.</li>
+                    </ul>
+                </div>
+                <div class="benefitsSecrightCol">
+                    <img src="{{ asset('assets/images/circle_img01.png') }}" class="fr-fic fr-dib " alt="Benefits">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- ================ Industries Section ================ -->
-    <section class="industriesSec">
+    <section id="industries" class="industriesSec">
         <div class="container">
             <h2>Industries We Serve</h2>
             <p>Verifen supports businesses across a range of industries, including but not limited to:</p>
@@ -427,9 +467,47 @@
         </div>
     </section>
 
+    <!-- ================ Apply Section ================ -->
+
+    <div id="whywait" class="applySec">
+        <div class="container">
+            <h2>Why Wait? Apply Today</h2>
+            <p>Don’t let financial barriers slow you down. Verifen is here to help you take the next step toward growth
+                and success.</p>
+            <ul class="applySecdFlex">
+                <li>
+                    <div class="applicationServiceIcon">
+                        <img alt="icon" title="Fast Application" src="{{ asset('assets/images/icon03.png') }}">
+                    </div>
+                    <h3>Fast Application</h3>
+                    <p>Quick and simple online application</p>
+                </li>
+                <li>
+                    <div class="applicationServiceIcon">
+                        <img alt="icon" title="Transparent"
+                            src="{{ asset('assets/images/values-icon02.png') }}">
+                    </div>
+                    <h3>Transparent</h3>
+                    <p>Same-day approval for qualified businesses</p>
+                </li>
+                <li>
+                    <div class="applicationServiceIcon">
+                        <img alt="icon" title="Reliable" src="{{ asset('assets/images/reliable-icon.png') }}">
+                    </div>
+                    <h3>Reliable</h3>
+                    <p>Funds in your account within 48 hours</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
     <!-- ================ FAQ Section ================ -->
 
-    <div class="faqSec">
+    <div id="faqs" class="faqSec">
         <div class="container">
             <h2>Frequently Asked Questions</h2>
             <div class="details">
@@ -615,12 +693,12 @@
                     <ul>
                         <li class="selected"><a href="#">Why Verifen?</a></li>
                         <li><a href="#">How It Works</a></li>
-                        <li><a href="#">Solutions</a></li>
+                        {{-- <li><a href="#">Solutions</a></li> --}}
+                        <li><a href="#">Funding</a></li>
                     </ul>
                 </div>
                 <div class="columnThree">
                     <ul>
-                        <li><a href="#">Funding</a></li>
                         <li><a href="#">Benefits</a></li>
                         <li><a href="#">Industries</a></li>
                         <li><a href="#">Why Wait?</a></li>
@@ -672,14 +750,14 @@
     <!-- Wow JS -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js"') }}></script>
     <!-- Menu JS -->
-    <script src="{{ asset('assets/js/easing.min.js') }}"></script>
-    <script src="{{ asset('assets/js/slimmenu.min.js') }}"></script>
+    <script src="{{ asset('assets/js/easing.min.js"') }}></script>
+    <script src="{{ asset('assets/js/slimmenu.min.js"') }}></script>
     <!-- Owl Carousel js -->
-    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js"') }}></script>
     <!-- Custome js -->
-    <script src="{{ asset('assets/js/custom.js') }}"></script>
+    <script src="{{ asset('assets/js/custom.js"') }}></script>
 
 </body>
 

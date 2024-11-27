@@ -261,7 +261,7 @@
 
             <div class="fundingProStepsFlex">
                 <div class="fundingProStepsLeft">
-                    <p>Business Capital LLC specializes in expedient funding solutions because we understand that many
+                    <p>Verifen specializes in expedient funding solutions because we understand that many
                         of our
                         clients are under limited timelines. Our firm invested into our digital infrastructure for the
                         purpose of
