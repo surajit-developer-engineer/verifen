@@ -204,6 +204,17 @@
             reader.readAsDataURL(input.files[0]);
         }
     }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        setTimeout(() => {
+            document.querySelectorAll('.alert').forEach(alert => {
+                alert.style.opacity = '0'; // Triggers the CSS transition
+                setTimeout(() => {
+                    alert.style.display = 'none'; // Removes the alert after fade-out
+                }, 1000); // Matches the transition duration in CSS
+            });
+        }, 5000); // Waits for 5 seconds before starting the fade-out
+    });
 </script>
 
 @stack('script')

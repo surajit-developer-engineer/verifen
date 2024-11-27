@@ -1276,3 +1276,8 @@ div.dataTables_length select:hover {
 label {
     margin-bottom: 0;
 }
+
+.alert {
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}

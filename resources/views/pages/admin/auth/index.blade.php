@@ -70,6 +70,19 @@
     <script src="{{ asset('admin/js/owl.carousel.min.js') }}"></script>
     <!-- Custome js -->
     <script src="{{ asset('admin/js/custom.js') }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                document.querySelectorAll('.alert').forEach(alert => {
+                    alert.style.opacity = '0'; // Triggers the CSS transition
+                    setTimeout(() => {
+                        alert.style.display = 'none'; // Removes the alert after fade-out
+                    }, 1000); // Matches the transition duration in CSS
+                });
+            }, 5000); // Waits for 5 seconds before starting the fade-out
+        });
+    </script>
+
 </body>
 
 </html>
