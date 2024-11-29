@@ -7,22 +7,22 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' }}">
     <!-- Bootstrap Css -->
-    <link type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ 'assets/css/bootstrap.min.css' }}" rel="stylesheet">
     <!-- Fontawesome Css -->
     <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         rel="stylesheet">
     <link type="text/css" href="https://cdn.jsdelivr.net/npm/ti-icons@0.1.2/css/themify-icons.min.css" rel="stylesheet">
     <!-- Owl Carousel Css -->
-    <link type="text/css" href="{{ asset('assets/css/owl.carousel.min.css') }}" rel="stylesheet">
-    <link type="text/css" href="{{ asset('assets/css/owl.theme.default.min.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ 'assets/css/owl.carousel.min.css' }}" rel="stylesheet">
+    <link type="text/css" href="{{ 'assets/css/owl.theme.default.min.css' }}" rel="stylesheet">
     <!-- Animate Css -->
-    <link type="text/css" href="{{ asset('assets/css/animate.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ 'assets/css/animate.css' }}" rel="stylesheet">
     <!-- Menu Css -->
-    <link type="text/css" href="{{ asset('assets/css/slimmenu.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ 'assets/css/slimmenu.css' }}" rel="stylesheet">
     <!-- Custom Css -->
-    <link type="text/css" href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ 'assets/css/style.css' }}" rel="stylesheet">
     <!-- Font Link -->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -35,50 +35,7 @@
 <body>
 
     <!-- ================ Header Section ================ -->
-    <header class="top-main-hdr">
-        <div class="container">
-            <div class="hdrToprow">
-                <ul>
-                    <li>
-                        <img src="{{ asset('assets/images/phone-call.png') }}">
-                        <a href="tel:877-400-0297" target="_blank">877-400-0297</a>
-                    </li>
-                </ul>
-                <div class="layout_block">
-                    <img src="{{ asset('assets/images/globe_2.png') }}" class="fr-fic">
-                    <ul class="languages">
-                        <li class="selected"><a href="#"><span>EN</span></a></li>
-                        {{-- <li class="selected">/</li> --}}
-                        {{-- <li><a href="#"><span>ES</span></a></li> --}}
-                    </ul>
-                </div>
-            </div>
-
-            <div class="hdr-row">
-                <a href="#">
-                    <img src="{{ asset('assets/images/logo.png') }}" alt="Verifen">
-                </a>
-                <div class="hdr-menu">
-                    <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span
-                            class="icon-bar"></span></div>
-                    <ul class="slimmenu">
-                        <li class="active"><a href="#verifen">Why Verifen?</a></li>
-                        <li><a href="#howitworks">How It Works</a></li>
-                        {{-- <li><a href="#solutions">Solutions</a></li> --}}
-                        <li><a href="#solutions">Funding</a></li>
-                        <li><a href="#benefits">Benefits</a></li>
-                        <li><a href="#industries">Industries</a></li>
-                        <li><a href="#whywait">Why Wait?</a></li>
-                        <li><a href="#faqs">FAQs</a></li>
-                        <li class="button lastmenu">
-                            <a href="{{ route('application') }}" target="_blank">
-                                <span>Apply Now</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
+    @include('includes.frontend.header')
 
     <!-- ================ Banner Section ================ -->
     <section class="home-banner-sec">
@@ -100,7 +57,7 @@
                                             target="_blank"><span>Apply Now</span></a>
                                     </aside>
                                     <aside class="slider_right">
-                                        <img src="{{ asset('assets/images/slider_img01.png') }}" alt="">
+                                        <img src="{{ 'assets/images/slider_img01.png' }}" alt="">
                                     </aside>
                                 </div>
                             </div>
@@ -108,7 +65,7 @@
                     </div>
                 </div>
                 <!-- <div class="carousel-item">
-        <img src="{{ asset('assets/images/home-banner-2.jpg') }}" alt="">
+        <img src="{{ 'assets/images/home-banner-2.jpg' }}" alt="">
         <div class="bnr-caption">
           <div class="container">
             <aside class="fadeInLeft animated">
@@ -119,7 +76,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{{ asset('assets/images/home-banner-3.jpg') }}" alt="">
+        <img src="{{ 'assets/images/home-banner-3.jpg' }}" alt="">
         <div class="bnr-caption">
           <div class="container">
             <aside class="fadeInLeft animated">
@@ -130,7 +87,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{{ asset('assets/images/home-banner-4.jpg') }}" alt="">
+        <img src="{{ 'assets/images/home-banner-4.jpg' }}" alt="">
         <div class="bnr-caption">
           <div class="container">
             <aside class="fadeInLeft animated">
@@ -151,26 +108,26 @@
     <div class="logoSec">
         <div class="container">
             <ul class="logoFlex">
-                <li><img class="fr-fic" src="{{ asset('assets/images/bbb_transparent.png') }}" alt=""></li>
+                <li><img class="fr-fic" src="{{ 'assets/images/bbb_transparent.png' }}" alt=""></li>
                 <li>
                     <h3>As Seen On:</h3>
                 </li>
                 <li><a href="#" target="_blank">
-                        <img class="maxWidth130" alt="nbc" src="{{ asset('assets/images/nbc-logo.png') }}"></a>
+                        <img class="maxWidth130" alt="nbc" src="{{ 'assets/images/nbc-logo.png' }}"></a>
                 </li>
                 <li><a href="#" target="_blank">
-                        <img class="maxWidth130" alt="abc" src="{{ asset('assets/images/abc-logo.png') }}"></a>
+                        <img class="maxWidth130" alt="abc" src="{{ 'assets/images/abc-logo.png' }}"></a>
                 </li>
                 <li><a href="#" target="_blank">
                         <img class="maxWidth130" alt="boston herald"
-                            src="{{ asset('assets/images/boston-herald-logo.png') }}"></a>
+                            src="{{ 'assets/images/boston-herald-logo.png' }}"></a>
                 </li>
                 <li><a href="#" target="_blank">
                         <img class="maxWidth130" alt="startribune"
-                            src="{{ asset('assets/images/startribune-logo.png') }}"></a>
+                            src="{{ 'assets/images/startribune-logo.png' }}"></a>
                 </li>
                 <li><a href="#" target="_blank">
-                        <img class="maxWidth130" alt="fox" src="{{ asset('assets/images/foxlogo2.png') }}"></a>
+                        <img class="maxWidth130" alt="fox" src="{{ 'assets/images/foxlogo2.png' }}"></a>
                 </li>
             </ul>
         </div>
@@ -187,17 +144,17 @@
                 support you need without the drawbacks of traditional lending.</p>
             <div class="egt-row">
                 <figure>
-                    <img src="{{ asset('assets/images/expert-icon_01.png') }}" alt="">
+                    <img src="{{ 'assets/images/expert-icon_01.png' }}" alt="">
                     <h5><span>Short-Term </span>Funding </h5>
                     <p>30 to 180 days</p>
                 </figure>
                 <figure>
-                    <img src="{{ asset('assets/images/expert-icon_02.png') }}" alt="">
+                    <img src="{{ 'assets/images/expert-icon_02.png' }}" alt="">
                     <h5><span>Same-Day </span> Approval</h5>
                     <p>No waiting, no hassle</p>
                 </figure>
                 <figure>
-                    <img src="{{ asset('assets/images/expert-icon_03.png') }}" alt="">
+                    <img src="{{ 'assets/images/expert-icon_03.png' }}" alt="">
                     <h5><span>Funds Delivered</span> in 48 Hours </h5>
                     <p>Timely support when you <br />need it most.</p>
                 </figure>
@@ -205,6 +162,198 @@
         </div>
     </section>
 
+    <!-- ================ Membership How It Works Section ================ -->
+    <section id="membership" class="memberhowitWorksSec">
+        <div class="container">
+            <h2>Revolutionizing Membership Funding with Zero Interest</h2>
+            <p>At Verifen, we're redefining the way you access financial support. As a member, you can secure
+                funding with zero interest, <br />making it easier than ever to manage your financial needs.</p>
+            <h3>How It Works:</h3>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="{{ 'assets/images/ventilation_2.png' }}" class="fr-fic fr-dib "
+                            alt="Apply Online">
+                    </figure>
+                    <p>Membership Access: <span>Become a Verifen member to unlock exclusive access to funding with no
+                            interest charges.</span></p>
+                </li>
+                <li>
+                    <figure>
+                        <img src="{{ 'assets/images/insurance_1.png' }}" class="fr-fic fr-dib " alt="Get Approved">
+                    </figure>
+                    <p>Affordable Repayments: <span>Enjoy flexible repayment terms with a minimum of just 10% of your
+                            balance paid back each month.</span></p>
+                </li>
+                <li>
+                    <figure>
+                        <img src="{{ 'assets/images/consulting_1.png' }}" class="fr-fic fr-dib "
+                            alt="Receive Funds">
+                    </figure>
+                    <p>Simple Fees: <span>A monthly membership fee applies, giving you access to our funding platform
+                            and services.</span></p>
+                </li>
+                <li>
+                    <figure>
+                        <img src="{{ 'assets/images/accounts-tax_12.png' }}" class="fr-fic fr-dib "
+                            alt="Receive Funds">
+                    </figure>
+                    <p>Penalties for Late Payments: <span>To ensure a smooth experience for all members, a 3% penalty
+                            will be applied if monthly
+                            repayments or membership fees are not received on time.</span></p>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <!-- ================ Membership Plans Section ================ -->
+    <section class="membershipPlanSec">
+        <div class="container">
+            <section class="pricing-section">
+                <div class="container">
+                    <div class="sec-title text-center">
+                        <h2>Membership Plans:</h2>
+                    </div>
+
+                    <div class="outer-box">
+                        <div class="row">
+                            <!-- Pricing Block -->
+                            <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                                <div class="inner-box">
+                                    <div class="icon-box">
+                                        <div class="icon-outer"><i class="fa fa-paper-plane"></i></div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="title"> Silver Plan</div>
+                                    </div>
+                                    <ul class="features">
+                                        <li class="true">Funding Amount: Up to $25,000</li>
+                                        <li class="true">Membership Fee: $1,500/month</li>
+                                        <li class="true">Minimum Repayment: 10% monthly</li>
+                                        <li class="false">Penalty for Late Payment: 3%</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Pricing Block -->
+                            <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp"
+                                data-wow-delay="400ms">
+                                <div class="inner-box">
+                                    <div class="icon-box">
+                                        <div class="icon-outer"><i class="fa fa-star"></i></div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="title">Gold Plan</div>
+                                    </div>
+                                    <ul class="features">
+                                        <li class="true">Funding Amount: $30,000 - $50,000</li>
+                                        <li class="true">Membership Fee: $2,500/month</li>
+                                        <li class="true">Minimum Repayment: 10% monthly</li>
+                                        <li class="true">Penalty for Late Payment: 3%</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Pricing Block -->
+                            <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp"
+                                data-wow-delay="800ms">
+                                <div class="inner-box">
+                                    <div class="icon-box">
+                                        <div class="icon-outer"><i class="fa fa-rocket"></i></div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="title">Platinum Plan</div>
+                                    </div>
+                                    <ul class="features">
+                                        <li class="true">Funding Amount: $50,000 - $100,000</li>
+                                        <li class="true">Membership Fee: $3,500/month</li>
+                                        <li class="true">Minimum Repayment: 10% monthly</li>
+                                        <li class="true">Penalty for Late Payment: 3%</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            <!-- Pricing Block -->
+                            <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                                <div class="inner-box">
+                                    <div class="icon-box">
+                                        <div class="icon-outer"><i class="fa fa-bandcamp"></i></div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="title">Black Plan</div>
+                                    </div>
+                                    <ul class="features">
+                                        <li class="true">Funding Amount: $100,000 - $250,000</li>
+                                        <li class="true">Membership Fee: $5,000/month</li>
+                                        <li class="true">Minimum Repayment: 10% monthly</li>
+                                        <li class="false">Penalty for Late Payment: 3%</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Pricing Block -->
+                            <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp"
+                                data-wow-delay="400ms">
+                                <div class="inner-box">
+                                    <div class="icon-box">
+                                        <div class="icon-outer"><i class="fa fa-diamond"></i></div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="title">Diamond Plan</div>
+                                    </div>
+                                    <ul class="features">
+                                        <li class="true">Funding Amount: $250,000 - $500,000</li>
+                                        <li class="true">Membership Fee: $7,500/month</li>
+                                        <li class="true">Minimum Repayment: 10% monthly</li>
+                                        <li class="true">Penalty for Late Payment: 3%</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Pricing Block -->
+                            <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp"
+                                data-wow-delay="800ms">
+                                <div class="inner-box">
+                                    <div class="icon-box">
+                                        <div class="icon-outer"><i class="fa fa-bomb"></i></div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="title">Diamond Preferred Plan</div>
+                                    </div>
+                                    <ul class="features">
+                                        <li class="true">Funding Amount: $500,000 - $1,000,000</li>
+                                        <li class="true">Membership Fee: $10,000/month</li>
+                                        <li class="true">Minimum Repayment: 10% monthly</li>
+                                        <li class="true">Penalty for Late Payment: 3%</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <h3>Why Choose Verifen Membership?</h3>
+                    <ul>
+                        <li class="number01"><strong>Zero Interest:</strong> All funding plans come with zero interest,
+                            helping you save on costs.</li>
+                        <li class="number02"><strong>Flexible Repayments:</strong> We understand life happens, so you
+                            have the option to repay as you go with a manageable monthly commitment.</li>
+                        <li class="number03"><strong>Transparency:</strong> No hidden fees—just clear, straightforward
+                            terms.</li>
+                    </ul>
+                    <p>Ready to get started? Select the membership plan that fits your needs and unlock funding to take
+                        your financial goals to the next level.</p>
+                    <p>At Verifen, we’re committed to helping you take control of your finances with transparent,
+                        straightforward terms. Join us today and start benefiting from smarter, interest-free funding.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </section>
 
     <!-- ================ Services Section ================ -->
     <div id="verifen" class="directFunders">
@@ -212,8 +361,8 @@
             <div class="directFundersRow">
                 <div class="column2">
                     <figure>
-                        <img src="{{ asset('assets/images/direct-funders-bright-final-img03.png') }}"
-                            class="fr-fic fr-dib " alt="Direct-Funders">
+                        <img src="{{ 'assets/images/direct-funders-bright-final-img03.png' }}" class="fr-fic fr-dib "
+                            alt="Direct-Funders">
                     </figure>
                 </div>
                 <div class="column1">
@@ -259,21 +408,20 @@
             <ul>
                 <li>
                     <figure>
-                        <img src="{{ asset('assets/images/ventilation_2.png') }}" class="fr-fic fr-dib "
+                        <img src="{{ 'assets/images/ventilation_2.png' }}" class="fr-fic fr-dib "
                             alt="Apply Online">
                     </figure>
                     <p>Apply Online: <span>Complete a simple application in minutes.</span></p>
                 </li>
                 <li>
                     <figure>
-                        <img src="{{ asset('assets/images/insurance_1.png') }}" class="fr-fic fr-dib "
-                            alt="Get Approved">
+                        <img src="{{ 'assets/images/insurance_1.png' }}" class="fr-fic fr-dib " alt="Get Approved">
                     </figure>
                     <p>Get Approved: <span>Receive approval within the same day.</span></p>
                 </li>
                 <li>
                     <figure>
-                        <img src="{{ asset('assets/images/consulting_1.png') }}" class="fr-fic fr-dib "
+                        <img src="{{ 'assets/images/consulting_1.png' }}" class="fr-fic fr-dib "
                             alt="Receive Funds">
                     </figure>
                     <p>Receive Funds: <span>Access your funding in as little as 48 hours.</span></p>
@@ -281,7 +429,6 @@
             </ul>
         </div>
     </section>
-
 
     <!-- ================ Funding Process Steps Section ================ -->
 
@@ -348,7 +495,7 @@
         <div class="fundRightFlex">
             <div class="fundRightFlexLeft">
                 <figure>
-                    <img src="{{ asset('assets/images/business.png') }}" class="fr-fic fr-dib "
+                    <img src="{{ 'assets/images/business.png' }}" class="fr-fic fr-dib "
                         alt="Funding That's Right For You">
                 </figure>
             </div>
@@ -359,26 +506,26 @@
                     <div class="layoutBlock">
                         <ul>
                             <li>
-                                <img src="{{ asset('assets/images/icon01.png') }}" class="fr-fic fr-dib "
+                                <img src="{{ 'assets/images/icon01.png' }}" class="fr-fic fr-dib "
                                     alt="Business Optimization">
                                 <a href="#">Business Optimization:</a><br />
                                 <p>Expert advice to streamline operations and improve efficiency</p>
                             </li>
                             <li>
-                                <img src="{{ asset('assets/images/icon02.png') }}" class="fr-fic fr-dib "
+                                <img src="{{ 'assets/images/icon02.png' }}" class="fr-fic fr-dib "
                                     alt="Marketing Support">
                                 <a href="#">Marketing Support:</a><br />
                                 <p>Tools and strategies to expand your reach and engage your audience</p>
                             </li>
                             <li>
-                                <img src="{{ asset('assets/images/icon03.png') }}" class="fr-fic fr-dib "
+                                <img src="{{ 'assets/images/icon03.png' }}" class="fr-fic fr-dib "
                                     alt="Long-Term Loans">
                                 <a href="#">Operational Insights:</a><br />
                                 <p>Identifying bottlenecks and providing tailored solutions to keep your business
                                     running smoothly</p>
                             </li>
                             <li>
-                                <img src="{{ asset('assets/images/icon04.png') }}" class="fr-fic fr-dib "
+                                <img src="{{ 'assets/images/icon04.png' }}" class="fr-fic fr-dib "
                                     alt="Invoice Factoring">
                                 <a href="#">Growth Tools:</a><br />
                                 <p>Access resources that empower you to scale your business sustainably</p>
@@ -414,7 +561,7 @@
                     </ul>
                 </div>
                 <div class="benefitsSecrightCol">
-                    <img src="{{ asset('assets/images/circle_img01.png') }}" class="fr-fic fr-dib " alt="Benefits">
+                    <img src="{{ 'assets/images/circle_img01.png' }}" class="fr-fic fr-dib " alt="Benefits">
                 </div>
             </div>
         </div>
@@ -430,35 +577,32 @@
             <ul>
                 <li>
                     <figure>
-                        <img src="{{ asset('assets/images/ecommerce_1.png') }}" class="fr-fic fr-dib "
+                        <img src="{{ 'assets/images/ecommerce_1.png' }}" class="fr-fic fr-dib "
                             alt="Construction &amp; Contractor Business Funding">
                     </figure>
                     <p>Retail & <span>E-Commerce</span></p>
                 </li>
                 <li>
                     <figure>
-                        <img src="{{ asset('assets/images/retail_1.png') }}" class="fr-fic fr-dib "
-                            alt="Restaurants">
+                        <img src="{{ 'assets/images/retail_1.png' }}" class="fr-fic fr-dib " alt="Restaurants">
                     </figure>
                     <p>Restaurants & <span>Hospitality</span></p>
                 </li>
                 <li>
                     <figure>
-                        <img src="{{ asset('assets/images/healthcare_2.png') }}" class="fr-fic fr-dib "
-                            alt="Healthcare">
+                        <img src="{{ 'assets/images/healthcare_2.png' }}" class="fr-fic fr-dib " alt="Healthcare">
                     </figure>
                     <p>Healthcare & <span>Wellness</span></p>
                 </li>
                 <li>
                     <figure>
-                        <img src="{{ asset('assets/images/insurance_1.png') }}" class="fr-fic fr-dib "
-                            alt="Professional">
+                        <img src="{{ 'assets/images/insurance_1.png' }}" class="fr-fic fr-dib " alt="Professional">
                     </figure>
                     <p>Professional <span>Services</span></p>
                 </li>
                 <li>
                     <figure>
-                        <img src="{{ asset('assets/images/manufacturing_1.png') }}" class="fr-fic fr-dib "
+                        <img src="{{ 'assets/images/manufacturing_1.png' }}" class="fr-fic fr-dib "
                             alt="Manufacturing">
                     </figure>
                     <p>Manufacturing & <span>Distribution</span></p>
@@ -477,22 +621,21 @@
             <ul class="applySecdFlex">
                 <li>
                     <div class="applicationServiceIcon">
-                        <img alt="icon" title="Fast Application" src="{{ asset('assets/images/icon03.png') }}">
+                        <img alt="icon" title="Fast Application" src="{{ 'assets/images/icon03.png' }}">
                     </div>
                     <h3>Fast Application</h3>
                     <p>Quick and simple online application</p>
                 </li>
                 <li>
                     <div class="applicationServiceIcon">
-                        <img alt="icon" title="Transparent"
-                            src="{{ asset('assets/images/values-icon02.png') }}">
+                        <img alt="icon" title="Transparent" src="{{ 'assets/images/values-icon02.png' }}">
                     </div>
                     <h3>Transparent</h3>
                     <p>Same-day approval for qualified businesses</p>
                 </li>
                 <li>
                     <div class="applicationServiceIcon">
-                        <img alt="icon" title="Reliable" src="{{ asset('assets/images/reliable-icon.png') }}">
+                        <img alt="icon" title="Reliable" src="{{ 'assets/images/reliable-icon.png' }}">
                     </div>
                     <h3>Reliable</h3>
                     <p>Funds in your account within 48 hours</p>
@@ -678,71 +821,7 @@
 
 
     <!-- ================ Footer Section ================ -->
-    <footer class="btm-footer">
-        <div class="container">
-            <div class="footerFlex">
-
-                <div class="columnOne">
-                    <a href="index.html">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Verifen">
-                    </a>
-                    <img class="fr-fic" src="{{ asset('assets/images/bbb_transparent.png') }}" alt="">
-                </div>
-
-                <div class="columnTwo">
-                    <ul>
-                        <li class="selected"><a href="#">Why Verifen?</a></li>
-                        <li><a href="#">How It Works</a></li>
-                        {{-- <li><a href="#">Solutions</a></li> --}}
-                        <li><a href="#">Funding</a></li>
-                    </ul>
-                </div>
-                <div class="columnThree">
-                    <ul>
-                        <li><a href="#">Benefits</a></li>
-                        <li><a href="#">Industries</a></li>
-                        <li><a href="#">Why Wait?</a></li>
-                        <li><a href="#">FAQs</a></li>
-                    </ul>
-                </div>
-                <div class="columnThree">
-                    <p class="boldText">Call Us
-                        <span><a href="tel:877-400-0297" target="_blank">877-400-0297</a></span>
-                    </p>
-                    <p class="boldText">Fax
-                        <span>(917) 267-5066</span>
-                    </p>
-                    <p class="boldText">Follow Us</p>
-                    <ul class="socials">
-                        <li><a href="#" target="_blank"><i class="fa fa-fw fa-facebook"
-                                    alt="facebook"></i></a><br></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-fw fa-twitter"
-                                    alt="twitter"></i></a><br></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-fw  fa-instagram"
-                                    alt="instagram"></i></a><br></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-fw fa-linkedin"
-                                    alt="linkedin"></i></a><br></li>
-                    </ul>
-                </div>
-
-                <div class="columnThree">
-                    <p class="boldText">Monday - Friday
-                        <span> 9:00 AM - 8:00 PM</span>
-                    </p>
-                    <p class="boldText">Email
-                        <span><a href="mailto:info@verifen.com"
-                                target="_blank">info@verifen.com</a></span>
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="ftr-copyright-prt">
-                <p>&copy; 2024 verifen.com. All rights reserved.</p>
-            </div>
-
-        </div>
-    </footer>
+    @include('includes.frontend.footer')
 
 
     <!-- JS Start here -->
@@ -750,14 +829,14 @@
     <!-- Wow JS -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="{{ asset('assets/js/bootstrap.min.js"') }}></script>
+    <script src="{{ 'assets/js/bootstrap.min.js' }}"></script>
     <!-- Menu JS -->
-    <script src="{{ asset('assets/js/easing.min.js"') }}></script>
-    <script src="{{ asset('assets/js/slimmenu.min.js"') }}></script>
+    <script src="{{ 'assets/js/easing.min.js' }}"></script>
+    <script src="{{ 'assets/js/slimmenu.min.js' }}"></script>
     <!-- Owl Carousel js -->
-    <script src="{{ asset('assets/js/owl.carousel.min.js"') }}></script>
+    <script src="{{ 'assets/js/owl.carousel.min.js' }}"></script>
     <!-- Custome js -->
-    <script src="{{ asset('assets/js/custom.js"') }}></script>
+    <script src="{{ 'assets/js/custom.js' }}"></script>
 
 </body>
 
