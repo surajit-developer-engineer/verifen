@@ -9,7 +9,7 @@ use App\Http\Controllers\Admin\LeadPartnerController;
 use App\Http\Controllers\Admin\LeadController;
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
-Route::get('/get-quote', [IndexController::class, 'application'])->name('application');
+Route::get('/my-application', [IndexController::class, 'application'])->name('application');
 
 Route::group([
     'prefix' => 'administrator'
