@@ -10,7 +10,7 @@
                 <img class="fr-fic" src="{{ 'assets/images/bbb_transparent.png' }}" alt="">
             </div>
 
-            <div class="columnTwo">
+            <div class="columnThree">
                 <ul>
                     <li><a href="#membership">Membership</a></li>
                     <li class="selected"><a href="#whyverifen">Why Verifen?</a></li>

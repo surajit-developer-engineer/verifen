@@ -22,15 +22,18 @@
                 </ul>
             </div>
         </div>
+    </div>        
 
         <div class="hdr-row">
-            <a href="{{ route('index') }}">
+            <div class="container">
+            <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
+           <div class="hdr-row2">
+           <a href="{{ route('index') }}">
                 <img src="{{ 'assets/images/logo.png' }}" alt="Verifen">
-            </a>
-            <div class="hdr-menu">
-                <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span
-                        class="icon-bar"></span></div>
+            </a>            
+            <div class="hdr-menu">                               
                 <ul class="slimmenu">
+                <div class="collapse-button closeIcon"> <img src="{{ 'assets/images/close-icon.png' }}" alt="Close Icon"> </div>
                     <li class="active"><a href="#membership">Membership</a></li>
                     <li><a href="#verifen">Why Verifen?</a></li>
                     <li><a href="#howitworks">How It Works</a></li>
@@ -40,9 +43,9 @@
                     <li><a href="#industries">Industries</a></li>
                     <li><a href="#whywait">Why Wait?</a></li>
                     <li><a href="#faqs">FAQs</a></li>
-
                 </ul>
             </div>
+           </div>
         </div>
     </div>
 </header>

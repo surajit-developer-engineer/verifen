@@ -4,6 +4,7 @@ html {
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: "Raleway", sans-serif;
   color: #000;
@@ -97,11 +98,11 @@ body.body-fixed::before{
   position: absolute;
   content: '';
   width: 100%;
-  height: 100%;
+  height: 100vh;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 9;
 }
 a.dfltBtn {
   font-size: 16px;
@@ -223,12 +224,18 @@ a.dfltBtn:hover {
   color: #1468d2;
 }
 .hdr-row{
+  width: 100%;
+  padding: 12px 0 17px;
+  /* position: relative; */
+}
+.hdr-row2{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 0 17px;
-  position: relative;
+}
+.hdr-menu{
+ position: relative; 
 }
 .top-main-hdr.sticky-header{
   position: sticky;
@@ -244,6 +251,7 @@ a.dfltBtn:hover {
   background: #1468d2;
   border-radius: 40px;
   display: inline-block;
+  cursor: pointer;
 }
 .applyButton:hover{
   background: #000;
@@ -355,7 +363,9 @@ a.dfltBtn:hover {
   background-image: url(../images/banner-arrow2.png);
   right: 3%;
 }
-
+.closeIcon{
+  display: none;
+}
 
 
 /*================ Logo Style Start ================*/
@@ -400,7 +410,7 @@ a.dfltBtn:hover {
 .about-us-sec{
   position: relative;
   background-color: #fff;
-  padding: 50px 0;
+  padding: 50px 0 0;
   text-align: center;
 }
 .about-us-sec h2{
@@ -466,7 +476,7 @@ a.dfltBtn:hover {
 .directFunders{
   position: relative;
   width: 100%;
-  padding: 50px 0;
+  padding: 130px 0 0;
 }
 .directFunders:after {
   display: block;
@@ -525,8 +535,7 @@ a.dfltBtn:hover {
 }
 /*================ Funding Pprocess Steps Style Start ================*/
 .fundingProcessSteps{
-  padding-top: 60px;
-  padding-bottom: 50px;
+  padding-top: 130px;
   background-repeat: repeat;
   background-color: #fff;
   overflow: hidden;
@@ -640,7 +649,7 @@ a.dfltBtn:hover {
 /*================ Funding That's Style Start ================*/
 .fundRight{
   position: relative;
-  padding: 50px 0;
+  padding: 130px 0 0;
   width: 100%;
 }
 .fundRightFlex{
@@ -722,7 +731,7 @@ a.dfltBtn:hover {
 .howitWorksSec{
   position: relative;
   width: 100%;
-  padding: 70px 0;
+  padding: 130px 0 0;
 }
 .howitWorksSec h2{
   margin-top: 0px;
@@ -819,7 +828,7 @@ a.dfltBtn:hover {
 }
 .pricing-section {
     position: relative;
-    padding: 0 0 80px;
+    padding: 0;
     overflow: hidden;
 }
 .pricing-section p{
@@ -1123,7 +1132,7 @@ a.dfltBtn:hover {
 .memberhowitWorksSec{
   position: relative;
   width: 100%;
-  padding: 70px 0 0;
+  padding: 130px 0 0;
 }
 .memberhowitWorksSec h2{
   margin-top: 0px;
@@ -1191,7 +1200,7 @@ a.dfltBtn:hover {
 .industriesSec{
   position: relative;
   width: 100%;
-  padding: 70px 0;
+  padding: 130px 0 0;
 }
 .industriesSec h2{
   margin-top: 0px;
@@ -1199,9 +1208,11 @@ a.dfltBtn:hover {
   color: #1468d2;
   font-weight: 500;
   padding-bottom: 10px;
+  text-align: center;
 }
 .industriesSec p{
   padding-bottom: 30px;
+  text-align: center;
 }
 .industriesSec ul{
   display: flex;
@@ -1232,11 +1243,14 @@ a.dfltBtn:hover {
 }
 
 /*================ Faq Style Start ================*/
-
+.faqSecRow{
+  padding: 130px 0 0;
+  width: 100%;
+}
 .faqSec{
   width: 100%;
   padding: 70px 15px;
-  background: #eaedfe;
+  background: #eaedfe;  
 }
 .faqSec h2 {
   text-align: center;
@@ -1271,6 +1285,7 @@ a.dfltBtn:hover {
 }
 .detailsSummary::marker{
   content:'';
+  display: none;
 }
 .detailsDesc{
   visibility: hidden;
@@ -1286,6 +1301,7 @@ a.dfltBtn:hover {
   grid-template-rows: 1fr;
   padding-block: var(--padding);
   padding: 20px 0;
+  line-height: 28px;
 }
 .detailsDescInner{
   min-height: 0;
@@ -1304,6 +1320,15 @@ a.dfltBtn:hover {
   background-position: right top;
   background-color: #fff;
   box-shadow: 0 0 12px 0px rgb(165 178 183 / 60%);
+}
+.detailsDescInner ul{
+  list-style: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.detailsDescInner ul li{
+  list-style: disc;
+  padding: 7px 0;
 }
 
 
@@ -1357,7 +1382,7 @@ a.dfltBtn:hover {
   flex-wrap: wrap;
 }
 .columnOne{
-  width: 22%;
+  width: 23%;
 }
 .columnOne .fr-fic{
   width: 230px;
@@ -1368,7 +1393,7 @@ a.dfltBtn:hover {
   padding-left: 15px;
 }
 .columnThree{
-  width: 20%;
+  width: 19%;
   padding-left: 15px;
 }
 .footerFlex ul{
@@ -1438,6 +1463,7 @@ a.dfltBtn:hover {
 .benefitsSec{
   width: 100%;
   position: relative;
+  padding-top: 80px;
 }
 .benefitsSecRow{
   display: flex;
@@ -1502,7 +1528,8 @@ a.dfltBtn:hover {
 .applySec{
   position: relative;
   width: 100%;
-  margin: 0 0 100px;
+  padding-top: 130px;
+  margin: 0;
   text-align: center;
 }
 .applySec h2 {
@@ -1894,6 +1921,7 @@ div[class^="cat"] label {
   .howitWorksSec ul li p {
     height: auto;
     text-align: center;
+    width: 100%;
   }
   .fundingProcessSteps h3 {
     font-size: 25px;
@@ -2095,7 +2123,7 @@ div[class^="cat"] label {
   .pricing-section ul li{
     width: 100%;
     margin-bottom: 30px;
-    text-align: center;
+    /* text-align: center; */
   }
   .pricing-section ul li.number01:before{
     display: none;
@@ -2106,11 +2134,60 @@ div[class^="cat"] label {
   .pricing-section ul li.number03:before{
     display: none;
   }
+  .pricing-section ul li {
+    margin-right: 0;
+  }
+  .pricing-section p {
+    max-width: 100%;
+  }
+  .processStepsNew {
+    padding: 65px 25px 40px;
+  }
+  .benefitsSecRow {
+    padding: 60px 0 0px;
+  }
+  .industriesSec ul li figure {
+    margin-right: 15px;
+  }
+  .industriesSec ul li p {
+    font-size: 14px;
+    text-align: left;
+  }
+  .pricing-section ul li.number01 {
+    text-align: center;
+  }
+  .pricing-section ul li.number02 {
+    text-align: center;
+  }
+  .pricing-section ul li.number03 {
+    text-align: center;
+  }
+  .memberhowitWorksSec ul li figure {
+    margin-right: 0;
+  }
+  .footerFlex .columnOne a{
+    display: block;
+  }
+  .hdr-menu{ 
+    width: 100%;
+    position: inherit;
+   }
+   .body-fixed .closeIcon{
+    position: absolute;
+    right: 0;
+    color: red;
+    top: 0;
+    z-index: 99999;
+    display: block;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+ 
 }
 
 
 @media (max-width: 576px) {
-  ul.languages li.button a{
+  .hdrToprow ul li:nth-child(2){
     display: none;
   }
   .slider_right {
@@ -2138,13 +2215,76 @@ div[class^="cat"] label {
     text-align: center;
     height: auto;
   }
-
-  
+  .faqSec h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .applySec h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .industriesSec h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+.benefitsSecleftCol h2 {
+  font-size: 30px;
+  line-height: 35px;
+  }
+  .fundRightFlexRight h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+.fundingProcessSteps h2 {
+  font-size: 30px;
+  }
+  .howitWorksSec h2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+.column1 h2 {
+  font-size: 30px;
+  line-height: 35px;
+}
+.memberhowitWorksSec h2 {
+  font-size: 30px;
+  line-height: 35px;
+}
+.about-us-sec h2 {
+  font-size: 30px;
+  line-height: 35px;
+} 
+.home-banner-sec .bnr-caption h2 {
+  font-size: 30px;
+  line-height: 35px;
+}
+.about-us-sec figure h5 {
+  font-size: 25px;
+}
+.pricing-section h3{
+  font-size: 30px;
+  line-height: 35px;
+}
+.memberhowitWorksSec h3 {
+  font-size: 25px;
+}
+.footerFlex p span{
+  font-size: 15px;
+}
+.ftr-copyright-prt p {
+  font-size: 15px;
 }
 
 
-@media (max-width: 480px) {
-  
+}
+
+
+@media (max-width: 400px) {
+  .about-us-sec figure {
+    height: 340px;
+    width: 340px;
+}
 }
 
 

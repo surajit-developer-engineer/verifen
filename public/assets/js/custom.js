@@ -12,8 +12,9 @@ $('ul.slimmenu').slimmenu({
 
 $(document).ready(function () {
   $('.collapse-button').on('click', function () {
-    $('body').toggleClass('body-fixed');
+    $('.hdr-row').toggleClass('body-fixed');
     $('.collapse-button').toggleClass('open');
+    $('.closeIcon').toggleClass('collapse-button open');
     $('.slimmenu').toggleClass('show-nav');
   });
 });
@@ -256,3 +257,6 @@ setTimeout(()=>{
   }, false);
 
 })();
+
+
+

@@ -228,7 +228,7 @@
                                         <div class="title"> Silver Plan</div>
                                     </div>
                                     <ul class="features">
-                                        <li class="true">Funding Amount: Up to $25,000</li>
+                                        <li class="true">Available Capital: Up to $25,000</li>
                                         <li class="true">Membership Fee: $1,500/month</li>
                                         <li class="true">Minimum Repayment: 10% monthly</li>
                                         <li class="false">Penalty for Late Payment: 3%</li>
@@ -247,7 +247,7 @@
                                         <div class="title">Gold Plan</div>
                                     </div>
                                     <ul class="features">
-                                        <li class="true">Funding Amount: $30,000 - $50,000</li>
+                                        <li class="true">Available Capital: $30,000 - $50,000</li>
                                         <li class="true">Membership Fee: $2,500/month</li>
                                         <li class="true">Minimum Repayment: 10% monthly</li>
                                         <li class="true">Penalty for Late Payment: 3%</li>
@@ -266,7 +266,7 @@
                                         <div class="title">Platinum Plan</div>
                                     </div>
                                     <ul class="features">
-                                        <li class="true">Funding Amount: $50,000 - $100,000</li>
+                                        <li class="true">Available Capital: $50,000 - $100,000</li>
                                         <li class="true">Membership Fee: $3,500/month</li>
                                         <li class="true">Minimum Repayment: 10% monthly</li>
                                         <li class="true">Penalty for Late Payment: 3%</li>
@@ -350,6 +350,8 @@
                     <p>At Verifen, we’re committed to helping you take control of your finances with transparent,
                         straightforward terms. Join us today and start benefiting from smarter, interest-free funding.
                     </p>
+                    <div class="text-center mt-30"><a class="applyButton" href="{{ route('application') }}"
+                    target="_blank">Become a Member</a></div>
                 </div>
             </section>
         </div>
@@ -649,162 +651,164 @@
 
 
     <!-- ================ FAQ Section ================ -->
+    <div id="faqs" class="faqSecRow">
+        <div class="faqSec">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="details">
+                    <details class="detailsContainer">
+                        <summary class="detailsSummary">
+                            <!-- The title -->
+                            <h3 class="detailsTitle">How does Verifen differ from traditional bank loans?</h3>
+                        </summary>
+                    </details>
+                    <!-- The content -->
+                    <div class="detailsDesc">
+                        <div class="detailsDescInner">
+                            Verifen provides short-term funding with a streamlined application process, same-day approval,
+                            and funds delivered in 48 hours. Unlike banks, we don’t charge loan fees or closing costs or
+                            impose high interest rates.
+                        </div>
+                    </div>
+                </div>
+                <div class="details">
+                    <details class="detailsContainer">
+                        <summary class="detailsSummary">
+                            <!-- The title -->
+                            <h3 class="detailsTitle">Are there any upfront costs or hidden fees?</h3>
+                        </summary>
+                    </details>
+                    <!-- The content -->
+                    <div class="detailsDesc">
+                        <div class="detailsDescInner">
+                            No. Verifen prides itself on complete transparency. There are no upfront costs, hidden fees,
+                            or closing charges. What you see is what you get.
+                        </div>
+                    </div>
+                </div>
+                <div class="details">
+                    <details class="detailsContainer">
+                        <summary class="detailsSummary">
+                            <!-- The title -->
+                            <h3 class="detailsTitle">What types of businesses qualify for funding?</h3>
+                        </summary>
+                    </details>
+                    <!-- The content -->
+                    <div class="detailsDesc">
+                        <div class="detailsDescInner">
+                            We work with businesses of all sizes across various industries, including retail,
+                            hospitality, healthcare, professional services, and more. Whether you’re a startup or an
+                            established company, you can apply.
+                        </div>
+                    </div>
+                </div>
 
-    <div id="faqs" class="faqSec">
-        <div class="container">
-            <h2>Frequently Asked Questions</h2>
-            <div class="details">
-                <details class="detailsContainer">
-                    <summary class="detailsSummary">
-                        <!-- The title -->
-                        <h3 class="detailsTitle">How does Verifen differ from traditional bank loans?</h3>
-                    </summary>
-                </details>
-                <!-- The content -->
-                <div class="detailsDesc">
-                    <div class="detailsDescInner">
-                        Verifen provides short-term funding with a streamlined application process, same-day approval,
-                        and funds delivered in 48 hours. Unlike banks, we don’t charge loan fees or closing costs or
-                        impose high interest rates.
+                <div class="details">
+                    <details class="detailsContainer">
+                        <summary class="detailsSummary">
+                            <!-- The title -->
+                            <h3 class="detailsTitle">How does the application process work?</h3>
+                        </summary>
+                    </details>
+                    <!-- The content -->
+                    <div class="detailsDesc">
+                        <div class="detailsDescInner">
+                            The process is fast and straightforward:
+                            <ul>
+                                <li>Fill out our online application.</li>
+                                <li>Provide basic business information.</li>
+                                <li>Receive same-day approval.</li>
+                                <li>Access funds within 48 hours of approval.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="details">
-                <details class="detailsContainer">
-                    <summary class="detailsSummary">
-                        <!-- The title -->
-                        <h3 class="detailsTitle">Are there any upfront costs or hidden fees?</h3>
-                    </summary>
-                </details>
-                <!-- The content -->
-                <div class="detailsDesc">
-                    <div class="detailsDescInner">
-                        No. Verifen prides itself on complete transparency. There are no upfront costs, hidden fees,
-                        or closing charges. What you see is what you get.
-                    </div>
-                </div>
-            </div>
-            <div class="details">
-                <details class="detailsContainer">
-                    <summary class="detailsSummary">
-                        <!-- The title -->
-                        <h3 class="detailsTitle">What types of businesses qualify for funding?</h3>
-                    </summary>
-                </details>
-                <!-- The content -->
-                <div class="detailsDesc">
-                    <div class="detailsDescInner">
-                        We work with businesses of all sizes across various industries, including retail,
-                        hospitality, healthcare, professional services, and more. Whether you’re a startup or an
-                        established company, you can apply.
-                    </div>
-                </div>
-            </div>
 
-            <div class="details">
-                <details class="detailsContainer">
-                    <summary class="detailsSummary">
-                        <!-- The title -->
-                        <h3 class="detailsTitle">How does the application process work?</h3>
-                    </summary>
-                </details>
-                <!-- The content -->
-                <div class="detailsDesc">
-                    <div class="detailsDescInner">
-                        The process is fast and straightforward:
-                        <ul>
-                            <li>Fill out our online application.</li>
-                            <li>Provide basic business information.</li>
-                            <li>Receive same-day approval.</li>
-                            <li>Access funds within 48 hours of approval.</li>
-                        </ul>
+                <div class="details">
+                    <details class="detailsContainer">
+                        <summary class="detailsSummary">
+                            <!-- The title -->
+                            <h3 class="detailsTitle"> How long does approval take?</h3>
+                        </summary>
+                    </details>
+                    <!-- The content -->
+                    <div class="detailsDesc">
+                        <div class="detailsDescInner">
+                            Our approval process is speedy. Most applications are reviewed and approved on the same day they
+                            are submitted.
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="details">
-                <details class="detailsContainer">
-                    <summary class="detailsSummary">
-                        <!-- The title -->
-                        <h3 class="detailsTitle"> How long does approval take?</h3>
-                    </summary>
-                </details>
-                <!-- The content -->
-                <div class="detailsDesc">
-                    <div class="detailsDescInner">
-                        Our approval process is speedy. Most applications are reviewed and approved on the same day they
-                        are submitted.
+                <div class="details">
+                    <details class="detailsContainer">
+                        <summary class="detailsSummary">
+                            <!-- The title -->
+                            <h3 class="detailsTitle">Is Verifen funding a loan?</h3>
+                        </summary>
+                    </details>
+                    <!-- The content -->
+                    <div class="detailsDesc">
+                        <div class="detailsDescInner">
+                            Not exactly. We provide merchant cash advances or short-term funding solutions that are more
+                            flexible and tailored than traditional loans, without the extensive fees and rigid terms.
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="details">
-                <details class="detailsContainer">
-                    <summary class="detailsSummary">
-                        <!-- The title -->
-                        <h3 class="detailsTitle">Is Verifen funding a loan?</h3>
-                    </summary>
-                </details>
-                <!-- The content -->
-                <div class="detailsDesc">
-                    <div class="detailsDescInner">
-                        Not exactly. We provide merchant cash advances or short-term funding solutions that are more
-                        flexible and tailored than traditional loans, without the extensive fees and rigid terms.
+                <div class="details">
+                    <details class="detailsContainer">
+                        <summary class="detailsSummary">
+                            <!-- The title -->
+                            <h3 class="detailsTitle">Can seasonal businesses apply?</h3>
+                        </summary>
+                    </details>
+                    <!-- The content -->
+                    <div class="detailsDesc">
+                        <div class="detailsDescInner">
+                            Absolutely. We understand the unique challenges of seasonal businesses and offer
+                            funding solutions tailored to their cash flow cycles.
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="details">
-                <details class="detailsContainer">
-                    <summary class="detailsSummary">
-                        <!-- The title -->
-                        <h3 class="detailsTitle">Can seasonal businesses apply?</h3>
-                    </summary>
-                </details>
-                <!-- The content -->
-                <div class="detailsDesc">
-                    <div class="detailsDescInner">
-                        Absolutely. We understand the unique challenges of seasonal businesses and offer
-                        funding solutions tailored to their cash flow cycles.
+                <div class="details">
+                    <details class="detailsContainer">
+                        <summary class="detailsSummary">
+                            <!-- The title -->
+                            <h3 class="detailsTitle">Is Verifen funding available nationwide?</h3>
+                        </summary>
+                    </details>
+                    <!-- The content -->
+                    <div class="detailsDesc">
+                        <div class="detailsDescInner">
+                            Yes, Verifen serves businesses across the United States, ensuring entrepreneurs nationwide can
+                            access the support they need.
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="details">
-                <details class="detailsContainer">
-                    <summary class="detailsSummary">
-                        <!-- The title -->
-                        <h3 class="detailsTitle">Is Verifen funding available nationwide?</h3>
-                    </summary>
-                </details>
-                <!-- The content -->
-                <div class="detailsDesc">
-                    <div class="detailsDescInner">
-                        Yes, Verifen serves businesses across the United States, ensuring entrepreneurs nationwide can
-                        access the support they need.
+                <div class="details">
+                    <details class="detailsContainer">
+                        <summary class="detailsSummary">
+                            <!-- The title -->
+                            <h3 class="detailsTitle">How do I know if Verifen is the right fit for my business?</h3>
+                        </summary>
+                    </details>
+                    <!-- The content -->
+                    <div class="detailsDesc">
+                        <div class="detailsDescInner">
+                            If you’re seeking fast, flexible, and transparent funding with no hidden fees and tailored
+                            solutions,
+                            Verifen is the perfect partner to help you grow.
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="details">
-                <details class="detailsContainer">
-                    <summary class="detailsSummary">
-                        <!-- The title -->
-                        <h3 class="detailsTitle">How do I know if Verifen is the right fit for my business?</h3>
-                    </summary>
-                </details>
-                <!-- The content -->
-                <div class="detailsDesc">
-                    <div class="detailsDescInner">
-                        If you’re seeking fast, flexible, and transparent funding with no hidden fees and tailored
-                        solutions,
-                        Verifen is the perfect partner to help you grow.
-                    </div>
-                </div>
             </div>
-
         </div>
     </div>
+    
 
     <!-- ================ Ready to proceed Section ================ -->
 
