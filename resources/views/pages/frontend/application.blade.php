@@ -41,7 +41,7 @@
     <div class="applicationBodyOuter">
         <div class="applicationBody">
             <div class="outerHeader">
-                <div class="appdFlex">
+<!--                 <div class="appdFlex">
                     <div>
                         <img class="logoImage" src="{{ 'assets/images/logo.png' }}">
                     </div>
@@ -50,7 +50,7 @@
                         <p class="slds-m-top_x-small"><a href="tel:877-400-0297">877-400-0297</a></p>
                         <p class="slds-m-top_x-small"><a href="mailto:contact@verifen.com">contact@verifen.com</a></p>
                     </div>
-                </div>
+                </div> -->
                 <h2>Business Funding Application</h2>
                 <h4>Please complete our secured 1-page application.</h4>
                 <p>Please complete the application below, and upload your last four months of bank statements.
