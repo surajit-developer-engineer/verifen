@@ -1583,12 +1583,18 @@ a.dfltBtn:hover {
 
 
 
+
+.applicationBodyOuter{  
+  width: 100%;
+  background: #e5eef6;
+  margin-top: 130px;
+}
 .applicationBody{  
   padding: 2.5rem;
   width: 80%;
-  max-width: 800px;
-  background-color: white;
-  margin: 50px auto;
+  max-width: 1000px;
+  margin: 0 auto; 
+  background: #fff; 
 }
 .outerHeader{
   border-color: #f0f0f0;
