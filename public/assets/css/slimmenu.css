@@ -408,6 +408,11 @@ ul.slimmenu li.has-submenu ul li a:hover{
 	color: #000000;
 }*/
 
+
+ul.slimmenu li.mobView{
+	display: none;
+}
+
 /*====================== Menu Responsive Area =================*/
 @media only screen and (max-width: 1024px){
 	ul.slimmenu li>ul{
@@ -445,6 +450,9 @@ ul.slimmenu li.has-submenu ul li a:hover{
 		margin-top: 87px;
 		margin-right: 50px;
 	} */
+	ul.slimmenu li.mobView{
+		display: block;
+	}
 }
 @media only screen and (max-width:575px){
 	.collapse-button{

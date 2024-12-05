@@ -269,7 +269,7 @@
                                         <li class="true">Available Capital: $50,000 - $100,000</li>
                                         <li class="true">Membership Fee: $3,500/month</li>
                                         <li class="true">Minimum Repayment: 10% monthly</li>
-                                        <li class="true">Penalty for Late Payment: 3%</li>
+                                        <li class="true">Penalty for Late Payment: 0% Interest</li>
                                     </ul>
                                 </div>
                             </div>

@@ -248,7 +248,7 @@ a.dfltBtn:hover {
   color: #fff !important;
   line-height: 18px;
   font-weight: 600;
-  background: #1468d2;
+  background-color: #1468d2 !important;
   border-radius: 40px;
   display: inline-block;
   cursor: pointer;
@@ -1845,9 +1845,30 @@ div[class^="cat"] label {
   border-radius: 5px;
   width: 100%;  
 }
-
-
-
+.mobBtnSec{
+  margin: 15px;
+}
+.mobBtnSec .applyButton{
+  font-size: 16px;
+}
+.applyButtonStroke{
+  padding: 15px 30px !important;
+  color: #000 !important;
+  line-height: 18px;
+  font-weight: 600;
+  background-color: #fff !important;
+  border: solid 1px #000 !important;
+  border-radius: 40px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 15px;
+  margin-top: 0;
+  text-align: center;
+}
+.applyButtonStroke:hover{
+  background: #000;
+  color: #fff !important;
+}
 
 
 /*=============== Responsive Style ===============*/

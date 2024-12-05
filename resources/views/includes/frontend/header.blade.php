@@ -43,6 +43,14 @@
                     <li><a href="#industries">Industries</a></li>
                     <li><a href="#whywait">Why Wait?</a></li>
                     <li><a href="#faqs">FAQs</a></li>
+                    <li class="mobView">
+                    <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('application') }}" target="_blank">
+                    <span>Apply Now</span></a>
+                    <a class="applyButton" href="{{ route('application') }}" target="_blank">
+                        Become a Member</a></div>
+                    <a class="applyButtonStroke" href="tel:000 000 0000" target="_blank">
+                    <span><i><img src="{{ 'assets/images/phone-call.png' }}"></i> Call Us: 000 000 0000</span></a>
+                </li>
                 </ul>
             </div>
            </div>
