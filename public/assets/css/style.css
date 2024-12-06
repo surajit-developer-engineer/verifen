@@ -1586,19 +1586,23 @@ a.dfltBtn:hover {
 
 .applicationBodyOuter{  
   width: 100%;
-  background: #e5eef6;
+  background: url(../images/form-bg.jpg) 0 0 repeat #e5eef6;
+  /* background: #e5eef6; */
   margin-top: 130px;
+  padding: 50px 0;
 }
 .applicationBody{  
   padding: 2.5rem;
+  /* 
   width: 80%;
-  max-width: 1000px;
+  max-width: 1000px; */
   margin: 0 auto; 
   background: #fff; 
+  border-radius: 5px;
 }
 .outerHeader{
   border-color: #f0f0f0;
-  background-color: #f7f7f7;
+  background-color: #eff7ff;
   border-radius: 5px;
   border: 1px solid transparent;
   font-size: 1em;
@@ -1651,15 +1655,18 @@ div[class^="cat"] input {
   position: absolute;
   z-index: -999;
 }
+div[class^="cat"] input[type="radio"] { 
+  opacity: 0;
+}
 div[class^="cat"] input:focus + label { 
   background: darken(blue, 15%);
   /* letter-spacing: 1px;  */
 }
 .question-wrap {
   height: 100%;
-  max-height: 0;
+  /* max-height: 0;
   opacity: 0;
-  overflow: hidden;
+  overflow: hidden; */
   transition: all .75s cubic-bezier(0.19, 1, 0.22, 1);
   width: 100%; 
 }
@@ -1673,11 +1680,11 @@ div[class^="cat"] label {
   font-size: 20px;
   font-weight: 500;
   padding-bottom: 0.5rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 1.7rem;
   margin-top: 1.2rem;
   border-bottom: 1px solid #ccc;
   width: 100%; 
-  cursor: pointer; 
+  cursor: pointer;
 }
 .formFlex{
   display: flex;
@@ -1693,10 +1700,11 @@ div[class^="cat"] label {
 }
 .formFlex input{
   border: 1px solid #ccc;
+  background: #f7fafd;
   width: 100%;
-  padding: 5px 10px;
+  padding: 5px 15px;
   font-size: 15px;
-  height: 35px;
+  height: 45px;
   border-radius: 5px;
   position: relative !important;
   z-index: 1 !important;
@@ -1704,10 +1712,11 @@ div[class^="cat"] label {
 }
 .selectDropdown{
   border: 1px solid #ccc;
+  background: #f7fafd;
   width: 100%;
-  padding: 5px 10px;
+  padding: 5px 15px;
   font-size: 15px;
-  height: 35px;
+  height: 45px;
   border-radius: 5px;
   position: relative !important;
   z-index: 1 !important;
@@ -1724,7 +1733,7 @@ div[class^="cat"] label {
   content: "\f107";
   font-family: fontAwesome;
   position: absolute;
-  top: 8px;
+  top: 12px;
   right: 12px;
   color: #555;
   font-size: 20px;
@@ -1751,7 +1760,36 @@ div[class^="cat"] label {
 .formFlex [type=button]:hover{
   background: #000;
 }
-
+.action-button{
+  border: none;
+  padding: 12px 30px !important;
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 600;
+  background: #00479e;
+  border-radius: 7px;
+  width: auto;
+  height: auto;
+  float: left;
+}
+.action-button:hover{
+  background: #0a57b4;
+}
+.action-button-previous{
+  border: none;
+  padding: 12px 30px !important;
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 600;
+  background: #000;
+  border-radius: 7px;
+  width: auto;
+  height: auto;
+  float: right;
+}
+.action-button-previous:hover{
+  background: #3f3f3f;
+}
 .radio{
   width: 30%;
 }
@@ -1774,6 +1812,7 @@ div[class^="cat"] label {
     margin: 0;
     font-size: 17px;
     font-weight: 400;
+    background: transparent;
 }
 .formFlex [type="radio"]:checked + label:before,
 .formFlex [type="radio"]:not(:checked) + label:before {
@@ -1783,9 +1822,9 @@ div[class^="cat"] label {
     top: 0;
     width: 18px;
     height: 18px;
-    border: 1px solid #ddd;
+    border: 1px solid #adaaaa;
     border-radius: 100%;
-    background: #fff;
+    background: #f7fafd;
 }
 .formFlex [type="radio"]:checked + label:after,
 .formFlex [type="radio"]:not(:checked) + label:after {
@@ -1815,7 +1854,6 @@ div[class^="cat"] label {
 }
 .label-file{
   width:100%;
-  height:35px;
   display:inline-block;
   position:relative;
   background-color:#fff;
@@ -1824,20 +1862,23 @@ div[class^="cat"] label {
   border:1px solid #ccc;
   vertical-align: middle;
   overflow:hidden;
-  line-height:33px;
   margin-top: 0 !important;
+  height: 47px;
+  line-height: 43px;
+  background: #f7fafd;
+  margin-bottom: 0 !important;
 }
 .label-file:after{
   content: "Browse";
   position: absolute;
-  background-color:#42a5f5;
-  right:0;
-  top:0;
-  height: 33px;
+  background-color: #42a5f5;
+  right: 0;
+  top: 0;
+  height: 45px;
   display: inline-block;
-  padding: 6px 15px 0;
+  padding: 10px 15px 0;
   color: #fff;
-  line-height: 20px;
+  line-height: 24px;
   font-size: 15px;
 }
 #sig-canvas {
@@ -1869,6 +1910,149 @@ div[class^="cat"] label {
   background: #000;
   color: #fff !important;
 }
+
+
+
+
+#msform {
+  position: relative;
+  margin-top: 20px
+}
+
+#msform fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative
+}
+
+.form-card {
+  text-align: left
+}
+
+#msform fieldset:not(:first-of-type) {
+  display: none
+}
+
+.card {
+  z-index: 0;
+  border: none;
+  position: relative
+}
+
+.fs-title {
+  font-size: 25px;
+  color: #1468d2;
+  margin-bottom: 15px;
+  font-weight: normal;
+  text-align: left
+}
+
+.purple-text {
+  color: #1468d2;
+  font-weight: normal
+}
+
+.steps {
+  font-size: 25px;
+  color: gray;
+  margin-bottom: 10px;
+  font-weight: normal;
+  text-align: right
+}
+
+.fieldlabels {
+  color: gray;
+  text-align: left
+}
+
+#progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  color: lightgrey;
+  position: relative;
+  z-index: 9;
+}
+
+#progressbar .active {
+  color: #1468d2
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 15px;
+  width: 20%;
+  float: left;
+  position: relative;
+  font-weight: 400;
+  text-align: center;  
+}
+
+#progressbar #account:before {
+  content: "1"
+}
+
+#progressbar #personal:before {
+  content: "2"
+}
+
+#progressbar #payment:before {
+  content: "3"
+}
+
+#progressbar #confirm:before {
+  content: "4"
+}
+#progressbar #signature:before {
+  content: "5"
+}
+
+#progressbar li:before {
+  width: 30px;
+  height: 30px;
+  display: block;
+  color: #ffffff;
+  background: lightgray;
+  border-radius: 50%;
+  margin: 10px auto 10px auto;
+  line-height: 29px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#progressbar li:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: lightgray;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: #1468d2
+}
+
+.progress {
+  height: 15px
+}
+
+.progress-bar {
+  background-color: #1468d2
+}
+
+.fit-image {
+  width: 100%;
+  object-fit: cover
+}
+
 
 
 /*=============== Responsive Style ===============*/
@@ -2115,7 +2299,7 @@ div[class^="cat"] label {
   }
 
   .applicationBody {
-    width: 90%;
+    width:100%;
     margin: 20px auto;
     padding: 1.5rem;
   }
@@ -2209,7 +2393,13 @@ div[class^="cat"] label {
     margin-right: 15px;
     margin-top: 15px;
   }
- 
+  .action-button {
+    margin-top: 30px;
+  }
+  .action-button-previous{
+    margin-top: 30px;
+  }
+
 }
 
 
@@ -2302,7 +2492,9 @@ div[class^="cat"] label {
 .ftr-copyright-prt p {
   font-size: 15px;
 }
-
+#progressbar li strong{
+  display: none;
+}
 
 }
 

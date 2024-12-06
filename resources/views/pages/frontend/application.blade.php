@@ -39,24 +39,29 @@
 
 
     <div class="applicationBodyOuter">
+        <div class="container">
         <div class="applicationBody">
-            <div class="outerHeader">
-<!--                 <div class="appdFlex">
-                    <div>
-                        <img class="logoImage" src="{{ 'assets/images/logo.png' }}">
-                    </div>
-                    <div class="addressSec">
-                        <p>Business Capital</p>
-                        <p class="slds-m-top_x-small"><a href="tel:877-400-0297">877-400-0297</a></p>
-                        <p class="slds-m-top_x-small"><a href="mailto:contact@verifen.com">contact@verifen.com</a></p>
-                    </div>
-                </div> -->
+            <div class="outerHeader">                
                 <h2>Business Funding Application</h2>
                 <h4>Please complete our secured 1-page application.</h4>
                 <p>Please complete the application below, and upload your last four months of bank statements.
                     We can have an answer for you within one hour.</p>
             </div>
-            <form>
+
+            <form id="msform">
+                <!-- progressbar -->
+                <ul id="progressbar">
+                    <li class="active" id="account"><strong>Business Information</strong></li>
+                    <li id="personal"><strong>Owner Information</strong></li>
+                    <li id="payment"><strong>Loan Details</strong></li>
+                    <li id="confirm"><strong>Document Upload</strong></li>
+                    <li id="signature"><strong>Signature</strong></li>                    
+                </ul>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                </div> <br> <!-- fieldsets -->
+
+                <fieldset>
                 <div class="cat-1">
                     <input id="tab-1" type="radio" name="tabs" tabindex="1">
                     <label for="tab-1">Business Information</label>
@@ -179,17 +184,12 @@
                                 <input type="text" placeholder="">
                             </div>
                         </div>
-
-                        <div class="formFlex">
-                            <input type="button" value="Continue">
-                        </div>
-
-
-
-
                     </div>
-                </div>
+                </div>                    
+                    <input type="button" name="next" class="next action-button" value="Continue" />                    
+                </fieldset>
 
+                <fieldset>
                 <div class="cat-2">
                     <input id="tab-2" type="radio" name="tabs" tabindex="7">
                     <label for="tab-2">Owner Information</label>
@@ -343,14 +343,14 @@
                             </div>
                         </div>
 
-                        <div class="formFlex">
-                            <input type="button" value="Continue">
-                        </div>
-
 
                     </div>
                 </div>
+                    <input type="button" name="next" class="next action-button" value="Continue" /> 
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                </fieldset>
 
+                <fieldset>
                 <div class="cat-3">
                     <input id="tab-3" type="radio" name="tabs" tabindex="16">
                     <label for="tab-3">Loan Details</label>
@@ -391,17 +391,14 @@
                                     </select>
                                 </div>
                             </div>
-                        </div>
-
-
-                        <div class="formFlex">
-                            <input type="button" value="Continue">
-                        </div>
-
-
+                        </div>                       
                     </div>
                 </div>
+                    <input type="button" name="next" class="next action-button" value="Continue" /> 
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                </fieldset>
 
+                <fieldset>
                 <div class="cat-4">
                     <input id="tab-4" type="radio" name="tabs" tabindex="25">
                     <label for="tab-4">Document Upload</label>
@@ -458,17 +455,15 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="formFlex">
-                            <input type="button" value="Continue">
-                        </div>
-
-
                     </div>
-                </div>
+                </div>                
+                    <input type="button" name="next" class="next action-button" value="Continue" /> 
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />                
+                </fieldset>
 
+                <fieldset>
                 <div class="cat-5">
-                    <input id="tab-5" type="radio" name="tabs" tabindex="24">
+                    <input id="tab-5" type="radio" name="tabs" tabindex="25">
                     <label for="tab-5">Signature</label>
 
                     <div class="question-wrap">
@@ -490,13 +485,21 @@
                             </div>
                         </div>
 
-                        <div class="formFlex">
+                        <!-- <div class="formFlex">
                             <input type="button" value="Review & Submit">
-                        </div>
+                        </div> -->
 
                     </div>
-                </div>
+                </div>               
+                
+                    <input type="button" name="next" class="next action-button" value="Review & Submit" /> 
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                
+                </fieldset>
+                
             </form>
+
+        </div>
         </div>
     </div>
 
