@@ -43,9 +43,8 @@
         <div class="applicationBody">
             <div class="outerHeader">                
                 <h2>Business Funding Application</h2>
-                <h4>Please complete our secured 1-page application.</h4>
-                <p>Please complete the application below, and upload your last four months of bank statements.
-                    We can have an answer for you within one hour.</p>
+                <h4>Please complete the below secured application.</h4>
+                <p>Please complete the application below. You will be required to upload both business and personal tax returns, six months of bank statements, and a copy of a government-issued ID.</p>
             </div>
 
             <form id="msform">

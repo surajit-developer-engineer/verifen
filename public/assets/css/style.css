@@ -533,6 +533,76 @@ a.dfltBtn:hover {
   font-weight: 500;
   padding-bottom: 10px;
 }
+
+
+
+/*================ Transparency Style Start ================*/
+
+.transparencySec{
+  position: relative;
+  width: 100%;
+  padding: 130px 0 0;
+}
+.transparencySec:after {
+  display: block;
+  position: absolute;
+  content: '';
+  left: 0px;
+  top: -75px;
+  color: #fff;
+  background: url(../images/pattern-round-left.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 275px;
+  z-index: 2;
+}
+.fixedContent{
+  margin: 0 auto;
+}
+.transparencySecRow{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+}
+.transparencySec .column22 {
+  margin-bottom: 0px;
+  background-image: url(../images/img-pattern_1.jpg);
+  clear: both;
+  background-repeat: repeat;
+  margin-left: 58px;
+}
+.transparencySec .column11 {
+  margin-bottom: 0px;
+  text-align: left;
+  max-width: 900px;
+  margin-left: 100px;
+}
+.transparencySec .column11 h2 {
+  margin-top: 0px;
+  font-size: 53px;
+  color: #1468d2;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.transparencySec .column11 h3 {
+  color: #000;
+  font-size: 35px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.transparencySec .column11 ol{
+  list-style: disc;
+}
+.transparencySec .column11 ol li h4{
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+
+
+
 /*================ Funding Pprocess Steps Style Start ================*/
 .fundingProcessSteps{
   padding-top: 130px;
@@ -1034,6 +1104,9 @@ a.dfltBtn:hover {
     font: normal normal normal 14px / 1 FontAwesome;
     margin-top: -7px;
 }
+.pricing-block .features li.interIcon:before {
+    margin-top: -10px;
+}
 .pricing-block .features li.false:before{
   color: #e1137b;
   content: "\f046";
@@ -1230,6 +1303,7 @@ a.dfltBtn:hover {
   font-weight: 600;
   line-height: 21px;
   padding-bottom: 0;
+  text-align: left;
 }
 .industriesSec ul li span{
   display: block;
@@ -1374,7 +1448,7 @@ a.dfltBtn:hover {
 /*================ Footer Style Start ================*/
 .btm-footer{
   position: relative;
-  padding: 70px 0 30px;
+  padding: 70px 0 0;
   width: 100%;
 }
 .footerFlex{
@@ -1451,14 +1525,37 @@ a.dfltBtn:hover {
   text-align: center;
 }
 .ftr-copyright-prt p{
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   margin-bottom: 0px;
   color: #000;
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
 }
-
+.ftr-copyright-prt small{
+  padding-bottom: 7px;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+.ftr-copyright-prt ul{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.ftr-copyright-prt ul li{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  padding: 0 10px;
+}
+.ftr-copyright-prt ul li a{
+  color: #000;
+}
+.ftr-copyright-prt ul li a:hover{
+  color: #1468d2;
+}
 /*================ Benefits Style Start ================*/
 .benefitsSec{
   width: 100%;
@@ -2054,6 +2151,33 @@ div[class^="cat"] label {
 }
 
 
+.disclaimerSec {
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  background-color: #000;
+  background-image: url(../images/ready-proceed-bg.jpg);
+  clear: both;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin-top: 30px;
+}
+.disclaimerSec h5{
+  font-size: 17px;
+  color: #bbbbbb;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.disclaimerSec p{
+  font-size: 14px;
+  color: #bbbbbb;
+  line-height: 23px;
+}
 
 /*=============== Responsive Style ===============*/
 @media (max-width: 1400px) {

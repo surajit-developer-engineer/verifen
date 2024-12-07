@@ -232,6 +232,7 @@
                                         <li class="true">Membership Fee: $1,500/month</li>
                                         <li class="true">Minimum Repayment: 10% monthly</li>
                                         <li class="false">Penalty for Late Payment: 3%</li>
+                                        <li class="true interIcon"><strong>0% Interest</strong></li>
                                     </ul>
                                 </div>
                             </div>
@@ -251,6 +252,7 @@
                                         <li class="true">Membership Fee: $2,500/month</li>
                                         <li class="true">Minimum Repayment: 10% monthly</li>
                                         <li class="true">Penalty for Late Payment: 3%</li>
+                                        <li class="true interIcon"><strong>0% Interest</strong></li>
                                     </ul>
                                 </div>
                             </div>
@@ -269,7 +271,8 @@
                                         <li class="true">Available Capital: $50,000 - $100,000</li>
                                         <li class="true">Membership Fee: $3,500/month</li>
                                         <li class="true">Minimum Repayment: 10% monthly</li>
-                                        <li class="true">Penalty for Late Payment: 0% Interest</li>
+                                        <li class="true">Penalty for Late Payment: 3%</li>
+                                        <li class="true interIcon"><strong>0% Interest</strong></li>
                                     </ul>
                                 </div>
                             </div>
@@ -289,6 +292,7 @@
                                         <li class="true">Membership Fee: $5,000/month</li>
                                         <li class="true">Minimum Repayment: 10% monthly</li>
                                         <li class="false">Penalty for Late Payment: 3%</li>
+                                        <li class="true interIcon"><strong>0% Interest</strong></li>
                                     </ul>
                                 </div>
                             </div>
@@ -308,6 +312,7 @@
                                         <li class="true">Membership Fee: $7,500/month</li>
                                         <li class="true">Minimum Repayment: 10% monthly</li>
                                         <li class="true">Penalty for Late Payment: 3%</li>
+                                        <li class="true interIcon"><strong>0% Interest</strong></li>
                                     </ul>
                                 </div>
                             </div>
@@ -327,6 +332,7 @@
                                         <li class="true">Membership Fee: $10,000/month</li>
                                         <li class="true">Minimum Repayment: 10% monthly</li>
                                         <li class="true">Penalty for Late Payment: 3%</li>
+                                        <li class="true interIcon"><strong>0% Interest</strong></li>
                                     </ul>
                                 </div>
                             </div>
@@ -356,6 +362,59 @@
             </section>
         </div>
     </section>
+
+
+ <!-- ================ Transparency Section ================ -->
+ <div class="transparencySec">
+        <div class="fixedContent">
+            <div class="transparencySecRow">                
+                <div class="column11">
+                    <h2>Where Transparency Meets Opportunity</h2>
+                    <p>At Verifen, we believe that trust is the foundation of every successful partnership. 
+                        Unlike many lenders who operate in the shadows with fake names and questionable practices, 
+                        Verifen prides itself on complete transparency. We are here to help you grow your business, 
+                        not just by providing the capital you need but by offering the tools and insights to take your 
+                        business to the next level.
+                    </p>
+                    <p>We understand that businesses seeking funding often need support in other critical areas of 
+                        operation. That’s why Verifen goes beyond lending. From operational strategies and regulatory 
+                        guidance to marketing and growth planning, we’re your partner in success.</p>
+
+
+                    <h3>Meet Our Founder</h3>
+                    <ol>
+                        <li>                            
+                            <p>Nathan Vaknin, founder and CEO of Verifen, is a serial entrepreneur with extensive 
+                                experience in the service, finance, marketing, and retail industries—just to name a few. 
+                                His diverse background and hands-on expertise allow him to understand your challenges and 
+                                craft solutions tailored to your needs. Nathan’s passion is helping businesses like yours 
+                                unlock their full potential and thrive.</p>
+                        </li>
+                        <li>                            
+                            <p>Take the first step toward transforming your business. Schedule a 15-minute consultation 
+                                and discover how Verifen can help you achieve your goals. This could be the moment that 
+                                changes the future of your company.</p>
+                        </li>
+                        
+                    </ol>
+                    <div class="layoutBlock">
+                        <a class="applyButton mt-30" href="https://calendly.com/" target="_blank">Schedule Your Consultation</a>
+                        <a class="applyButtonBlack mt-30" href="https://calendly.com/nathan-vaknin" target="_blank">Book a Meeting</a>
+                    </div>
+
+                </div>
+                <div class="column22">
+                    <figure>
+                        <img src="{{ 'assets/images/direct-funders-bright-final-img05.png' }}" class="fr-fic fr-dib "
+                            alt="Direct-Funders">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <!-- ================ Services Section ================ -->
     <div id="verifen" class="directFunders">
