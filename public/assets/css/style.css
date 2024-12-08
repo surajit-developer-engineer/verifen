@@ -2523,7 +2523,45 @@ div[class^="cat"] label {
   .action-button-previous{
     margin-top: 30px;
   }
-
+  .transparencySecRow{
+    flex-wrap: wrap;
+  }
+  .transparencySec:after{
+    display: none;
+  }
+  .transparencySec .column11{
+    margin-left: 0;
+    text-align: center;
+    padding: 0 30px;
+    order: 2;
+  }
+  .transparencySec .column11 h2 {
+    font-size: 42px;
+  }
+  .transparencySec .column22{
+    order: 1;
+    background-image: none;
+    margin-left: 0;
+  }
+  .mobFlex{
+    display: flex;
+    justify-content: center;
+  }
+  .mobFlex a{
+    font-size: 15px;
+    margin: 2px;
+  }
+  .column22 figure {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .ftr-copyright-prt ul{
+    flex-wrap: wrap;
+  }
+  .ftr-copyright-prt ul li{
+    margin-bottom: 10px;
+  }
 }
 
 
@@ -2619,6 +2657,7 @@ div[class^="cat"] label {
 #progressbar li strong{
   display: none;
 }
+
 
 }
 

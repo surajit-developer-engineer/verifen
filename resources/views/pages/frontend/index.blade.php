@@ -397,7 +397,7 @@
                         </li>
                         
                     </ol>
-                    <div class="layoutBlock">
+                    <div class="layoutBlock mobFlex">
                         <a class="applyButton mt-30" href="https://calendly.com/" target="_blank">Schedule Your Consultation</a>
                         <a class="applyButtonBlack mt-30" href="https://calendly.com/nathan-vaknin" target="_blank">Book a Meeting</a>
                     </div>
