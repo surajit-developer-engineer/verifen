@@ -357,15 +357,15 @@
                         straightforward terms. Join us today and start benefiting from smarter, interest-free funding.
                     </p>
                     <div class="text-center mt-30"><a class="applyButton" href="{{ route('application') }}"
-                    target="_blank">Become a Member</a></div>
+                            target="_blank">Become a Member</a></div>
                 </div>
             </section>
         </div>
     </section>
 
 
- <!-- ================ Transparency Section ================ -->
- <div class="transparencySec">
+    <!-- ================ Transparency Section ================ -->
+    <div class="transparencySec">
         <div class="fixedContent">
             <div class="transparencySecRow">
                 <div class="column11">
@@ -384,10 +384,13 @@
                     <h3>Meet Our Founder</h3>
                     <ol>
                         <li>
-                            <p>Nathan Vaknin, founder and CEO of Verifen, is a serial entrepreneur with extensive
+                            <p>{{ env('FOUNDER') }} Vaknin, founder and CEO of Verifen, is a serial entrepreneur with
+                                extensive
                                 experience in the service, finance, marketing, and retail industries—just to name a few.
-                                His diverse background and hands-on expertise allow him to understand your challenges and
-                                craft solutions tailored to your needs. Nathan’s passion is helping businesses like yours
+                                His diverse background and hands-on expertise allow him to understand your challenges
+                                and
+                                craft solutions tailored to your needs. {{ env('FOUNDER') }}’s passion is helping
+                                businesses like yours
                                 unlock their full potential and thrive.</p>
                         </li>
                         <li>
@@ -398,7 +401,8 @@
 
                     </ol>
                     <div class="layoutBlock mobFlex">
-                        <a class="applyButton mt-30" href="https://calendly.com/{{env('CALENDLY_SLUG')}}" target="_blank">Schedule Your Consultation</a>
+                        <a class="applyButton mt-30" href="https://calendly.com/{{ env('CALENDLY_SLUG') }}"
+                            target="_blank">Schedule Your Consultation</a>
                     </div>
 
                 </div>
@@ -723,7 +727,8 @@
                     <!-- The content -->
                     <div class="detailsDesc">
                         <div class="detailsDescInner">
-                            Verifen provides short-term funding with a streamlined application process, same-day approval,
+                            Verifen provides short-term funding with a streamlined application process, same-day
+                            approval,
                             and funds delivered in 48 hours. Unlike banks, we don’t charge loan fees or closing costs or
                             impose high interest rates.
                         </div>
@@ -792,7 +797,8 @@
                     <!-- The content -->
                     <div class="detailsDesc">
                         <div class="detailsDescInner">
-                            Our approval process is speedy. Most applications are reviewed and approved on the same day they
+                            Our approval process is speedy. Most applications are reviewed and approved on the same day
+                            they
                             are submitted.
                         </div>
                     </div>
@@ -840,7 +846,8 @@
                     <!-- The content -->
                     <div class="detailsDesc">
                         <div class="detailsDescInner">
-                            Yes, Verifen serves businesses across the United States, ensuring entrepreneurs nationwide can
+                            Yes, Verifen serves businesses across the United States, ensuring entrepreneurs nationwide
+                            can
                             access the support they need.
                         </div>
                     </div>
