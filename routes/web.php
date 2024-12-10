@@ -10,6 +10,7 @@ use App\Http\Controllers\Admin\LeadController;
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/my-application', [IndexController::class, 'application'])->name('application');
+Route::get('/partner', [IndexController::class, 'partner'])->name('partner');
 
 Route::group([
     'prefix' => 'administrator'

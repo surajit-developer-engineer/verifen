@@ -367,39 +367,38 @@
  <!-- ================ Transparency Section ================ -->
  <div class="transparencySec">
         <div class="fixedContent">
-            <div class="transparencySecRow">                
+            <div class="transparencySecRow">
                 <div class="column11">
                     <h2>Where Transparency Meets Opportunity</h2>
-                    <p>At Verifen, we believe that trust is the foundation of every successful partnership. 
-                        Unlike many lenders who operate in the shadows with fake names and questionable practices, 
-                        Verifen prides itself on complete transparency. We are here to help you grow your business, 
-                        not just by providing the capital you need but by offering the tools and insights to take your 
+                    <p>At Verifen, we believe that trust is the foundation of every successful partnership.
+                        Unlike many lenders who operate in the shadows with fake names and questionable practices,
+                        Verifen prides itself on complete transparency. We are here to help you grow your business,
+                        not just by providing the capital you need but by offering the tools and insights to take your
                         business to the next level.
                     </p>
-                    <p>We understand that businesses seeking funding often need support in other critical areas of 
-                        operation. That’s why Verifen goes beyond lending. From operational strategies and regulatory 
+                    <p>We understand that businesses seeking funding often need support in other critical areas of
+                        operation. That’s why Verifen goes beyond lending. From operational strategies and regulatory
                         guidance to marketing and growth planning, we’re your partner in success.</p>
 
 
                     <h3>Meet Our Founder</h3>
                     <ol>
-                        <li>                            
-                            <p>Nathan Vaknin, founder and CEO of Verifen, is a serial entrepreneur with extensive 
-                                experience in the service, finance, marketing, and retail industries—just to name a few. 
-                                His diverse background and hands-on expertise allow him to understand your challenges and 
-                                craft solutions tailored to your needs. Nathan’s passion is helping businesses like yours 
+                        <li>
+                            <p>Nathan Vaknin, founder and CEO of Verifen, is a serial entrepreneur with extensive
+                                experience in the service, finance, marketing, and retail industries—just to name a few.
+                                His diverse background and hands-on expertise allow him to understand your challenges and
+                                craft solutions tailored to your needs. Nathan’s passion is helping businesses like yours
                                 unlock their full potential and thrive.</p>
                         </li>
-                        <li>                            
-                            <p>Take the first step toward transforming your business. Schedule a 15-minute consultation 
-                                and discover how Verifen can help you achieve your goals. This could be the moment that 
+                        <li>
+                            <p>Take the first step toward transforming your business. Schedule a 15-minute consultation
+                                and discover how Verifen can help you achieve your goals. This could be the moment that
                                 changes the future of your company.</p>
                         </li>
-                        
+
                     </ol>
                     <div class="layoutBlock mobFlex">
-                        <a class="applyButton mt-30" href="https://calendly.com/" target="_blank">Schedule Your Consultation</a>
-                        <a class="applyButtonBlack mt-30" href="https://calendly.com/nathan-vaknin" target="_blank">Book a Meeting</a>
+                        <a class="applyButton mt-30" href="https://calendly.com/{{env('CALENDLY_SLUG')}}" target="_blank">Schedule Your Consultation</a>
                     </div>
 
                 </div>
@@ -867,7 +866,7 @@
             </div>
         </div>
     </div>
-    
+
 
     <!-- ================ Ready to proceed Section ================ -->
 

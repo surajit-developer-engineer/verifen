@@ -16,4 +16,9 @@ class IndexController extends Controller
     {
         return view('pages.frontend.application');
     }
+
+    public function partner()
+    {
+        return view('pages.frontend.partner');
+    }
 }
