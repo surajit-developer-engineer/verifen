@@ -384,12 +384,14 @@
                     <h3>Meet Our Founder</h3>
                     <ol>
                         <li>
-                            <p>{{ env('FOUNDER') }} Vaknin, founder and CEO of Verifen, is a serial entrepreneur with
+                            <p>{{ env('FOUNDER', 'Joseph') }} Vaknin, founder and CEO of Verifen, is a serial
+                                entrepreneur with
                                 extensive
                                 experience in the service, finance, marketing, and retail industries—just to name a few.
                                 His diverse background and hands-on expertise allow him to understand your challenges
                                 and
-                                craft solutions tailored to your needs. {{ env('FOUNDER') }}’s passion is helping
+                                craft solutions tailored to your needs. {{ env('FOUNDER', 'Joseph') }}’s passion is
+                                helping
                                 businesses like yours
                                 unlock their full potential and thrive.</p>
                         </li>
