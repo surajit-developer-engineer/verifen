@@ -37,471 +37,181 @@
     <!-- ================ Header Section ================ -->
     @include('includes.frontend.header')
 
-
-    <div class="applicationBodyOuter">
-        <div class="container">
-        <div class="applicationBody">
-            <div class="outerHeader">                
-                <h2>Business Funding Application</h2>
-                <h4>Please complete our secured 1-page application.</h4>
-                <p>Please complete the application below, and upload your last four months of bank statements.
-                    We can have an answer for you within one hour.</p>
+    <section class="home-banner-sec">
+        <div id="carouselExampleControls" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item itembg1 active">
+                    <div class="featured_img_overlay">
+                        <div class="bnr-caption">
+                            <div class="container">
+                                <div class="bdFlex">
+                                    <aside class="slider_left">
+                                        <h3>Fund Smarter, Earn More, with Zero Risk</h3>
+                                        <h2>Welcome to the Verifen Partner Program</h2>
+                                        <p>your gateway to connecting with verified, high-quality funding requests from merchants. 
+                                            With transparency, a zero-risk guarantee, and powerful tools for funders, Verifen is 
+                                            revolutionizing the funding process to make it simple, secure, and profitable.
+                                        </p>
+                                        <!-- <a class="applyButton" href="{{ route('application') }}"
+                                            target="_blank"><span>Apply Now</span></a> -->
+                                    </aside>
+                                    <aside class="slider_right">
+                                        <img src="{{ 'assets/images/partner-banner-img.png' }}" alt="">
+                                    </aside>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <form id="msform">
-                <!-- progressbar -->
-                <ul id="progressbar">
-                    <li class="active" id="account"><strong>Business Information</strong></li>
-                    <li id="personal"><strong>Owner Information</strong></li>
-                    <li id="payment"><strong>Loan Details</strong></li>
-                    <li id="confirm"><strong>Document Upload</strong></li>
-                    <li id="signature"><strong>Signature</strong></li>                    
-                </ul>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                </div> <br> <!-- fieldsets -->
-
-                <fieldset>
-                <div class="cat-1">
-                    <input id="tab-1" type="radio" name="tabs" tabindex="1">
-                    <label for="tab-1">Business Information</label>
-
-                    <div class="question-wrap">
-                        <p>Let's start by getting to know your business.</p>
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Company Name</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Doing Business As (DBA)</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Date of Formation (MM/DD/YYYY)</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Entity Type</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>EIN (Employer Identification Number)</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Business Location</span>
-                                <div class="selectDropdownSec">
-                                    <select class="selectDropdown">
-                                        <option selected>Corpration</option>
-                                        <option>Partnership</option>
-                                        <option>LLC</option>
-                                    </select>
-                                </div>
-                                <!-- <input type="text" placeholder=""> -->
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Website (Enter url) </span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Business Phone Number</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Business Email Address</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Company Legal Address</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Street Address</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Unit/Suite</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>City</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>State</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Zip Code</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Years in Business</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Annual Gross Revenue</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Annual Net Revenue</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Average Daily Bank Balances</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Industry (e.g., Retail, Technology, Manufacturing, etc.)</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-                    </div>
-                </div>                    
-                    <input type="button" name="next" class="next action-button" value="Continue" />                    
-                </fieldset>
-
-                <fieldset>
-                <div class="cat-2">
-                    <input id="tab-2" type="radio" name="tabs" tabindex="7">
-                    <label for="tab-2">Owner Information</label>
-
-                    <div class="question-wrap">
-                        <p>Tell us about the business owner.</p>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>% of Ownership (Enter Amount Number)</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Full Name (First Name, Last Name)</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Email Addresss </span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Mobile Number</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Phone Number</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Social Security</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Date of Birth</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Owner’s Home Address</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Street Address</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Unit/Suite</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>City</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>State</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Zip Code</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Annual Personal Income</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Cash on Hand (Amount available in personal accounts)</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Do you Own or Rent your Home?</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Monthly Mortgage or Rent Payment</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Credit Score</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Have you ever filed for Bankruptcy?</span>
-                                <div style="display: flex; margin-top: 10px;">
-                                    <div class="radio">
-                                        <input type="radio" id="test1" name="radio-group" checked>
-                                        <label for="test1">Yes</label>
-                                    </div>
-                                    <div class="radio">
-                                        <input type="radio" id="test2" name="radio-group">
-                                        <label for="test2">No</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="formCol">
-                                <span>State Issued</span>
-                                <div class="selectDropdownSec">
-                                    <select class="selectDropdown">
-                                        <option selected>Selects State</option>
-                                    </select>
-                                </div>
-                                <!-- <input type="text" placeholder=""> -->
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Driver License Number</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Driver License Expiration Date:</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol fullWidth">
-                                <span>Upload Driver License (2 files upload front and back.)</span>
-                                <div>
-                                    <input type="file" name="file1[]" data-multiple-caption="{count} files selected"
-                                        class="file-control" multiple id="file1">
-                                    <label for="file1" class="label-file"><span>Choose file</span></label>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-                    <input type="button" name="next" class="next action-button" value="Continue" /> 
-                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
-                </fieldset>
-
-                <fieldset>
-                <div class="cat-3">
-                    <input id="tab-3" type="radio" name="tabs" tabindex="16">
-                    <label for="tab-3">Loan Details</label>
-
-                    <div class="question-wrap">
-                        <p>How much capital are you seeking?</p>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Please enter an amount</span>
-                                <input type="text" placeholder="">
-                            </div>
-                            <div class="formCol">
-                                <span>Preferred Loan Term</span>
-                                <div class="selectDropdownSec">
-                                    <select class="selectDropdown">
-                                        <option selected>30 Days</option>
-                                        <option>60 Days</option>
-                                        <option>90 Days</option>
-                                        <option>120 Days</option>
-                                        <option>150 Days</option>
-                                        <option>180 Days</option>
-                                        <option>More than 180 Days</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>How do you plan to use the funds?</span>
-                                <div class="selectDropdownSec">
-                                    <select class="selectDropdown">
-                                        <option selected>How soon do you need funding?</option>
-                                        <option>ASAP</option>
-                                        <option>Within the next 1-2 weeks</option>
-                                        <option>Within the next month</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>                       
-                    </div>
-                </div>
-                    <input type="button" name="next" class="next action-button" value="Continue" /> 
-                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
-                </fieldset>
-
-                <fieldset>
-                <div class="cat-4">
-                    <input id="tab-4" type="radio" name="tabs" tabindex="25">
-                    <label for="tab-4">Document Upload</label>
-
-                    <div class="question-wrap">
-                        <p>Please upload the following documents to complete your application:</p>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>6 months of Business Bank Statements</span>
-                                <div>
-                                    <input type="file" name="file1[]" data-multiple-caption="{count} files selected"
-                                        class="file-control" multiple id="file1">
-                                    <label for="file1" class="label-file"><span>Choose file</span></label>
-                                </div>
-                            </div>
-                            <div class="formCol">
-                                <span>6 months of Personal Bank Statements</span>
-                                <div>
-                                    <input type="file" name="file1[]" data-multiple-caption="{count} files selected"
-                                        class="file-control" multiple id="file1">
-                                    <label for="file1" class="label-file"><span>Choose file</span></label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Personal Credit Report</span>
-                                <div>
-                                    <input type="file" name="file1[]" data-multiple-caption="{count} files selected"
-                                        class="file-control" multiple id="file1">
-                                    <label for="file1" class="label-file"><span>Choose file</span></label>
-                                </div>
-                            </div>
-
-                            <div class="formCol">
-                                <span>Most Recent Business Tax Return</span>
-                                <div>
-                                    <input type="file" name="file1[]" data-multiple-caption="{count} files selected"
-                                        class="file-control" multiple id="file1">
-                                    <label for="file1" class="label-file"><span>Choose file</span></label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol">
-                                <span>Most Recent Personal Tax Return</span>
-                                <div>
-                                    <input type="file" name="file1[]" data-multiple-caption="{count} files selected"
-                                        class="file-control" multiple id="file1">
-                                    <label for="file1" class="label-file"><span>Choose file</span></label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>                
-                    <input type="button" name="next" class="next action-button" value="Continue" /> 
-                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />                
-                </fieldset>
-
-                <fieldset>
-                <div class="cat-5">
-                    <input id="tab-5" type="radio" name="tabs" tabindex="25">
-                    <label for="tab-5">Signature</label>
-
-                    <div class="question-wrap">
-                        <p>Please type or draw your signature here:</p>
-                        <div class="formFlex">
-                            <div class="formCol fullWidth">
-                                <span>Full Name</span>
-                                <input type="text" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="formFlex">
-                            <div class="formCol fullWidth">
-                                <div>
-                                    <canvas id="sig-canvas" width="620">
-                                        Get a better browser, bro.
-                                    </canvas>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- <div class="formFlex">
-                            <input type="button" value="Review & Submit">
-                        </div> -->
-
-                    </div>
-                </div>               
-                
-                    <input type="button" name="next" class="next action-button" value="Review & Submit" /> 
-                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
-                
-                </fieldset>
-                
-            </form>
-
+            
         </div>
+    </section>
+
+<!-- ================ How It Works Section ================ -->
+
+<div class="partnerHitw">
+    <div class="container">
+        <h2>How It Works</h2>
+
+        <div class="partflexRow">
+            <div class="partboxCol">
+                <div class="certified-partner_how-icon">
+                    <img src="{{ 'assets/images/sign-up-icon.png' }}" alt="">
+                </div>
+                <h3 class="heading-small">Sign Up and Explore</h3>
+                <p>Access our database of funding requests from pre-qualified merchants in real-time.</p>
+            </div>
+            <div class="partboxCol">
+                <div class="certified-partner_how-icon">
+                    <img src="{{ 'assets/images/deal-icon.png' }}" alt="">
+                </div>
+                <h3 class="heading-small">Choose Your Deal</h3>
+                <p>Browse funding opportunities, decide whether to fund entirely or partially, and start earning.</p>
+            </div>
+            <div class="partboxCol">
+                <div class="certified-partner_how-icon">
+                    <img src="{{ 'assets/images/grow-icon.png' }}" alt="">
+                </div>
+                <h3 class="heading-small">Monitor, Manage, and Grow</h3>
+                <p>Use your dashboard to track deals, monitor payments, and view your earnings as you progress through the tier system.</p>
+            </div>
         </div>
     </div>
+</div>
+
+<!-- ================ Why Choose Verifen Section ================ -->
+
+
+<div class="partWcverifen">
+    <div class="container">
+        <h2>Why Choose Verifen?</h2>
+
+            <div class="partWcverifenFlx">
+                <div class="partWcverifenFlxLCol">
+                    <h3 class="heading-small">Zero Risk Commitment</h3>
+                   <p>Fund confidently, knowing Verifen fully guarantees all loans. If a loan defaults, 
+                    we take full responsibility and ensure your principal is returned in full.</p> 
+                </div>
+                <div class="partWcverifenFlxRCol">
+                   <img src="{{ 'assets/images/partner-img2.png' }}" alt="">                   
+                </div>
+            </div>
+
+
+            <div class="partWcverifenFlx">
+                <div class="partWcverifenFlxRCol">
+                    <img src="{{ 'assets/images/partner-img1.png' }}" alt="">                   
+                </div>
+                <div class="partWcverifenFlxLCol">
+                    <h3 class="heading-small">Lowest Industry Rates</h3>
+                   <p>Offer merchants competitive, transparent pricing with no hidden fees or surprises, 
+                    helping you foster long-term, trusted relationships.</p> 
+                </div>                
+            </div>
+
+
+            <div class="partWcverifenFlx">
+                <div class="partWcverifenFlxLCol">
+                    <h3 class="heading-small">Transparent, Streamlined Process</h3>
+                   <p>Our honesty-first approach ensures clarity and simplicity at every step. A fast, 
+                    digital-first platform means less hassle and quicker funding.</p> 
+                </div>
+                <div class="partWcverifenFlxRCol">
+                    <img src="{{ 'assets/images/partner-img3.png' }}" alt=""> 
+                </div>
+            </div>
+
+
+            <div class="partWcverifenFlx">
+                <div class="partWcverifenFlxRCol">
+                   <img src="{{ 'assets/images/partner-img4.png' }}" alt="">
+                </div>
+                <div class="partWcverifenFlxLCol">
+                    <h3 class="heading-small">Monitor and Manage All Deals in One Place</h3>
+                   <p>Gain full control and visibility over your funding portfolio:</p> 
+                   <ul>
+                        <li>- *Track Every Deal:* Monitor all funded deals in real-time using our intuitive portal.</li>
+                        <li>- *Funding History at Your Fingertips:* Review your funding history with ease, 
+                            ensuring you stay informed about your portfolio's growth.</li>
+                        <li>- *Payment and Earnings Tracking:* Stay up-to-date on payments and view your earnings, 
+                            all from your funder account dashboard.</li>
+                        <li>With Verifen’s powerful tools, managing your investments has never been simpler or more transparent.</li>
+                   </ul>
+
+                </div>                
+            </div>
+
+
+            <div class="partWcverifenFlx">                
+                <div class="partWcverifenFlxLCol">
+                    <h3 class="heading-small">Earning Tiers That Reward Your Commitment</h3>
+                   <p>As you fund more deals, you unlock greater earning potential with our tiered rewards system:</p> 
+                   <ul>
+                        <li>- *Silver Funder:* Fund up to $50K → *5% earning on principal*</li>
+                        <li>- *Gold Funder:* Fund up to $100K → *6% earning on principal*</li>
+                        <li>- *Platinum Funder:* Fund up to $250K → *7% earning on principal*</li>
+                        <li>- *Black Funder:* Fund up to $500K → *8% earning on principal*</li>
+                        <li>- *Diamond Funder:* Fund up to $1M → *9% earning on principal*</li>
+                        <li>- *Diamond Preferred Funder:* Fund over $1M → *10% earning on principal*</li>
+                   </ul>
+                </div> 
+                <div class="partWcverifenFlxRCol">
+                   <img src="{{ 'assets/images/partner-im5.png' }}" alt="">
+                </div>               
+            </div>
+
+
+            <div class="partWcverifenFlx">
+                <div class="partWcverifenFlxRCol">
+                   <img src="{{ 'assets/images/partner-img5.png' }}" alt="">                   
+                </div>
+                <div class="partWcverifenFlxLCol">
+                    <h3 class="heading-small">Customized Merchant Solutions</h3>
+                   <p>We tailor funding to meet merchant needs, ensuring sustainable growth for 
+                    businesses and high-quality opportunities for funders.</p> 
+                </div>                
+            </div>
+
+
+
+    </div>
+</div>
+
+
+
+ <!-- ================ Ready to proceed Section ================ -->
+
+ <div class="readytoproSec">
+        <div class="container">
+            <h2>Ready to proceed?</h2>
+            <p>Please <a href="#" target="_blank"><u>complete a quick application</u></a> or call us at <span>
+                    <a href="tel:(877)%20400-0297" rel="noopener noreferrer" target="_blank">(877)
+                        400-0297</a></span>
+            </p>
+        </div>
+    </div>
+
 
      <!-- ================ Footer Section ================ -->
      @include('includes.frontend.footer')

@@ -2179,6 +2179,117 @@ div[class^="cat"] label {
   line-height: 23px;
 }
 
+
+
+
+.partnerHitw{
+  width: 100%;
+  display: block;
+  padding: 80px 0;
+}
+.partnerHitw h2 {
+  margin-top: 0px;
+  font-size: 72px;
+  color: #1468d2;
+  font-weight: 500;
+  padding-bottom: 70px;
+  text-align: center;
+  line-height: 75px;
+}
+.partflexRow{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.partboxCol{
+  width: 30%;
+  text-align: center;
+}
+.heading-small {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-decoration: none;
+  padding: 20px 0;
+}
+.partboxCol p{
+  color: #333;
+  margin-top: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.partWcverifen{
+  width: 100%;
+  display: block;
+  padding: 80px 0 80px;
+  background: #f6f6ff;
+}
+.partWcverifen h2 {
+  margin-top: 0px;
+  font-size: 72px;
+  color: #1468d2;
+  font-weight: 500;
+  padding-bottom: 70px;
+  text-align: center;
+  line-height: 75px;
+}
+.partWcverifenFlx{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.partWcverifenFlxLCol{
+  width: 50%;
+  text-align: left;
+}
+.partWcverifenFlxRCol{
+  width: 40%;
+  text-align: center;
+}
+.certified-partner_how-icon{
+  background: #1468d2;
+  width: 116px;
+  height: 137px;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.partWcverifenFlxLCol ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+.partWcverifenFlxLCol ul li {
+  font-size: 17px;
+  padding: 10px 0;
+  list-style: disc;
+  line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*=============== Responsive Style ===============*/
 @media (max-width: 1400px) {
   
@@ -2561,6 +2672,40 @@ div[class^="cat"] label {
   }
   .ftr-copyright-prt ul li{
     margin-bottom: 10px;
+  }
+
+
+  .partnerHitw{
+    padding-bottom: 50px;
+  }
+  .partnerHitw h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .partboxCol {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .partWcverifen h2 {
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 30px;
+  }
+  .partWcverifenFlxLCol {
+    width: 100%;
+    text-align: center;
+    order: 2;
+  }
+  .partWcverifenFlxRCol{
+    width: 100%;
+    order: 1;
+  }
+  .partWcverifenFlx{
+    margin-bottom: 20px;
+  }
+  .partWcverifenFlxLCol ul li {
+    list-style: none;
   }
 }
 
