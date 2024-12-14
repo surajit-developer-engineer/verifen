@@ -21,4 +21,9 @@ class IndexController extends Controller
     {
         return view('pages.frontend.partner');
     }
+
+    public function partnerSignup()
+    {
+        return view('pages.frontend.partner-signup');
+    }
 }
