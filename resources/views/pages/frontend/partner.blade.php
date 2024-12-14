@@ -35,7 +35,7 @@
 <body>
 
     <!-- ================ Header Section ================ -->
-    @include('includes.frontend.header')
+    @include('includes.frontend.inner-header')
 
     <section class="home-banner-sec">
         <div id="carouselExampleControls" class="carousel slide">
@@ -214,7 +214,7 @@
 
 
      <!-- ================ Footer Section ================ -->
-     @include('includes.frontend.footer')
+     @include('includes.frontend.inner-footer')
 
     <!-- JS Start here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
