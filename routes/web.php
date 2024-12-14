@@ -11,7 +11,7 @@ use App\Http\Controllers\Admin\LeadController;
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/my-application', [IndexController::class, 'application'])->name('application');
 Route::get('/partner', [IndexController::class, 'partner'])->name('partner');
-Route::get('/partner-signup', [IndexController::class, 'partner-signup'])->name('partner-signup');
+Route::get('/partner-signup', [IndexController::class, 'partnerSignup'])->name('partner.signup');
 
 Route::group([
     'prefix' => 'administrator'
