@@ -34,7 +34,7 @@
             <div class="hdr-menu">                               
                 <ul class="slimmenu">
                 <div class="collapse-button closeIcon"> <img src="{{ 'assets/images/close-icon.png' }}" alt="Close Icon"> </div>
-                    <li class="active"><a href="/#membership">Membership</a></li>
+                    <li><a href="/#membership">Membership</a></li>
                     <li><a href="/#verifen">Why Verifen?</a></li>
                     <li><a href="/#howitworks">How It Works</a></li>
                     <li><a href="/#solutions">Solutions</a></li>

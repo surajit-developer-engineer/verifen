@@ -42,8 +42,8 @@
         <div class="container">
         <div class="applicationBody">
             <div class="outerHeader">                
-                <h2>Sign up form process:</h2>                
-                <p>Please complete the application below. You will be required to upload both business and personal tax returns, six months of bank statements, and a copy of a government-issued ID.</p>
+                <h2>Partner Sign up:</h2>                
+                <p>Please complete the partner Sign up. You will be required to upload both business and personal tax returns, six months of bank statements, and a copy of a government-issued ID.</p>
             </div>
 
             <form id="msform">
@@ -134,7 +134,7 @@
 
                        
                     </div>
-               
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" /> 
                     <input type="button" name="next" class="next action-button" value="Review & Submit" /> 
                 </fieldset>
 

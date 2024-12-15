@@ -2073,6 +2073,8 @@ div[class^="cat"] label {
   color: lightgrey;
   position: relative;
   z-index: 9;
+  justify-content: center;
+  display: flex;
 }
 
 #progressbar .active {
