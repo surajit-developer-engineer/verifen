@@ -32,7 +32,7 @@ Route::group([
     Route::post('profile/change-password', [ProfileController::class, 'changePassword'])->name('admin.profile.change.password');
     Route::post('profile/update', [ProfileController::class, 'profileUpdate'])->name('admin.profile.update');
 
-    Route::group(['prefix' => 'lead-partner'], function () {
+    Route::group(['prefix' => 'partner'], function () {
         Route::get('', [LeadPartnerController::class, 'index'])->name('admin.lead.partner');
         Route::get('add', [LeadPartnerController::class, 'add'])->name('admin.lead.partner.add');
         Route::post('insert', [LeadPartnerController::class, 'insert'])->name('admin.lead.partner.insert');
@@ -41,7 +41,7 @@ Route::group([
         Route::delete('delete/{id}', [LeadPartnerController::class, 'delete'])->name('admin.lead.partner.delete');
     });
 
-    Route::group(['prefix' => 'lead'], function () {
+    Route::group(['prefix' => 'loan'], function () {
         Route::get('', [LeadController::class, 'index'])->name('admin.lead');
         Route::get('view', [LeadController::class, 'view'])->name('admin.lead.view');
     });
