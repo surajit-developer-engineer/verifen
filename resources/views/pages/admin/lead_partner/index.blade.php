@@ -1,7 +1,7 @@
 @extends('layouts.admin-dashboard')
 @section('content')
 <div class="dFlx spaceBet">
-    <h1 class="pageTitle mb20">Lead Partners</h1>
+    <h1 class="pageTitle mb20">Partners</h1>
     <a class="addNew" href="{{ route('admin.lead.partner.add') }}"><i class="fa fa-plus"></i> Add New</a>
 </div>
     <div class="admin-body-area">
