@@ -3,19 +3,19 @@
     <h1 class="pageTitle">Dashboard</h1>
     <div class="dFlx spaceBet">
         <div class="dashFourClm">
-            <h2>Leads Today</h2>
+            <h2>Today</h2>
             <p>{{ number_format($dataArr['dataCount']['todayLeads']) }}</p>
         </div>
         <div class="dashFourClm">
-            <h2>Leads This Week</h2>
+            <h2>This Week</h2>
             <p>{{ number_format($dataArr['dataCount']['weeklyLeads']) }}</p>
         </div>
         <div class="dashFourClm">
-            <h2>Leads This Month</h2>
+            <h2>This Month</h2>
             <p>{{ number_format($dataArr['dataCount']['monthlyLeads']) }}</p>
         </div>
         <div class="dashFourClm">
-            <h2>Leads Total</h2>
+            <h2>Total</h2>
             <p>{{ number_format($dataArr['dataCount']['totalLeads']) }}</p>
         </div>
     </div>
