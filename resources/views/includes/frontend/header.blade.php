@@ -15,10 +15,14 @@
             <div class="layout_block">
                 <!-- <img src="{{ 'assets/images/globe_2.png' }}" class="fr-fic"> -->
                 <ul class="languages">
+                    <li class="bapBtn lastmenu">
+                        <a href="/partner-signup" target="_blank">
+                            <span>Become a Partner</span></a>
+                    </li>
                     <li class="button lastmenu">
                         <a href="{{ route('application') }}" target="_blank">
                             <span>Apply Now</span></a>
-                    </li>
+                    </li>                   
                 </ul>
             </div>
         </div>

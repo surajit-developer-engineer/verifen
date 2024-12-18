@@ -184,7 +184,7 @@ a.dfltBtn:hover {
   display: flex;
 }
 .hdrToprow ul li{
-  padding: 0 20px !important;
+  padding: 0 10px !important;
 }
 .hdrToprow ul li a{
   color: #1468d2;
@@ -2187,7 +2187,7 @@ div[class^="cat"] label {
 .partnerHitw{
   width: 100%;
   display: block;
-  padding: 80px 0;
+  padding: 80px 0 0;
 }
 .partnerHitw h2 {
   margin-top: 0px;
@@ -2225,6 +2225,7 @@ div[class^="cat"] label {
   display: block;
   padding: 80px 0 80px;
   background: #f6f6ff;
+  margin-top: 80px;
 }
 .partWcverifen h2 {
   margin-top: 0px;

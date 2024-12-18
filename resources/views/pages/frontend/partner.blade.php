@@ -35,7 +35,7 @@
 <body>
 
     <!-- ================ Header Section ================ -->
-    @include('includes.frontend.inner-header')
+    @include('includes.frontend.partner-header')
 
     <section class="home-banner-sec">
         <div id="carouselExampleControls" class="carousel slide">
@@ -70,7 +70,7 @@
 
 <!-- ================ How It Works Section ================ -->
 
-<div class="partnerHitw">
+<div id="howitworks" class="partnerHitw">
     <div class="container">
         <h2>How It Works</h2>
 
@@ -103,7 +103,7 @@
 <!-- ================ Why Choose Verifen Section ================ -->
 
 
-<div class="partWcverifen">
+<div id="wcverifen" class="partWcverifen">
     <div class="container">
         <h2>Why Choose Verifen?</h2>
 

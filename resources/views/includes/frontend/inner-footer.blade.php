@@ -51,6 +51,8 @@
                 <p class="boldText">Email
                     <span><a href="mailto:contact@verifen.com" target="_blank">contact@verifen.com </a></span>
                 </p>
+                </br>
+                <a class="applyButton" href="/partner-signup" target="_blank"><span>Become a Partner</span></a>
             </div>
 
         </div>
