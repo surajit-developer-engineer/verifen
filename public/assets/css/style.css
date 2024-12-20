@@ -254,7 +254,7 @@ a.dfltBtn:hover {
   cursor: pointer;
 }
 .applyButton:hover{
-  background: #000;
+  background: #000 !important; 
 }
 .applyButtonBlack{
   padding: 15px 30px !important;
