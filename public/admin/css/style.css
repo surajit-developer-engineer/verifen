@@ -327,8 +327,6 @@ p {
 .copyright {
     font-size: 14px;
     color: #000000;
-    font-weight: 700;
-    letter-spacing: 1px;
     padding: 10px;
     text-align: center;
 }
@@ -454,7 +452,7 @@ p {
 /*=========================== Header & Left Panel Section Style Sheet Start Here ===========================*/
 .headerSec {
     position: relative;
-    padding: 10px 0;
+    padding: 20px 0;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -561,8 +559,8 @@ p {
 }
 
 .bodyLeftPanel nav li a.active {
-    background-color: #f5f6f6;
-    color: #1468d2;
+    background-color: #ffffff26;
+    /* color: #1468d2; */
     border-radius: 0 25px 25px 0;
 }
 
@@ -622,10 +620,10 @@ p {
 /*=========================== Dashboard Page Style Sheet Start Here ===========================*/
 .dashboardBody .dashFourClm {
     width: 24.2%;
-    border: 1px solid #d4eef9;
-    border-left-width: 10px;
+    border: 1px solid #b1d3fd;
+    border-left: 5px solid #b1d3fd;    
     border-radius: 10px;
-    padding: 25px 20px;
+    padding: 20px 20px;
     margin-bottom: 30px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -634,13 +632,14 @@ p {
 }
 
 .dashboardBody .dashFourClm:hover {
-    border-left-color: #009de0;
+    border-left-color: #1468d2;
 }
 
 .dashboardBody .dashFourClm h2 {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 0;
+    color: #1468d2;
 }
 
 /*=========================== Dashboard Page Style Sheet End Here ===========================*/
@@ -1281,3 +1280,129 @@ label {
     opacity: 1;
     transition: opacity 1s ease-out;
 }
+
+
+
+
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  
+  .dashFourClmFlx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dashFourClmFlx p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .iconBox{
+    background: #fff;
+    /* border: solid 1px #ccc; */
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px #ccc;
+  }
+  .iconBox i{
+    color: #1468d2;
+    font-size: 20px;
+  }
+  .dashDataTable{
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -10,9 +10,9 @@
     <nav>
         <ul class="nav nav-list">
             <li><a class="{{ $controller_name == 'DashboardController' ? 'active' : '' }}"
-                    href="{{ route('admin.dashboard') }}"><i class="fa fa-tachometer"></i> Dashboard</a></li>
+                    href="{{ route('admin.dashboard') }}"><i class="fa fa-tachometer"></i> <span>Dashboard</span></a></li>
             <li><a class="{{ $controller_name == 'LeadPartnerController' ? 'active' : '' }}"
-                    href="{{ route('admin.lead.partner') }}"><i class="fa fa-user-o"></i> Partners</a></li>
+                    href="{{ route('admin.lead.partner') }}"><i class="fa fa-user-o"></i> <span>Partners</span></a></li>
         </ul>
     </nav>
 </div>

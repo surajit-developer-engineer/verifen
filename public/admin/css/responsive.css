@@ -323,6 +323,27 @@
 	.innerTitleBanner h1{
 		font-size: 30px;
 	}
+	.bodyLeftPanel nav {
+		padding-right: 3px;
+	}
+	.bodyLeftPanel nav li a span{
+		display: none;
+	}
+	.bodyLeftPanel nav li a {
+		padding: 10px 0px 10px 20px;
+	}
+	.dashboardBody .dashFourClm {
+		width: 100%
+	}
+	.bodyRightPanel {
+		padding: 40px 20px;
+	}
+	#bootstrap-data-table_length{
+		margin-bottom: 10px;
+	}
+	div.dataTables_wrapper div.dataTables_paginate ul.pagination{
+		justify-content: center;
+	}
 }
 
 

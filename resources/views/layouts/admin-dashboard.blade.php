@@ -17,7 +17,11 @@
 
             @yield('content')
 
+
+
+                      
         </div>
+        
         <!-- ===================== Admin Profile Update Modal Popup Start ===================== -->
         <div class="notification-modal-popup" id="myModalChangePassword">
             <div class="noti-popup-box">
@@ -124,9 +128,9 @@
         </div>
         @stack('modals')
 </section>
-
-@include('includes.footer-text')
+@include('includes.footer-text')  
 @include('includes.footer')
+
 
 {{-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> --}}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
