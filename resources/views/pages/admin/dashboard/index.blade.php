@@ -10,77 +10,77 @@
             </div>
         </div>
         <div class="dashFourClm">
-            <div class="iconBox"><i class="fa fa-user-circle-o"></i></div> 
+            <div class="iconBox"><i class="fa fa-file-text"></i></div> 
             <div class="dashFourClmFlx">
                 <p>Total Applications</p>
                 <h2>{{ number_format($dataArr['dataCount']['weeklyLeads']) }}</h2>
             </div>
         </div>
         <div class="dashFourClm">
-            <div class="iconBox"><i class="fa fa-user-circle-o"></i></div> 
+            <div class="iconBox"><i class="fa fa-check-square-o"></i></div> 
             <div class="dashFourClmFlx">
                 <p>Approved Applications</p>
                 <h2>{{ number_format($dataArr['dataCount']['monthlyLeads']) }}</h2>
             </div>
         </div>
         <div class="dashFourClm">
-            <div class="iconBox"><i class="fa fa-user-circle-o"></i></div> 
+            <div class="iconBox"><i class="fa fa-check-circle"></i></div> 
             <div class="dashFourClmFlx">
                 <p>Active Loans</p>
                 <h2>{{ number_format($dataArr['dataCount']['totalLeads']) }}</h2>
             </div>            
         </div>
         <div class="dashFourClm">
-            <div class="iconBox"><i class="fa fa-user-circle-o"></i></div> 
+            <div class="iconBox"><i class="fa fa-times-circle"></i></div> 
             <div class="dashFourClmFlx">
                 <p>Closed Loans</p>
                 <h2>{{ number_format($dataArr['dataCount']['totalLeads']) }}</h2>
             </div>             
         </div>
         <div class="dashFourClm">
-            <div class="iconBox"><i class="fa fa-user-circle-o"></i></div>
+            <div class="iconBox"><i class="fa fa-adjust"></i></div>
             <div class="dashFourClmFlx">
                 <p>Available Funding</p>
                 <h2>{{ number_format($dataArr['dataCount']['totalLeads']) }}</h2>
             </div>              
         </div>
         <div class="dashFourClm">
-            <div class="iconBox"><i class="fa fa-user-circle-o"></i></div> 
+            <div class="iconBox"><i class="fa fa-pie-chart"></i></div> 
             <div class="dashFourClmFlx">
                 <p>Total Funded</p>
                 <h2>{{ number_format($dataArr['dataCount']['totalLeads']) }}</h2>
             </div>            
         </div>
         <div class="dashFourClm">
-            <div class="iconBox"><i class="fa fa-user-circle-o"></i></div> 
+            <div class="iconBox"><i class="fa fa-arrow-circle-o-left"></i></div> 
             <div class="dashFourClmFlx">
                 <p>Total Paid Back</p>
                 <h2>{{ number_format($dataArr['dataCount']['totalLeads']) }}</h2>
             </div>            
         </div>
         <div class="dashFourClm">
-            <div class="iconBox"><i class="fa fa-user-circle-o"></i></div> 
+            <div class="iconBox"><i class="fa fa-bandcamp"></i></div> 
             <div class="dashFourClmFlx">
                 <p>Balance</p>
                 <h2>{{ number_format($dataArr['dataCount']['totalLeads']) }}</h2>
             </div>            
         </div>
         <div class="dashFourClm">
-            <div class="iconBox"><i class="fa fa-user-circle-o"></i></div> 
+            <div class="iconBox"><i class="fa fa-credit-card-alt"></i></div> 
             <div class="dashFourClmFlx">
                 <p>Membership Fee</p>
                 <h2>{{ number_format($dataArr['dataCount']['totalLeads']) }}</h2>
             </div>             
         </div>
         <div class="dashFourClm">
-            <div class="iconBox"><i class="fa fa-user-circle-o"></i></div> 
+            <div class="iconBox"><i class="fa fa-cc-mastercard"></i></div> 
             <div class="dashFourClmFlx">
                 <p>Interest Rate</p>
                 <h2>{{ number_format($dataArr['dataCount']['totalLeads']) }}</h2>
             </div>            
         </div>
         <div class="dashFourClm">
-            <div class="iconBox"><i class="fa fa-user-circle-o"></i></div> 
+            <div class="iconBox"><i class="fa fa-minus-circle"></i></div> 
             <div class="dashFourClmFlx">
                 <p>Penalties</p>
                 <h2>{{ number_format($dataArr['dataCount']['totalLeads']) }}</h2>
