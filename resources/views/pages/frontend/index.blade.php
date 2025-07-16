@@ -145,8 +145,8 @@
             <div class="egt-row">
                 <figure>
                     <img src="{{ 'assets/images/expert-icon_01.png' }}" alt="">
-                    <h5><span>Short-Term </span>Funding </h5>
-                    <p>30 to 180 days</p>
+                    <h5><span>Transparent </span>Funding </h5>
+                    <p>No gimmicks, no hustle. <br />Straightforward process</p>
                 </figure>
                 <figure>
                     <img src="{{ 'assets/images/expert-icon_02.png' }}" alt="">
@@ -163,7 +163,7 @@
     </section>
 
     <!-- ================ Membership How It Works Section ================ -->
-    <section id="membership" class="memberhowitWorksSec">
+    {{-- <section id="membership" class="memberhowitWorksSec">
         <div class="container">
             <h2>Revolutionizing Membership Funding with Zero Interest</h2>
             <p>At Verifen, we're redefining the way you access financial support. As a member, you can secure
@@ -205,10 +205,10 @@
 
             </ul>
         </div>
-    </section>
+    </section> --}}
 
     <!-- ================ Membership Plans Section ================ -->
-    <section class="membershipPlanSec">
+    {{-- <section class="membershipPlanSec">
         <div class="container">
             <section class="pricing-section">
                 <div class="container">
@@ -348,7 +348,7 @@
                             helping you save on costs.</li>
                         <li class="number02"><strong>Flexible Repayments:</strong> We understand life happens, so you
                             have the option to repay as you go with a manageable monthly commitment.</li>
-                        <li class="number03"><strong>Transparency:</strong> No hidden fees—just clear, straightforward
+                        <li class="number03"><strong>Transparency:</strong> No hidden fees, just clear, straightforward
                             terms.</li>
                     </ul>
                     <p>Ready to get started? Select the membership plan that fits your needs and unlock funding to take
@@ -361,7 +361,7 @@
                 </div>
             </section>
         </div>
-    </section>
+    </section> --}}
 
 
     <!-- ================ Transparency Section ================ -->
@@ -384,10 +384,10 @@
                     <h3>Meet Our Founder</h3>
                     <ol>
                         <li>
-                            <p>{{ env('TESTER_FULL_NAME', 'Daniel Joseph') }}, founder and CEO of Verifen, is a serial
+                            <p><a href="https://calendly.com/nathan-vaknin">{{ env('TESTER_FULL_NAME', 'Daniel Joseph') }}</a>, founder and CEO of Verifen, is a serial
                                 entrepreneur with
                                 extensive
-                                experience in the service, finance, marketing, and retail industries—just to name a few.
+                                experience in the service, finance, marketing, and retail industries, just to name a few.
                                 His diverse background and hands-on expertise allow him to understand your challenges
                                 and
                                 craft solutions tailored to your needs. {{ env('TESTER', 'Joseph') }}’s passion is
@@ -450,7 +450,7 @@
                         </li>
                         <li>
                             <h4>Customized Solutions for Your Business</h4>
-                            <p>No cookie-cutter loans—our funding is tailored to your unique needs, helping you make the
+                            <p>No cookie-cutter loans, our funding is tailored to your unique needs, helping you make the
                                 most of your capital.</p>
                         </li>
                         <li>
@@ -567,7 +567,7 @@
             </div>
             <div class="fundRightFlexRight">
                 <h2>What We Offer Beyond Funding</h2>
-                <p>Verifen is more than a financial provider—we're your partner in growth.</p>
+                <p>Verifen is more than a financial provider, we're your partner in growth.</p>
                 <div class="">
                     <div class="layoutBlock">
                         <ul>
