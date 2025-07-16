@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Verifen</title>
+    <title>Become a Verifen Funding Partner | Transparent MCA & Low-Rate Loans</title>
     <meta name="keywords" content="" />
-    <meta name="description" content="" />
+    <meta name="description" content="Partner with Verifen to fund qualified businesses with transparent loans and MCAs. Fast, simple process with a trusted track record." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' }}">
     <!-- Bootstrap Css -->
@@ -41,8 +41,8 @@
     <div class="applicationBodyOuter">
         <div class="container">
         <div class="applicationBody">
-            <div class="outerHeader">                
-                <h2>Partner Sign up:</h2>                
+            <div class="outerHeader">
+                <h2>Partner Sign up:</h2>
                 <p>Please complete the partner Sign up. You will be required to upload both business and personal tax returns, six months of bank statements, and a copy of a government-issued ID.</p>
             </div>
 
@@ -50,7 +50,7 @@
                 <!-- progressbar -->
                 <ul id="progressbar">
                     <li class="active" id="account"><strong>Company Information</strong></li>
-                    <li id="personal"><strong>Contact Information</strong></li>                                      
+                    <li id="personal"><strong>Contact Information</strong></li>
                 </ul>
                 <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
@@ -61,7 +61,7 @@
                         <input id="tab-1" type="radio" name="tabs" tabindex="1">
                         <label for="tab-1">Company Information</label>
 
-                        <div class="question-wrap">                        
+                        <div class="question-wrap">
                             <div class="formFlex">
                                 <div class="formCol">
                                     <span>Company name</span>
@@ -96,13 +96,13 @@
                                             <option>$500k+</option>
                                         </select>
                                     </div>
-                                </div>                            
+                                </div>
                             </div>
 
-                                                    
+
                         </div>
-                    </div>              
-                    <input type="button" name="next" class="next action-button" value="Continue" />                    
+                    </div>
+                    <input type="button" name="next" class="next action-button" value="Continue" />
                 </fieldset>
 
                 <fieldset>
@@ -110,7 +110,7 @@
                         <input id="tab-2" type="radio" name="tabs" tabindex="7">
                         <label for="tab-2">Contact Information</label>
 
-                        <div class="question-wrap">                        
+                        <div class="question-wrap">
 
                             <div class="formFlex">
                                 <div class="formCol">
@@ -127,18 +127,18 @@
                                 <div class="formCol fullWidth">
                                     <span>Phone Number</span>
                                     <input type="text" placeholder="">
-                                </div>                           
-                            </div>                      
-                            
+                                </div>
+                            </div>
+
                         </div>
 
-                       
+
                     </div>
-                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" /> 
-                    <input type="button" name="next" class="next action-button" value="Review & Submit" /> 
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    <input type="button" name="next" class="next action-button" value="Review & Submit" />
                 </fieldset>
 
-              
+
             </form>
 
         </div>

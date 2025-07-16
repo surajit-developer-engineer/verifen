@@ -68,7 +68,7 @@
                 <li><a href="#">Cookie Policy</a></li>
             </ul>
             <small><i>Do Not Sell My Personal Information</i></small>
-            <p>Copyright &copy; 2025 Verifen LLC. All rights reserved.</p>
+            <p>Copyright &copy; 2025 Verifen Funding LLC. All rights reserved.</p>
         </div>
 
     </div>
@@ -76,26 +76,26 @@
     <!-- ================ Disclaimer Section ================ -->
 
     <div class="disclaimerSec">
-        <div class="container">  
-            <h5>Disclaimer:</h5>         
-            <p>Verifen LLC provides business capital solutions, including business loans and revenue-based financing, 
-                directly and through a network of trusted third-party funding providers. All funding offers are subject 
-                to meeting our prequalification and underwriting criteria at the time of submission. These criteria include, 
-                but are not limited to, business and personal credit history, time in business, cash flow, revenue 
-                consistency, and industry-specific guidelines. Business loans and revenue-based financing options 
-                are designed to meet the unique needs of businesses across various industries, ensuring tailored 
+        <div class="container">
+            <h5>Disclaimer:</h5>
+            <p>Verifen Funding LLC provides business capital solutions, including business loans and revenue-based financing,
+                directly and through a network of trusted third-party funding providers. All funding offers are subject
+                to meeting our prequalification and underwriting criteria at the time of submission. These criteria include,
+                but are not limited to, business and personal credit history, time in business, cash flow, revenue
+                consistency, and industry-specific guidelines. Business loans and revenue-based financing options
+                are designed to meet the unique needs of businesses across various industries, ensuring tailored
                 solutions that drive growth and success.
             </p>
-            <p>By submitting an application to Verifen LLC, you agree to receive calls and text/SMS messages, 
-                including those sent via an automatic dialing system, from Verifen LLC or its agents at the 
-                phone number(s) you provide, including your mobile number, even if you are registered on a federal, 
-                state, or corporate do not call list. You also confirm your agreement to Verifen LLC’s Privacy Policy 
-                and Terms of Use, and acknowledge this as your electronic signature. Consent to communication is 
-                optional and not required to get a quote or funding; you can call us at (000) 000-0000 instead. 
-                By signing up for text/SMS messaging, you agree to receive automated marketing and informational 
-                messages about Verifen LLC’s products, services, and updates on your applications. You can stop 
-                receiving messages at any time by texting STOP, and for help, you can text HELP or call us at (000) 000-0000. 
-                Consent to receive messages is not a condition for funding. See Verifen LLC’s SMS Terms and Privacy Policy 
+            <p>By submitting an application to Verifen Funding LLC, you agree to receive calls and text/SMS messages,
+                including those sent via an automatic dialing system, from Verifen Funding LLC or its agents at the
+                phone number(s) you provide, including your mobile number, even if you are registered on a federal,
+                state, or corporate do not call list. You also confirm your agreement to Verifen Funding LLC’s Privacy Policy
+                and Terms of Use, and acknowledge this as your electronic signature. Consent to communication is
+                optional and not required to get a quote or funding; you can call us at (000) 000-0000 instead.
+                By signing up for text/SMS messaging, you agree to receive automated marketing and informational
+                messages about Verifen Funding LLC’s products, services, and updates on your applications. You can stop
+                receiving messages at any time by texting STOP, and for help, you can text HELP or call us at (000) 000-0000.
+                Consent to receive messages is not a condition for funding. See Verifen Funding LLC’s SMS Terms and Privacy Policy
                 for more details.
             </p>
         </div>

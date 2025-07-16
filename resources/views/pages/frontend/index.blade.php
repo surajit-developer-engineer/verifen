@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Verifen</title>
+    <title>Verifen Funding | Transparent Business Loans & MCA at Lower Rates</title>
     <meta name="keywords" content="" />
-    <meta name="description" content="" />
+    <meta name="description"
+        content="Verifen offers transparent business loans with guaranteed lower interest rates. Fast approvals and flexible terms. Trusted by businesses nationwide." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' }}">
     <!-- Bootstrap Css -->
@@ -384,10 +385,13 @@
                     <h3>Meet Our Founder</h3>
                     <ol>
                         <li>
-                            <p><a href="https://calendly.com/nathan-vaknin">{{ env('TESTER_FULL_NAME', 'Daniel Joseph') }}</a>, founder and CEO of Verifen, is a serial
+                            <p><a
+                                    href="https://calendly.com/nathan-vaknin">{{ env('TESTER_FULL_NAME', 'Daniel Joseph') }}</a>,
+                                founder and CEO of Verifen, is a serial
                                 entrepreneur with
                                 extensive
-                                experience in the service, finance, marketing, and retail industries, just to name a few.
+                                experience in the service, finance, marketing, and retail industries, just to name a
+                                few.
                                 His diverse background and hands-on expertise allow him to understand your challenges
                                 and
                                 craft solutions tailored to your needs. {{ env('TESTER', 'Joseph') }}’s passion is
@@ -450,7 +454,8 @@
                         </li>
                         <li>
                             <h4>Customized Solutions for Your Business</h4>
-                            <p>No cookie-cutter loans, our funding is tailored to your unique needs, helping you make the
+                            <p>No cookie-cutter loans, our funding is tailored to your unique needs, helping you make
+                                the
                                 most of your capital.</p>
                         </li>
                         <li>

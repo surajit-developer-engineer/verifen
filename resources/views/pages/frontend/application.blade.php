@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Verifen</title>
+    <title>Apply Now | Verifen Business Loans & MCA with Lower Interest Rates</title>
     <meta name="keywords" content="" />
-    <meta name="description" content="" />
+    <meta name="description" content="Apply for a Verifen business loan or MCA. Guaranteed lower interest rates, transparent terms, and funding up to $2M. Fast, secure process." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' }}">
     <!-- Bootstrap Css -->
@@ -41,7 +41,7 @@
     <div class="applicationBodyOuter">
         <div class="container">
         <div class="applicationBody">
-            <div class="outerHeader">                
+            <div class="outerHeader">
                 <h2>Business Funding Application</h2>
                 <h4>Please complete the below secured application.</h4>
                 <p>Please complete the application below. You will be required to upload both business and personal tax returns, six months of bank statements, and a copy of a government-issued ID.</p>
@@ -54,7 +54,7 @@
                     <li id="personal"><strong>Owner Information</strong></li>
                     <li id="payment"><strong>Loan Details</strong></li>
                     <li id="confirm"><strong>Document Upload</strong></li>
-                    <li id="signature"><strong>Signature</strong></li>                    
+                    <li id="signature"><strong>Signature</strong></li>
                 </ul>
                 <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
@@ -184,8 +184,8 @@
                             </div>
                         </div>
                     </div>
-                </div>                    
-                    <input type="button" name="next" class="next action-button" value="Continue" />                    
+                </div>
+                    <input type="button" name="next" class="next action-button" value="Continue" />
                 </fieldset>
 
                 <fieldset>
@@ -345,7 +345,7 @@
 
                     </div>
                 </div>
-                    <input type="button" name="next" class="next action-button" value="Continue" /> 
+                    <input type="button" name="next" class="next action-button" value="Continue" />
                     <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
                 </fieldset>
 
@@ -390,10 +390,10 @@
                                     </select>
                                 </div>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                 </div>
-                    <input type="button" name="next" class="next action-button" value="Continue" /> 
+                    <input type="button" name="next" class="next action-button" value="Continue" />
                     <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
                 </fieldset>
 
@@ -455,9 +455,9 @@
                             </div>
                         </div>
                     </div>
-                </div>                
-                    <input type="button" name="next" class="next action-button" value="Continue" /> 
-                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />                
+                </div>
+                    <input type="button" name="next" class="next action-button" value="Continue" />
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
                 </fieldset>
 
                 <fieldset>
@@ -489,13 +489,13 @@
                         </div> -->
 
                     </div>
-                </div>               
-                
-                    <input type="button" name="next" class="next action-button" value="Review & Submit" /> 
+                </div>
+
+                    <input type="button" name="next" class="next action-button" value="Review & Submit" />
                     <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
-                
+
                 </fieldset>
-                
+
             </form>
 
         </div>
