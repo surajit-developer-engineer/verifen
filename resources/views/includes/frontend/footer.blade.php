@@ -29,7 +29,7 @@
             </div>
             <div class="columnThree">
                 <p class="boldText">Call Us
-                    <span><a href="tel:000 000 0000" target="_blank">000 000 0000</a></span>
+                    <span><a href="tel:8887886160" target="_blank">(888) 788-6160</a></span>
                 </p>
                 <p class="boldText">Follow Us</p>
                 <ul class="socials">

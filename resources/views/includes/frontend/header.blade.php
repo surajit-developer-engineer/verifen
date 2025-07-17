@@ -5,7 +5,7 @@
             <ul>
                 <li>
                     <img src="{{ 'assets/images/phone-call.png' }}">
-                    <a href="tel:000 000 0000" target="_blank">000 000 0000</a>
+                    <a href="tel:8887886160" target="_blank">(888) 788-6160</a>
                 </li>
                 <li>
                     <i class="fa fa-envelope-o"></i>
@@ -52,8 +52,8 @@
                     <span>Apply Now</span></a>
                     <a class="applyButton" href="{{ route('application') }}" target="_blank">
                         Become a Member</a></div>
-                    <a class="applyButtonStroke" href="tel:000 000 0000" target="_blank">
-                    <span><i><img src="{{ 'assets/images/phone-call.png' }}"></i> Call Us: 000 000 0000</span></a>
+                    <a class="applyButtonStroke" href="tel:8887886160" target="_blank">
+                    <span><i><img src="{{ 'assets/images/phone-call.png' }}"></i> Call Us: (888) 788-6160</span></a>
                 </li>
                 </ul>
             </div>

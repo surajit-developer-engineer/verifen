@@ -5,7 +5,7 @@
             <ul>
                 <li>
                     <img src="{{ 'assets/images/phone-call.png' }}">
-                    <a href="tel:000 000 0000" target="_blank">000 000 0000</a>
+                    <a href="tel:8887886160" target="_blank">(888) 788-6160</a>
                 </li>
                 <li>
                     <i class="fa fa-envelope-o"></i>
@@ -22,11 +22,11 @@
                     <li class="button lastmenu">
                         <a href="{{ route('application') }}" target="_blank">
                             <span>Apply Now</span></a>
-                    </li>                   
+                    </li>
                 </ul>
             </div>
         </div>
-    </div>        
+    </div>
 
         <div class="hdr-row">
             <div class="container">
@@ -34,21 +34,21 @@
            <div class="hdr-row2">
            <a href="{{ route('index') }}">
                 <img src="{{ 'assets/images/logo.png' }}" alt="Verifen">
-            </a>            
-            <div class="hdr-menu">                               
+            </a>
+            <div class="hdr-menu">
                 <ul class="slimmenu">
                 <div class="collapse-button closeIcon"> <img src="{{ 'assets/images/close-icon.png' }}" alt="Close Icon"> </div>
                     <li><a href="/">Home</a></li>
                     <li class="active"><a href="/partner">Partner</a></li>
                     <li><a href="#howitworks">How It Works</a></li>
-                    <li><a href="#wcverifen">Why Choose Verifen?</a></li>                                      
+                    <li><a href="#wcverifen">Why Choose Verifen?</a></li>
                     <li class="mobView">
                     <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('application') }}" target="_blank">
                     <span>Apply Now</span></a>
                     <a class="applyButton" href="{{ route('application') }}" target="_blank">
                         Become a Member</a></div>
-                    <a class="applyButtonStroke" href="tel:000 000 0000" target="_blank">
-                    <span><i><img src="{{ 'assets/images/phone-call.png' }}"></i> Call Us: 000 000 0000</span></a>
+                    <a class="applyButtonStroke" href="tel:8887886160" target="_blank">
+                    <span><i><img src="{{ 'assets/images/phone-call.png' }}"></i> Call Us: (888) 788-6160</span></a>
                 </li>
                 </ul>
             </div>
