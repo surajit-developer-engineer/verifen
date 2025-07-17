@@ -147,7 +147,7 @@
                 <figure>
                     <img src="{{ 'assets/images/expert-icon_01.png' }}" alt="">
                     <h5><span>Transparent </span>Funding </h5>
-                    <p>No gimmicks, no hustle. <br />Straightforward process</p>
+                    <p>No gimmicks, no hustle. <br />Straightforward process.</p>
                 </figure>
                 <figure>
                     <img src="{{ 'assets/images/expert-icon_02.png' }}" alt="">
