@@ -444,8 +444,8 @@
                     <ol>
                         <li>
                             <h4>Lowest Industry Rates</h4>
-                            <p>Keep more of your profits with our competitive and transparent pricing. There are no loan
-                                fees, closing costs, or surprises.</p>
+                            <p>Keep more of your profits with our competitive, transparent pricing. We minimize loan
+                                fees, closing costs, and eliminate silly surprises.</p>
                         </li>
                         <li>
                             <h4>Simple, Streamlined Process</h4>

@@ -29,7 +29,7 @@
             </div>
             <div class="columnThree">
                 <p class="boldText">Call Us
-                    <span><a href="tel:000 000 0000" target="_blank">000 000 0000</a></span>
+                    <span><a href="tel:8887886160" target="_blank">(888) 788-6160</a></span>
                 </p>
                 <p class="boldText">Follow Us</p>
                 <ul class="socials">
@@ -91,10 +91,10 @@
                 phone number(s) you provide, including your mobile number, even if you are registered on a federal,
                 state, or corporate do not call list. You also confirm your agreement to Verifen Funding LLC’s Privacy Policy
                 and Terms of Use, and acknowledge this as your electronic signature. Consent to communication is
-                optional and not required to get a quote or funding; you can call us at (000) 000-0000 instead.
+                optional and not required to get a quote or funding; you can call us at (888) 788-6160 instead.
                 By signing up for text/SMS messaging, you agree to receive automated marketing and informational
                 messages about Verifen Funding LLC’s products, services, and updates on your applications. You can stop
-                receiving messages at any time by texting STOP, and for help, you can text HELP or call us at (000) 000-0000.
+                receiving messages at any time by texting STOP, and for help, you can text HELP or call us at (888) 788-6160.
                 Consent to receive messages is not a condition for funding. See Verifen Funding LLC’s SMS Terms and Privacy Policy
                 for more details.
             </p>
