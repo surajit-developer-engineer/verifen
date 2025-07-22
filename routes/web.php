@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\IndexController;
+use App\Http\Controllers\Frontend\StaticController;
+
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ProfileController;
@@ -12,6 +14,15 @@ Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/my-application', [IndexController::class, 'application'])->name('application');
 Route::get('/partner', [IndexController::class, 'partner'])->name('partner');
 Route::get('/partner-signup', [IndexController::class, 'partnerSignup'])->name('partner.signup');
+
+Route::get('/terms-of-use', [StaticController::class, 'termsOfUse'])->name('terms.of.use');
+Route::get('/privacy-policy', [StaticController::class, 'privacyPolicy'])->name('privacy.policy');
+Route::get('/tcpa-consent', [StaticController::class, 'tcpaConsent'])->name('tcpa.consent');
+Route::get('/terms-of-application', [StaticController::class, 'termsOfApplication'])->name('terms.of.application');
+Route::get('/california-privacy', [StaticController::class, 'californiaPrivacy'])->name('california.privacy');
+Route::get('/credit-authorization', [StaticController::class, 'creditAuthorization'])->name('credit.authorization');
+Route::get('/electronic-disclosure', [StaticController::class, 'electronicDisclosure'])->name('electronic.disclosure');
+Route::get('/opt-out', [StaticController::class, 'optOut'])->name('opt.out');
 
 Route::group([
     'prefix' => 'administrator'
