@@ -46,4 +46,9 @@ class StaticController extends Controller
     {
         return view('pages.frontend.static.opt-out');
     }
+
+    public function contactUs()
+    {
+        return view('pages.frontend.static.contact-us');
+    }
 }

@@ -29,12 +29,13 @@
     </div>
 
         <div class="hdr-row">
-            <div class="container">
-            <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
+            <div class="container">            
+                <div class="logo-flxRow">                 
            <div class="hdr-row2">
-           <a href="{{ route('index') }}">
-                <img src="{{ 'assets/images/logo.png' }}" alt="Verifen">
+            <a href="{{ route('index') }}">
+                <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
             </a>
+            
             <div class="hdr-menu">
                 <ul class="slimmenu">
                 <div class="collapse-button closeIcon"> <img src="{{ 'assets/images/close-icon.png' }}" alt="Close Icon"> </div>
@@ -57,7 +58,15 @@
                 </li>
                 </ul>
             </div>
-           </div>
+           </div> 
+           <div class="dFlex">
+            <div class="callSecwe">
+                <a href="tel:8887886160" target="_blank"><i class="fa fa-phone"></i></a>   
+                <!-- <img src="{{ 'assets/images/phone-call.png' }}"> -->
+            </div>
+            <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
+           </div> 
+           </div>         
         </div>
     </div>
 </header>

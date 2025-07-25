@@ -886,11 +886,12 @@
 
     <div class="readytoproSec">
         <div class="container">
-            <h2>Ready to proceed?</h2>
-            <p>Please <a href="#" target="_blank"><u>complete a quick application</u></a> or call us at <span>
-                    <a href="tel:(877)%20400-0297" rel="noopener noreferrer" target="_blank">(877)
-                        400-0297</a></span>
-            </p>
+            <h2>Ready to grow your business?</h2>
+            <p>See how Verifen Funding can help you achieve growth</p>
+            <div class="flex">
+                <a class="applyButtonBlack" href="/my-application" target="_blank">Apply Now</a>
+                <a class="applyButton" href="/contact" target="_blank">Contact</a>
+            </div>
         </div>
     </div>
 

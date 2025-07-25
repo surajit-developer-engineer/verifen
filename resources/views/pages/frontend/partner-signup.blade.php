@@ -42,8 +42,8 @@
         <div class="container">
         <div class="applicationBody">
             <div class="outerHeader">
-                <h2>Partner Sign up:</h2>
-                <p>Please complete the partner Sign up. You will be required to upload both business and personal tax returns, six months of bank statements, and a copy of a government-issued ID.</p>
+                <h2>Funder Application</h2>
+                <p>Become a partner with Verifen Funding and start earning interest. Complete the funder application below to get started.</p>
             </div>
 
             <form id="msform">
@@ -89,11 +89,11 @@
                                     <span>Available Funding</span>
                                     <div class="selectDropdownSec">
                                         <select class="selectDropdown">
-                                            <option selected>up to $50k</option>
-                                            <option>$50k - $100k</option>
-                                            <option>$100k - $250k</option>
-                                            <option>$250k - $500k</option>
-                                            <option>$500k+</option>
+                                            <option selected>Up to $50,000</option>
+                                            <option>$50,000 - $100,000</option>
+                                            <option>$100,000 - $250,000</option>
+                                            <option>$250,000 - $500,000</option>
+                                            <option>$500,000 +</option>
                                         </select>
                                     </div>
                                 </div>

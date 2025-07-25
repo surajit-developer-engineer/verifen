@@ -33,7 +33,7 @@
             <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
            <div class="hdr-row2">
            <a href="{{ route('index') }}">
-                <img src="{{ 'assets/images/logo.png' }}" alt="Verifen">
+                <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
             </a>
             <div class="hdr-menu">
                 <ul class="slimmenu">

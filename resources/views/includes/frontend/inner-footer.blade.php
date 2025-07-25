@@ -5,7 +5,7 @@
 
             <div class="columnOne">
                 <a href="index.html">
-                    <img src="{{ 'assets/images/logo.png' }}" alt="Verifen">
+                    <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
                 </a>
                 <img class="fr-fic" src="{{ 'assets/images/bbb_transparent.png' }}" alt="">
             </div>
@@ -32,14 +32,16 @@
                     <span><a href="tel:8887886160" target="_blank">(888) 788-6160</a></span>
                 </p>
                 <p class="boldText">Follow Us</p>
-                <ul class="socials">
-                    <li><a href="mailto:contact@verifen.com" target="_blank"><i class="fa fa-fw fa-envelope" alt="Mail"></i></a><br>
+                 <ul class="socials">
+                    <li><a href="https://www.facebook.com/verifenmca" target="_blank"><i class="fa fa-fw fa-facebook" alt="Facebook"></i></a><br>
+                    </li>                    
+                    <li><a href="http://instegram.com/verifenfunding" target="_blank"><i class="fa fa-fw fa-instagram" alt="instagram"></i></a><br>
                     </li>
-                    <li><a href="https://x.com/verifenllc" target="_blank"><i class="fa fa-fw fa-twitter" alt="twitter"></i></a><br>
+                    <li><a href="https://www.tiktok.com/@verifenfunding" target="_blank"><img class="fr-fic" src="{{ 'assets/images/tiktok-icon.png' }}" alt=""></a><br>
                     </li>
-                    <li><a href="https://instagram.com/verifenllc" target="_blank"><i class="fa fa-fw  fa-instagram" alt="instagram"></i></a><br>
+                    <li><a href="https://x.com/verifenfunding" target="_blank"><img class="fr-fic" src="{{ 'assets/images/x-twitter.png' }}" alt=""></a><br>
                     </li>
-                    <li><a href="https://www.linkedin.com/company/verifenllc" target="_blank"><i class="fa fa-fw fa-linkedin" alt="linkedin"></i></a><br>
+                    <li><a href="https://www.linkedin.com/company/verifenfunding" target="_blank"><i class="fa fa-fw fa-linkedin" alt="linkedin"></i></a><br>
                     </li>
                 </ul>
             </div>
@@ -76,8 +78,7 @@
     <!-- ================ Disclaimer Section ================ -->
 
     <div class="disclaimerSec">
-        <div class="container">
-            <h5>Disclaimer:</h5>
+        <div class="container">            
             <p>Verifen Funding LLC provides business capital solutions, including business loans and revenue-based financing,
                 directly and through a network of trusted third-party funding providers. All funding offers are subject
                 to meeting our prequalification and underwriting criteria at the time of submission. These criteria include,
