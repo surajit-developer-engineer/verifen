@@ -2841,14 +2841,35 @@ div[class^="cat"] label {
 }
 .staticPages ul li{
     font-size: 18px;
-    list-style: disc;
+    list-style: disc !important;
     padding: 10px 0;
+    line-height: 1.7;
 }
 .staticPages ul li a{
     color:#1468d2;
 }
 .staticPages ul li a:hover{
     text-decoration: underline;
+}
+.staticPages ol{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style: auto;
+}
+.staticPages ol li{
+    font-size: 20px;    
+    padding: 10px 0;
+    line-height: 30px;
+    list-style: auto;
+}
+.staticPages ol li a{
+    color:#1468d2;
+}
+.staticPages ol li a:hover{
+    text-decoration: underline;
+}
+.staticPages ol li ol li{
+    list-style: disc !important;
 }
 .tableSec{
     margin: 25px 0;
