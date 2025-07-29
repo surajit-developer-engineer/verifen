@@ -51,4 +51,15 @@ class StaticController extends Controller
     {
         return view('pages.frontend.static.contact-us');
     }
+
+     public function investorProgram()
+    {
+        return view('pages.frontend.static.investor-program');
+    }
+
+    public function businessLoans()
+    {
+        return view('pages.frontend.static.business-loans');
+    }
+
 }

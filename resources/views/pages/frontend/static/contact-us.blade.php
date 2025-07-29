@@ -58,7 +58,7 @@
                         <div class="conInfoBox">
                             <div class="conInfoBoxIcon"><i class="fa fa-map-marker"></i></div>
                             <h3>Address</h3>
-                            <p>2599 Sunburst Drive, Fort Myers Beach, Florida, 33931, United States</p>
+                            <p>3044 Coney Island Avenue. Brooklyn, New York 11235</p>
                         </div>
                         <div class="conInfoBox">
                             <div class="conInfoBoxIcon"><i class="fa fa-clock-o"></i></div>

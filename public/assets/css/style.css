@@ -295,7 +295,20 @@ a.dfltBtn:hover {
 .applyButton:hover {
     background: #000 !important;
 }
-
+.contactButton {
+    padding: 15px 30px !important;
+    color: #000 !important;
+    line-height: 18px;
+    font-weight: 600;
+    background-color: #fff !important;
+    border-radius: 40px;
+    display: inline-block;
+    cursor: pointer;
+}
+.contactButton:hover {
+    background: #fff !important;
+    color: #1468d2 !important;
+}
 .applyButtonBlack {
     padding: 15px 30px !important;
     color: #fff !important;
@@ -305,10 +318,23 @@ a.dfltBtn:hover {
     border-radius: 40px;
     display: inline-block;
 }
-
 .applyButtonBlack:hover {
     background: #1468d2;
 }
+.applyButtonBlack2 {
+    padding: 15px 30px !important;
+    color: #fff !important;
+    line-height: 18px;
+    font-weight: 600;
+    background: #000;
+    border-radius: 40px;
+    display: inline-block;
+}
+.applyButtonBlack:hover {
+    background: #000;
+    color: #1468d2 !important;
+}
+
 
 /*=========== Banner Style Start ===========*/
 .home-banner-sec {
@@ -359,6 +385,7 @@ a.dfltBtn:hover {
 
 .slider_left {
     width: 50%;
+    text-align: left;
 }
 
 .slider_right {
@@ -457,7 +484,7 @@ a.dfltBtn:hover {
 }
 
 .logoFlex li img {
-    opacity: 0.4;
+    /* opacity: 0.4; */
     max-width: 240px;
     cursor: pointer;
     margin: 10px 18px;
@@ -1620,7 +1647,7 @@ a.dfltBtn:hover {
     padding-right: 15px;
     padding-bottom: 60px;
     padding-left: 15px;
-    background-color: #e9e9e9;    
+    background-color: #1468d2;    
     clear: both;
     background-repeat: repeat-x;
     background-position: center;
@@ -1629,15 +1656,14 @@ a.dfltBtn:hover {
 }
 
 .readytoproSec h2 {
-    color: #fff;
     margin-top: 0px;
-    color: #000;
+    color: #fff;
     font-size: 45px;
     font-weight: 600;
 }
 
 .readytoproSec p {
-    color: #555;
+    color: #fff;
     font-weight: 600;
     padding-top: 15px;
 }
@@ -2709,7 +2735,7 @@ div[class^="cat"] label {
 .conInfoBox{
     background: #fff;
     border-radius: 7px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 45%;
     padding: 20px;
     margin-bottom: 20px;
@@ -2734,6 +2760,12 @@ div[class^="cat"] label {
     font-weight: 600;
     color: #000;
 }
+.conInfoBox h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 10px;
+}
 .conInfoBox p{
     font-size: 15px;
     font-weight: 600;
@@ -2742,6 +2774,15 @@ div[class^="cat"] label {
     line-height: 20px;
     margin-bottom: 0;
 }
+.conInfoBox p.strongerText{
+    font-size: 17px;
+    font-weight: 600;
+    color: #4e4e4e;
+    padding: 0;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
 .conInfoBox p a{
     color: #1468d2;
     padding: 0;
@@ -2893,13 +2934,266 @@ div[class^="cat"] label {
     line-height: 25px;
 }
 
+.deliversSec{
+    width: 100%;
+    padding-top: 100px;
+}
+.deliversSecFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.deliversSecFlexLeft{
+    width: 40%;
+    height: 530px;
+	overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin-top: 20px;
+}
+.deliversSecFlexLeft img{
+    width: 100%;
+}
+.deliversSecFlexRight{
+    width: 50%;
+}
+ .deliversSecFlex h2{
+    margin-top: 0px;
+    font-size: 53px;
+    color: #1468d2;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 55px;
+}
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  pointer-events: none
+}
 
 
 
 
 
+/*************** Featured Brands Style Start ***************/
+.brands-sec{
+	position: relative;
+}
+.brands-sec .brands-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.brands-sec .brands-header h2{
+	font-size: 1.375rem;
+	line-height: 1.625rem;
+	color: var(--black);
+	font-weight: 600;
+}
+.brands-sec .brands-header p{
+	font-size: 1rem;
+	color: var(--textColor);
+}
+.brands-sec .brands-header a{
+	color: var(--black);
+	font-weight: 500;
+	font-size: 1rem;
+}
+.brands-sec .brands-header a i{
+	font-size: .8rem;
+}
+.brands-sec .brands-header a:hover{
+	color: var(--primary);
+	font-weight: 500;
+	text-decoration: underline;
+}
+.brands-box{
+    width: 280px;
+    height: 100%;
+    padding: 13px 11px 38px;
+    -webkit-transition: box-shadow .4s ease, background .4s ease, color .4s ease;
+    transition: box-shadow .4s ease, background .4s ease, color .4s ease;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+	text-align: center;
+}
+.icon-holder {
+    width: 76px;
+    height: 76px;
+    margin-bottom: 15px;
+    border: 1px solid #f0f0f0;
+    border-radius: 100%;
+    background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto 15px;
+}
+.featuredBrands-carousel .brands-box img{
+	width: auto;
+}
+.brands-carousel .brands-box img{
+	width: auto;
+}
+.brands-carousel{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 30px;
+    margin-top: 20px;
+}
+.partnership-card{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 35px;
+    margin-top: 20px;
+}
+.partnership-card .item{
+	margin-bottom: 35px;
+}
+.partnership-card .item .brands-box{
+	padding: 20px;
+}
+.partnership-card .item p{
+	margin-bottom: 0;
+}
+.featured-icon-holder {
+    margin-bottom: 15px;
+	display: flex;
+	height: 30px;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto 20px;
+}
+.brands-box .featured-icon-holder .brandHimg{
+	display: none !important;
+}
+.brands-box:hover .featured-icon-holder .brandNimg{
+	display: none !important;
+}
+.brands-box:hover .featured-icon-holder .brandHimg{
+	display: block !important;
+}
+.brands-box h3{
+	color:#000;
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    height: 55px;
+}
+.brands-box h4{
+	color:#000;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.brands-box p{
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 23px;
+	-webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+	height: 90px;	
+    margin-bottom: 0;
+}
+.brands-box a{
+	font-size: 14px;
+	color: var(--primary);
+	font-weight: 600;
+	line-height: 23px;	
+}
+.brands-sec .owl-stage-outer{
+	padding: 20px;
+}
+.brands-box:hover{
+	background-color: var(--primary);
+	cursor: pointer;
+}
+.brands-box:hover h3{
+	color: var(--white);
+}
+.brands-box:hover p{
+	color: var(--white);
+}
+.brands-box:hover a{
+	color: var(--white);
+}
+.featuredBrands-carousel .owl-prev,
+.featuredBrands-carousel .owl-next{
+	display: inline-block;
+    width: 33px;
+    height: 45px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -33px;	
+}
+.featuredBrands-carousel .owl-prev:hover,
+.featuredBrands-carousel .owl-next:hover{
+	background-color: var(--primary);
+	border-radius: 20px;
+}
+.featuredBrands-carousel .owl-prev .tiIcon,
+.featuredBrands-carousel .owl-next .tiIcon{
+	font-size: 20px;
+	color: var(--black);
+}
+.featuredBrands-carousel .owl-prev:hover .tiIcon,
+.featuredBrands-carousel .owl-next:hover .tiIcon{
+	color: var(--white);
+}
+.featuredBrands-carousel .owl-prev{
+	left: -30px;
+}
+.featuredBrands-carousel .owl-next{
+	right: -45px;
+}
+.owl-theme .owl-nav [class*=owl-] {
+    border-radius: 33px;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #1468d2;
+}
 
 
+
+.unlock-sucess-left-prt{
+    width: 45%;
+    height:530px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.unlock-sucess-left-prt::-webkit-scrollbar {
+  display: none;
+}
+.image-wrapper {
+  position: relative;
+}
+.image {
+  height: 520px;
+  scroll-snap-align: start;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.9s ease;
+  will-change: transform;
+  border-radius: 15px;
+}
+.image.in-view {
+  opacity: 1;
+}
+.w48p{
+    width: 48%;
+}
 
 
 
@@ -2975,6 +3269,63 @@ div[class^="cat"] label {
   border-radius: 0;
   margin-bottom: 0;
 }
+
+.brdNone{
+    border-bottom: none;
+}
+.landingConBody {
+    width: 100%;
+    background: #fff;
+    margin-top: 85px;
+    padding: 20px 0;
+}
+.landingbannerSec{
+    position: relative;
+    width: 100%;
+}
+.lanbannerBg:after{
+    content: "";
+    background: url(../images/bg-thumb-print-gray-1.svg) right 0 no-repeat;
+    width: 55%;
+    position: absolute;
+    top: -180px;
+    right: 50px;
+    z-index: 9;
+    height: 100%;
+    background-size: 100%;
+    opacity: 0.7;
+}
+.lanbannerBg{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.lanban-con-holder{
+    width: 45%;
+}
+.lanban-img-holder{
+    width: 45%;
+}
+.bg-blue-primary{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: rgba(0, 205, 239, 0.1);
+    width: 330px;
+    height: 138px;
+    border-radius: 0px 0px 0px 50px;
+    z-index: 9;
+    margin-left: -130px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
