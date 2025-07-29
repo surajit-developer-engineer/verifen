@@ -23,7 +23,7 @@ Route::get('/california-privacy', [StaticController::class, 'californiaPrivacy']
 Route::get('/credit-authorization', [StaticController::class, 'creditAuthorization'])->name('credit.authorization');
 Route::get('/electronic-disclosure', [StaticController::class, 'electronicDisclosure'])->name('electronic.disclosure');
 Route::get('/opt-out', [StaticController::class, 'optOut'])->name('opt.out');
-Route::get('/contact-us', [StaticController::class, 'contactUs'])->name('contact.us');
+Route::get('/contact', [StaticController::class, 'contactUs'])->name('contact.us');
 Route::get('/investor-program', [StaticController::class, 'investorProgram'])->name('investor.program');
 Route::get('/business-loans', [StaticController::class, 'businessLoans'])->name('business.loans');
 
