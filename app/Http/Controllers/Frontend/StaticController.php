@@ -78,4 +78,20 @@ class StaticController extends Controller
         ];
         return view('pages.frontend.static.opt-out', compact('meta_data'));
     }
+
+    public function contactUs()
+    {
+        return view('pages.frontend.static.contact-us');
+    }
+
+     public function investorProgram()
+    {
+        return view('pages.frontend.static.investor-program');
+    }
+
+    public function businessLoans()
+    {
+        return view('pages.frontend.static.business-loans');
+    }
+
 }

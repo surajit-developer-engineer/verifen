@@ -1,7 +1,7 @@
 <section class="headerSec">
     <div class="container-fluid">
         <div class="dFlx spaceBet alignCenter">
-            <div class="hdrLogo"><a href="{{ route('admin.dashboard') }}"><img src="{{ asset('admin/images/logo.png') }}"
+            <div class="hdrLogo"><a href="{{ route('admin.dashboard') }}"><img src="{{ asset('admin/images/logo.svg') }}"
                         alt=""></a></div>
             <div class="hdrUser">
                 <span class="userTitle">Hello, <b class="auth-name">{{ Auth::user()->name }}</b></span>

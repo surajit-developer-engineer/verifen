@@ -38,9 +38,72 @@
     <!-- ================ Header Section ================ -->
     @include('includes.frontend.header')
 
-    <section>
-        {{-- Contents --}}
-    </section>
+     <div class="applicationBodyOuter">
+        <div class="container">
+        <div class="applicationBody"> 
+            <form>                
+                <div class="cat-1">                    
+                    <h3 class="optTitle">Opt Out of Data Sharing</h3>
+
+                    <div class="question-wrap">
+                        <p>Please provide the following information for identity verification:</p>
+                        <div class="formFlex">
+                            <div style="width:100%;" class="formCol">
+                                <span>Business Name</span>
+                                <input type="text" placeholder="">
+                            </div>                            
+                        </div>
+
+                        <div class="formFlex">
+                            <div class="formCol">
+                                <span>Owner's First Name</span>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="formCol">
+                                <span>Owner's Last Name</span>
+                                <input type="text" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="formFlex">
+                            <div class="formCol">
+                                <span>Business Email</span>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="formCol">
+                                <span>Business Phone</span>
+                                <input type="text" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="basic-check-container">
+                            <div class="formCol">
+                                <strong>Select the reason for your request</strong>                                
+                            </div>
+                            <div class="checkcol">
+                                <input type="checkbox" id="basic1" checked>
+                                <label for="basic1">I don't want verifen to collect my data</label>
+                            </div>
+                            <div class="checkcol">
+                                <input type="checkbox" id="basic2">
+                                <label for="basic2">I don't want verifen to sell my data</label>
+                            </div>
+                            <div class="checkcol">
+                                <input type="checkbox" id="basic3">
+                                <label for="basic3">I want verifen to remove all my data from their database</label>
+                            </div>
+                        </div>
+
+                        <input style="position:relative; float: none; z-index:1;" type="button" name="next" class="next action-button" value="Submit" />
+                        
+                    </div>
+                    
+                </div>
+            </form>
+
+        </div>
+        </div>
+    </div>
 
     <!-- ================ Footer Section ================ -->
     @include('includes.frontend.footer')

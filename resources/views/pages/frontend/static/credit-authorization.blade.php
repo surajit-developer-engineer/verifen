@@ -38,8 +38,53 @@
     <!-- ================ Header Section ================ -->
     @include('includes.frontend.header')
 
-    <section>
-        {{-- Contents --}}
+      <section class="innerConBodyOuter staticPages">
+        <div class="container">
+            <h2>Credit Gathering Authorization</h2>
+        <dt>Effective Date: July 16, 2025</dt>        
+        
+        <p>By accepting this Credit Gathering Authorization (e.g., by clicking the appropriate button or checkbox), you
+affirm that you are legally authorized to act on behalf of yourself and the business entity named in your
+application (individually and collectively, "you" or "your") and to make binding representations regarding
+the business to Verifen Funding LLC ("Verifen Funding"), its representatives, affiliates, and subsidiaries, as
+well as third-party lenders, financing institutions, and related service providers (collectively, "Recipients").</p>      
+    
+     <p>You authorize Verifen Funding and Recipients to conduct inquiries and obtain any information they consider
+necessary to evaluate your business’s application for financing or related financial products intended solely
+for business purposes.</p>   
+     
+        <p>As part of this process, you grant permission for Verifen Funding and any Recipient to obtain one or more
+of the following on behalf of you and your business: - Personal and/or business credit reports - Investigative
+financial background reports - Consumer reports from third-party credit bureaus (such as TransUnion,
+Experian, Equifax, Dun & Bradstreet) - Bank statements, credit card processing data, and information from
+financial institutions, creditors, or other third-party data providers</p>
+
+        
+        <p>This authorization applies at all stages of the application and funding process, including: - Submission of
+your application via www.verifen.com and its subdomains - Processing and underwriting - Closing and
+disbursement of any financial product - Ongoing servicing and enforcement of any financial product</p>
+        
+        
+        <p>This consent serves as your written authorization under the Fair Credit Reporting Act, as amended.
+Additionally, you allow Verifen Funding and its Recipients to contact third parties to verify any submitted or
+reported information as part of your application or credit evaluation.</p>
+       
+        
+        <p>By providing this authorization, you confirm that all information you have submitted (or may submit in the
+future) to Verifen Funding is accurate and complete. You understand that any misrepresentation or falsified
+documentation may be considered fraud and is subject to penalties under applicable law.</p>
+       
+        
+        <p>If you have any questions or need assistance, please contact us at <a href="mailto:customerservice@verifen.com">customerservice@verifen.com</a> or call
+(888) 788-6160.</p>       
+        
+       
+        <p>Verifen Funding LLC</br>
+3044 Coney Island Avenue, Mailbox #7</br>
+Brooklyn, NY 11235</br>
+www.verifen.com</p>
+
+    </div>
     </section>
 
     <!-- ================ Footer Section ================ -->

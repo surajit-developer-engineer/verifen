@@ -42,9 +42,9 @@
         <div class="container">
         <div class="applicationBody">
             <div class="outerHeader">
-                <h2>Business Funding Application</h2>
-                <h4>Please complete the below secured application.</h4>
-                <p>Please complete the application below. You will be required to upload both business and personal tax returns, six months of bank statements, and a copy of a government-issued ID.</p>
+                <h2>Funding Application</h2>
+                <h4>Complete the below secured application to get started.</h4>
+                <p>The application requires 6 months of business and personal bank statements, and your Articles of Incorporation.</p>
             </div>
 
             <form id="msform">
@@ -383,10 +383,35 @@
                                 <span>How do you plan to use the funds?</span>
                                 <div class="selectDropdownSec">
                                     <select class="selectDropdown">
-                                        <option selected>How soon do you need funding?</option>
-                                        <option>ASAP</option>
-                                        <option>Within the next 1-2 weeks</option>
-                                        <option>Within the next month</option>
+                                        <option selected>Business Expansion</option>
+                                        <option>Debt Consolidation</option>
+                                        <option>Capital Investment</option>
+                                        <option>Working Capital</option>
+                                        <option>Marketing and Sales</option>
+                                        <option>Research & Development</option>
+                                        <option>Hiring or Staffing</option>
+                                        <option>Product Launch or Enhancement</option>
+                                        <option>Inventory Purchase</option>
+                                        <option>Technology Upgrades</option>
+                                        <option>Operational Expenses</option>
+                                    </select>
+                                </div>
+                            </div>
+                             <div class="formCol">
+                                <span>How soon do you need access to these funds?</span>
+                                <div class="selectDropdownSec">
+                                    <select class="selectDropdown">
+                                        <option selected>Business Expansion</option>
+                                        <option>Debt Consolidation</option>
+                                        <option>Capital Investment</option>
+                                        <option>Working Capital</option>
+                                        <option>Marketing and Sales</option>
+                                        <option>Research & Development</option>
+                                        <option>Hiring or Staffing</option>
+                                        <option>Product Launch or Enhancement</option>
+                                        <option>Inventory Purchase</option>
+                                        <option>Technology Upgrades</option>
+                                        <option>Operational Expenses</option>
                                     </select>
                                 </div>
                             </div>
@@ -408,19 +433,87 @@
                         <div class="formFlex">
                             <div class="formCol">
                                 <span>6 months of Business Bank Statements</span>
-                                <div>
+                                <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                    <div class="form-group">                                        
+                                        <div class="preview-zone hidden">
+                                        <div class="box box-solid">
+                                            <div class="box-header with-border">
+                                            <div><b>Preview</b></div>                                           
+                                            </div>
+                                            <button type="button" class="btn btn-danger btn-xs remove-preview">
+                                                    <i class="fa fa-times"></i>
+                                                </button>
+                                            <div class="box-body">
+                                                
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="dropzone-wrapper">
+                                        <div class="dropzone-desc">
+                                            <i class="glyphicon glyphicon-download-alt"></i>
+                                            <p>Choose an image file or drag it here.</p>
+                                        </div>
+                                        <input type="file" name="img_logo" class="dropzone">
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="row">
+                                    <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary pull-right">Upload</button>
+                                    </div>
+                                </div> -->
+                                </div>
+                                <!-- <div>
                                     <input type="file" name="file1[]" data-multiple-caption="{count} files selected"
                                         class="file-control" multiple id="file1">
                                     <label for="file1" class="label-file"><span>Choose file</span></label>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="formCol">
                                 <span>6 months of Personal Bank Statements</span>
-                                <div>
+                                <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                    <div class="form-group">                                       
+                                        <div class="preview-zone hidden">
+                                        <div class="box box-solid">
+                                            <div class="box-header with-border">
+                                            <div><b>Preview</b></div>
+                                            <div class="box-tools pull-right">
+                                                <button type="button" class="btn btn-danger btn-xs remove-preview">
+                                                <i class="fa fa-times"></i> Reset This Form
+                                                </button>
+                                            </div>
+                                            </div>
+                                            <div class="box-body"></div>
+                                        </div>
+                                        </div>
+                                        <div class="dropzone-wrapper">
+                                        <div class="dropzone-desc">
+                                            <i class="glyphicon glyphicon-download-alt"></i>
+                                            <p>Choose an image file or drag it here.</p>
+                                        </div>
+                                        <input type="file" name="img_logo" class="dropzone">
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="row">
+                                    <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary pull-right">Upload</button>
+                                    </div>
+                                </div> -->
+                                </div>
+                                <!-- <div>
                                     <input type="file" name="file1[]" data-multiple-caption="{count} files selected"
                                         class="file-control" multiple id="file1">
                                     <label for="file1" class="label-file"><span>Choose file</span></label>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
 
@@ -518,6 +611,64 @@
     <script src="{{ 'assets/js/owl.carousel.min.js' }}"></script>
     <!-- Custom js -->
     <script src="{{ 'assets/js/custom.js' }}"></script>
+    
+<script>
+    function readFile(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+
+    reader.onload = function(e) {
+      var htmlPreview =
+        '<img width="200" src="' + e.target.result + '" />' +
+        '<p>' + input.files[0].name + '</p>'            
+        ;
+      var wrapperZone = $(input).parent();
+      var previewZone = $(input).parent().parent().find('.preview-zone');
+      var boxZone = $(input).parent().parent().find('.preview-zone').find('.box').find('.box-body');
+
+      wrapperZone.removeClass('dragover');
+      previewZone.removeClass('hidden');
+      boxZone.empty();
+      boxZone.append(htmlPreview);
+    };
+
+    reader.readAsDataURL(input.files[0]);
+
+  }
+}
+
+function reset(e) {
+  e.wrap('<form>').closest('form').get(0).reset();
+  e.unwrap();
+}
+
+$(".dropzone").change(function() {
+  readFile(this);
+});
+
+$('.dropzone-wrapper').on('dragover', function(e) {
+  e.preventDefault();
+  e.stopPropagation();
+  $(this).addClass('dragover');
+});
+
+$('.dropzone-wrapper').on('dragleave', function(e) {
+  e.preventDefault();
+  e.stopPropagation();
+  $(this).removeClass('dragover');
+});
+
+$('.remove-preview').on('click', function() {
+  var boxZone = $(this).parents('.preview-zone').find('.box-body');
+  var previewZone = $(this).parents('.preview-zone');
+  var dropzone = $(this).parents('.form-group').find('.dropzone');
+//   boxZone.empty();
+//   previewZone.addClass('hidden');
+  reset(dropzone);
+});
+
+</script>
+    
 
 </body>
 

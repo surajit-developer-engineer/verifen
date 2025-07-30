@@ -5,26 +5,26 @@
 
             <div class="columnOne">
                 <a href="index.html">
-                    <img src="{{ 'assets/images/logo.png' }}" alt="Verifen">
+                    <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
                 </a>
                 <img class="fr-fic" src="{{ 'assets/images/bbb_transparent.png' }}" alt="">
             </div>
 
             <div class="columnThree">
                 <ul>
-                    <li><a href="/#membership">Membership</a></li>
-                    <li class="selected"><a href="/#whyverifen">Why Verifen?</a></li>
-                    <li><a href="/#howitworks">How It Works</a></li>
-                    <li><a href="/#solutions">Solutions</a></li>
+                    <li><a href="/business-loans">Business Loans</a></li>
+                    <li><a href="/investor-program">Investor Program</a></li>
+                    <li><a href="#howitworks">How It Works</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
                 </ul>
             </div>
             <div class="columnThree">
                 <ul>
-                    <li><a href="/#funding">Funding</a></li>
-                    <li><a href="/#benefits">Benefits</a></li>
-                    <li><a href="/#industries">Industries</a></li>
-                    <li><a href="/#whywait">Why Wait?</a></li>
-                    <li><a href="/#faqs">FAQs</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
+                    <li><a href="/credit-authorization">Credit Authorization</a></li>
+                    <li><a href="/electronic-disclosure">Electronic Disclosure</a></li> 
+                    <li><a href="/california-privacy">California Privacy</a></li>                   
+                    <li><a href="/opt-out">Opt Out</a></li>                    
                 </ul>
             </div>
             <div class="columnThree">
@@ -32,14 +32,16 @@
                     <span><a href="tel:8887886160" target="_blank">(888) 788-6160</a></span>
                 </p>
                 <p class="boldText">Follow Us</p>
-                <ul class="socials">
-                    <li><a href="mailto:contact@verifen.com" target="_blank"><i class="fa fa-fw fa-envelope" alt="Mail"></i></a><br>
+                 <ul class="socials">
+                    <li><a href="https://www.facebook.com/verifenmca" target="_blank"><i class="fa fa-fw fa-facebook" alt="Facebook"></i></a><br>
+                    </li>                    
+                    <li><a href="http://instegram.com/verifenfunding" target="_blank"><i class="fa fa-fw fa-instagram" alt="instagram"></i></a><br>
                     </li>
-                    <li><a href="https://x.com/verifenllc" target="_blank"><i class="fa fa-fw fa-twitter" alt="twitter"></i></a><br>
+                    <li><a href="https://www.tiktok.com/@verifenfunding" target="_blank"><img class="fr-fic" src="{{ 'assets/images/tiktok-icon.png' }}" alt=""></a><br>
                     </li>
-                    <li><a href="https://instagram.com/verifenllc" target="_blank"><i class="fa fa-fw  fa-instagram" alt="instagram"></i></a><br>
+                    <li><a href="https://x.com/verifenfunding" target="_blank"><img class="fr-fic" src="{{ 'assets/images/x-twitter.png' }}" alt=""></a><br>
                     </li>
-                    <li><a href="https://www.linkedin.com/company/verifenllc" target="_blank"><i class="fa fa-fw fa-linkedin" alt="linkedin"></i></a><br>
+                    <li><a href="https://www.linkedin.com/company/verifenfunding" target="_blank"><i class="fa fa-fw fa-linkedin" alt="linkedin"></i></a><br>
                     </li>
                 </ul>
             </div>
@@ -59,13 +61,13 @@
 
         <div class="ftr-copyright-prt">
             <ul>
-                <li><a href="#">Privacy Statement</a></li>
+                <li><a href="/privacy-policy">Privacy Statement</a></li>
                 <li>|</li>
-                <li><a href="#">Terms of Service</a></li>
+                <li><a href="/terms-of-use">Terms of Service</a></li>
                 <li>|</li>
-                <li><a href="#">CCPA Notice</a></li>
+                <li><a href="/tcpa-consent">CCPA Notice</a></li>
                 <li>|</li>
-                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="/terms-of-application">Terms of Application</a></li>                
             </ul>
             <small><i>Do Not Sell My Personal Information</i></small>
             <p>Copyright &copy; 2025 Verifen Funding LLC. All rights reserved.</p>
@@ -76,8 +78,7 @@
     <!-- ================ Disclaimer Section ================ -->
 
     <div class="disclaimerSec">
-        <div class="container">
-            <h5>Disclaimer:</h5>
+        <div class="container">            
             <p>Verifen Funding LLC provides business capital solutions, including business loans and revenue-based financing,
                 directly and through a network of trusted third-party funding providers. All funding offers are subject
                 to meeting our prequalification and underwriting criteria at the time of submission. These criteria include,
