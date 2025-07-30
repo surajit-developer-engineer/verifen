@@ -1,3 +1,8 @@
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXJHV79J" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <!-- ================ Header Section ================ -->
 <header class="top-main-hdr">
     <div class="container">
@@ -28,38 +33,43 @@
         </div>
     </div>
 
-        <div class="hdr-row">
-            <div class="container">
+    <div class="hdr-row">
+        <div class="container">
             <div class="dFlex">
-           <div class="hdr-row2">
-           <a href="{{ route('index') }}">
-                <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
-            </a>
-            <div class="hdr-menu">
-                <ul class="slimmenu">
-                <div class="collapse-button closeIcon"> <img src="{{ 'assets/images/close-icon.png' }}" alt="Close Icon"> </div>
-                    <li><a href="/#membership">Membership</a></li>
-                    <li><a href="/#Verifen">Why Verifen?</a></li>
-                    <li><a href="/#howitworks">How It Works</a></li>
-                    <li><a href="/#solutions">Solutions</a></li>
-                    <li><a href="/#funding">Funding</a></li>
-                    <li><a href="/#benefits">Benefits</a></li>
-                    <li><a href="/#industries">Industries</a></li>
-                    <li><a href="/partner">Partner</a></li>
-                    <li><a href="/#faqs">FAQs</a></li>
-                    <li class="mobView">
-                    <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('application') }}" target="_blank">
-                    <span>Apply Now</span></a>
-                    <a class="applyButton" href="{{ route('application') }}" target="_blank">
-                        Become a Member</a></div>
-                    <a class="applyButtonStroke" href="tel:(888) 788-6160" target="_blank">
-                    <span><i><img src="{{ 'assets/images/phone-call.png' }}"></i> Call Us: (888) 788-6160</span></a>
-                </li>
-                </ul>
-            </div>
+                <div class="hdr-row2">
+                    <a href="{{ route('index') }}">
+                        <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
+                    </a>
+                    <div class="hdr-menu">
+                        <ul class="slimmenu">
+                            <div class="collapse-button closeIcon"> <img src="{{ 'assets/images/close-icon.png' }}"
+                                    alt="Close Icon"> </div>
+                            <li><a href="/#membership">Membership</a></li>
+                            <li><a href="/#Verifen">Why Verifen?</a></li>
+                            <li><a href="/#howitworks">How It Works</a></li>
+                            <li><a href="/#solutions">Solutions</a></li>
+                            <li><a href="/#funding">Funding</a></li>
+                            <li><a href="/#benefits">Benefits</a></li>
+                            <li><a href="/#industries">Industries</a></li>
+                            <li><a href="/partner">Partner</a></li>
+                            <li><a href="/#faqs">FAQs</a></li>
+                            <li class="mobView">
+                                <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('application') }}"
+                                        target="_blank">
+                                        <span>Apply Now</span></a>
+                                    <a class="applyButton" href="{{ route('application') }}" target="_blank">
+                                        Become a Member</a>
+                                </div>
+                                <a class="applyButtonStroke" href="tel:(888) 788-6160" target="_blank">
+                                    <span><i><img src="{{ 'assets/images/phone-call.png' }}"></i> Call Us: (888)
+                                        788-6160</span></a>
+                            </li>
+                        </ul>
+                    </div>
 
-           </div>
-           <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
+                </div>
+                <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span
+                        class="icon-bar"></span></div>
             </div>
 
         </div>

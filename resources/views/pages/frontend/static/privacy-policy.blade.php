@@ -2,12 +2,8 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Verifen | Transparent Business Loans & MCA at Lower Rates</title>
-    <meta name="keywords" content="" />
-    <meta name="description"
-        content="Verifen offers transparent business loans with guaranteed lower interest rates. Fast approvals and flexible terms. Trusted by businesses nationwide." />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    @include('includes.frontend.meta-data')
     <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' }}">
     <!-- Bootstrap Css -->
     <link type="text/css" href="{{ 'assets/css/bootstrap.min.css' }}" rel="stylesheet">

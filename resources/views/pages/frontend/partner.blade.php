@@ -2,11 +2,8 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Apply to Be a Verifen Partner | Transparent MCA Funding Program</title>
-    <meta name="keywords" content="" />
-    <meta name="description"
-        content="Apply to join Verifen as an MCA and loan funder. Help qualified businesses access transparent funding with fast and simple funding process." />
+
+    @include('includes.frontend.meta-data')
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' }}">
     <!-- Bootstrap Css -->

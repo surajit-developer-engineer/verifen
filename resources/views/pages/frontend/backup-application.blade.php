@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
+
     <title>Apply Now | Verifen Business Loans & MCA with Lower Interest Rates</title>
     <meta name="keywords" content="" />
     <meta name="description" content="Apply for a Verifen business loan or MCA. Guaranteed lower interest rates, transparent terms, and funding up to $2M. Fast, secure process." />
