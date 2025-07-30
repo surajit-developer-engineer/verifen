@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Verifen Funding | Transparent Business Loans & MCA at Lower Rates</title>
+    <title>Verifen | Transparent Business Loans & MCA at Lower Rates</title>
     <meta name="keywords" content="" />
     <meta name="description"
         content="Verifen offers transparent business loans with guaranteed lower interest rates. Fast approvals and flexible terms. Trusted by businesses nationwide." />
@@ -48,7 +48,7 @@
                         <div class="conInfoBox">
                             <div class="conInfoBoxIcon"><img src="assets/images/phone-call.png"></div>
                             <h3>Email Address</h3>
-                            <p><a href="mailto:contact@verifen.com  target="_blank">contact@verifen.com </a></p>
+                            <p><a href="mailto:contact@Verifen.com  target="_blank">contact@Verifen.com </a></p>
                         </div>
                         <div class="conInfoBox">
                             <div class="conInfoBoxIcon"><i class="fa fa-envelope-o"></i></div>
@@ -77,14 +77,14 @@
                             <div class="formCol">
                                 <label for="fname">Last Name:</label>
                                 <input type="text" placeholder="Last Name">
-                            </div>     
-                        </div>  
+                            </div>
+                        </div>
                         <div class="formFlex">
                             <div class="formCol fullWith">
                                 <label for="fname">Company Name:</label>
                                 <input type="text" placeholder="Company Name">
-                            </div>                               
-                        </div> 
+                            </div>
+                        </div>
                         <div class="formFlex">
                             <div class="formCol">
                                 <label for="fname">Phone Number:</label>
@@ -93,12 +93,12 @@
                             <div class="formCol">
                                 <label for="fname">Email Address:</label>
                                 <input type="text" placeholder="Email Address">
-                            </div>     
-                        </div>  
+                            </div>
+                        </div>
                         <div class="formFlex">
                             <div class="formCol fullWith">
                                 <label for="fname">What can we help you with?:</label>
-                                    <div class="section">                                        
+                                    <div class="section">
                                         <div class="basic-container checkbox-container">
                                             <div class="checkbox-containerCol">
                                                 <input type="checkbox" id="basic1" checked>
@@ -114,30 +114,30 @@
                                             </div>
                                         </div>
                                     </div>
-                            </div>                                 
-                        </div>    
+                            </div>
+                        </div>
                         <div class="formFlex mt-4">
                             <div class="formCol fullWith">
-                                <label for="fname">How can we assist you?</label> 
-                                <textarea placeholder="Comment Here"></textarea>                              
-                            </div>                                
+                                <label for="fname">How can we assist you?</label>
+                                <textarea placeholder="Comment Here"></textarea>
+                            </div>
                         </div>
 
                         <div class="formFlex mt-0">
-                            <div class="formCol fullWith">                               
-                                    <div class="section">                                        
+                            <div class="formCol fullWith">
+                                    <div class="section">
                                         <div class="basic-container checkbox-container mt-0">
                                             <div style="margin-right:0;" class="checkbox-containerCol">
                                                 <input type="checkbox" id="basic1">
                                                 <label class="w90" for="basic1"> By submitting this form, you consent to calls and texts from Verifen regarding your inquiry. Message and data rates may apply.</label>
-                                            </div> 
+                                            </div>
                                         </div>
                                     </div>
-                            </div>                                 
-                        </div>                       
+                            </div>
+                        </div>
 
                         <input class="action-button" type="button" value="Contact Us">
-                    </form> 
+                    </form>
                 </div>
             </div>
         </div>

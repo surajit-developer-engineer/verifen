@@ -9,7 +9,7 @@
                 </li>
                 <li>
                     <i class="fa fa-envelope-o"></i>
-                    <a href="mailto:contact@verifen.com " target="_blank">contact@verifen.com </a>
+                    <a href="mailto:contact@Verifen.com " target="_blank">contact@Verifen.com </a>
                 </li>
             </ul>
             <div class="layout_block">
@@ -29,18 +29,18 @@
     </div>
 
         <div class="hdr-row">
-            <div class="container">            
-                <div class="logo-flxRow">                 
+            <div class="container">
+                <div class="logo-flxRow">
            <div class="hdr-row2">
             <a href="{{ route('index') }}">
                 <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
             </a>
-            
+
             <div class="hdr-menu">
                 <ul class="slimmenu">
                 <div class="collapse-button closeIcon"> <img src="{{ 'assets/images/close-icon.png' }}" alt="Close Icon"> </div>
                     {{-- <li class="active"><a href="#membership">Membership</a></li> --}}
-                    <li><a href="#verifen">Why Verifen?</a></li>
+                    <li><a href="#Verifen">Why Verifen?</a></li>
                     <li><a href="#howitworks">How It Works</a></li>
                     <li><a href="#solutions">Solutions</a></li>
                     <li><a href="#funding">Funding</a></li>
@@ -58,15 +58,15 @@
                 </li>
                 </ul>
             </div>
-           </div> 
+           </div>
            <div class="dFlex">
             <div class="callSecwe">
-                <a href="tel:8887886160" target="_blank"><i class="fa fa-phone"></i></a>   
+                <a href="tel:8887886160" target="_blank"><i class="fa fa-phone"></i></a>
                 <!-- <img src="{{ 'assets/images/phone-call.png' }}"> -->
             </div>
             <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
-           </div> 
-           </div>         
+           </div>
+           </div>
         </div>
     </div>
 </header>

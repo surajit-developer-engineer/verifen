@@ -53,7 +53,7 @@
                         </div>
                     </form>
                 </div>
-                <p class="copyright">Copyright © {{ date('Y') }} verifen.com</p>
+                <p class="copyright">Copyright © {{ date('Y') }} Verifen.com</p>
             </div>
         </div>
     </section>

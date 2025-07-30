@@ -9,7 +9,7 @@
                 </li>
                 <li>
                     <i class="fa fa-envelope-o"></i>
-                    <a href="mailto:contact@verifen.com " target="_blank">contact@verifen.com </a>
+                    <a href="mailto:contact@Verifen.com " target="_blank">contact@Verifen.com </a>
                 </li>
             </ul>
             <div class="layout_block">
@@ -41,7 +41,7 @@
                     <li><a href="/">Home</a></li>
                     <li class="active"><a href="/partner">Partner</a></li>
                     <li><a href="#howitworks">How It Works</a></li>
-                    <li><a href="#wcverifen">Why Choose Verifen?</a></li>
+                    <li><a href="#wcVerifen">Why Choose Verifen?</a></li>
                     <li class="mobView">
                     <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('application') }}" target="_blank">
                     <span>Apply Now</span></a>

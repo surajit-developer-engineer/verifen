@@ -436,17 +436,17 @@
                                 <div class="container">
                                 <div class="row">
                                     <div class="col-md-12">
-                                    <div class="form-group">                                        
+                                    <div class="form-group">
                                         <div class="preview-zone hidden">
                                         <div class="box box-solid">
                                             <div class="box-header with-border">
-                                            <div><b>Preview</b></div>                                           
+                                            <div><b>Preview</b></div>
                                             </div>
                                             <button type="button" class="btn btn-danger btn-xs remove-preview">
                                                     <i class="fa fa-times"></i>
                                                 </button>
                                             <div class="box-body">
-                                                
+
                                             </div>
                                         </div>
                                         </div>
@@ -478,7 +478,7 @@
                                 <div class="container">
                                 <div class="row">
                                     <div class="col-md-12">
-                                    <div class="form-group">                                       
+                                    <div class="form-group">
                                         <div class="preview-zone hidden">
                                         <div class="box box-solid">
                                             <div class="box-header with-border">
@@ -611,7 +611,7 @@
     <script src="{{ 'assets/js/owl.carousel.min.js' }}"></script>
     <!-- Custom js -->
     <script src="{{ 'assets/js/custom.js' }}"></script>
-    
+
 <script>
     function readFile(input) {
   if (input.files && input.files[0]) {
@@ -620,7 +620,7 @@
     reader.onload = function(e) {
       var htmlPreview =
         '<img width="200" src="' + e.target.result + '" />' +
-        '<p>' + input.files[0].name + '</p>'            
+        '<p>' + input.files[0].name + '</p>'
         ;
       var wrapperZone = $(input).parent();
       var previewZone = $(input).parent().parent().find('.preview-zone');
@@ -668,7 +668,7 @@ $('.remove-preview').on('click', function() {
 });
 
 </script>
-    
+
 
 </body>
 

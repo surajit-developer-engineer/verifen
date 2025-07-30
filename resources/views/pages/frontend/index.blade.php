@@ -3,10 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Verifen Funding | Transparent Business Loans & MCA at Lower Rates</title>
-    <meta name="keywords" content="" />
-    <meta name="description"
-        content="Verifen offers transparent business loans with guaranteed lower interest rates. Fast approvals and flexible terms. Trusted by businesses nationwide." />
+    @include('includes.frontend.meta-data')
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' }}">
     <!-- Bootstrap Css -->
@@ -124,8 +121,7 @@
                             src="{{ 'assets/images/boston-herald-logo.png' }}"></a>
                 </li>
                 <li><a href="#" target="_blank">
-                        <img class="maxWidth130" alt="startribune"
-                            src="{{ 'assets/images/msn-logo.png' }}"></a>
+                        <img class="maxWidth130" alt="startribune" src="{{ 'assets/images/msn-logo.png' }}"></a>
                 </li>
                 <li><a href="#" target="_blank">
                         <img class="maxWidth130" alt="fox" src="{{ 'assets/images/yahoo-logo.png' }}"></a>
@@ -137,88 +133,101 @@
 
     <!-- ================ About Section ================ -->
 
-      <!-- ================ Featured Brands Section Start ================ -->
-<section class="brands-sec about-us-sec">
-	<div class="container">			
-			<h2>Funding is Just the Start. </br>We Build Empires.</h2>
-				<p class="pb-3">At Verifen, we don’t just fund businesses, we fuel their evolution.
-                From powerful strategy to cutting edge branding, we help business owners build smarter, grow faster, and outperform 
-                the competition. Whether you're scaling or starting fresh, Verifen delivers expert backed solutions every step of the way.
-                </p>	
-		
-		<div class="owl-carousel owl-theme featuredBrands-carousel">
-      		<div class="item">
-      			<div class="brands-box">  
-					<div class="featured-icon-holder">						
-                        <img class="maxWidth130" alt="Business Strategy" src="{{ 'assets/images/icon-111.png' }}">												
-					</div>
-                    <h4>Business Strategy</h4>					
-  					<h3>Plan Smart. Execute Bold.</h3> 
-					<p>Our expert advisors work closely with you to craft a winning business strategy, aligning operations, 
-                        vision, and resources for long-term success. We don’t guess. We guide with data and experience.</p>					
-      			</div>
-      		</div>
-      		<div class="item">
-				<div class="brands-box">  
-				  <div class="featured-icon-holder">
-					<img class="maxWidth130" alt="Business Strategy" src="{{ 'assets/images/icon-222.png' }}">
-				</div>
-                	<h4>Marketing & Optimization</h4>				
-				  <h3>Marketing That Moves the Needle</h3> 
-				  <p>We help you launch and refine high-impact marketing campaigns, from digital ads to conversion funnels. 
-                    All tailored to attract more of your ideal customers and maximize ROI.</p>  					
-				</div>
-			</div>
-			<div class="item">
-				<div class="brands-box">  
-				  <div class="featured-icon-holder">
-					<img class="maxWidth130" alt="Business Strategy" src="{{ 'assets/images/icon-333.png' }}">
-				</div>
-                <h4>Sales & Growth</h4>					
-				  <h3>Accelerate Sales. Amplify Growth.</h3> 
-				  <p>Our sales specialists help you build and optimize sales systems that close more deals, improve retention, 
-                    and drive predictable revenue growth, without wasting time or budget.</p>  					
-				</div>
-			</div>
-			<div class="item">
-				<div class="brands-box">  
-				  <div class="featured-icon-holder">
-					<img class="maxWidth130" alt="Business Strategy" src="{{ 'assets/images/icon-444.png' }}">
-				</div>	
-                <h4>Business Model Analysis</h4>				
-				  <h3>See What’s Working. Fix What’s Not.</h3> 
-				  <p>We break down your business model to uncover hidden inefficiencies, missed opportunities, and 
-                    scalable advantages, so you can run leaner, smarter, and more profitably.</p> 				  					
-				</div>
-			</div>
-			<div class="item">
-				<div class="brands-box">  
-				  <div class="featured-icon-holder">
-					<img class="maxWidth130" alt="Business Strategy" src="{{ 'assets/images/icon-555.png' }}">
-				</div>	
-                <h4>Technology Integration</h4>				
-				  <h3>Smarter Tech. Smoother Operations.</h3> 
-				  <p>From CRM systems to automation tools, we help you integrate the right tech stack to streamline 
-                    processes, improve customer experience, and future proof your operations.</p> 					
-				</div>
-			</div>
-			<div class="item">
-			  <div class="brands-box">  
-				<div class="featured-icon-holder">
-					<img class="maxWidth130" alt="Business Strategy" src="{{ 'assets/images/icon-666.png' }}">
-				</div>	
-                <h4>Branding & Identity</h4>				
-				<h3>Build a Brand They Remember</h3> 
-				<p>Stand out with a powerful brand identity that resonates. We help define your voice, design, 
-                    and message. Making your business unforgettable in a crowded market.</p> 					
-			  </div>
-		  </div>	 
-           
-      	</div>
-	</div>
-</section>
-<!-- ================ Featured Brands Section End ================ -->
-    
+    <!-- ================ Featured Brands Section Start ================ -->
+    <section class="brands-sec about-us-sec">
+        <div class="container">
+            <h2>Funding is Just the Start. </br>We Build Empires.</h2>
+            <p class="pb-3">At Verifen, we don’t just fund businesses, we fuel their evolution.
+                From powerful strategy to cutting edge branding, we help business owners build smarter, grow faster, and
+                outperform
+                the competition. Whether you're scaling or starting fresh, Verifen delivers expert backed solutions
+                every step of the way.
+            </p>
+
+            <div class="owl-carousel owl-theme featuredBrands-carousel">
+                <div class="item">
+                    <div class="brands-box">
+                        <div class="featured-icon-holder">
+                            <img class="maxWidth130" alt="Business Strategy"
+                                src="{{ 'assets/images/icon-111.png' }}">
+                        </div>
+                        <h4>Business Strategy</h4>
+                        <h3>Plan Smart. Execute Bold.</h3>
+                        <p>Our expert advisors work closely with you to craft a winning business strategy, aligning
+                            operations,
+                            vision, and resources for long-term success. We don’t guess. We guide with data and
+                            experience.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="brands-box">
+                        <div class="featured-icon-holder">
+                            <img class="maxWidth130" alt="Business Strategy"
+                                src="{{ 'assets/images/icon-222.png' }}">
+                        </div>
+                        <h4>Marketing & Optimization</h4>
+                        <h3>Marketing That Moves the Needle</h3>
+                        <p>We help you launch and refine high-impact marketing campaigns, from digital ads to conversion
+                            funnels.
+                            All tailored to attract more of your ideal customers and maximize ROI.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="brands-box">
+                        <div class="featured-icon-holder">
+                            <img class="maxWidth130" alt="Business Strategy"
+                                src="{{ 'assets/images/icon-333.png' }}">
+                        </div>
+                        <h4>Sales & Growth</h4>
+                        <h3>Accelerate Sales. Amplify Growth.</h3>
+                        <p>Our sales specialists help you build and optimize sales systems that close more deals,
+                            improve retention,
+                            and drive predictable revenue growth, without wasting time or budget.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="brands-box">
+                        <div class="featured-icon-holder">
+                            <img class="maxWidth130" alt="Business Strategy"
+                                src="{{ 'assets/images/icon-444.png' }}">
+                        </div>
+                        <h4>Business Model Analysis</h4>
+                        <h3>See What’s Working. Fix What’s Not.</h3>
+                        <p>We break down your business model to uncover hidden inefficiencies, missed opportunities, and
+                            scalable advantages, so you can run leaner, smarter, and more profitably.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="brands-box">
+                        <div class="featured-icon-holder">
+                            <img class="maxWidth130" alt="Business Strategy"
+                                src="{{ 'assets/images/icon-555.png' }}">
+                        </div>
+                        <h4>Technology Integration</h4>
+                        <h3>Smarter Tech. Smoother Operations.</h3>
+                        <p>From CRM systems to automation tools, we help you integrate the right tech stack to
+                            streamline
+                            processes, improve customer experience, and future proof your operations.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="brands-box">
+                        <div class="featured-icon-holder">
+                            <img class="maxWidth130" alt="Business Strategy"
+                                src="{{ 'assets/images/icon-666.png' }}">
+                        </div>
+                        <h4>Branding & Identity</h4>
+                        <h3>Build a Brand They Remember</h3>
+                        <p>Stand out with a powerful brand identity that resonates. We help define your voice, design,
+                            and message. Making your business unforgettable in a crowded market.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ================ Featured Brands Section End ================ -->
+
 
 
 
@@ -452,45 +461,45 @@
     </section> --}}
 
     <!-- ================ Delivers Section ================ -->
-        <div class="deliversSec">
-            <div class="container">
-                <div class="deliversSecFlex">
-                    <div class="deliversSecFlexLeft"> 
-                        <div class="image-wrapper">
-                            <div class="image" data-src="{{ 'assets/images/deliversSec-img1.png' }}"></div>
-                            <div class="image" data-src="{{ 'assets/images/deliversSec-img2.png' }}"></div>
-                            <div class="image" data-src="{{ 'assets/images/deliversSec-img3.png' }}"></div>        
-                        </div>                      
-                        <!-- <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img1.png' }}" alt="Deliver image"> 
-                        <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img2.png' }}" alt="Deliver image"> 
-                        <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img3.png' }}" alt="Deliver image">                             -->
+    <div class="deliversSec">
+        <div class="container">
+            <div class="deliversSecFlex">
+                <div class="deliversSecFlexLeft">
+                    <div class="image-wrapper">
+                        <div class="image" data-src="{{ 'assets/images/deliversSec-img1.png' }}"></div>
+                        <div class="image" data-src="{{ 'assets/images/deliversSec-img2.png' }}"></div>
+                        <div class="image" data-src="{{ 'assets/images/deliversSec-img3.png' }}"></div>
                     </div>
-                    <div class="deliversSecFlexRight">
-                        <h2>Fuel your vision. Unlock your success.</h2>
-                        <p>A stronger, smarter business starts with the right support. Verifen delivers.</p>
-                        <div class="contFlex mt-3">
-                        <div class="conInfoBox w48p">                            
+                    <!-- <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img1.png' }}" alt="Deliver image">
+                        <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img2.png' }}" alt="Deliver image">
+                        <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img3.png' }}" alt="Deliver image">                             -->
+                </div>
+                <div class="deliversSecFlexRight">
+                    <h2>Fuel your vision. Unlock your success.</h2>
+                    <p>A stronger, smarter business starts with the right support. Verifen delivers.</p>
+                    <div class="contFlex mt-3">
+                        <div class="conInfoBox w48p">
                             <h4>10K+</h4>
                             <p class="strongerText">Businesses Analyzed.</p>
                         </div>
-                        <div class="conInfoBox w48p">                            
+                        <div class="conInfoBox w48p">
                             <h4>$75M+</h4>
                             <p class="strongerText">Funded to Growing Businesses.</p>
                         </div>
-                        <div class="conInfoBox w48p">                            
+                        <div class="conInfoBox w48p">
                             <h4>500+</h4>
                             <p class="strongerText">Entrepreneurs Empowered.</p>
                         </div>
-                        <div class="conInfoBox w48p">                            
+                        <div class="conInfoBox w48p">
                             <h4>10+</h4>
                             <p class="strongerText">Years of Proven Business Support</p>
                         </div>
                     </div>
                     <a class="applyButton mt-3" href="#">Check Your Eligibility</a>
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
 
@@ -555,7 +564,7 @@
 
 
     <!-- ================ Services Section ================ -->
-    <div id="verifen" class="directFunders">
+    <div id="Verifen" class="directFunders">
         <div class="fixedContent">
             <div class="directFundersRow">
                 <div class="column2">
@@ -944,7 +953,7 @@
                     <details class="detailsContainer">
                         <summary class="detailsSummary">
                             <!-- The title -->
-                            <h3 class="detailsTitle">Is Verifen funding a loan?</h3>
+                            <h3 class="detailsTitle">Is Verifen a loan?</h3>
                         </summary>
                     </details>
                     <!-- The content -->
@@ -976,7 +985,7 @@
                     <details class="detailsContainer">
                         <summary class="detailsSummary">
                             <!-- The title -->
-                            <h3 class="detailsTitle">Is Verifen funding available nationwide?</h3>
+                            <h3 class="detailsTitle">Is Verifen available nationwide?</h3>
                         </summary>
                     </details>
                     <!-- The content -->
@@ -1016,7 +1025,7 @@
     <div class="readytoproSec">
         <div class="container">
             <h2>Ready to grow your business?</h2>
-            <p>See how Verifen Funding can help you achieve growth</p>
+            <p>See how Verifen can help you achieve growth</p>
             <div class="flex">
                 <a class="applyButtonBlack" href="/my-application" target="_blank">Apply Now</a>
                 <a class="contactButton" href="/contact" target="_blank">Contact</a>

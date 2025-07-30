@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Become a Verifen Funding Partner | Transparent MCA & Low-Rate Loans</title>
+    <title>Become a Verifen Partner | Transparent MCA & Low-Rate Loans</title>
     <meta name="keywords" content="" />
     <meta name="description" content="Partner with Verifen to fund qualified businesses with transparent loans and MCAs. Fast, simple process with a trusted track record." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,7 +43,7 @@
         <div class="applicationBody">
             <div class="outerHeader">
                 <h2>Funder Application</h2>
-                <p>Become a partner with Verifen Funding and start earning interest. Complete the funder application below to get started.</p>
+                <p>Become a partner with Verifen and start earning interest. Complete the funder application below to get started.</p>
             </div>
 
             <form id="msform">

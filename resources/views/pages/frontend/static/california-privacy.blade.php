@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Verifen Funding | Transparent Business Loans & MCA at Lower Rates</title>
+    <title>Verifen | Transparent Business Loans & MCA at Lower Rates</title>
     <meta name="keywords" content="" />
     <meta name="description"
         content="Verifen offers transparent business loans with guaranteed lower interest rates. Fast approvals and flexible terms. Trusted by businesses nationwide." />
@@ -47,7 +47,7 @@ the <strong>California Consumer Privacy Act of 2018 (CCPA) and the California Pr
 (CPRA)</strong> (together referred to as the “CCPA”). Any terms defined by the CCPA carry the same meaning in this
 notice.</p>
         <h3>1. Information We Collect</h3>
-        <p>In the past twelve (12) months, <strong>Verifen Funding</strong> has collected the following categories of personal
+        <p>In the past twelve (12) months, <strong>Verifen</strong> has collected the following categories of personal
 information from California residents:</p>
         <div class="tableSec">
             <div class="flexRow">
@@ -66,7 +66,7 @@ Civ. Code § 1798.80(e)</div>
                 <div class="secondCol">Name, phone number, physical address, signature, Social Security
 number, ID documents, payment card data, bank account information.</div>
         </div>
-        
+
 
         <div class="flexRow">
                 <div class="firstCol">Internet or Other
@@ -75,42 +75,42 @@ Network Activity</div>
 settings, geolocation (based on IP), browsing behavior, session duration,
 referral pages, and interaction data on our websites.</div>
         </div>
-        
+
 
         <div class="flexRow">
                 <div class="firstCol">Protected Classification
 Characteristics</div>
                 <div class="secondCol">Date of birth, nationality, gender, and other demographic data.</div>
-        </div>        
+        </div>
 
         <div class="flexRow">
                 <div class="firstCol">Commercial Information</div>
                 <div class="secondCol">Purchase history, product and service interest, payment behavior,
 transaction records, credit-related information, and financial statements.</div>
-        </div>        
+        </div>
 
         <div class="flexRow">
                 <div class="firstCol">Geolocation Data</div>
                 <div class="secondCol">Location inferred through IP-based GPS data.</div>
-        </div>    
+        </div>
 
         <div class="flexRow">
                 <div class="firstCol">Audio, Visual, or Electronic Information</div>
                 <div class="secondCol">Customer service call recordings and submitted photographs.</div>
-        </div>        
+        </div>
 
         <div class="flexRow">
                 <div class="firstCol">Professional or Employment Information</div>
                 <div class="secondCol">Job title, role description, and business contact information.</div>
-        </div>        
+        </div>
 
         <div class="flexRow">
                 <div class="firstCol">Inferences</div>
                 <div class="secondCol">Profiles created based on preferences, behaviors, tendencies, attitudes,
 and other patterns derived from collected data.</div>
-        </div>        
+        </div>
 
-         <div class="flexRow">                
+         <div class="flexRow">
                 <div class="secondCol fullWith">Because certain types of personal information fall under multiple legal classifications, some of the data we
 collect may appear in more than one category.</div>
         </div>
@@ -120,7 +120,7 @@ collect may appear in more than one category.</div>
 
 
     <h3>Sensitive Personal Information</h3>
-     <p>We may collect sensitive information as defined under California law, which may include:</p>   
+     <p>We may collect sensitive information as defined under California law, which may include:</p>
      <ul>
         <li>Social Security number, passport, or driver's license</li>
         <li>Login credentials and related security codes</li>
@@ -157,7 +157,7 @@ business. When sharing data for a business purpose, we maintain contracts that r
 prohibit use for any purpose beyond service performance.</p>
         <p>In the past twelve (12) months, we have disclosed all of the above categories of personal and sensitive
 information for business purposes.</p>
-        <p>Additionally, <strong>Verifen Funding</strong> may "sell" or "share" information as defined by the CCPA—primarily for crosscontext
+        <p>Additionally, <strong>Verifen</strong> may "sell" or "share" information as defined by the CCPA—primarily for crosscontext
 behavioral advertising. Like many digital companies, we use advertising platforms that deploy
 cookies and similar tools to serve relevant ads based on your interactions with our site.</p>
         <p><strong>Categories of information "sold/shared":</strong></p>
@@ -182,9 +182,9 @@ cookies and similar tools to serve relevant ads based on your interactions with 
         <p>To make a request, please contact us via:</p>
 
         <ul>
-            <li>Email: <a href="mailto:privacy@verifen.com">privacy@verifen.com</a></li>
+            <li>Email: <a href="mailto:privacy@Verifen.com">privacy@Verifen.com</a></li>
             <li>Phone: (888) 788-6160</li>
-            <li>Online: <a href="www.verifen.com/privacy-request">www.verifen.com/privacy-request</a></li>            
+            <li>Online: <a href="www.Verifen.com/privacy-request">www.Verifen.com/privacy-request</a></li>
         </ul>
         <p>Verification of your identity (name and email at minimum) may be required. If acting on behalf of someone
 else, you must provide legal documentation such as a power of attorney.</p>
@@ -199,11 +199,11 @@ deadline by another 45 days and notify you.</p>
 
         <h3>Shine the Light (California Civil Code § 1798.83)</h3>
         <p>We do not disclose personal data to unaffiliated third parties for their direct marketing. However, California
-residents may inquire about this by emailing <a href="mailto:privacy@verifen.com">privacy@verifen.com</a>.</p>
+residents may inquire about this by emailing <a href="mailto:privacy@Verifen.com">privacy@Verifen.com</a>.</p>
 
         <h3>6. Notice of Right to Opt-Out</h3>
-        <p>To opt out of behavioral advertising data sharing, please visit: 
-            <a href="www.verifen.com/privacy-request">www.verifen.com/privacy-request</a></p>
+        <p>To opt out of behavioral advertising data sharing, please visit:
+            <a href="www.Verifen.com/privacy-request">www.Verifen.com/privacy-request</a></p>
 
 
     </div>

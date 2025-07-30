@@ -521,7 +521,7 @@
                 <details class="detailsContainer">
                     <summary class="detailsSummary">
                         <!-- The title -->
-                        <h3 class="detailsTitle">Is Verifen funding a loan?</h3>
+                        <h3 class="detailsTitle">Is Verifen a loan?</h3>
                     </summary>
                 </details>
                 <!-- The content -->
@@ -553,7 +553,7 @@
                 <details class="detailsContainer">
                     <summary class="detailsSummary">
                         <!-- The title -->
-                        <h3 class="detailsTitle">Is Verifen funding available nationwide?</h3>
+                        <h3 class="detailsTitle">Is Verifen available nationwide?</h3>
                     </summary>
                 </details>
                 <!-- The content -->
@@ -652,15 +652,15 @@
                         <span> 9:00 AM - 8:00 PM</span>
                     </p>
                     <p class="boldText">Email
-                        <span><a href="mailto:info@verifen.com"
-                                target="_blank">info@verifen.com</a></span>
+                        <span><a href="mailto:info@Verifen.com"
+                                target="_blank">info@Verifen.com</a></span>
                     </p>
                 </div>
 
             </div>
 
             <div class="ftr-copyright-prt">
-                <p>&copy; 2024 verifen.com. All rights reserved.</p>
+                <p>&copy; 2024 Verifen.com. All rights reserved.</p>
             </div>
 
         </div>

@@ -112,27 +112,27 @@
     <!-- ================ Why Choose Verifen Section ================ -->
 
 
-    <div id="wcverifen" class="partWcverifen">
+    <div id="wcVerifen" class="partWcVerifen">
         <div class="container">
             <h2>Why Choose Verifen?</h2>
 
-            <div class="partWcverifenFlx">
-                <div class="partWcverifenFlxLCol">
+            <div class="partWcVerifenFlx">
+                <div class="partWcVerifenFlxLCol">
                     <h3 class="heading-small">Zero Risk Commitment</h3>
                     <p>Fund confidently, knowing Verifen fully guarantees all loans. If a loan defaults,
                         we take full responsibility and ensure your principal is returned in full.</p>
                 </div>
-                <div class="partWcverifenFlxRCol">
+                <div class="partWcVerifenFlxRCol">
                     <img src="{{ 'assets/images/partner-img2.png' }}" alt="">
                 </div>
             </div>
 
 
-            <div class="partWcverifenFlx">
-                <div class="partWcverifenFlxRCol">
+            <div class="partWcVerifenFlx">
+                <div class="partWcVerifenFlxRCol">
                     <img src="{{ 'assets/images/partner-img1.png' }}" alt="">
                 </div>
-                <div class="partWcverifenFlxLCol">
+                <div class="partWcVerifenFlxLCol">
                     <h3 class="heading-small">Lowest Industry Rates</h3>
                     <p>Offer merchants competitive, transparent pricing with no hidden fees or surprises,
                         helping you foster long-term, trusted relationships.</p>
@@ -140,23 +140,23 @@
             </div>
 
 
-            <div class="partWcverifenFlx">
-                <div class="partWcverifenFlxLCol">
+            <div class="partWcVerifenFlx">
+                <div class="partWcVerifenFlxLCol">
                     <h3 class="heading-small">Transparent, Streamlined Process</h3>
                     <p>Our honesty-first approach ensures clarity and simplicity at every step. A fast,
                         digital-first platform means less hassle and quicker funding.</p>
                 </div>
-                <div class="partWcverifenFlxRCol">
+                <div class="partWcVerifenFlxRCol">
                     <img src="{{ 'assets/images/partner-img3.png' }}" alt="">
                 </div>
             </div>
 
 
-            <div class="partWcverifenFlx">
-                <div class="partWcverifenFlxRCol">
+            <div class="partWcVerifenFlx">
+                <div class="partWcVerifenFlxRCol">
                     <img src="{{ 'assets/images/partner-img4.png' }}" alt="">
                 </div>
-                <div class="partWcverifenFlxLCol">
+                <div class="partWcVerifenFlxLCol">
                     <h3 class="heading-small">Monitor and Manage All Deals in One Place</h3>
                     <p>Gain full control and visibility over your funding portfolio:</p>
                     <ul>
@@ -173,8 +173,8 @@
             </div>
 
 
-            <div class="partWcverifenFlx">
-                <div class="partWcverifenFlxLCol">
+            <div class="partWcVerifenFlx">
+                <div class="partWcVerifenFlxLCol">
                     <h3 class="heading-small">Earning Tiers That Reward Your Commitment</h3>
                     <p>As you fund more deals, you unlock greater earning potential with our tiered rewards system:</p>
                     <ul>
@@ -186,17 +186,17 @@
                         <li>- *Diamond Preferred Funder:* Fund over $1M → *10% earning on principal*</li>
                     </ul>
                 </div>
-                <div class="partWcverifenFlxRCol">
+                <div class="partWcVerifenFlxRCol">
                     <img src="{{ 'assets/images/partner-im5.png' }}" alt="">
                 </div>
             </div>
 
 
-            <div class="partWcverifenFlx">
-                <div class="partWcverifenFlxRCol">
+            <div class="partWcVerifenFlx">
+                <div class="partWcVerifenFlxRCol">
                     <img src="{{ 'assets/images/partner-img5.png' }}" alt="">
                 </div>
-                <div class="partWcverifenFlxLCol">
+                <div class="partWcVerifenFlxLCol">
                     <h3 class="heading-small">Customized Merchant Solutions</h3>
                     <p>We tailor funding to meet merchant needs, ensuring sustainable growth for
                         businesses and high-quality opportunities for funders.</p>
