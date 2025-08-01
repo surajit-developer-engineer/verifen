@@ -38,162 +38,379 @@
     <!-- ================ Header Section ================ -->
     @include('includes.frontend.header')
 
-     <section class="innerConBodyOuter staticPages">
+     <section class="innerConBodyOuter staticPages pb-0 bgNone">
         <div class="container">
-            <h2>Invest with Confidence. Grow with Verifen.</h2>
-        <dt>Fixed Monthly Payouts. No Market Volatility. No Lending Risk.</dt>        
-        <h3>Welcome and Agreement Overview</h3>
 
-        <p><strong>Why Invest with Verifen?</strong></p>
-        <p>At Verifen, we’re reshaping how capital is deployed and how investors can participate in the 
+         <div class="landingbannerSec">
+            <div class="container">
+                <div class="lanbannerBg">
+                    <div class="lanban-con-holder">
+                        <h3>Invest with Confidence. Grow with Verifen.</h3>
+                        <dt class="pt-0">Fixed Monthly Payouts. No Market Volatility. No Lending Risk.</dt>
+                        <h2>Why Invest with Verifen?</h2>
+                       <p>At Verifen, we’re reshaping how capital is deployed and how investors can participate in the 
                 growth of America’s small businesses through structured receivables purchases backed by our 
-                proven business funding model and reinforced with multi channel risk mitigation.</p>  
-       
-        <p>You help fuel the growth of America’s small businesses while receiving fixed monthly distributions 
-                that far exceed returns from traditional investments like CDs, bonds, or savings accounts.
-</p> 
-        <p>Our model offers secure, fixed monthly payouts through a receivables participation strategy, 
-                not tied to any specific loan or classified as a security.</p>
-        <p>You’re not lending money. Instead, you’re purchasing a portion of Verifen’s projected future receivables, 
-                enabling real businesses to access growth capital, while you receive predictable, contractual distributions 
-                under our receivables purchase model.</p>   
+                proven business funding model and reinforced with multi channel risk mitigation.</p> 
+                    <p>You help fuel the growth of America’s small businesses while receiving fixed monthly distributions 
+                            that far exceed returns from traditional investments like CDs, bonds, or savings accounts.</p> 
+                    <p>Our model offers secure, fixed monthly payouts through a receivables participation strategy, 
+                            not tied to any specific loan or classified as a security.</p>
+                    <p>You’re not lending money. Instead, you’re purchasing a portion of Verifen’s projected future receivables, 
+                            enabling real businesses to access growth capital, while you receive predictable, contractual distributions 
+                            under our receivables purchase model.</p> 
+                    </div>
+                    <div class="lanban-img-holder">
+                        <img src="{{ 'assets/images/landing-banner3.png' }}">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <h3>What Makes Verifen Different?</h3> 
-        <ul>
-            <li> 2% Fixed Monthly Distributions based on a 1.24 factor rate over a 12 month term.</li>
-            <li>Receivables Participation Model – Not Lending, Not APR.</li>
-            <li>100% Principal Protected through our reserve backed structure.</li>
-            <li> Not Tied to Loan Repayment or Borrower Default.</li>
-            <li>Fully Transparent Investor Portal.</li>  
-            <li>Multi-Channel Risk Mitigation.</li>  
-            <li>Simple Enrollment and Capital Deployment Process.</li>        
-        </ul>        
-        <p>Beyond Capital: Business Strategy that Powers Real Growth Verifen doesn’t just fund businesses, we analyze, 
-                optimize, and help scale them. We become active partners in the success of every business we fund.</p>
-        <p>Before deploying capital, our analysts conduct a deep dive into the company’s business model, financial structure, 
-                and operational flow. We only engage with qualified, scalable businesses backed by strong fundamentals.</p>
-        <p><strong>But we don’t stop at underwriting and funding, Verifen provides hands on strategic 
-                support to help each business improve and grow:</strong></p>
-        <ul>
-            <li>Streamline operational inefficiencies.</li>
-            <li>Improve and modernize their business model to boost profitability.</li>
-            <li>Strengthen revenue channels and customer acquisition.</li>
-            <li>Boost conversion and average transaction value.</li>
-            <li>Reinvent marketing, sales, and fulfillment strategies.</li> 
-            <li>Strengthen fundamentals, from pricing to positioning.</li> 
-            <li>Apply technology tools from our proprietary resource stack.</li>  
-            <li>Provide access to exclusive resources, tools, and insights developed through years of proven success.</li>        
-        </ul>        
-        <p>With our unique combination of funding and business expertise, Verifen not only protects your capital, 
-                it ensures it’s working smarter.</p>
-     
-    <p><strong>How the Verifen Revenue Participation Model Works</strong></p>        
-    <ol>
-        <li>Choose Your Participation Level
-You choose your capital participation tier (starting at $10,000). This capital purchases a share of Verifen’s 
-receivables pool for the next 12-month cycle. You may add new positions at any time.
-</li>
-        <li>Capital Deployed to Verified Business Funding
-Verifen funds qualified small businesses through structured revenue-based agreements and terms loans. 
-In higher-risk scenarios, capital is sourced from third-party brokers, protecting Verifen's receivables pool.
-</li>
-        <li>Fixed Monthly Distributions
-Investors receive contractual monthly distributions equivalent to 2% of their position based on a 1.24 factor 
-rate purchase of projected receivables over 12 months. This is not interest. It is a fixed payout based on 
-receivables performance forecasting.
-</li>
-        <li>Reserve & Diversification Protection
-To safeguard your capital, Verifen allocates portions of its portfolio into real estate and crypto reserve accounts. 
-These protect against business underperformance while maintaining payout reliability.
-</li>
-        <li>Access Real-Time Earnings Data</br>
-Log in to your secure Investor Dashboard to:</br>
-* Track your distribution history</br>
-* Monitor your position performance</br>
-* Renew or open new positions</br>
-* View your capital summary and terms</br>
-</li>
-        <li>12-Month Terms with Simple Renewal</br>
-At the end of each term:</br>
-* Reinvest your capital in a new cycle</br>
-* Withdraw your principal</br>
-* Increase your participation level</br>
-</li>
-        <li>Why Verifen?</br>
-Verifen is a leading name in small business funding, offering:</br>
-* Revenue-Based Capital Programs</br>
-* MCA (Merchant Cash Advance) Alternatives</br>
-* Term Loans and Lines of Credit</br>
-* Advanced Business Growth Strategy</br>
-</li>        
-</ol>        
-<p>We’ve helped thousands of companies scale profitably—and now, we’re giving investors a smart new way to benefit from that growth.</p>
-    <p>Let Your Money and Verifen Work for You
-Traditional banks offer 0.5% to 1.5% annually on CDs or savings. Verifen offers you 24% annually, 2% monthly guaranteed. 
-No market swings. No stock volatility. Just a smarter, simpler way to grow your wealth.
-</p>
-    <p>Whether you're an experienced investor, high net worth individual, or simply looking for a better return on idle capital, 
-        Verifen is the safer, smarter choice.</p>
 
-    <p><strong>Security. Stability. Simplicity.</strong></p>
-    <ul>
-        <li>100% Principal Guarantee</br>
-            Your capital is never exposed to loan defaults.    
-        </li>
-        <li>Consistent, Predictable Earnings</br>
-            Receive 2% every month, deposited directly.    
-        </li>
-        <li>No Market Risk</br>
-            Your returns aren’t tied to Wall Street or the crypto market.    
-        </li>
-        <li>Institutional-Level Risk Controls</br>
-            Every loan is backed by personal guarantees and strict qualification processes.    
-        </li>
-        <li>What You’re Really Getting</br>
-            100% Capital Protection </br> 
-            Your position is secured by Verifen’s risk-managed reserve structure.  
-        </li>
-        <li>2% Fixed Monthly Payouts</br>
-            Distributions based on Verifen’s receivables participation pool, not loan repayments.              
-        </li>
-        <li>Strategic Business Oversight</br>
-            Your capital helps fund businesses supported by hands-on optimization.              
-        </li>
-    </ul>
-    <h3>Become a Verifen Investor Today</h3>
-    <p>Start earning more from your money. Grow your capital with confidence.</br>
-Join a network of investors who trust Verifen to protect their funds and deliver consistent returns.</br>
-        Secure your position now.</br>
-        📩 Contact us at: ir@verifen.com</br>
-        📞 Call: (888) 788-6160</br>
-        🌐 Visit: www.verifen.com</br>
-</p>
-        <p> Become a Verifen Investor</br>
-        (Secure your first 12-month investment today. Limited positions available.)
-        </p>
-        <h3>Frequently Asked Questions</h3>
-        <p><strong>Q: Is this a loan or interest based investment?</strong></p>
-        <p>No. Verifen does not offer lending investments. Your capital purchases a share of Verifen’s 
-        projected receivables pool under a fixed factor rate structure. It is not classified as interest or a debt security.</p>
-        <p><strong>Q: How is my principal protected?</strong></p>
-        <p>Your principal is not tied to any specific loan and your position is supported by Verifen’s internal reserves, diversified assets, 
-                and non-performance risk controls. Your capital is not tied to any single borrower.</p>
 
-        <p><strong>Q: What happens if Verifen doesn’t deploy my capital during the investment period?</strong></p>
-        <p>You will still receive your guaranteed 2% monthly return. Your earnings are not dependent on whether 
-                your capital is used or repaid, returns are fixed and backed by Verifen’s reserve structure.</p>
+            <div class="logoSec landing-logoSec">
+                <div class="container">
+                    <ul class="logoFlex">                
+                        <li><a href="#" target="_blank">
+                                <img class="maxWidth130" alt="nbc" src="{{ 'assets/images/nbc-logo.png' }}"></a>
+                        </li>
+                        <li><a href="#" target="_blank">
+                                <img class="maxWidth130" alt="abc" src="{{ 'assets/images/abc-logo.png' }}"></a>
+                        </li>
+                        <li><a href="#" target="_blank">
+                                <img class="maxWidth130" alt="boston herald"
+                                    src="{{ 'assets/images/boston-herald-logo.png' }}"></a>
+                        </li>
+                        <li><a href="#" target="_blank">
+                                <img class="maxWidth130" alt="startribune"
+                                    src="{{ 'assets/images/msn-logo.png' }}"></a>
+                        </li>
+                        <li><a href="#" target="_blank">
+                                <img class="maxWidth130" alt="fox" src="{{ 'assets/images/yahoo-logo.png' }}"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-         <p><strong>Q: How do I access my monthly returns?</strong></p>
-        <p>We deposit your 2% return directly into your bank account, and you can track it in your investor portal.</p> 
 
-        <p><strong>Q: Can I reinvest or increase my investment?</strong></p>
-        <p>Yes. You can renew your position at the end of each 12-month term or start additional 
-                investment positions at any time during the year, based on your financial goals and available capital.</p>
+    <!-- ================ Delivers Section ================ -->
+        <div class="deliversSec pt-4">
+            <div class="container">
+                <div class="deliversSecFlex">                    
+                    <div class="deliversSecFlexRight fullWidth text-center">
+                        <h2>What Makes Verifen Different?</h2>
+                        <section class="list-program">
+                            <div class="list-programcol">
+                                <ul>
+                                    <li>2% Fixed Monthly Distributions based on a 1.24 factor rate over a 12 month term.</li>
+                                    <li>Receivables Participation Model – Not Lending, Not APR.</li>
+                                    <li>100% Principal Protected through our reserve backed structure.</li>
+                                    <li>Not Tied to Loan Repayment or Borrower Default.</li>
+                                    <li>Fully Transparent Investor Portal.</li>
+                                    <li>Multi-Channel Risk Mitigation.</li>
+                                    <li>Simple Enrollment and Capital Deployment Process.</li>
+                                </ul>
+                                <p>Beyond Capital: Business Strategy that Powers Real Growth Verifen doesn’t just fund businesses, 
+                            we analyze, optimize, and help scale them. We become active partners in the 
+                            success of every business we fund.</p>  
+                                <p>Before deploying capital, our analysts conduct a deep dive into the company’s business model, 
+                                    financial structure, and operational flow. We only engage with qualified, scalable businesses 
+                                    backed by strong fundamentals.</p>                                 
+                            </div>
+                            <div class="list-programcol">
+                                 <p>But we don’t stop at underwriting and funding, Verifen provides hands on strategic support to 
+                                    help each business improve and grow:</p>
+                                <ul>
+                                    <li>Streamline operational inefficiencies.</li>
+                                    <li> Improve and modernize their business model to boost profitability.</li>
+                                    <li>Strengthen revenue channels and customer acquisition.</li>
+                                    <li>Boost conversion and average transaction value.</li>
+                                    <li>Reinvent marketing, sales, and fulfillment strategies.</li>
+                                    <li>Strengthen fundamentals, from pricing to positioning.</li>
+                                    <li>Apply technology tools from our proprietary resource stack.</li>
+                                    <li>Provide access to exclusive resources, tools, and insights developed through years of proven success.</li>
+                                </ul>
+                                <p>With our unique combination of funding and business expertise, Verifen not only protects your capital, 
+                                    it ensures it’s working smarter.</p>
+                            </div>
+                        
+                        </section>         
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <p><strong>Q: Is there a minimum investment amount?</strong></p>
-        <p>Yes. The minimum investment to participate is $10,000, with a maximum of $250,000 accepted for new investor accounts.</p>
-        
+
+        <div class="landing-growSae mt-5">
+            <div class="container">
+                <h2>How the Verifen Revenue Participation Model Works</h2>                
+                <ul>
+                    <li>
+                        <div class="featured-icon-holder">						
+                            <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-111.png">												
+                        </div>
+                        <h3>Choose Your Participation Level</h3>
+                        <p>You choose your capital participation tier (starting at $10,000). This capital purchases a share of 
+                            Verifen’s receivables pool for the next 12-month cycle. You may add new positions at any time.</p>
+                    </li>
+                    <li>
+                        <div class="featured-icon-holder">						
+                            <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-222.png">												
+                        </div>
+                        <h3>Capital Deployed to Verified Business Funding</h3>
+                        <p>Verifen funds qualified small businesses through structured revenue-based agreements and terms loans. 
+                            In higher-risk scenarios, capital is sourced from third-party brokers, protecting Verifen's receivables pool.</p>
+                    </li>
+                    <li>
+                        <div class="featured-icon-holder">						
+                            <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-333.png">												
+                        </div>
+                        <h3>Fixed Monthly Distributions</h3>
+                        <p>Investors receive contractual monthly distributions equivalent to 2% of their position based on a 1.24 
+                            factor rate purchase of projected receivables over 12 months. This is not interest. It is a fixed 
+                            payout based on receivables performance forecasting.</p>
+                    </li>
+                    <li>
+                        <div class="featured-icon-holder">						
+                            <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-444.png">												
+                        </div>
+                        <h3>Reserve & Diversification Protection</h3>
+                        <p>To safeguard your capital, Verifen allocates portions of its portfolio into real estate and crypto 
+                            reserve accounts. These protect against business underperformance while maintaining payout reliability.</p>
+                    </li>
+                    <li>
+                        <div class="featured-icon-holder">						
+                            <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-555.png">												
+                        </div>
+                        <h3> Access Real-Time Earnings Data</h3>
+                        <p>Log in to your secure Investor Dashboard to:</br>
+                            * Track your distribution history</br>
+                            * Monitor your position performance</br>
+                            * Renew or open new positions</br>
+                            * View your capital summary and terms</br>
+                        </p>                        
+                    </li>
+                    <li>
+                        <div class="featured-icon-holder">						
+                            <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-666.png">												
+                        </div>
+                        <h3>12-Month Terms with Simple Renewa</h3>
+                        <p>At the end of each term:</br>
+                            * Reinvest your capital in a new cycle</br>
+                            * Withdraw your principal</br>
+                            * Increase your participation level</br>
+                        </p>
+                    </li>
+                </ul>                
+            </div>
+        </div>        
     </div>
+
+
+    <div class="transparencySec">
+        <div class="fixedContent">
+            <div class="transparencySecRow">
+                <div class="column11">
+                    <h2>Let Your Money and Verifen Work for You</h2>
+                    <p>Traditional banks offer 0.5% to 1.5% annually on CDs or savings. Verifen offers you 24% annually, 
+                        2% monthly guaranteed. No market swings. No stock volatility. Just a smarter, simpler way to grow your wealth.</p>
+                    <p>Whether you're an experienced investor, high net worth individual, or simply looking for a better return 
+                        on idle capital, Verifen is the safer, smarter choice.</p>
+
+                    <p class="mb-0"><strong>Security. Stability. Simplicity.</strong></p>
+                    <ul class="security-list">
+                        <li>
+                           100% Principal Guarantee
+                           <p class="mb-0">Your capital is never exposed to loan defaults.</p>
+                        </li>
+                        <li>
+                           Consistent, Predictable Earnings
+                           <p class="mb-0">Receive 2% every month, deposited directly.</p>
+                        </li>
+                        <li>
+                           No Market Risk
+                           <p class="mb-0">Your returns aren’t tied to Wall Street or the crypto market.</p>
+                        </li>
+                        <li>
+                           Institutional-Level Risk Controls
+                           <p class="mb-0">Every loan is backed by personal guarantees and strict qualification processes.</p>
+                        </li>
+                        <li>
+                            What You’re Really Getting
+                            <p class="mb-0">100% Capital Protection</p>
+                            <p class="mb-0">Your position is secured by Verifen’s risk-managed reserve structure.</p>
+                        </li>
+                        <li>
+                            2% Fixed Monthly Payouts                            
+                            <p class="mb-0">Distributions based on Verifen’s receivables participation pool, not loan repayments.</p>
+                        </li>
+                        <li>
+                            Strategic Business Oversight                           
+                            <p class="mb-0">Your capital helps fund businesses supported by hands-on optimization.</p>
+                        </li>
+                    </ul>                   
+
+                </div>
+                <div class="column22">
+                    <figure>
+                        <img src="assets/images/direct-funders-bright-final-img05.png" class="fr-fic fr-dib " alt="Direct-Funders">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="verifen" class="directFunders">
+        <div class="fixedContent">
+            <div class="directFundersRow">
+                <div class="column2">
+                    <figure>
+                        <img src="assets/images/direct-funders-bright-final-img03.png" class="fr-fic fr-dib " alt="Direct-Funders">
+                    </figure>
+                </div>
+                <div class="column1">
+                    <h2>Why Verifen?</h2>
+                    <p>Verifen is a leading name in small business funding, offering:</p>
+                    <h3 class="mb-0">Here’s what makes us different:</h3>
+                    <ul>
+                        <li>Revenue-Based Capital Programs</li>
+                        <li>MCA (Merchant Cash Advance) Alternatives</li>
+                        <li>Term Loans and Lines of Credit</li>
+                        <li>Advanced Business Growth Strategy</li>
+                    </ul>
+                    <p>We’ve helped thousands of companies scale profitably—and now, we’re giving investors a 
+                        smart new way to benefit from that growth.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="landing-commonSec">
+    <div class="container">
+        <div class="lanimagebgsec iplanimagebgsec">
+            <img alt="Image" src="{{ 'assets/images/office-indoor.jpg' }}">	
+            <div class="bgopacity">
+                <div class="text-center becomeSec">
+                    <h2>Become a Verifen Investor Today</h2>
+                <p>Start earning more from your money. Grow your capital with confidence.
+                    Join a network of investors who trust Verifen to protect their funds and deliver consistent returns.
+                </p>
+                 <ul>
+                    <li><span>🔒</span> Secure your position now.</li>
+                    <li><span>📩</span> Contact us at: ir@verifen.com</li>
+                    <li><span>📞</span> Call: (888) 788-6160</li>
+                    <li><span>🌐</span> Visit: www.verifen.com</li>
+                 </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <div id="faqs" class="faqSecRow pt-0">        
+            <div class="faqSec"> 
+                <div class="container">           
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="details">
+                        <details class="detailsContainer">
+                            <summary class="detailsSummary">
+                                <!-- The title -->
+                                <h3 class="detailsTitle">Is this a loan or interest based investment?</h3>
+                            </summary>
+                        </details>
+                        <!-- The content -->
+                        <div class="detailsDesc">
+                            <div class="detailsDescInner">
+                                No. Verifen does not offer lending investments. Your capital purchases a share of Verifen’s projected 
+                                receivables pool under a fixed factor rate structure. It is not classified as interest or a debt security.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <details class="detailsContainer">
+                            <summary class="detailsSummary">
+                                <!-- The title -->
+                                <h3 class="detailsTitle">How is my principal protected?</h3>
+                            </summary>
+                        </details>
+                        <!-- The content -->
+                        <div class="detailsDesc">
+                            <div class="detailsDescInner">
+                                Your principal is not tied to any specific loan and your position is supported by Verifen’s internal 
+                                reserves, diversified assets, and non-performance risk controls. Your capital is not tied to any 
+                                single borrower.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <details class="detailsContainer">
+                            <summary class="detailsSummary">
+                                <!-- The title -->
+                                <h3 class="detailsTitle">What happens if Verifen doesn’t deploy my capital during the investment period?</h3>
+                            </summary>
+                        </details>
+                        <!-- The content -->
+                        <div class="detailsDesc">
+                            <div class="detailsDescInner">
+                                You will still receive your guaranteed 2% monthly return. Your earnings are not dependent on whether 
+                                your capital is used or repaid, returns are fixed and backed by Verifen’s reserve structure.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details">
+                        <details class="detailsContainer">
+                            <summary class="detailsSummary">
+                                <!-- The title -->
+                                <h3 class="detailsTitle">How do I access my monthly returns?</h3>
+                            </summary>
+                        </details>
+                        <!-- The content -->
+                        <div class="detailsDesc">
+                            <div class="detailsDescInner">
+                            We deposit your 2% return directly into your bank account, and you can track it in your investor portal.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details">
+                        <details class="detailsContainer">
+                            <summary class="detailsSummary">
+                                <!-- The title -->
+                                <h3 class="detailsTitle">Can I reinvest or increase my investment?</h3>
+                            </summary>
+                        </details>
+                        <!-- The content -->
+                        <div class="detailsDesc">
+                            <div class="detailsDescInner">
+                                Yes. You can renew your position at the end of each 12-month term or start additional investment 
+                                positions at any time during the year, based on your financial goals and available capital.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details">
+                        <details class="detailsContainer">
+                            <summary class="detailsSummary">
+                                <!-- The title -->
+                                <h3 class="detailsTitle">Is there a minimum investment amount?</h3>
+                            </summary>
+                        </details>
+                        <!-- The content -->
+                        <div class="detailsDesc">
+                            <div class="detailsDescInner">
+                                Yes. The minimum investment to participate is $10,000, with a maximum of $250,000 accepted 
+                                for new investor accounts.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- ================ Footer Section ================ -->

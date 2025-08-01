@@ -469,6 +469,9 @@ a.dfltBtn:hover {
     align-items: center;
     justify-content: center;
 }
+.logoFlex li{
+    margin: 0 45px;
+}
 
 .logoFlex li h3 {
     display: inline-block;
@@ -1799,6 +1802,7 @@ a.dfltBtn:hover {
 
 .ftr-copyright-prt ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 15px;
 }
@@ -1807,7 +1811,7 @@ a.dfltBtn:hover {
     font-size: 16px;
     font-weight: 500;
     color: #000;
-    padding: 0 10px;
+    padding: 5px 5px;
 }
 
 .ftr-copyright-prt ul li a {
@@ -2088,7 +2092,7 @@ div[class^="cat"] label {
 }
 
 .fullWidth {
-    width: 100%;
+    width: 100% !important;
 }
 
 .formFlex input {
@@ -2336,11 +2340,11 @@ div[class^="cat"] label {
 
 .applyButtonStroke:hover {
     background: #000;
-    color: #fff !important;
+    color: #1468d2 !important;
 }
-
-
-
+.hdrToprow ul li.pgap-0{
+    padding: 0 !important;
+}
 
 #msform {
     position: relative;
@@ -2350,12 +2354,13 @@ div[class^="cat"] label {
 #msform fieldset {
     background: white;
     border: 0 none;
-    border-radius: 0.5rem;
+    border-radius: 70px;
     box-sizing: border-box;
     width: 100%;
     margin: 0;
     padding-bottom: 20px;
-    position: relative
+    position: relative;
+    padding-bottom: 80px;
 }
 
 .form-card {
@@ -3150,20 +3155,22 @@ div[class^="cat"] label {
 	color: var(--white);
 }
 .featuredBrands-carousel .owl-prev{
-	left: -30px;
+	left: -45px;
+    margin-top: -23px !important;
 }
 .featuredBrands-carousel .owl-next{
 	right: -45px;
+    margin-top: -23px !important;
 }
 .owl-theme .owl-nav [class*=owl-] {
-    border-radius: 33px;
+    border-radius: 33px;    
 }
-.owl-theme .owl-nav [class*=owl-]:hover {
+.owl-theme .owl-nav [class*=owl-]{
     background: #1468d2;
 }
-
-
-
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #094896;
+}
 .unlock-sucess-left-prt{
     width: 45%;
     height:530px;
@@ -3194,13 +3201,82 @@ div[class^="cat"] label {
 .w48p{
     width: 48%;
 }
-
-
-
-
-
-
-
+.list-program{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.list-programcol{
+    width: 48%;
+    text-align: left;
+}
+.list-program ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+.list-program ul li{
+    width: max-content;
+    margin: 0 15px;
+    list-style: none !important;
+    position: relative;
+    padding-left: 30px;
+    text-align: left;
+    margin-left: 0;
+    width: 100%;
+}
+.list-program ul li:after{
+    background: url(../images/check-icon2.png) 0 0 no-repeat;
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+}
+.bgNone{
+    background: transparent !important;
+}
+.innerConBodyOuter .column1 h2 {
+    margin-top: 0px;
+    font-size: 55px;
+    color: #1468d2;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.security-list{
+   display: flex; 
+   flex-wrap: wrap;
+}
+.security-list li{
+   width: 44%;
+   padding-right: 30px !important;
+}
+.iplanimagebgsec img{
+    height: 750px;
+}
+.becomeSec{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.becomeSec h2{
+   color: #1468d2; 
+}
+.becomeSec ul li{
+   list-style: none !important;
+}
+.becomeSec ul li span{
+   width: 35px;
+   height: 35px;
+   border-radius: 100%;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   border: solid 1px #000;
+}
 
 
 
@@ -3301,10 +3377,38 @@ div[class^="cat"] label {
     align-items: center
 }
 .lanban-con-holder{
-    width: 45%;
+    width: 50%;
+    position: relative;
+}
+.lanban-con-holder:after{
+    content: "";
+    background-color: rgba(255, 230, 207, 0.3);
+    width: 200px;
+    height: 150%;
+    position: absolute;
+    border-radius: 70px 0 0 70px;
+    top: -15%;
+    left: -60px;
+}
+.lanban-con-holder h2{
+    font-size: 65px;
+    color: #1468d2;
+    font-weight: 500;
+    margin: 0 0 25px 0;
+    line-height: 70px;
+    position: relative;
+    z-index: 1;
+}
+.lanban-con-holder p{
+    position: relative;
+    z-index: 1;
+}
+.lanban-con-holder .applyButton{
+    position: relative;
+    z-index: 1;
 }
 .lanban-img-holder{
-    width: 45%;
+    width: 48%;
 }
 .bg-blue-primary{
     position: absolute;
@@ -3317,19 +3421,493 @@ div[class^="cat"] label {
     z-index: 9;
     margin-left: -130px;
 }
+.landing-logoSec{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    border-bottom: none;
+}
+.landing-logoSec ul.logoFlex li{
+    list-style: none !important;
+    padding: 0 15px;
+    margin: 0;
+}
+.landing-logoSec ul.logoFlex li img{
+    filter: grayscale(1);
+}
+.landing-logoSec ul.logoFlex li img:hover{
+    filter: grayscale(0);
+}
+.landing-growSae{
+    width: 100%;   
+    text-align: center;
+}
+.landing-growSae h2{
+    font-size: 55px;
+    color: #1468d2;
+    font-weight: 500;
+    margin: 0 0 25px 0;
+    line-height: 60px;
+    position: relative;
+}
+.landing-growSae ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.landing-growSae ul li{
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none !important;
+    padding: 30px;
+    width: 30%;
+    margin: 20px;
+}
+.landing-growSae ul li h3{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.landingPro-outer{
+    width: 100%;
+    margin: 20px 0;
+}
+.landingPro-outer{
+    width: 70%;
+    margin: 100px auto 0;
+}
+.landingProFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.landingProleftCol{
+    width: 40%;
+    background: #84E2F7;
+    background: linear-gradient(360deg,rgba(132, 226, 247, 0) 10%, rgba(132, 226, 247, 1) 100%);
+    border-radius: 20px;
+    padding: 30px;
+}
+.landingProrightCol{
+    width: 48%;
+}
+.landingProrightCol h2{
+    font-size: 55px;
+    color: #1468d2;
+}
+.landingProrightCol ul{
+    margin-top: 20px;
+}
+.landingProrightCol ul li{
+    padding: 5px !important;
+}
+.landingfaqSec h2{
+    color: #fff;
+}
+.landingfaqSec p span{
+    width: 25px;
+    height: 25px;
+    border: solid 1px #fff;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.landingfaqSec p span i{
+    font-size: 15px;
+}
+.landingfaqSec p span i.fa-envelope{
+    font-size: 12px;
+}
+.landingfaqSec small{
+    font-size: 14px;
+    font-style: italic;
+    color: #fff;
+}
+.landing-commonSec{
+    position: relative;
+    width: 100%;
+    margin: 150px 0 100px;
+}
+.landing-commonSec:before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 205, 239, 0.1);
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    border-radius: 0 0 0 70px;
+}
+.landing-commonSec:after{
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 230, 207, 0.3);
+    top: -80px;
+    right: 0;
+    width: 60%;
+    height: 200px;
+    border-radius: 70px 0 0 0;
+}
+.lanimagebgsec{
+    position: relative;
+    z-index: 1;
+}
+.lanimagebgsec img{
+    width: 100%;
+    border-radius: 0 70px 70px 0;
+    position: relative;
+}
+.bgopacity{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    left: 0;
+    width: 84.7%;
+    margin: 100px;
+    display: flex;
+    height: 75%;
+    border-radius: 70px;
+}
+.landingProFlex2{
+    display: flex;
+    justify-content: space-between;
+}
+.landingProleftCol2{
+    width: 50%;
+    background: #84E2F7;
+    background: linear-gradient(360deg,rgba(132, 226, 247, 0) 10%, rgba(132, 226, 247, 1) 100%);
+    border-radius: 70px 0 0 0;
+    padding: 60px;
+}
+.landingProleftCol2 h2{
+    font-size: 35px;
+    color: #000;
+}
+.landingProrightCol2{
+    width: 48%;
+    padding: 80px 60px;
+}
+.landingProrightCol2 h2{
+    font-size: 45px;
+    color: #1468d2;
+}
+.landingProFlex2 ul{
+    margin-top: 20px;
+}
+.landingProFlex2 ul li{
+    padding: 5px !important;
+}
+
+
+
+/*============ Step Form Progress Bar ============*/
+.hdr-progress-bar #progressbar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.hdr-progress-bar #progressbar li{
+  position: relative;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+  padding: 12px 10px;
+  margin: 0 5px;
+  width: auto;
+}
+.hdr-progress-bar #progressbar li:after{
+    display: none;
+}
+.hdr-progress-bar #progressbar li.active{
+  color: #1468d2;
+  font-weight: 700;
+}
+.hdr-progress-bar #progressbar li.completed{
+  color: #008000 !important;
+  font-weight: bold;
+}
+.hdr-progress-bar #progressbar li.completed:before{
+  color: #008000 !important;
+  background: transparent;
+}
+.hdr-progress-bar #progressbar li.active::before,
+.hdr-progress-bar #progressbar li.completed::before{
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+}
+.hdr-progress-bar #progressbar li.active::before{
+  background: url(../images/favicon.png) no-repeat 0 0;
+  background-size: contain;
+  top: -10px;
+  right: -5px;
+}
+.hdr-progress-bar #progressbar li.completed::before{
+  font-family: fontAwesome;
+  content: '\f00c';
+  top: -9px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-weight: normal;
+  background: transparent;
+}
+
+
+
+#msform {
+  text-align: center;
+  position: relative;
+  margin-top: 20px
+}
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+/*============ Step Form Title Prt ============*/
+.step-form-sec{
+  position: relative;
+  background-color: #f6f6f9;
+  padding: 70px 0;
+  margin-top: 85px;
+}
+.step-form-sec .title-hdn{
+  text-align: center;
+}
+.step-form-sec .title-hdn h1{
+  font-size: 50px;
+  color: #1468d2;
+  font-weight: 700;
+  margin: 0 0 25px 0;
+}
+.step-form-sec .title-hdn p{
+  font-size: 18px;
+  color: #6c727f;
+  font-weight: 700;
+  margin: 0 0 25px 0;
+}
+
+
+
+/*============ Step Form Body Prt ============*/
+.step-form-sec fieldset{
+  text-align: center;
+}
+.step-form-sec fieldset h2{
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 60px;
+  color: #002f68;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.step-form-sec fieldset h3{
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 40px;
+  color: #002f68;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.step-form-sec fieldset p{
+  font-size: 16px;
+  color: #6c727f;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.step-form-sec .form-card{
+  text-align: center;
+}
+.step-form-sec .menu{
+  max-width: 500px;
+  margin: 20px auto 0 auto;
+}
+.step-form-sec .form-card {
+  display: none;
+}
+.step-form-sec .form-card.active {
+  display: block;
+}
+
+
+.step-form-sec .menu a.button{
+  display: inline-block;
+  width: 100%;
+  background-color: #ffffff;
+  border: 2px solid rgb(209, 212, 224);
+  border-radius: 10px;
+  padding: 15px 15px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #1468d2;
+  font-weight: 500;
+  cursor: pointer;
+}
+.step-form-sec .menu a.button:hover,
+.step-form-sec .menu a.button.selected{
+  background-color: #e8f2ff;
+  border: 2px solid #529fff;
+}
+.step-form-sec .step-form-field{
+  position: relative;
+  max-width: 400px;
+  margin: 50px auto 0 auto;
+}
+.step-form-sec .step-form-field .fa{
+  position: absolute;
+  font-size: 20px;
+  color: #3c3c3c;
+  top: 48px;
+  left: 20px;
+}
+.step-form-sec .step-form-field label{
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+}
+.step-form-sec .step-form-field input,
+.step-form-sec .step-form-field select{
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e8e9ef;
+  text-align: center;
+  padding: 8px 15px;
+}
+.step-form-sec .step-form-field select{
+  text-align: left;
+  background-image: url(../images/down-arrow-icon.png);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.step-form-sec .step-form-field input:hover,
+.step-form-sec .step-form-field input:focus,
+.step-form-sec .step-form-field select:hover,
+.step-form-sec .step-form-field select:focus{
+  border-color: #529fff;
+  outline: none;
+  box-shadow: none;
+}
+/*.step-form-sec .step-form-field input[type=file]{
+  height: auto;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  padding: 5px 2px;
+  margin: 15px 0 0 0;
+}*/
+
+
+
+
+.step-form-input-file-row{
+  display: flex;
+  align-items: center;
+}
+.step-form-sec .step-form-input-file-row .f-input{
+  width: calc(100% - 110px);
+  border-radius: 10px 0 0 10px;
+}
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+}
+.btn--browse{
+  width: 110px;
+  height: 60px;
+  border-radius: 0 10px 10px 0;
+  background-color: #1468d2;
+  border: none;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 50px;
+  padding: 5px;
+  cursor: pointer;
+}
+.btn--browse span{
+  cursor: pointer;
+}
+.btn--browse:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
 
 
 
 
 
+/*============ Step Form Next Button ============*/
+.step-form-sec input[type=button].next{
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: #1468d2;
+  border: none;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 18px 70px;
+  float: none;
+}
+.step-form-sec input[type=button].next:hover{
+  background-color: #000000;
+}
 
 
+/*============ Step Form Thanks Message ============*/
+.thanks-message{
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 80px 0;
+  text-align: center;
+}
+.thanks-message .success-icon{
+  max-width: 120px;
+  margin-bottom: 30px;
+}
+.thanks-message h4{
+  font-size: 30px;
+  color: #008000;
+  font-weight: 700;
+  margin: 0 0 25px 0;
+}
+.thanks-message p{
+  font-size: 16px;
+  color: #6c727f;
+  font-weight: 400;
+  margin: 0;
+}
 
-
-
-
-
-
+/*================ Step Form Style End ================*/
+    .logo-flxRow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+.wAuto{
+    width: auto;
+}
 
 
 
@@ -3364,6 +3942,192 @@ div[class^="cat"] label {
 @media (max-width: 991px) {}
 
 @media (max-width: 767px) {
+    .becomeSec{
+        padding: 30px;
+        position: relative;
+    }
+    .iplanimagebgsec img {
+        height: auto;
+    }
+    .staticPages ul li{
+        text-align: left;
+    }
+    .innerConBodyOuter .column1 h2 {
+        font-size: 30px;
+    }
+    .security-list li {
+        width: 100%;
+        text-align: left;
+    }
+    .landing-growSae ul li{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .list-program{
+        flex-wrap: wrap;
+    }
+    .list-programcol {
+        width: 100%;
+    }
+    .staticPages ul.logoFlex{
+        margin-left: 0;
+    }
+    .basic-check-container label{
+        width: 70% !important;
+    }
+    .flexRow .secondCol{
+        width: 100%;
+    }
+    .flexRow .firstCol{
+        width: 100%;
+    }
+    .flexRow {
+        flex-wrap: wrap;
+    }
+    .staticPages h2 {
+        font-size: 30px;
+    }
+    .step-form-sec fieldset h3 {
+        font-size: 30px;
+    }
+    #msform fieldset{
+       padding: 0 30px 80px; 
+    }
+    .loanshead{
+        padding-bottom: 5px !important;
+    }
+    .hdr-progress-bar #progressbar{
+       flex-wrap: inherit;
+       margin-top: 10px;
+    }
+    .mr-0{
+        margin-right: 0;
+    }
+    .flxWrap{
+        flex-wrap: wrap;
+    }
+    .hdr-progress-bar #progressbar li {    
+        font-size: 12px;
+        padding: 12px 0;
+    }
+    .step-form-sec .title-hdn h1 {
+        font-size: 30px;
+    }
+    .landingProleftCol2 h2{
+        font-size: 30px;
+    }
+    .landingProrightCol2 .applyButton{
+        font-size: 15px;
+    }
+    .landingProrightCol2 h2{
+        font-size: 35px;
+    }
+    .landingProFlex2{
+        position: relative;
+        margin-top: -100px;
+    }
+    .bgopacity{
+       width: 100%; 
+       margin: 0;
+       position: relative;
+    }
+    .landingProrightCol2 {
+        width: 100%;
+        padding: 0 35px;
+    }
+    .landingProleftCol2{
+        width: 100%;
+        padding: 35px;
+    }
+    .landingProFlex2{
+        flex-wrap: wrap;
+    }
+    .landing-growSae ul li{
+        width: 100%;
+    }
+    .landing-growSae h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .landing-logoSec ul.logoFlex li {
+        padding: 0;
+    }
+    .landingConBody {
+        margin-top: 70px;
+    }
+    .lanban-img-holder {
+        width: 100%;
+        order: 1;
+    }
+    .lanban-con-holder {
+        width: 100%;
+        order: 2;
+        margin-top: 30px;
+    }
+    .lanbannerBg{
+        flex-wrap: wrap;
+    }
+    .lanban-con-holder h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .innerConBodyOuter {
+        margin-top: 70px;
+    }
+    .conInfoBox {
+        width: 100%;
+    }
+    .basic-container{
+        flex-wrap: wrap;
+    }
+    .contFlexRight {
+        width: 100%;
+    }
+    .contFlexLeft {
+        width: 100%;
+    }
+    .columnThree .applyButton{
+        display: none;
+    }
+    .faqSecRow {
+        padding: 70px 0 0;
+    }
+    .applySec {
+        padding-top: 50px;
+    }
+    .benefitsSec {
+        padding-top: 20px;
+    }
+    .fundRight {
+        padding: 70px 0 0;
+    }
+    .howitWorksSec {
+        padding: 70px 0 0;
+    }
+    .directFunders {
+        padding: 70px 0 0;
+    }
+    .transparencySec {
+        padding: 70px 0 0;
+    }
+    .deliversSecFlex h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .deliversSecFlexLeft{
+        width: 100%;
+        order: 2;
+    }
+    .deliversSecFlexRight{
+        width: 100%;
+        order: 1;
+    }
+    .brands-box {
+        width: 93%;
+    }
+    .logoFlex li {
+        margin: 0 0;
+    }
     .outerHeader{
         padding: 1rem 1rem;
     }
@@ -3567,13 +4331,20 @@ div[class^="cat"] label {
     }
 
     .detailsTitle {
-        font-size: 20px;
-        padding: 25px 110px 26px 25px !important;
+        font-size: 17px;
+        padding: 15px 80px 15px 15px !important;
         background: #fff;
+    }
+    .detailsTitle:before {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .staticPages .detailsContainer h3 {
+        font-size: 17px;
     }
 
     .readytoproSec h2 {
-        font-size: 40px;
+        font-size: 30px;
         line-height: 45px;
     }
 
@@ -3620,6 +4391,7 @@ div[class^="cat"] label {
 
     .fundingProcessSteps {
         text-align: center;
+        padding-top: 30px;
     }
 
     .fundingProStepsLeft ul li {
@@ -3669,6 +4441,7 @@ div[class^="cat"] label {
     .formCol {
         width: 100%;
         margin-top: 20px;
+        text-align: left;
     }
 
     div[class^="cat"] input:checked~.question-wrap {
@@ -3800,7 +4573,7 @@ div[class^="cat"] label {
     }
 
     .transparencySec .column11 h2 {
-        font-size: 42px;
+        font-size: 30px;
     }
 
     .transparencySec .column22 {

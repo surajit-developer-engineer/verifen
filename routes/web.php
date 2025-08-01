@@ -26,6 +26,7 @@ Route::get('/opt-out', [StaticController::class, 'optOut'])->name('opt.out');
 Route::get('/contact', [StaticController::class, 'contactUs'])->name('contact.us');
 Route::get('/investor-program', [StaticController::class, 'investorProgram'])->name('investor.program');
 Route::get('/business-loans', [StaticController::class, 'businessLoans'])->name('business.loans');
+Route::get('/business-loans-application', [StaticController::class, 'businessLoansApplication'])->name('business.loans.application');
 
 
 Route::group([

@@ -15,9 +15,9 @@
             <div class="layout_block">
                 <!-- <img src="{{ 'assets/images/globe_2.png' }}" class="fr-fic"> -->
                 <ul class="languages">
-                    <li class="bapBtn lastmenu">
-                        <a href="/partner-signup" target="_blank">
-                            <span>Become a Partner</span></a>
+                     <li class="bapBtn lastmenu">
+                        <a href="/contact" target="_blank">
+                            <span>Contact Us</span></a>
                     </li>
                     <li class="button lastmenu">
                         <a href="{{ route('application') }}" target="_blank">
@@ -45,7 +45,7 @@
                     <li><a href="/#funding">Funding</a></li>
                     <li><a href="/#benefits">Benefits</a></li>
                     <li><a href="/#industries">Industries</a></li>
-                    <li><a href="/partner">Partner</a></li>
+                    <!-- <li><a href="/partner">Partner</a></li> -->
                     <li><a href="/#faqs">FAQs</a></li>
                     <li class="mobView">
                     <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('application') }}" target="_blank">

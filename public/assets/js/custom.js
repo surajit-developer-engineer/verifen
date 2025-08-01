@@ -163,6 +163,11 @@ $(document).ready(function () {
 
 
 
+
+
+
+
+
 // ========================== One Page Click Smooth Scroll JS ==========================
 $('a[href*="#"]:not([href="#"]):not([href="#show"]):not([href="#hide"])').click(function() {
   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {

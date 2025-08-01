@@ -109,10 +109,10 @@
     <div class="logoSec">
         <div class="container">
             <ul class="logoFlex">
-                <li><img class="fr-fic" src="{{ 'assets/images/bbb_transparent.png' }}" alt=""></li>
+                <!-- <li><img class="fr-fic" src="{{ 'assets/images/bbb_transparent.png' }}" alt=""></li>
                 <li>
                     <h3>As Seen On:</h3>
-                </li>
+                </li> -->
                 <li><a href="#" target="_blank">
                         <img class="maxWidth130" alt="nbc" src="{{ 'assets/images/nbc-logo.png' }}"></a>
                 </li>

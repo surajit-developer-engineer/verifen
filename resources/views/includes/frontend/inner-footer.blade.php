@@ -12,19 +12,18 @@
 
             <div class="columnThree">
                 <ul>
-                    <li><a href="/business-loans">Business Loans</a></li>
-                    <li><a href="/investor-program">Investor Program</a></li>
+                    <li><a href="#verifen">Why Verifen?</a></li>
                     <li><a href="#howitworks">How It Works</a></li>
+                   <li><a href="#solutions">Solutions</a></li>                    
                     <li><a href="#solutions">Solutions</a></li>
                 </ul>
             </div>
             <div class="columnThree">
                 <ul>
-                    <li><a href="/contact">Contact Us</a></li>
-                    <li><a href="/credit-authorization">Credit Authorization</a></li>
-                    <li><a href="/electronic-disclosure">Electronic Disclosure</a></li> 
-                    <li><a href="/california-privacy">California Privacy</a></li>                   
-                    <li><a href="/opt-out">Opt Out</a></li>                    
+                    <li><a href="#funding">Funding</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#industries">Industries</a></li>                    
+                    <li><a href="#faqs">FAQs</a></li>
                 </ul>
             </div>
             <div class="columnThree">
@@ -60,14 +59,30 @@
         </div>
 
         <div class="ftr-copyright-prt">
-            <ul>
+            <ul>                
+                <li><a href="/business-loans">Business Loans</a></li>
+                <li>|</li>
+                <li><a href="/business-loans-application">Business Loan Application</a></li>                
+                <li>|</li>
+                <li><a href="/credit-authorization">Credit Authorization</a></li>
+                <li>|</li>
+                <li><a href="/electronic-disclosure">Electronic Disclosure</a></li> 
+                <li>|</li>
+                <li><a href="/california-privacy">California Privacy</a></li>   
+                <li>|</li>                
+                <li><a href="/opt-out">Opt Out</a></li>
+                <!-- <li>|</li>
+                <li><a href="/partner">Partner</a></li> -->
+                <li>|</li>
                 <li><a href="/privacy-policy">Privacy Statement</a></li>
                 <li>|</li>
                 <li><a href="/terms-of-use">Terms of Service</a></li>
                 <li>|</li>
                 <li><a href="/tcpa-consent">CCPA Notice</a></li>
                 <li>|</li>
-                <li><a href="/terms-of-application">Terms of Application</a></li>                
+                <li><a href="/terms-of-application">Terms of Application</a></li> 
+                <li>|</li>
+                <li><a href="/investor-program">Investor Program</a></li>               
             </ul>
             <small><i>Do Not Sell My Personal Information</i></small>
             <p>Copyright &copy; 2025 Verifen Funding LLC. All rights reserved.</p>
