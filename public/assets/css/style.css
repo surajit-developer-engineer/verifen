@@ -1650,7 +1650,7 @@ a.dfltBtn:hover {
     padding-right: 15px;
     padding-bottom: 60px;
     padding-left: 15px;
-    background-color: #1468d2;    
+    background-color: #1468d2;
     clear: both;
     background-repeat: repeat-x;
     background-position: center;
@@ -2565,7 +2565,7 @@ div[class^="cat"] label {
     line-height: 1.5;
 }
 
-.partWcverifen {
+.partWcVerifen {
     width: 100%;
     display: block;
     padding: 80px 0 80px;
@@ -2573,7 +2573,7 @@ div[class^="cat"] label {
     margin-top: 80px;
 }
 
-.partWcverifen h2 {
+.partWcVerifen h2 {
     margin-top: 0px;
     font-size: 72px;
     color: #1468d2;
@@ -2583,7 +2583,7 @@ div[class^="cat"] label {
     line-height: 75px;
 }
 
-.partWcverifenFlx {
+.partWcVerifenFlx {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -2593,12 +2593,12 @@ div[class^="cat"] label {
     margin: 0 auto;
 }
 
-.partWcverifenFlxLCol {
+.partWcVerifenFlxLCol {
     width: 50%;
     text-align: left;
 }
 
-.partWcverifenFlxRCol {
+.partWcVerifenFlxRCol {
     width: 40%;
     text-align: center;
 }
@@ -2614,12 +2614,12 @@ div[class^="cat"] label {
     margin: 0 auto;
 }
 
-.partWcverifenFlxLCol ul {
+.partWcVerifenFlxLCol ul {
     list-style: disc;
     margin-left: 20px;
 }
 
-.partWcverifenFlxLCol ul li {
+.partWcVerifenFlxLCol ul li {
     font-size: 17px;
     padding: 10px 0;
     list-style: disc;
@@ -2903,7 +2903,7 @@ div[class^="cat"] label {
     list-style: auto;
 }
 .staticPages ol li{
-    font-size: 20px;    
+    font-size: 20px;
     padding: 10px 0;
     line-height: 30px;
     list-style: auto;
@@ -3104,14 +3104,14 @@ div[class^="cat"] label {
 	-webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
-	height: 90px;	
+	height: 90px;
     margin-bottom: 0;
 }
 .brands-box a{
 	font-size: 14px;
 	color: var(--primary);
 	font-weight: 600;
-	line-height: 23px;	
+	line-height: 23px;
 }
 .brands-sec .owl-stage-outer{
 	padding: 20px;
@@ -3138,7 +3138,7 @@ div[class^="cat"] label {
     line-height: 50px;
     position: absolute;
     top: 50%;
-    margin-top: -33px;	
+    margin-top: -33px;
 }
 .featuredBrands-carousel .owl-prev:hover,
 .featuredBrands-carousel .owl-next:hover{
@@ -3371,7 +3371,7 @@ div[class^="cat"] label {
     background-size: 100%;
     opacity: 0.7;
 }
-.lanbannerBg{    
+.lanbannerBg{
     display: flex;
     justify-content: space-between;
     align-items: center
@@ -4622,34 +4622,34 @@ div[class^="cat"] label {
         margin-bottom: 20px;
     }
 
-    .partWcverifen h2 {
+    .partWcVerifen h2 {
         font-size: 30px;
         line-height: 35px;
         padding-bottom: 30px;
     }
 
-    .partWcverifenFlxLCol {
+    .partWcVerifenFlxLCol {
         width: 100%;
         text-align: center;
         order: 2;
     }
 
-    .partWcverifenFlxRCol {
+    .partWcVerifenFlxRCol {
         width: 100%;
         order: 1;
     }
 
-    .partWcverifenFlx {
+    .partWcVerifenFlx {
         margin-bottom: 20px;
     }
 
-    .partWcverifenFlxLCol ul li {
+    .partWcVerifenFlxLCol ul li {
         list-style: none;
     }
 }
 
 
-@media (max-width: 576px) {    
+@media (max-width: 576px) {
     .hdr-row2{
         width:175px;
     }

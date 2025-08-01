@@ -1,3 +1,8 @@
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXJHV79J" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <!-- ================ Header Section ================ -->
 <header class="top-main-hdr">
     <div class="container">
@@ -9,7 +14,7 @@
                 </li>
                 <li>
                     <i class="fa fa-envelope-o"></i>
-                    <a href="mailto:contact@verifen.com " target="_blank">contact@verifen.com </a>
+                    <a href="mailto:contact@Verifen.com " target="_blank">contact@Verifen.com </a>
                 </li>
             </ul>
             <div class="layout_block">
@@ -58,10 +63,6 @@
                 </ul>
             </div>
 
-           </div>
-           <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
-            </div>
-            
         </div>
     </div>
 </header>

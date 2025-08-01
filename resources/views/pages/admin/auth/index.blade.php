@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
+
     <title>Verifen Administrator</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -53,7 +53,7 @@
                         </div>
                     </form>
                 </div>
-                <p class="copyright">Copyright © {{ date('Y') }} verifen.com</p>
+                <p class="copyright">Copyright © {{ date('Y') }} Verifen.com</p>
             </div>
         </div>
     </section>

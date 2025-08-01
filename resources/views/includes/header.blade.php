@@ -1,4 +1,4 @@
-<meta charset="UTF-8">
+
 <title>Verifen Administrator</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />

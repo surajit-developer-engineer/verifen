@@ -2,11 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Verifen Funding | Transparent Business Loans & MCA at Lower Rates</title>
-    <meta name="keywords" content="" />
-    <meta name="description"
-        content="Verifen offers transparent business loans with guaranteed lower interest rates. Fast approvals and flexible terms. Trusted by businesses nationwide." />
+    @include('includes.frontend.meta-data')
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' }}">
     <!-- Bootstrap Css -->
@@ -40,24 +36,24 @@
 <header class="top-main-hdr">
     <div class="container">
         <div class="hdr-row">
-            <div class="container">            
-                <div class="logo-flxRow">                 
+            <div class="container">
+                <div class="logo-flxRow">
            <div class="hdr-row2">
             <a href="{{ route('index') }}">
                 <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
             </a>
-            
+
            <div class="hdrToprow brdNone">
             <ul>
                 <li class="pgap-0">
                     <img src="{{ 'assets/images/phone-call.png' }}">
                     <a href="tel:8887886160" target="_blank">(888) 788-6160</a>
-                </li>                
+                </li>
             </ul>
            </div>
-           </div> 
-            
-           </div>         
+           </div>
+
+           </div>
         </div>
     </div>
 </header>
@@ -70,8 +66,8 @@
                 <div class="lanbannerBg">
                     <div class="lanban-con-holder">
                         <h2>The Smarter Way to Fund and Grow Your Business</h2>
-                        <p>Apply in minutes. Get approved fast. Access capital and growth support tailored to your goals. 
-                            Verifen delivers fast capital with zero fluff, and the expert support to turn every dollar into 
+                        <p>Apply in minutes. Get approved fast. Access capital and growth support tailored to your goals.
+                            Verifen delivers fast capital with zero fluff, and the expert support to turn every dollar into
                             lasting impact, </p>
                         <a class="applyButton mt-4" href="#">Check Your Eligibility</a>
                     </div>

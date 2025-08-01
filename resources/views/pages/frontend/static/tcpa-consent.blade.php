@@ -2,11 +2,8 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Verifen Funding | Transparent Business Loans & MCA at Lower Rates</title>
-    <meta name="keywords" content="" />
-    <meta name="description"
-        content="Verifen offers transparent business loans with guaranteed lower interest rates. Fast approvals and flexible terms. Trusted by businesses nationwide." />
+
+    @include('includes.frontend.meta-data')
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' }}">
     <!-- Bootstrap Css -->
@@ -41,34 +38,34 @@
    <section class="innerConBodyOuter staticPages">
         <div class="container">
             <h2>Consent to Telephonic Communications</h2>
-        <dt>Last updated: July 16, 2025</dt>        
+        <dt>Last updated: July 16, 2025</dt>
         <h3>1. Call Monitoring and Recording</h3>
         <p>You acknowledge and agree that telephone conversations to or from Verifen
 Funding, including those involving its agents and affiliates, may be recorded and
 monitored for quality assurance and training purposes.</p>
-      
+
     <h3>2. Accuracy of Contact Information</h3>
-     <p>You certify that any contact details you provide to Verifen Funding—including but
+     <p>You certify that any contact details you provide to Verifen—including but
 not limited to your name, mailing address, email address, residential or business
 phone numbers, and mobile phone numbers—are accurate and that you are the
 authorized subscriber or owner of the phone numbers provided. Providing phone
-numbers not owned by you is prohibited. If Verifen Funding discovers any
+numbers not owned by you is prohibited. If Verifen discovers any
 inaccuracies or false information, your account may be suspended or terminated.
 You agree to promptly notify us of any changes to your contact information by
 replying STOP to any text message received from us, calling (888) 788-6160, or
-emailing privacy@verifen.com.</p>   
+emailing privacy@Verifen.com.</p>
      <h3>3. Consent to Receive Automated Calls and Texts</h3>
         <p>By voluntarily providing your telephone number(s), you consent to receive calls
-and text messages from Verifen Funding and its authorized representatives, which
+and text messages from Verifen and its authorized representatives, which
 may include prerecorded, artificial, or AI-generated voice messages, as well as
 autodialed communications, for purposes related to promotions, your account,
-applications, transactions, or your relationship with Verifen Funding. These
+applications, transactions, or your relationship with Verifen. These
 communications may be sent to numbers listed on any Do Not Call registry. You
-also consent to Verifen Funding contacting you at any email or mailing address you
+also consent to Verifen contacting you at any email or mailing address you
 provide, or obtain lawfully through means such as skip tracing or caller ID. You
 understand that consent to receive such automated communications is not a
 condition of purchase. To inquire without consenting, contact us at (888)
-788-6160 or privacy@verifen.com. See the Opt-Out section below to stop
+788-6160 or privacy@Verifen.com. See the Opt-Out section below to stop
 automated communications.</p>
 
         <h3>4. Opt-Out Instructions</h3>
@@ -76,33 +73,33 @@ automated communications.</p>
 time. To stop text messages, reply STOP to any text from us; you may also reply
 HELP for assistance. Please note that different shortcodes may require separate
 STOP messages to unsubscribe fully. Alternatively, you may email
-privacy@verifen.com with the phone number(s) you wish to remove. To opt out of
+privacy@Verifen.com with the phone number(s) you wish to remove. To opt out of
 automated voice calls, you must send a written request including your full name,
-email, business name, and phone number(s) to privacy@verifen.com. Please allow
+email, business name, and phone number(s) to privacy@Verifen.com. Please allow
 up to 30 days to process opt-out requests. Opting out of automated messages
 does not prevent us from contacting you via non-automated calls. Third parties
 may have your contact details and may still contact you despite your opt-out;
-Verifen Funding is not responsible for those communications.</p>
-        
+Verifen is not responsible for those communications.</p>
+
         <h3>5. Charges for Communications</h3>
-        <p>There is no charge from Verifen Funding for automated calls or texts; however,
+        <p>There is no charge from Verifen for automated calls or texts; however,
 your phone carrier may charge fees, including message and data rates, which you
 are responsible for. Check your plan details for applicable fees.</p>
-       
+
         <h3>6. Unauthorized Use of Your Phone</h3>
-        <p>You must promptly notify Verifen Funding if your phone or device has been used
-without authorization. While Verifen Funding is not liable for unauthorized use, you
+        <p>You must promptly notify Verifen if your phone or device has been used
+without authorization. While Verifen is not liable for unauthorized use, you
 may be responsible for losses arising from such use.</p>
-       
+
         <h3>7. Indemnification</h3>
-        <p>You agree to indemnify and hold harmless Verifen Funding against any claims,
+        <p>You agree to indemnify and hold harmless Verifen against any claims,
 including under federal or state telephone consumer protection laws, arising from
 your provision of incorrect contact information or failure to update us about
-changes to your contact details.</p>       
-        
+changes to your contact details.</p>
+
 
         <h3>8. Release of Claims</h3>
-        <p>By using our services, you release Verifen Funding from any claims or legal actions
+        <p>By using our services, you release Verifen from any claims or legal actions
 related to telephone calls or texts you receive, including those alleging violations
 of laws such as the Telephone Consumer Protection Act or similar statutes.</p>
 
@@ -113,18 +110,18 @@ devices. Your obligations here survive termination of your agreement with Verife
 Funding.</p>
 
         <h3>10. Text Message Terms</h3>
-        <p>By opting into Verifen Funding’s text messaging service, you authorize us to send
+        <p>By opting into Verifen’s text messaging service, you authorize us to send
 texts—including marketing content—to your cell phone number using automated or
 manual technology. You confirm you are authorized to opt in on behalf of the
 phone number provided. After opting in, you may receive welcome or
 administrative messages. You can unsubscribe at any time by texting STOP, after
 which you will receive confirmation of your opt-out. For help, text HELP or contact
-support@verifen.com or call (888) 788-6160. Message and data rates may apply.
+support@Verifen.com or call (888) 788-6160. Message and data rates may apply.
 You may receive up to 15 messages per month.</p>
 
         <h3>11. Privacy</h3>
         <p>For information about how we collect and protect your personal information,
-please review our Privacy Policy at www.verifen.com/privacy-policy.</p>
+please review our Privacy Policy at www.Verifen.com/privacy-policy.</p>
 
 
     </div>

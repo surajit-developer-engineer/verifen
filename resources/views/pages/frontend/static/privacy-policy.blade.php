@@ -2,12 +2,8 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Verifen Funding | Transparent Business Loans & MCA at Lower Rates</title>
-    <meta name="keywords" content="" />
-    <meta name="description"
-        content="Verifen offers transparent business loans with guaranteed lower interest rates. Fast approvals and flexible terms. Trusted by businesses nationwide." />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    @include('includes.frontend.meta-data')
     <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' }}">
     <!-- Bootstrap Css -->
     <link type="text/css" href="{{ 'assets/css/bootstrap.min.css' }}" rel="stylesheet">
@@ -41,53 +37,53 @@
     <section class="innerConBodyOuter staticPages">
         <div class="container">
             <h2>Privacy Policy</h2>
-        <dt>Effective Date: July 16, 2025</dt>        
-        
-        <p>This website is owned and operated by <strong>Verifen Funding LLC</strong> (“Verifen Funding”).
-We at <strong>Verifen Funding</strong> value and safeguard the privacy of visitors to our website,
+        <dt>Effective Date: July 16, 2025</dt>
+
+        <p>This website is owned and operated by <strong>Verifen</strong> (“Verifen”).
+We at <strong>Verifen</strong> value and safeguard the privacy of visitors to our website,
 as well as the privacy of our customers. This Privacy Policy outlines how we
 protect your privacy and details our data collection and usage practices. It applies
 to and describes the handling of your information when you access our services,
 including our content located on this website, or any other websites, pages,
 features, or content we own or operate (collectively, the “Site(s)”), as well as
 third-party applications relying on our API, and related services (collectively
-referred to as “Services”).</p>      
-    
-     <p><strong>Verifen Funding</strong> is a small business marketplace dedicated to assisting small
+referred to as “Services”).</p>
+
+     <p><strong>Verifen</strong> is a small business marketplace dedicated to assisting small
 businesses with accessing and managing capital. This Privacy Policy applies to all
-users who interact with our Sites.</p>  
-     
-        <p>We encourage you to review <strong>Verifen Funding’s</strong> Terms of Use. Where necessary,
+users who interact with our Sites.</p>
+
+        <p>We encourage you to review <strong>Verifen’s</strong> Terms of Use. Where necessary,
 we will obtain your consent to process your personal information as described
 below. However, your use of our privacy policy signifies sufficient consent for
-<strong>Verifen Funding</strong> to collect and process your personal data in accordance with this
+<strong>Verifen</strong> to collect and process your personal data in accordance with this
 Privacy Policy and applicable law. We may also provide additional “just-in-time”
 disclosures or information about specific data processing practices associated
 with particular Services. These notices may supplement or clarify our privacy
 practices and provide you with more choices regarding how we process your data.
-<strong>Section Summary:</strong> This Privacy Policy explains how <strong>Verifen Funding</strong> collects and
+<strong>Section Summary:</strong> This Privacy Policy explains how <strong>Verifen</strong> collects and
 uses your personal data when you interact with our website and services.</p>
 
         <h3>1. Types of Information We Collect</h3>
-        <p><strong>1.1 Personal Information Collected</strong></p>        
-        <p>While <strong>Verifen Funding</strong> primarily collects information about your business, we
+        <p><strong>1.1 Personal Information Collected</strong></p>
+        <p>While <strong>Verifen</strong> primarily collects information about your business, we
 inevitably collect <strong>Personal Information</strong> about business owners as they seek
 business capital. <strong>Personal Information</strong> is any data that identifies, relates to,
 describes, references, or can be reasonably linked with an individual or household.
 However, it does not include:</p>
        <ul>
             <li>Publicly available information from government records.</li>
-            <li>De-identified or aggregated consumer information.</li>            
-       </ul>        
+            <li>De-identified or aggregated consumer information.</li>
+       </ul>
         <p>To create an account and use our Services, you may need to provide certain
 personal information. This may be required by law (e.g., for identity verification),
 necessary for the provision of requested services (e.g., bank statements for
 financial verification), or for other specific purposes described below. As our
 features and Services evolve, we may request additional information from you.
 Please note that failing to provide certain information may result in the inability to
-use some or all of our Services.</p> 
-        <p><strong>1.2 Types of Personal Information We Collect</strong></p>               
-        <p>During the course of offering services, <strong>Verifen Funding</strong> may collect the following
+use some or all of our Services.</p>
+        <p><strong>1.2 Types of Personal Information We Collect</strong></p>
+        <p>During the course of offering services, <strong>Verifen</strong> may collect the following
 information:</p>
         <ul>
             <li><strong>Personal Identification Information:</strong> Full name, date of birth, utility bills,
@@ -108,9 +104,9 @@ including recipient names, transaction amounts, and timestamps.</li>
             <li><strong>Correspondence:</strong> Survey responses, support communications, or
 information shared for research purposes.</li>
             <li><strong>Business Ownership Information:</strong> Business type, ownership structure,
-officer details, articles of incorporation, etc.</li>            
+officer details, articles of incorporation, etc.</li>
         </ul>
-        
+
 
         <h3>1.3 Device/Digital Information Collected</h3>
         <p>We automatically collect certain information when you interact with our Sites or
@@ -120,8 +116,8 @@ use our Services. This includes:</p>
 device IP addresses.</li>
                     <li><strong>Usage Data:</strong> Authentication data, security questions, click-stream data,
 social networking interactions, and data collected via cookies and similar
-technologies.</li>                              
-                </ul>     
+technologies.</li>
+                </ul>
     <p>This automatically collected information helps us improve our Sites’ performance,
 address customer support inquiries, and enhance your experience while
 safeguarding against fraud.</p>
@@ -175,7 +171,7 @@ We comply with relevant laws, including the <strong>U.S. CAN-SPAM Act, Telephone
 Consumer Protection Act (TCPA)</strong>, and other applicable regulations governing
 communications.</p>
         <p><strong>2.3 Data Shared with Service Providers</strong></p>
-        <p><strong>Verifen Funding</strong> uses various service providers to enhance the customer
+        <p><strong>Verifen</strong> uses various service providers to enhance the customer
 experience. When you use these services, you may provide personal information
 to those providers, and they may share it with us. We may also share your data
 with these service providers in compliance with this Privacy Policy. We work to
@@ -212,12 +208,12 @@ We encourage you to review their privacy and security practices, as we are not
 responsible for their handling of personal information.</p>
 
         <h3>3. Purpose of Information Usage</h3>
-        <p><strong>3.1 Delivering Verifen Funding Services</strong></p>
+        <p><strong>3.1 Delivering Verifen Services</strong></p>
         <p>We process your personal information to provide our Services. For example, when
 you apply for business financing, we require personal and financial information to
 match you with lenders and process your application.</p>
         <p><strong>3.2 Leveraging AI and Machine Learning for Service Enhancement</strong></p>
-        <p>To enhance our Services, Verifen Funding uses Artificial Intelligence (AI) and
+        <p>To enhance our Services, Verifen uses Artificial Intelligence (AI) and
 Machine Learning (ML) models. These technologies may process your personal
 data as part of improving service delivery. We ensure our AI and ML models
 comply with all relevant laws and ethical standards.</p>
@@ -325,19 +321,19 @@ you can deactivate your account. This prevents further data sharing with
 Financing Providers but doesn’t delete your information.</li>
             <li><strong>Deleting Your Account:</strong> Upon request, we will delete your account data
 where possible. If retention is required for legal reasons, we will
-deactivate the account and stop all communications.</li>            
-        </ul>        
+deactivate the account and stop all communications.</li>
+        </ul>
         <p>We securely store your information and retain it only as long as needed for
 business or legal purposes.</p>
 
-        <h3>6. Ensuring the Security of Your Information</h3>        
+        <h3>6. Ensuring the Security of Your Information</h3>
         <p>We implement robust security measures, including encryption and secure storage,
 to protect your data. However, no online system is 100% secure, and while we
 strive to safeguard your data, we cannot guarantee absolute protection.</p>
 
         <h3>7. Opting Out of Marketing Communications</h3>
         <p>You can opt-out of receiving promotional communications by following the
-unsubscribe link in any email or by contacting us at support@verifen.com. This will
+unsubscribe link in any email or by contacting us at support@Verifen.com. This will
 stop all marketing messages but may not affect essential communications.</p>
 
         <h3>8. California Residents: Your Privacy Rights</h3>
@@ -381,11 +377,11 @@ that data promptly.</p>
         <h3>12. How to Contact Us</h3>
         <p>If you have questions about our Privacy Policy or wish to exercise your privacy</br>
         rights, please reach out to us at:</br>
-        Verifen Funding LLC</br>
+        Verifen</br>
         3044 Coney Island Avenue, Mailbox #7</br>
         Brooklyn, NY 11235</br>
         Phone: (888) 788-6160</br>
-        Email: privacy@verifen.com</p>
+        Email: privacy@Verifen.com</p>
 
 
 
@@ -393,10 +389,10 @@ that data promptly.</p>
 
     <h3>Withdrawing Consent</h3>
     <p>You may withdraw your consent to electronic Communications at any time by emailing us at
-<a href="mailto:customerservice@verifen.com.">customerservice@verifen.com.</a> Withdrawal of consent will result in the closure of your Verifen Funding
+<a href="mailto:customerservice@Verifen.com.">customerservice@Verifen.com.</a> Withdrawal of consent will result in the closure of your Verifen
 account, including restricted access to our website and mobile app.</p>
     <p>Upon account closure, any remaining balance may be refunded by check as outlined in our account terms.</p>
-    
+
     </div>
     </section>
     <!-- ================ Footer Section ================ -->
