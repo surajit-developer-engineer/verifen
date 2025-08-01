@@ -4,7 +4,7 @@
 <head>
 
     @include('includes.frontend.meta-data')
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' }}">
     <!-- Bootstrap Css -->
     <link type="text/css" href="{{ 'assets/css/bootstrap.min.css' }}" rel="stylesheet">

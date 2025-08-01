@@ -25,5 +25,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     @endif
 </title>
 <meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description"
     content="{{ $meta_data ? $meta_data['description'] : 'Verifen offers transparent business loans with guaranteed lower interest rates. Fast approvals and flexible terms. Trusted by businesses nationwide.' }} />

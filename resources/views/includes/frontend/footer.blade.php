@@ -14,16 +14,16 @@
                 <ul>
                     <li><a href="#verifen">Why Verifen?</a></li>
                     <li><a href="#howitworks">How It Works</a></li>
-                   <li><a href="#solutions">Solutions</a></li>                    
-                    <li><a href="#solutions">Solutions</a></li>
+                    <li><a href="#solutions">Solutions</a></li>                    
+                    <li><a href="#funding">Funding</a></li>
                 </ul>
             </div>
             <div class="columnThree">
-                <ul>
-                    <li><a href="#funding">Funding</a></li>
+                <ul>                    
                     <li><a href="#benefits">Benefits</a></li>
                     <li><a href="#industries">Industries</a></li>                    
                     <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
                 </ul>
             </div>
             <div class="columnThree">

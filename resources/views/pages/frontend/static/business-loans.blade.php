@@ -157,7 +157,7 @@
             </li>
         </ul>
         <div class="text-center">
-            <a class="applyButton" href="#">Get Funded Now</a>
+            <a class="applyButton" href="/business-loans-application">Get Funded Now</a>
         </div>
     </div>
   </div>
