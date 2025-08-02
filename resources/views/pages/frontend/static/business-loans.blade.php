@@ -66,9 +66,9 @@
                 <div class="lanbannerBg">
                     <div class="lanban-con-holder">
                         <h2>The Smarter Way to Fund and Grow Your Business</h2>
-                        <p>Apply in minutes. Get approved fast. Access capital and growth support tailored to your goals.
-                            Verifen delivers fast capital with zero fluff, and the expert support to turn every dollar into
-                            lasting impact, </p>
+                        <p>Apply in minutes. Get approved fast. Access capital and growth support tailored to your goals. 
+                            Verifen delivers fast capital with zero fluff, and the expert support to turn every dollar 
+                            into a lasting impact.</p>
                         <a class="applyButton mt-4" href="#">Check Your Eligibility</a>
                     </div>
                     <div class="lanban-img-holder">

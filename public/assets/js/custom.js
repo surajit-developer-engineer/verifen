@@ -1,3 +1,5 @@
+
+
 // ========================== Menu Toggle JS ==========================
 // Menu Js
 $('ul.slimmenu').slimmenu({
@@ -29,60 +31,7 @@ $(window).scroll(function(){
     }
 });
 
-
-
-
-// ========================== Image Scroll JS ==========================
-const images = document.querySelectorAll('.image');
-
-  // Lazy Load + Fade In
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      const el = entry.target;
-      if (entry.isIntersecting) {
-        if (!el.style.backgroundImage) {
-          const src = el.dataset.src;
-          const img = new Image();
-          img.src = src;
-          img.onload = () => {
-            el.style.backgroundImage = `url('${src}')`;
-            el.classList.add('in-view');
-          };
-        } else {
-          el.classList.add('in-view');
-        }
-      } else {
-        el.classList.remove('in-view');
-      }
-    });
-  }, { threshold: 0.7 });
-
-  images.forEach(img => observer.observe(img));
-
-  // Parallax with requestAnimationFrame
-  const leftCol = document.querySelector('.deliversSecFlexLeft');
-  let ticking = false;
-
-  function handleScroll() {
-    images.forEach(img => {
-      const rect = img.getBoundingClientRect();
-      const offset = rect.top / window.innerHeight;
-      const translateY = offset * -20;
-      const scale = 1 + Math.abs(offset) * 0.04;
-      // img.style.transform = `translateY(${translateY}px) scale(${scale})`;
-    });
-    ticking = false;
-  }
-
-  leftCol.addEventListener('scroll', () => {
-    if (!ticking) {
-      requestAnimationFrame(handleScroll);
-      ticking = true;
-    }
-  });
-
-
-
+// ========================== Paralax JS ==========================
 
 // ========================== Featured Brands carousel JS ==========================
 $(document).ready(function () {
@@ -160,8 +109,6 @@ $(document).ready(function () {
     }
   });
 });
-
-
 
 
 
@@ -453,7 +400,6 @@ $(document).ready(function(){
   }, false);
 
 })();
-
 
 
 

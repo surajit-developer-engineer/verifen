@@ -99,7 +99,7 @@
                         <section class="list-program">
                             <div class="list-programcol">
                                 <ul>
-                                    <li>2% Fixed Monthly Distributions based on a 1.24 factor rate over a 12 month term.</li>
+                                    <li>Guaranteed fixed Monthly Distributions over a 12 month term.</li>
                                     <li>Receivables Participation Model – Not Lending, Not APR.</li>
                                     <li>100% Principal Protected through our reserve backed structure.</li>
                                     <li>Not Tied to Loan Repayment or Borrower Default.</li>
@@ -163,9 +163,8 @@
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-333.png">												
                         </div>
                         <h3>Fixed Monthly Distributions</h3>
-                        <p>Investors receive contractual monthly distributions equivalent to 2% of their position based on a 1.24 
-                            factor rate purchase of projected receivables over 12 months. This is not interest. It is a fixed 
-                            payout based on receivables performance forecasting.</p>
+                        <p>Investors receive contractual monthly distributions of projected receivables over 12 months. 
+                            This is not interest. It is a fixed payout based on receivables performance forecasting.</p>
                     </li>
                     <li>
                         <div class="featured-icon-holder">						
@@ -209,40 +208,42 @@
             <div class="transparencySecRow">
                 <div class="column11">
                     <h2>Let Your Money and Verifen Work for You</h2>
-                    <p>Traditional banks offer 0.5% to 1.5% annually on CDs or savings. Verifen offers you 24% annually, 
-                        2% monthly guaranteed. No market swings. No stock volatility. Just a smarter, simpler way to grow your wealth.</p>
+                    <p>Traditional banks offer 0.5% to 1.5% annually on CDs or savings. Verifen offers higher monthly earning guaranteed. 
+                        No market swings. No stock volatility. Just a smarter, simpler way to grow your wealth.</p>
                     <p>Whether you're an experienced investor, high net worth individual, or simply looking for a better return 
                         on idle capital, Verifen is the safer, smarter choice.</p>
 
                     <p class="mb-0"><strong>Security. Stability. Simplicity.</strong></p>
                     <ul class="security-list">
                         <li>
-                           100% Principal Guarantee
+                           <strong>100% Principal Guarantee</strong>
                            <p class="mb-0">Your capital is never exposed to loan defaults.</p>
                         </li>
                         <li>
-                           Consistent, Predictable Earnings
-                           <p class="mb-0">Receive 2% every month, deposited directly.</p>
+                           <strong>Consistent, Predictable Earnings</strong>
+                           <p class="mb-0">Consistent, Predictable Earnings Receive a fixed payout every month, 
+                            deposited directly to your account.</p>
                         </li>
                         <li>
-                           No Market Risk
+                           <strong>No Market Risk</strong>
                            <p class="mb-0">Your returns aren’t tied to Wall Street or the crypto market.</p>
                         </li>
                         <li>
-                           Institutional-Level Risk Controls
+                           <strong>Institutional-Level Risk Controls</strong>
                            <p class="mb-0">Every loan is backed by personal guarantees and strict qualification processes.</p>
                         </li>
                         <li>
-                            What You’re Really Getting
+                            <strong>What You’re Really Getting</strong>
                             <p class="mb-0">100% Capital Protection</p>
                             <p class="mb-0">Your position is secured by Verifen’s risk-managed reserve structure.</p>
                         </li>
                         <li>
-                            2% Fixed Monthly Payouts                            
-                            <p class="mb-0">Distributions based on Verifen’s receivables participation pool, not loan repayments.</p>
+                            <strong>Guaranteed Fixed Monthly Payouts</strong>                            
+                            <p class="mb-0">Guaranteed Fixed Monthly Payouts Distributions based on Verifen’s receivables 
+                                participation pool, not loan repayments.</p>
                         </li>
                         <li>
-                            Strategic Business Oversight                           
+                            <strong>Strategic Business Oversight</strong>                           
                             <p class="mb-0">Your capital helps fund businesses supported by hands-on optimization.</p>
                         </li>
                     </ul>                   

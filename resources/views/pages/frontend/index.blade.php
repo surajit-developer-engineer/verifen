@@ -463,35 +463,50 @@
     <!-- ================ Delivers Section ================ -->
     <div class="deliversSec">
         <div class="container">
-            <div class="deliversSecFlex">
-                <div class="deliversSecFlexLeft">
-                    <div class="image-wrapper">
-                        <div class="image" data-src="{{ 'assets/images/deliversSec-img1.png' }}"></div>
-                        <div class="image" data-src="{{ 'assets/images/deliversSec-img2.png' }}"></div>
-                        <div class="image" data-src="{{ 'assets/images/deliversSec-img3.png' }}"></div>
+            <div class="deliversSecFlex">                
+                    <div class="unlock-sucess-left-prt">
+                        <div id="paralaxItm1"></div>
+                        <div id="paralaxItm2"></div>
+                        <div id="paralaxItm3"></div>
+                        <div id="paralaxItm4"></div>
                     </div>
                     <!-- <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img1.png' }}" alt="Deliver image">
                         <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img2.png' }}" alt="Deliver image">
-                        <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img3.png' }}" alt="Deliver image">                             -->
-                </div>
+                        <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img3.png' }}" alt="Deliver image">-->
+                
                 <div class="deliversSecFlexRight">
                     <h2>Fuel your vision. Unlock your success.</h2>
                     <p>A stronger, smarter business starts with the right support. Verifen delivers.</p>
                     <div class="contFlex mt-3">
                         <div class="conInfoBox w48p">
-                            <h4>10K+</h4>
+                            <h4 style="display:flex; justify-content:center">
+                                <div class="stat-number">10</div>
+                                <span>K+</span>
+                            </h4>
+                            
+                            <!-- <h4 class="counter">1000K+</h4> -->
                             <p class="strongerText">Businesses Analyzed.</p>
                         </div>
                         <div class="conInfoBox w48p">
-                            <h4>$75M+</h4>
+                            <h4 style="display:flex; justify-content:center">
+                                <span>$</span>
+                                <div class="stat-number">75</div>
+                                <span>M+</span>
+                            </h4>                            
                             <p class="strongerText">Funded to Growing Businesses.</p>
                         </div>
                         <div class="conInfoBox w48p">
-                            <h4>500+</h4>
+                            <h4 style="display:flex; justify-content:center">                                
+                                <div class="stat-number">500</div>
+                                <span>+</span>
+                            </h4>                            
                             <p class="strongerText">Entrepreneurs Empowered.</p>
                         </div>
                         <div class="conInfoBox w48p">
-                            <h4>10+</h4>
+                             <h4 style="display:flex; justify-content:center">                                
+                                <div class="stat-number">10</div>
+                                <span>+</span>
+                            </h4>                             
                             <p class="strongerText">Years of Proven Business Support</p>
                         </div>
                     </div>
@@ -1052,6 +1067,34 @@
     <script src="{{ 'assets/js/owl.carousel.min.js' }}"></script>
     <!-- Custome js -->
     <script src="{{ 'assets/js/custom.js' }}"></script>
+    <script>
+        const leftPart = document.querySelector('.unlock-sucess-left-prt');
+        const items = leftPart.querySelectorAll('[id^="paralaxItm"]');
+
+        leftPart.addEventListener('scroll', function () {
+            const scrollTop = leftPart.scrollTop;
+            items.forEach((item, index) => {
+            const offset = scrollTop - item.offsetTop;
+            item.style.backgroundPositionY = `${offset * 0.5}px`; // Adjust speed here
+            });
+        });
+    </script>
+
+    <script>
+        $('.stat-number').each(function () {
+        var size = $(this).text().split(".")[1] ? $(this).text().split(".")[1].length : 0;
+        $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 5000,
+            step: function (func) {
+                $(this).text(parseFloat(func).toFixed(size));
+            }
+        });
+        });
+    </script>
+
+
 
 </body>
 
