@@ -3048,7 +3048,7 @@ div[class^="cat"] label {
 	text-decoration: underline;
 }
 .brands-box{
-    width: 280px;
+    width: 290px;
     height: 100%;
     padding: 13px 11px 38px;
     -webkit-transition: box-shadow .4s ease, background .4s ease, color .4s ease;
@@ -3104,7 +3104,15 @@ div[class^="cat"] label {
 	height: 30px;
 	justify-content: center;
 	align-items: center;
-	margin: 20px auto 20px;
+    margin: 20px auto 20px;
+}
+.featured-icon-holder2 {
+    margin-bottom: 15px;
+	display: flex;
+	height: 30px;
+	justify-content: flex-start;
+	align-items: center;
+    margin: 8px auto 5px;
 }
 .brands-box .featured-icon-holder .brandHimg{
 	display: none !important;
@@ -3136,6 +3144,7 @@ div[class^="cat"] label {
     overflow: hidden;
 	height: 90px;
     margin-bottom: 0;
+    padding-top: 0;
 }
 .brands-box a{
 	font-size: 14px;
@@ -3285,6 +3294,13 @@ div[class^="cat"] label {
 .iplanimagebgsec img{
     height: 750px;
 }
+.becomeSecBg{
+    background: #fff !important;
+    position: relative !important;
+    width: 100% !important;
+    margin: 0 !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
 .becomeSec{
     display: flex;
     flex-wrap: wrap;
@@ -3295,17 +3311,23 @@ div[class^="cat"] label {
 .becomeSec h2{
    color: #1468d2; 
 }
+.becomeSec ul{
+    display: flex;
+}
 .becomeSec ul li{
    list-style: none !important;
+   text-align: center;
+   margin: 0 20px;
+   font-weight: 500;
 }
 .becomeSec ul li span{
-   width: 35px;
-   height: 35px;
+   width: 40px;
+   height: 40px;
    border-radius: 100%;
-   display: inline-flex;
-   justify-content: center;
-   align-items: center;
+   display:block;
+   margin: 0 auto;
    border: solid 1px #000;
+   padding: 4px;
 }
 
 
@@ -3490,14 +3512,18 @@ div[class^="cat"] label {
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     list-style: none !important;
-    padding: 30px;
+    padding: 20px;
     width: 30%;
     margin: 20px;
+    text-align: left;
 }
 .landing-growSae ul li h3{
     font-size: 20px;
     font-weight: 600;
     padding: 15px 0;
+    height: 75px;
+    display: flex;
+    align-items: center;
 }
 
 .landingPro-outer{
@@ -3972,6 +3998,25 @@ div[class^="cat"] label {
 @media (max-width: 991px) {}
 
 @media (max-width: 767px) {
+    .landing-growSae ul{
+        margin-left: 0;
+    }
+    .becomeSec ul{
+        margin: 0;
+    }
+    .becomeSec ul li span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin-right: 10px;
+    }
+    .becomeSec ul li{
+        margin: 0;
+    }
+    .becomeSec ul {
+        flex-wrap: wrap;
+    }
     .deliversSec {
         padding-top: 60px;
     }
@@ -3989,8 +4034,10 @@ div[class^="cat"] label {
     .iplanimagebgsec img {
         height: auto;
     }
-    .staticPages ul li{
+    .becomeSec ul li{
         text-align: left;
+        display: flex;
+        align-items: center;
     }
     .innerConBodyOuter .column1 h2 {
         font-size: 30px;
@@ -4210,7 +4257,7 @@ div[class^="cat"] label {
 
     .column1 {
         margin-bottom: 0px;
-        text-align: center;
+        text-align: left;
         max-width: 100%;
         margin-left: 0;
         padding: 0 20px;
@@ -4607,7 +4654,7 @@ div[class^="cat"] label {
 
     .transparencySec .column11 {
         margin-left: 0;
-        text-align: center;
+        text-align: left;
         padding: 0 30px;
         order: 2;
     }

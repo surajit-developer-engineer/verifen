@@ -143,7 +143,7 @@
                 <h2>How the Verifen Revenue Participation Model Works</h2>                
                 <ul>
                     <li>
-                        <div class="featured-icon-holder">						
+                        <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-111.png">												
                         </div>
                         <h3>Choose Your Participation Level</h3>
@@ -151,7 +151,7 @@
                             Verifen’s receivables pool for the next 12-month cycle. You may add new positions at any time.</p>
                     </li>
                     <li>
-                        <div class="featured-icon-holder">						
+                        <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-222.png">												
                         </div>
                         <h3>Capital Deployed to Verified Business Funding</h3>
@@ -159,7 +159,7 @@
                             In higher-risk scenarios, capital is sourced from third-party brokers, protecting Verifen's receivables pool.</p>
                     </li>
                     <li>
-                        <div class="featured-icon-holder">						
+                        <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-333.png">												
                         </div>
                         <h3>Fixed Monthly Distributions</h3>
@@ -167,7 +167,7 @@
                             This is not interest. It is a fixed payout based on receivables performance forecasting.</p>
                     </li>
                     <li>
-                        <div class="featured-icon-holder">						
+                        <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-444.png">												
                         </div>
                         <h3>Reserve & Diversification Protection</h3>
@@ -175,7 +175,7 @@
                             reserve accounts. These protect against business underperformance while maintaining payout reliability.</p>
                     </li>
                     <li>
-                        <div class="featured-icon-holder">						
+                        <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-555.png">												
                         </div>
                         <h3> Access Real-Time Earnings Data</h3>
@@ -187,7 +187,7 @@
                         </p>                        
                     </li>
                     <li>
-                        <div class="featured-icon-holder">						
+                        <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-666.png">												
                         </div>
                         <h3>12-Month Terms with Simple Renewa</h3>
@@ -287,8 +287,8 @@
     <div class="landing-commonSec">
     <div class="container">
         <div class="lanimagebgsec iplanimagebgsec">
-            <img alt="Image" src="{{ 'assets/images/office-indoor.jpg' }}">	
-            <div class="bgopacity">
+            <!-- <img alt="Image" src="{{ 'assets/images/office-indoor.jpg' }}">	 -->
+            <div class="bgopacity becomeSecBg">
                 <div class="text-center becomeSec">
                     <h2>Become a Verifen Investor Today</h2>
                 <p>Start earning more from your money. Grow your capital with confidence.
