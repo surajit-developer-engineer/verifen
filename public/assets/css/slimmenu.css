@@ -268,7 +268,7 @@ ul.slimmenu li .sub-toggle>i {
   left: -70px;
   display: inline-block;
   box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
-  z-index: 999;
+  z-index: 99999;
   /* -webkit-transition: .2s ease-in-out;
   -moz-transition: .2s ease-in-out;
   -o-transition: .2s ease-in-out;

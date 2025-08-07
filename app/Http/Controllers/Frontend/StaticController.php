@@ -111,4 +111,14 @@ class StaticController extends Controller
         return view('pages.frontend.static.business-loans-application');
     }
 
+    public function partnersApplication()
+    {
+        return view('pages.frontend.static.partners-application');
+    }
+
+    public function investorsApplication()
+    {
+        return view('pages.frontend.static.investors-application');
+    }
+
 }

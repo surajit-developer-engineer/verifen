@@ -35,10 +35,11 @@
 
         <div class="hdr-row">
             <div class="container">
-            <div class="dFlex">                
+            <div class="logo-flxRow">                
            <div class="hdr-row2">
            <a href="{{ route('index') }}">
-                <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
+                <img class="webLogo" src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
+                <img class="mobLogo" src="{{ 'assets/images/verifen-mob-logo.png' }}" alt="Verifen">
             </a>
             <div class="hdr-menu">
                 <ul class="slimmenu">
@@ -62,7 +63,13 @@
                 </li>
                 </ul>
             </div>
-
         </div>
+        <div class="dFlex">
+            <div class="callSecwe">
+                <a href="tel:8887886160" target="_blank"><i class="fa fa-phone"></i></a>
+                <!-- <img src="{{ 'assets/images/phone-call.png' }}"> -->
+            </div>
+            <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
+           </div>
     </div>
 </header>

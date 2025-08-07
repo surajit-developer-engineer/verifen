@@ -15,6 +15,7 @@ Route::get('/my-application', [IndexController::class, 'application'])->name('ap
 Route::get('/partner', [IndexController::class, 'partner'])->name('partner');
 Route::get('/partner-signup', [IndexController::class, 'partnerSignup'])->name('partner.signup');
 
+
 Route::get('/terms-of-use', [StaticController::class, 'termsOfUse'])->name('terms.of.use');
 Route::get('/privacy-policy', [StaticController::class, 'privacyPolicy'])->name('privacy.policy');
 Route::get('/tcpa-consent', [StaticController::class, 'tcpaConsent'])->name('tcpa.consent');
@@ -27,6 +28,8 @@ Route::get('/contact', [StaticController::class, 'contactUs'])->name('contact.us
 Route::get('/investor-program', [StaticController::class, 'investorProgram'])->name('investor.program');
 Route::get('/business-loans', [StaticController::class, 'businessLoans'])->name('business.loans');
 Route::get('/business-loans-application', [StaticController::class, 'businessLoansApplication'])->name('business.loans.application');
+Route::get('/partners-application', [StaticController::class, 'partnersApplication'])->name('partners.application');
+Route::get('/investors-application', [StaticController::class, 'investorsApplication'])->name('investors.application');
 
 
 Route::group([

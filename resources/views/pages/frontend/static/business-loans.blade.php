@@ -166,8 +166,8 @@
 <div class="landing-commonSec">
     <div class="container">
         <div class="lanimagebgsec">
-            <img alt="Image" src="{{ 'assets/images/office-indoor.jpg' }}">	
-            <div class="bgopacity">
+            <!-- <img alt="Image" src="{{ 'assets/images/office-indoor.jpg' }}">	 -->
+            <div class="bgopacity becomeSecBg">
                 <div class="landingProFlex2">
                     <div class="landingProleftCol2">
                         <h2>See What Makes Verifen Different</h2>

@@ -36,7 +36,7 @@
 <body>
   <!-- ================ Header Section ================ -->  
 
-<header class="top-main-hdr">
+<header id="toplink" class="top-main-hdr">
     <div class="container">
         <div class="hdr-row loanshead">
             <div class="container">            
@@ -79,17 +79,25 @@
 
 <!--=============== Start Step Form ===============-->
 <section class="step-form-sec">
-    <div class="container">
-      <div class="title-hdn">
-        <h1>Get the Capital You Need Without the Games</h1>
-        <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p>
-      </div>
+    <div class="container">      
         <form id="msform">           
 
             <!-- First Step Start -->
             <fieldset>
                 <div class="form-card active">
                     <div class="first-step-sub-step-one">
+                        <div class="title-hdn">
+                            <h3>Get the Capital You Need Without the Games</h3></br>
+                            <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p>
+                            <div class="menu">
+                                <a class="button toplink formsim-btn">Go Now <i class="fa fa-long-arrow-right"></i></a>                                
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-card">
+                    <div class="first-step-sub-step-two">
                         <h3>When did you start your business?</h3>
                         <div class="menu">
                             <a class="button">0 – 12 Months</a>
@@ -102,7 +110,7 @@
                 </div>
 
                 <div class="form-card">
-                    <div class="first-step-sub-step-two">
+                    <div class="first-step-sub-step-three">
                         <h3>What type of business entity do you own?</h3>
                         <div class="menu">
                             <a class="button">Limited Liability Company (LLC)</a>
@@ -114,7 +122,7 @@
                 </div>
 
                 <div class="form-card">
-                    <div class="first-step-sub-step-three">
+                    <div class="first-step-sub-step-four">
                         <h3>In which state was your business formed?</h3>
                         <div class="step-form-field">
                             <select required>
@@ -127,7 +135,7 @@
                 </div>
 
                 <div class="form-card">
-                    <div class="first-step-sub-step-four">
+                    <div class="first-step-sub-step-five">
                         <h3>What is your business EIN (Employer Identification Number)?</h3>
                         <div class="step-form-field">
                             <label>Business EIN</label>
@@ -137,7 +145,7 @@
                 </div>
 
                 <div class="form-card">
-                    <div class="first-step-sub-step-five">
+                    <div class="first-step-sub-step-six">
                         <h3>How much funding are you seeking?</h3>
                         <div class="menu">
                             <a class="button">$5,000–$24,999</a>
@@ -152,7 +160,7 @@
                 </div>
 
                 <div class="form-card">
-                    <div class="first-step-sub-step-six">
+                    <div class="first-step-sub-step-seven">
                         <h3>What percentage of the business do you own?</h3>
                         <div class="step-form-field">
                             <label>Business Percentage</label>
@@ -163,7 +171,7 @@
                 </div>
 
                 <div class="form-card">
-                    <div class="first-step-sub-step-seven">
+                    <div class="first-step-sub-step-eight">
                         <h3>What is your current available business cash-on-hand balance?</h3>
                         <div class="step-form-field">
                             <label>cash-on-hand balance</label>
@@ -174,7 +182,7 @@
                 </div>
 
                 <div class="form-card">
-                    <div class="first-step-sub-step-eight">
+                    <div class="first-step-sub-step-nine">
                         <h3>How do you plan to use the funds?</h3>
                         <div class="menu">
                             <a class="button">Working Capital</a>
@@ -190,7 +198,7 @@
                 </div>
 
                 <div class="form-card">
-                    <div class="first-step-sub-step-nine">
+                    <div class="first-step-sub-step-ten">
                         <h3>What is your business’s annual revenue?</h3>
                         <div class="step-form-field">
                             <label>Annual Revenue</label>
@@ -201,7 +209,7 @@
                 </div>
 
                 <div class="form-card">
-                    <div class="first-step-sub-step-ten">
+                    <div class="first-step-sub-step-eleven">
                         <h3>What is your estimated personal credit score?</h3>
                         <div class="menu">
                             <a class="button">Poor (Below 600)</a>
@@ -235,6 +243,18 @@
             <!-- Second Step -->
             <fieldset>
                 <div class="form-card active">
+                    <div class="first-step-sub-step-one">
+                        <div class="title-hdn">
+                            <h3>Get the Capital You Need Without the Games</h3></br>
+                            <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p>
+                            <div class="menu">
+                                <a class="button backToTopBtn formsim-btn">Go Now <i class="fa fa-long-arrow-right"></i></a>                                
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-card">
                     <div class="first-step-sub-step-nine">
                         <h3>What is your business address?</h3>
                         <div class="step-form-field">
@@ -290,6 +310,17 @@
             <!-- Third Step -->
             <fieldset>
                 <div class="form-card active">
+                    <div class="first-step-sub-step-one">
+                        <div class="title-hdn">
+                            <h3>Get the Capital You Need Without the Games</h3></br>
+                            <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p>
+                            <div class="menu">
+                                <a class="button formsim-btn">Go Now <i class="fa fa-long-arrow-right"></i></a>                                
+                             </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="form-card">
                     <div class="first-step-sub-step-eleven">
                         <h3>Do you currently have any open business loans?</h3>
                         <div class="menu">
@@ -349,6 +380,18 @@
             <!-- Fourth Step -->
             <fieldset>
                 <div class="form-card active">
+                    <div class="first-step-sub-step-one">
+                        <div class="title-hdn">
+                            <h3>Get the Capital You Need Without the Games</h3></br>
+                            <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p>
+                            <div class="menu">
+                                <a class="button formsim-btn">Go Now <i class="fa fa-long-arrow-right"></i></a>                                
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-card">
                     <div class="first-step-sub-step-nine">
                         <h3>What is your date of birth?</h3>
                         <div class="step-form-field">
@@ -617,6 +660,8 @@
         });
         });
     </script>
+
+    
 </body>
 
 </html>
