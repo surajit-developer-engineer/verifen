@@ -1726,6 +1726,13 @@ a.dfltBtn:hover {
     color: #000;
     font-weight: 500;
 }
+.footerFlex ul li a{
+    display: inline-block;
+}
+.footerFlex ul li.fr-fic a{
+    width: 16px;
+    display: inline-block;
+}
 
 .footerFlex ul li:first-child {
     margin-top: 0;
@@ -1765,16 +1772,19 @@ a.dfltBtn:hover {
 
 .socials {
     display: flex;
+    text-align: start;
+    align-items: center;
 }
-
 .socials li {
-    margin: 0 5px !important;
+    margin: 0 3px !important;
 }
-
+.socials li:nth-child(2) {
+    padding-top: 3px;
+}
 .socials li:first-child {
     margin-left: 0 !important;
+    padding-top: 3px;
 }
-
 .ftr-copyright-prt {
     position: relative;
     border-top: 1px solid #ddd;
@@ -3671,7 +3681,7 @@ div[class^="cat"] label {
   font-size: 18px;
   color: #000000;
   font-weight: 500;
-  padding: 12px 10px;
+  padding: 20px 10px;
   margin: 0 5px;
   width: auto;
 }
@@ -3694,13 +3704,14 @@ div[class^="cat"] label {
 .hdr-progress-bar #progressbar li.completed::before{
   position: absolute;
   content: '';
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
 }
 .hdr-progress-bar #progressbar li.active::before{
-  background: url(../images/favicon.png) no-repeat 0 0;
+  background: url(../images/bird.svg) no-repeat 0 0;
   background-size: contain;
-  top: -10px;
+  top: -0px;
   right: -5px;
 }
 .hdr-progress-bar #progressbar li.completed::before{

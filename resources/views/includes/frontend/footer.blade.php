@@ -36,11 +36,13 @@
                     </li>
                     <li><a href="http://instegram.com/Verifenfunding" target="_blank"><i class="fa fa-fw fa-instagram" alt="instagram"></i></a><br>
                     </li>
-                    <li><a href="https://www.tiktok.com/@Verifenfunding" target="_blank"><img class="fr-fic" src="{{ 'assets/images/tiktok-icon.png' }}" alt=""></a><br>
+                    <li class="fr-fic"><a href="https://www.tiktok.com/@Verifenfunding" target="_blank"><img class="fr-fic" src="{{ 'assets/images/tiktok-icon.png' }}" alt=""></a><br>
                     </li>
-                    <li><a href="https://x.com/Verifenfunding" target="_blank"><img class="fr-fic" src="{{ 'assets/images/x-twitter.png' }}" alt=""></a><br>
+                    <li class="fr-fic"><a href="https://x.com/Verifenfunding" target="_blank"><img src="{{ 'assets/images/x-twitter.png' }}" alt=""></a><br>
                     </li>
                     <li><a href="https://www.linkedin.com/company/Verifenfunding" target="_blank"><i class="fa fa-fw fa-linkedin" alt="linkedin"></i></a><br>
+                    </li>
+                    <li><a href="https://www.youtube.com/@VerifenFunding" target="_blank"><i class="fa fa-fw fa-youtube-play" alt="linkedin"></i></a><br>
                     </li>
                 </ul>
             </div>
