@@ -264,7 +264,7 @@ ul.slimmenu li .sub-toggle>i {
   background-color: #fff;
   padding: 0 0 100px 0;
   position: absolute;
-  top: 0;
+  top: 63px;
   left: -70px;
   display: inline-block;
   box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
@@ -384,11 +384,11 @@ ul.slimmenu.collapsed li ul li a>i{
 .collapse-button span:nth-child(3){
 	top: 16px;
 }
-.collapse-button.open span:nth-child(2){
+/* .collapse-button.open span:nth-child(2){
 	visibility: hidden;
 	opacity: 0;
 	width: 0;
-}
+} */
 /* .collapse-button.open span:nth-child(1){
 	top: 10px;
 	width: 30px;

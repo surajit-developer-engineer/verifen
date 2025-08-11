@@ -106,9 +106,9 @@ class StaticController extends Controller
         return view('pages.frontend.static.business-loans', compact('meta_data'));
     }
 
-    public function businessLoansApplication()
+    public function businessLoanApplication()
     {
-        return view('pages.frontend.static.business-loans-application');
+        return view('pages.frontend.static.business-loan-application');
     }
 
     public function partnersApplication()
@@ -120,5 +120,15 @@ class StaticController extends Controller
     {
         return view('pages.frontend.static.investors-application');
     }
+
+    public function businessGrowthCenter ()
+    {
+        return view('pages.frontend.static.business-growth-center');
+    } 
+
+    public function blogDetails ()
+    {
+        return view('pages.frontend.static.blog-details');
+    } 
 
 }

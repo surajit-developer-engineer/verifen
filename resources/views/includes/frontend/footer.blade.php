@@ -62,7 +62,7 @@
             <ul>                
                 <li><a href="/business-loans">Business Loans</a></li>
                 <li>|</li>
-                <li><a href="/business-loans-application">Business Loan Application</a></li>                
+                <li><a href="/business-loan-application">Business Loan Application</a></li>                
                 <li>|</li>
                 <li><a href="/credit-authorization">Credit Authorization</a></li>
                 <li>|</li>

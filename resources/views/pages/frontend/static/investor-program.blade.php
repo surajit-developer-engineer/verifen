@@ -146,40 +146,40 @@
                         <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-111.png">												
                         </div>
-                        <h3>Choose Your Participation Level</h3>
-                        <p>You choose your capital participation tier (starting at $10,000). This capital purchases a share of 
+                        <h3 class="leftText">Choose Your Participation Level</h3>
+                        <p class="leftText">You choose your capital participation tier (starting at $10,000). This capital purchases a share of 
                             Verifen’s receivables pool for the next 12-month cycle. You may add new positions at any time.</p>
                     </li>
                     <li>
                         <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-222.png">												
                         </div>
-                        <h3>Capital Deployed to Verified Business Funding</h3>
-                        <p>Verifen funds qualified small businesses through structured revenue-based agreements and terms loans. 
+                        <h3 class="leftText">Capital Deployed to Verified Business Funding</h3>
+                        <p class="leftText">Verifen funds qualified small businesses through structured revenue-based agreements and terms loans. 
                             In higher-risk scenarios, capital is sourced from third-party brokers, protecting Verifen's receivables pool.</p>
                     </li>
                     <li>
                         <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-333.png">												
                         </div>
-                        <h3>Fixed Monthly Distributions</h3>
-                        <p>Investors receive contractual monthly distributions of projected receivables over 12 months. 
+                        <h3 class="leftText">Fixed Monthly Distributions</h3>
+                        <p class="leftText">Investors receive contractual monthly distributions of projected receivables over 12 months. 
                             This is not interest. It is a fixed payout based on receivables performance forecasting.</p>
                     </li>
                     <li>
                         <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-444.png">												
                         </div>
-                        <h3>Reserve & Diversification Protection</h3>
-                        <p>To safeguard your capital, Verifen allocates portions of its portfolio into real estate and crypto 
+                        <h3 class="leftText">Reserve & Diversification Protection</h3>
+                        <p class="leftText">To safeguard your capital, Verifen allocates portions of its portfolio into real estate and crypto 
                             reserve accounts. These protect against business underperformance while maintaining payout reliability.</p>
                     </li>
                     <li>
                         <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-555.png">												
                         </div>
-                        <h3> Access Real-Time Earnings Data</h3>
-                        <p>Log in to your secure Investor Dashboard to:</br>
+                        <h3 class="leftText"> Access Real-Time Earnings Data</h3>
+                        <p class="leftText">Log in to your secure Investor Dashboard to:</br>
                             * Track your distribution history</br>
                             * Monitor your position performance</br>
                             * Renew or open new positions</br>
@@ -190,8 +190,8 @@
                         <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-666.png">												
                         </div>
-                        <h3>12-Month Terms with Simple Renewa</h3>
-                        <p>At the end of each term:</br>
+                        <h3 class="leftText">12-Month Terms with Simple Renewa</h3>
+                        <p class="leftText">At the end of each term:</br>
                             * Reinvest your capital in a new cycle</br>
                             * Withdraw your principal</br>
                             * Increase your participation level</br>

@@ -53,10 +53,10 @@
             <!-- progressbar -->
                 <div class="hdr-progress-bar">
                     <ul id="progressbar">
-                        <li class="active">Simple Application</li>
-                        <li>Flexible Options</li>
-                        <li>No Hidden Fees</li>
-                        <li>Personalized Support</li>
+                        <li class="active">Basic Info</li>
+                        <li>Business Information</li>
+                        <li>Financial Information</li>
+                        <li>Personal Information</li>
                     </ul>
                 </div>
             
@@ -90,8 +90,32 @@
                             <h3>Get the Capital You Need Without the Games</h3></br>
                             <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p>
                             <div class="menu">
+                                <a class="button">Simple Application</a>
+                                <a class="button">Flexible Options</a>
+                                <a class="button">No Hidden Fees</a>
+                                <a class="button">Personalized Support</a>                                
+                            </div>
+                            <!-- <div class="application-flex">
+                                <div class="application-form-group">
+                                        <input type="checkbox" id="sa">
+                                        <label for="sa">Simple Application</label>
+                                    </div>
+                                    <div class="application-form-group">
+                                        <input type="checkbox" id="fo">
+                                        <label for="fo">Flexible Options</label>
+                                    </div>
+                                    <div class="application-form-group">
+                                        <input type="checkbox" id="nhf">
+                                        <label for="nhf">No Hidden Fees</label>
+                                    </div>
+                                    <div class="application-form-group">
+                                        <input type="checkbox" id="ps">
+                                        <label for="ps">Personalized Support</label>
+                                    </div>
+                            </div> -->
+                            <!-- <div class="menu">
                                 <a class="button toplink formsim-btn">Go Now <i class="fa fa-long-arrow-right"></i></a>                                
-                             </div>
+                             </div> -->
                         </div>
                     </div>
                 </div>

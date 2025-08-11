@@ -157,7 +157,7 @@
             </li>
         </ul>
         <div class="text-center">
-            <a class="applyButton" href="/business-loans-application">Get Funded Now</a>
+            <a class="applyButton" href="/business-loan-application">Get Funded Now</a>
         </div>
     </div>
   </div>
@@ -167,11 +167,36 @@
     <div class="container">
         <div class="lanimagebgsec">
             <!-- <img alt="Image" src="{{ 'assets/images/office-indoor.jpg' }}">	 -->
-            <div class="bgopacity becomeSecBg">
-                <div class="landingProFlex2">
-                    <div class="landingProleftCol2">
-                        <h2>See What Makes Verifen Different</h2>
-                        <ul>
+            <div class="bgopacity becomeSecBg">                
+                <div class="verifen-different-sec">
+                    <h2>See What Makes Verifen Different</h2>
+                    <div class="tableTopbg">
+                        <div class="tableleftCol">See What Makes</div>
+                        <div class="tableleftCol bderrightNone">Verifen Different</div>
+                    </div>
+                    <div class="tableTopbg textColor">
+                        <div class="tableleftCol">Traditional Lenders</div>
+                        <div class="tableleftCol bderrightNone">Verifen</div>
+                    </div>
+                    <div class="tableTopbg textColor">
+                        <div class="tableleftCol">Long waits & red tape</div>
+                        <div class="tableleftCol bderrightNone">Fast approvals</div>
+                    </div>
+                    <div class="tableTopbg textColor">
+                        <div class="tableleftCol">Confusing terms</div>
+                        <div class="tableleftCol bderrightNone">Transparent pricing</div>
+                    </div>
+                    <div class="tableTopbg textColor">
+                        <div class="tableleftCol">No support after funding</div>
+                        <div class="tableleftCol bderrightNone">Ongoing business Support</div>
+                    </div>
+                    <div class="tableTopbg textColor">
+                        <div class="tableleftCol">One-size-fits-all offers</div>
+                        <div class="tableleftCol bderrightNone">Tailored solutions</div>
+                    </div>
+
+
+                        <!-- <ul>
                             <li>Traditional Lenders	Verifen</li>
                             <li>Long waits & red tape</li>
                             <li>Fast approvals</li>
@@ -181,9 +206,10 @@
                             <li>Ongoing business Support</li>
                             <li>One-size-fits-all offers</li>
                             <li>Tailored solutions</li>
-                        </ul>
-                    </div>
-                    <div class="landingProrightCol2">
+                        </ul> -->
+                </div>
+                    <!-- <div class="landingProFlex2">
+                        <div class="landingProrightCol2">
                         <h2>Why Thousands Trust Verifen</h2>
                         <ul>
                             <li>Best Rated in Business Growth Strategy</li>
@@ -192,8 +218,8 @@
                             <li>Real Humans. Real Support.</li>                    
                         </ul>
                         <a class="applyButton" href="#">Check Your Eligibility in Minutes</a>
-                    </div>
-                </div>
+                    </div> 
+                </div>-->
             </div>
         </div>
     </div>
@@ -245,6 +271,30 @@
         </div>
     </div>
   </div> -->
+
+
+  <div class="deliversSec pt-0 pb-5">
+        <div class="container">
+            <div class="deliversSecFlex">                
+                    <div class="unlock-sucess-left-prt mob-height-auto">
+                        <img alt="Image" src="{{ 'assets/images/trust-img.png' }}">	
+                    </div>                    
+                
+                <div class="deliversSecFlexRight">
+                    <h2>Why Thousands Trust Verifen</h2>
+                    <p>A stronger, smarter business starts with the right support. Verifen delivers.</p>
+                    <ul>
+                        <li><strong>Best Rated in Business Growth Strategy</strong></li>
+                        <li><strong>$100M+ in Capital Delivered</strong></li>
+                        <li><strong>Trusted and Secure</strong></li>
+                        <li><strong>Real Humans. Real Support.</strong></li>
+                    </ul>
+                    <a class="applyButton mt-1" href="#">Check Your Eligibility in Minutes</a></br></br>
+                    <small>No credit impact. No obligation.</small>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
   <!-- ================ Ready to proceed Section ================ -->

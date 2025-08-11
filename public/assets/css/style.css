@@ -3975,6 +3975,364 @@ div[class^="cat"] label {
 .mobLogo{
     display: none;  
 }
+.leftText{
+    justify-content: flex-start !important;
+    text-align: left;
+}
+.verifen-different-sec{
+   padding: 80px; 
+   width: 100%;
+}
+.verifen-different-sec h2 {
+    font-size: 55px;
+    color: #1468d2;
+    font-weight: 500;
+    margin: 0 0 40px 0;
+    line-height: 60px;
+    position: relative;
+    text-align: center;
+}
+.tableTopbg{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    padding: 18px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.tableTopbg .tableleftCol{
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    border-right: solid 1px #7a7a7a;
+}
+.textColor{
+    color: #545353;
+    font-size: 18px;
+}
+.bderrightNone{
+    border-right: none !important;
+}
+.application-flex{
+    display: flex;
+    justify-content: center;
+}
+.application-form-group {
+  display: block;
+  margin:0 15px;
+}
+
+.application-form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.application-form-group label {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.application-form-group label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #1468d2;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.application-form-group input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #0079bf;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+
+
+/*=========================== Blog Page Style Sheet Start Here ===========================*/
+.blog-list-body-sec{
+	position: relative;
+	padding: 100px 0 120px 0;
+}
+.blog-list-row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.blog-list-clmn{
+	position: relative;
+	width: 31.1%;
+	min-height: 450px;
+	box-shadow: 0 0 6px rgba(161, 163, 164, 0.3);
+	border: 1px solid rgba(170, 238, 255, 0.3);
+	margin: 20px 1.1%;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.blog-list-clmn figure img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+.blog-list-clmn article{
+	padding: 30px 20px;
+}
+.blog-list-clmn dt{
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	color: #0054fe;
+	font-weight: 500;
+	padding-bottom: 15px;
+}
+.blog-list-clmn .blog-title{
+	font-size: 24px;
+	color: #131313;
+	text-align: left;
+	padding-bottom: 15px;
+	font-weight: 600;
+	min-height: 75px;
+}
+.blog-list-clmn .blog-title a{
+	color: #131313;
+}
+.blog-list-clmn .blog-title a:hover{
+	color: #0054fe;
+}
+.blog-list-clmn .blog-read-more{
+	font-size: 17px;
+	color: #0054fe;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.blog-list-clmn .blog-read-more:hover{
+	color: #131313;
+}
+.blog-list-clmn .blog-read-more .fa{
+	margin-left: 10px;
+}
+.blog-list-clmn p{
+	margin: 0;
+}
+/*=========================== Blog Page Style Sheet End Here ===========================*/
+
+
+/*=========================== Blog Single Page Style Sheet Start Here ===========================*/
+.blog-dtl-bdy-sec{
+	position: relative;
+	padding: 100px 0 150px 0;
+}
+.single-blog-bdy-row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.single-blog-left-clmn{
+	width: 70%;
+	padding: 30px 30px 50px 30px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+}
+.single-blog-itm-bnr{
+    height: 450px;
+    margin-bottom: 40px;
+}
+.single-blog-itm-bnr img{
+	width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+.single-blog-title-area{
+	margin: 0 0 25px 0;
+}
+.single-blog-title-area h2{
+	font-size: 35px;
+  color: #131313;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.single-blog-title-area ul{
+	display: flex;
+}
+.single-blog-title-area ul li{
+	margin-right: 30px;
+	font-size: 14px;
+	color: #4b4b4b;
+	letter-spacing: 1px;
+    font-weight: 600;
+}
+.single-blog-title-area ul li i{
+	font-size: 18px;
+	color: #1468d2;
+	margin-right: 5px;    
+    /* border: solid 1px #333;
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; */
+}
+.single-blog-content-area h3{
+	font-size: 28px;
+    color: #131313;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.single-blog-content-area h4{
+	font-size: 22px;
+  color: #131313;
+  font-weight: 600;
+  margin: 10px 0 20px 0;
+}
+.single-blog-content-area p{
+	padding-bottom: 20px;
+	line-height: 1.7;
+}
+.single-blog-content-area ul li{
+	position: relative;
+	font-size: 18px;
+	color: #333;
+	margin-top:20px;
+	padding-left: 25px;
+    font-weight: 500;
+}
+.single-blog-content-area ul li::before{
+	position: absolute;
+	font-family: "Fontawesome";
+	content: '\f061';
+	color: #1468d2;
+	top: 0;
+	left: 0;
+}
+
+
+.single-blog-right-clmn{
+	width: 25%;
+}
+.single-blog-right-clmn h2{
+	font-size: 25px;
+	border-bottom: 2px solid #cdcdcd;
+	padding-bottom: 15px;
+	/* padding-left: 25px; */
+	margin-bottom: 30px;
+	letter-spacing: 0;
+    font-weight: 500;
+}
+.single-blog-right-clmn .sec-hdn:after, .single-blog-right-clmn .sec-hdn:before{
+	height: 25px;
+	top: 3px;
+}
+.latest-blog-post-area ul li{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+.latest-blog-post-area ul li figure{
+	width: 33%;
+}
+.latest-blog-post-area ul li figure img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    border-radius: 7px;
+}
+.latest-blog-post-area ul li article{
+	width: 60%;
+	/* display: flex;
+	flex-wrap: wrap; */
+}
+.latest-blog-post-area article h3{
+	font-size: 17px;
+	color: #131313;
+	font-weight: 500;
+	width: 100%;
+}
+.latest-blog-post-area article h3 a{
+	color: #131313;
+}
+.latest-blog-post-area article h3 a:hover{
+	color: #1468d2;
+}
+.latest-blog-post-area article p{
+	font-size: 13px;
+	color: #474747;
+	width: 100%;
+}
+.latest-blog-post-area article p.ltst-post-date{
+	font-size: 16px;
+	color: #4b4b4b;
+	align-self: center;
+}
+.latest-blog-post-area article p.ltst-post-date .fa{
+	font-size: 18px;
+	color: #1468d2;
+	margin-right: 6px;
+	vertical-align: middle;
+}
+.recent-article-area{
+	margin-top: 70px;
+}
+.recent-article-area li{
+	position: relative;
+	font-size: 18px;
+	color: #333;
+	margin-top: 20px;
+	background: url(../images/ftr-mnu-arrow.png) no-repeat 0 5px;
+	padding-left: 25px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.recent-article-area ul li::before{
+	position: absolute;
+	font-family: "Fontawesome";
+	content: '\f061';
+	color: #1468d2;
+	top: 0;
+	left: 0;
+}
+.recent-article-area li a{
+	color: #333;
+}
+.recent-article-area li a:hover{
+	color: #1468d2;
+}
+
+.single-blog-social-icons{
+	margin-top: 70px;
+}
+/*=========================== Blog Single Page Style Sheet End Here ===========================*/
+
+
+
+
+
+
+
+
+
 
 /*=============== Responsive Style ===============*/
 @media (max-width: 1400px) {}
@@ -4004,9 +4362,55 @@ div[class^="cat"] label {
     }
 }
 
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+    .single-blog-itm-bnr {
+        height: auto;    
+    }
+    .blog-list-clmn{
+		width: 48%;
+		min-height: 400px;
+		margin: 15px 1%;
+	}
+	.blog-list-clmn .blog-title{
+		font-size: 22px;
+	}
+	.single-blog-left-clmn{
+		width: 100%;
+	}
+	.single-blog-right-clmn{
+		width: 100%;
+		margin-top: 50px;
+	}
+}
 
 @media (max-width: 767px) {
+    .inr-bnr-caption h1{
+		font-size: 25px;
+	}
+	.blog-list-body-sec,
+	.blog-dtl-bdy-sec{
+		padding: 50px 0;
+	}
+	.blog-list-clmn{
+		width: 100%;
+		margin: 15px 0;
+	}
+    .mob-height-auto img{
+        margin-bottom: 30px;
+    }
+    .mob-height-auto{
+        height: auto !important;
+    }
+    .tableTopbg{
+        font-size: 15px;
+    }
+    .verifen-different-sec h2 {
+        line-height: 40px;
+        padding-top: 20px;
+    }
+    .verifen-different-sec {
+        padding: 15px;        
+    }
     .mobLogo{
       display: block;  
     }
@@ -4875,6 +5279,10 @@ div[class^="cat"] label {
 
 
 @media (max-width: 400px) {
+    .blog-list-row .blog-list-clmn{
+		width: 100%;
+		min-height: inherit;
+	}
     .about-us-sec figure {
         height: 340px;
         width: 340px;

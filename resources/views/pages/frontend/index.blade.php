@@ -535,10 +535,16 @@
                         guidance to marketing and growth planning, we’re your partner in success.</p>
 
 
-                    <h3>Meet Our Founder</h3>
+                    <h3>Meet Our Team</h3>
                     <ol>
                         <li>
-                            <p><a
+                            <p>At Verifen, our leadership team brings a wealth of experience across the service, finance, marketing, 
+                                and retail industries. With a strong foundation in entrepreneurship and a deep understanding of what 
+                                it takes to grow and sustain a successful business, our team is committed to helping you navigate 
+                                your biggest challenges with clarity and strategy. We know every business is unique. That’s why our 
+                                approach is hands-on, personalized, and focused on real results. Whether you're seeking growth, 
+                                stability, or a fresh start, we're here to help you unlock your full potential and thrive.</p>
+                            <!-- <p><a
                                     href="https://calendly.com/nathan-vaknin">{{ env('TESTER_FULL_NAME', 'Daniel Joseph') }}</a>,
                                 founder and CEO of Verifen, is a serial
                                 entrepreneur with
@@ -550,12 +556,12 @@
                                 craft solutions tailored to your needs. {{ env('TESTER', 'Joseph') }}’s passion is
                                 helping
                                 businesses like yours
-                                unlock their full potential and thrive.</p>
+                                unlock their full potential and thrive.</p> -->
                         </li>
                         <li>
-                            <p>Take the first step toward transforming your business. Schedule a 15-minute consultation
-                                and discover how Verifen can help you achieve your goals. This could be the moment that
-                                changes the future of your company.</p>
+                            <p>Take the first step toward transforming your business. Schedule a 30 minute consultation and discover 
+                                how Verifen can help you achieve your goals. This could be the moment that changes the future of your 
+                                company.</p>
                         </li>
 
                     </ol>

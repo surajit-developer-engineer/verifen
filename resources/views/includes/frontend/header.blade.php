@@ -33,8 +33,8 @@
                 <div class="logo-flxRow">
            <div class="hdr-row2">
             <a href="{{ route('index') }}">
-                <img class="webLogo" src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
-                <img class="mobLogo" src="{{ 'assets/images/verifen-mob-logo.png' }}" alt="Verifen">
+                <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
+                <!-- <img class="mobLogo" src="{{ 'assets/images/verifen-mob-logo.png' }}" alt="Verifen"> -->
             </a>
 
             <div class="hdr-menu">

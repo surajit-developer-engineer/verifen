@@ -27,9 +27,13 @@ Route::get('/opt-out', [StaticController::class, 'optOut'])->name('opt.out');
 Route::get('/contact', [StaticController::class, 'contactUs'])->name('contact.us');
 Route::get('/investor-program', [StaticController::class, 'investorProgram'])->name('investor.program');
 Route::get('/business-loans', [StaticController::class, 'businessLoans'])->name('business.loans');
-Route::get('/business-loans-application', [StaticController::class, 'businessLoansApplication'])->name('business.loans.application');
+Route::get('/business-loan-application', [StaticController::class, 'businessLoanApplication'])->name('business.loan.application');
 Route::get('/partners-application', [StaticController::class, 'partnersApplication'])->name('partners.application');
 Route::get('/investors-application', [StaticController::class, 'investorsApplication'])->name('investors.application');
+Route::get('/business-growth-center', [StaticController::class, 'businessGrowthCenter'])->name('business.growth.center');
+Route::get('/blog-details', [StaticController::class, 'blogDetails'])->name('blog.details');
+
+
 
 
 Route::group([
