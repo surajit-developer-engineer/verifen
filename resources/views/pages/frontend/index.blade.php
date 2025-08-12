@@ -461,60 +461,118 @@
     </section> --}}
 
     <!-- ================ Delivers Section ================ -->
-    <div class="deliversSec">
-        <div class="container">
-            <div class="deliversSecFlex">                
-                    <div class="unlock-sucess-left-prt">
-                        <div id="paralaxItm1"></div>
-                        <div id="paralaxItm2"></div>
-                        <div id="paralaxItm3"></div>
-                        <div id="paralaxItm4"></div>
+        <div class="deliversSec">
+        <div class="section-6 color">
+            <div class="container">
+                <div class="div-block-54">
+                    <div class="c-partner deliversSecFlex">
+                        <div class="c-partner_right-block">
+                            <div data-w-id="f9d19a92-f731-f2d8-8a7b-3110b461759c" class="c-partner_stacked">
+                            <div class="c-dev_card _01 cc-shadow white" 
+                            style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) 
+                            rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                                <div class="c-dev_process">
+                                    <h3>Home Care Business Accelerates with $120,000 in Smart, Strategic Capital.</h3>			
+                                </div>
+                                <img src="{{ 'assets/images/deliversSec-img1.png' }}" loading="lazy"
+                                sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px" 
+                                srcset="{{ 'assets/images/deliversSec-img1.png' }} 500w, 
+                                {{ 'assets/images/deliversSec-img1.png' }} 800w, 
+                                {{ 'assets/images/deliversSec-img1.png' }} 1080w, 
+                                {{ 'assets/images/deliversSec-img1.png' }} 1366w" alt="" 
+                                class="image-20">
+                                </div>
+                                <div class="c-dev_card _01 cc-shadow white" 
+                                style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) 
+                                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                                <div class="c-dev_process">
+                                    <h3>$60,000 in Fast Funding Fuels Inventory Surge for Scaling eCommerce Store</h3>				
+                                </div>
+                                    <img src="{{ 'assets/images/deliversSec-img2.png' }}" loading="lazy" 
+                                    sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px" 
+                                    srcset="{{ 'assets/images/deliversSec-img2.png' }} 500w, 
+                                    {{ 'assets/images/deliversSec-img2.png' }} 800w, 
+                                    {{ 'assets/images/deliversSec-img2.png' }} 1080w, 
+                                    {{ 'assets/images/deliversSec-img2.png' }} 1366w" alt="" 
+                                    class="image-20">
+                                </div>
+                                    <div class="c-dev_card _01 cc-shadow white" 
+                                    style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) 
+                                    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                                    <div class="c-dev_process">
+                                        <h3>$30,000 Delivered to Upgrade Salon Interiors and Boost Client Experience.</h3>					
+                                    </div>
+                                    <img src="{{ 'assets/images/deliversSec-img3.png' }}" loading="lazy"
+                                    sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px" 
+                                    srcset="{{ 'assets/images/deliversSec-img3.png' }} 500w, 
+                                    {{ 'assets/images/deliversSec-img3.png' }} 800w, 
+                                    {{ 'assets/images/deliversSec-img3.png' }} 1080w, 
+                                    {{ 'assets/images/deliversSec-img3.png' }} 1366w" alt="" 
+                                    class="image-20">
+                                </div>
+                                <div class="c-dev_card _01 cc-shadow white" 
+                                style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) 
+                                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                                <div class="c-dev_process">
+                                    <h3>$200,000 Funded to Expand Clinic Operations and Add Diagnostic Equipment.</h3>				
+                                </div>
+                                    <img src="{{ 'assets/images/deliversSec-img4.png' }}" loading="lazy" sizes="100vw" 
+                                    srcset="{{ 'assets/images/deliversSec-img4.png' }} 500w, 
+                                    {{ 'assets/images/deliversSec-img4.png' }} 800w, 
+                                    {{ 'assets/images/deliversSec-img4.png' }} 1080w, 
+                                    {{ 'assets/images/deliversSec-img4.png' }} 1366w" alt="" 
+                                    class="image-20">
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    <div class="c-partner_left-block">
+                        <div class="c-partner_sticky">
+                            <h2>Fuel your vision. Unlock your success.</h2>
+                                <p>A stronger, smarter business starts with the right support. Verifen delivers.</p>                                
+                                <div class="contFlex mt-3">
+                                    <div class="conInfoBox w48p">
+                                        <h4 style="display:flex; justify-content:center">
+                                            <div class="stat-number">10</div>
+                                            <span>K+</span>
+                                        </h4>  
+                                        <p class="strongerText">Businesses Analyzed.</p>
+                                    </div>
+                                    <div class="conInfoBox w48p">
+                                        <h4 style="display:flex; justify-content:center">
+                                            <span>$</span>
+                                            <div class="stat-number">75</div>
+                                            <span>M+</span>
+                                        </h4>                            
+                                        <p class="strongerText">Funded to Growing Businesses.</p>
+                                    </div>
+                                    <div class="conInfoBox w48p">
+                                        <h4 style="display:flex; justify-content:center">                                
+                                            <div class="stat-number">500</div>
+                                            <span>+</span>
+                                        </h4>                            
+                                        <p class="strongerText">Entrepreneurs Empowered.</p>
+                                    </div>
+                                    <div class="conInfoBox w48p">
+                                        <h4 style="display:flex; justify-content:center">                                
+                                            <div class="stat-number">10</div>
+                                            <span>+</span>
+                                        </h4>                             
+                                        <p class="strongerText">Years of Proven Business Support</p>
+                                    </div>
+                                </div>
+                                <a class="applyButton mt-3" href="#">Check Your Eligibility</a> 
+                        </div>
                     </div>
-                    <!-- <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img1.png' }}" alt="Deliver image">
-                        <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img2.png' }}" alt="Deliver image">
-                        <img class="img-parallax" data-speed="-1" src="{{ 'assets/images/deliversSec-img3.png' }}" alt="Deliver image">-->
-                
-                <div class="deliversSecFlexRight">
-                    <h2>Fuel your vision. Unlock your success.</h2>
-                    <p>A stronger, smarter business starts with the right support. Verifen delivers.</p>
-                    <div class="contFlex mt-3">
-                        <div class="conInfoBox w48p">
-                            <h4 style="display:flex; justify-content:center">
-                                <div class="stat-number">10</div>
-                                <span>K+</span>
-                            </h4>
-                            
-                            <!-- <h4 class="counter">1000K+</h4> -->
-                            <p class="strongerText">Businesses Analyzed.</p>
-                        </div>
-                        <div class="conInfoBox w48p">
-                            <h4 style="display:flex; justify-content:center">
-                                <span>$</span>
-                                <div class="stat-number">75</div>
-                                <span>M+</span>
-                            </h4>                            
-                            <p class="strongerText">Funded to Growing Businesses.</p>
-                        </div>
-                        <div class="conInfoBox w48p">
-                            <h4 style="display:flex; justify-content:center">                                
-                                <div class="stat-number">500</div>
-                                <span>+</span>
-                            </h4>                            
-                            <p class="strongerText">Entrepreneurs Empowered.</p>
-                        </div>
-                        <div class="conInfoBox w48p">
-                             <h4 style="display:flex; justify-content:center">                                
-                                <div class="stat-number">10</div>
-                                <span>+</span>
-                            </h4>                             
-                            <p class="strongerText">Years of Proven Business Support</p>
-                        </div>
-                    </div>
-                    <a class="applyButton mt-3" href="#">Check Your Eligibility</a>
+                        
                 </div>
-            </div>
+                </div>
+                </div>
+                </div>
         </div>
-    </div>
+
+   
 
 
 
@@ -522,7 +580,7 @@
     <div class="transparencySec">
         <div class="fixedContent">
             <div class="transparencySecRow">
-                <div class="column11">
+                <div class="column11 mobText-center">
                     <h2>Where Transparency Meets Opportunity</h2>
                     <p>At Verifen, we believe that trust is the foundation of every successful partnership.
                         Unlike many lenders who operate in the shadows with fake names and questionable practices,
@@ -594,7 +652,7 @@
                             alt="Direct-Funders">
                     </figure>
                 </div>
-                <div class="column1">
+                <div class="column1 mobText-center">
                     <h2>Why Verifen?</h2>
                     <p>The merchant cash advance industry is often plagued by high interest rates, hidden fees,
                         and gimmicks that exploit businesses. Verifen stands out by offering a refreshing alternative.

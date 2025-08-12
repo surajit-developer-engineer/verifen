@@ -41,9 +41,9 @@
            <div class="hdr-row2">
             <a href="{{ route('index') }}">
                 <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
-            </a>
+            </a>            
 
-           <div class="hdrToprow brdNone">
+           <div class="hdrToprow brdNone">            
             <ul>
                 <li class="pgap-0">
                     <img src="{{ 'assets/images/phone-call.png' }}">
@@ -52,6 +52,11 @@
             </ul>
            </div>
            </div>
+
+           <div class="callSecwe mr-0">
+                <a href="tel:8887886160" target="_blank"><i class="fa fa-phone"></i></a>
+                <!-- <img src="{{ 'assets/images/phone-call.png' }}"> -->
+            </div>
 
            </div>
         </div>
@@ -276,8 +281,8 @@
   <div class="deliversSec pt-0 pb-5">
         <div class="container">
             <div class="deliversSecFlex">                
-                    <div class="unlock-sucess-left-prt mob-height-auto">
-                        <img alt="Image" src="{{ 'assets/images/trust-img.png' }}">	
+                    <div class="deliversSecFlexLeft mob-height-auto">
+                        <img class="mab-bgap" alt="Image" src="{{ 'assets/images/trust-img.png' }}">	
                     </div>                    
                 
                 <div class="deliversSecFlexRight">

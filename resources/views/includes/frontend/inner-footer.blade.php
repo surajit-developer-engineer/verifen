@@ -12,14 +12,16 @@
 
             <div class="columnThree">
                 <ul>
+                    <li><a href="/business-loans">Business Loans</a></li>                    
+                    <li><a href="/business-loan-application">Business Loan Application</a></li> 
                     <li><a href="#verifen">Why Verifen?</a></li>
                     <li><a href="#howitworks">How It Works</a></li>
-                   <li><a href="#solutions">Solutions</a></li>                    
-                    <li><a href="#funding">Funding</a></li>
+                    <li><a href="#solutions">Solutions</a></li> 
                 </ul>
             </div>
-            <div class="columnThree">
-                <ul>                    
+            <div class="columnThree w13">
+                <ul>    
+                    <li><a href="#funding">Funding</a></li>                
                     <li><a href="#benefits">Benefits</a></li>
                     <li><a href="#industries">Industries</a></li>                    
                     <li><a href="#faqs">FAQs</a></li>
@@ -61,11 +63,7 @@
         </div>
 
         <div class="ftr-copyright-prt">
-            <ul>                
-                <li><a href="/business-loans">Business Loans</a></li>
-                <li>|</li>
-                <li><a href="/business-loan-application">Business Loan Application</a></li>                
-                <li>|</li>
+            <ul> 
                 <li><a href="/credit-authorization">Credit Authorization</a></li>
                 <li>|</li>
                 <li><a href="/electronic-disclosure">Electronic Disclosure</a></li> 
@@ -94,7 +92,7 @@
 
     <!-- ================ Disclaimer Section ================ -->
 
-    <div class="disclaimerSec">
+    <!-- <div class="disclaimerSec">
         <div class="container">
             <p>Verifen provides business capital solutions, including business loans and revenue-based financing,
                 directly and through a network of trusted third-party funding providers. All funding offers are subject
@@ -117,6 +115,6 @@
                 for more details.
             </p>
         </div>
-    </div>
+    </div> -->
 
 </footer>
