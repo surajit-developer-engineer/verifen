@@ -1,56 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <url>
     <loc>https://www.verifen.com/contact</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://www.verifen.com/investor-program</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://www.verifen.com/business-loans</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://www.verifen.com/business-loans-application</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://www.verifen.com/credit-authorization</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://www.verifen.com/electronic-disclosure</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://www.verifen.com/california-privacy</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://www.verifen.com/privacy-policy</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://www.verifen.com/terms-of-use</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://www.verifen.com/tcpa-consent</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://www.verifen.com/terms-of-application</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://www.verifen.com/opt-out</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://www.verifen.com/partners</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
 </urlset>
