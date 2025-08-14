@@ -10,8 +10,8 @@ class IndexController extends Controller
     public function index()
     {
         $meta_data = [
-            "title" => "Verifen Business Loans | Affordable Loans, fast Approvals, Maximum Growth",
-            "description" => "Scale without limits with Verifen. Affordable business loans with fast approvals and same-day funding, trusted by thousands of growing businesses. Rated #1 for fueling real business growth. Apply in minutes."
+            "title" => "Verifen | Affordable Small Business Loans Without Gimmicks",
+            "description" => "Scale without limits with Verifen. Business loans with fast approvals and same-day funding, trusted by thousands of growing businesses. Apply in minutes."
         ];
         return view('pages.frontend.index', compact('meta_data'));
     }
