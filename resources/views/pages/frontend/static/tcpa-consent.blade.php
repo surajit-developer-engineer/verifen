@@ -39,6 +39,8 @@
         <div class="container">
             <h2>Consent to Telephonic Communications</h2>
         <dt>Last updated: July 16, 2025</dt>
+
+        
         <h3>1. Call Monitoring and Recording</h3>
         <p>You acknowledge and agree that telephone conversations to or from Verifen
 Funding, including those involving its agents and affiliates, may be recorded and

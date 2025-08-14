@@ -290,6 +290,7 @@ a.dfltBtn:hover {
     border-radius: 40px;
     display: inline-block;
     cursor: pointer;
+    border: none;
 }
 
 .applyButton:hover {
@@ -340,6 +341,7 @@ a.dfltBtn:hover {
 .home-banner-sec {
     position: relative;
     margin-top: 130px;
+    padding-top: 5px;
 }
 
 .featured_img_overlay {
@@ -1778,6 +1780,9 @@ a.dfltBtn:hover {
 }
 .socials li {
     margin: 0 3px !important;
+    display: flex;
+    justify-content: center;
+    width: 20px;
 }
 .socials li:nth-child(2) {
     padding-top: 3px;
@@ -1792,7 +1797,6 @@ a.dfltBtn:hover {
     padding-top: 25px;
     margin-top: 20px;
     text-align: center;
-    padding-bottom: 15px;
 }
 .w13{
     width: 13%;
@@ -1807,12 +1811,15 @@ a.dfltBtn:hover {
     font-weight: 400;
 }
 
-.ftr-copyright-prt small {
+.ftr-copyright-prt small a{
     padding-bottom: 7px;
     display: block;
     font-size: 16px;
     font-weight: 500;
     color: #333;
+}
+.ftr-copyright-prt small a:hover{
+    color: #1468d2;
 }
 
 .ftr-copyright-prt ul {
@@ -2734,6 +2741,12 @@ div[class^="cat"] label {
     margin-top: 130px;
     padding: 50px 0;
 }
+.innerStaticBodyOuter {
+    width: 100%;
+    background: #f8f8f8;
+    margin-top: 130px;
+    padding: 70px 0;
+}
 .contFlex{
     display: flex;
     flex-wrap: wrap;
@@ -2892,6 +2905,11 @@ div[class^="cat"] label {
     padding: 15px 0;
 }
 .staticPages h3 {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+.staticPages h4 {
     font-size: 25px;
     font-weight: 600;
     padding: 15px 0;
@@ -3289,10 +3307,11 @@ div[class^="cat"] label {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding:70px 100px;
 }
 .becomeSec h2{
    color: #1468d2; 
+   padding-bottom: 15px;
 }
 .becomeSec ul{
     display: flex;
@@ -3913,6 +3932,18 @@ div[class^="cat"] label {
 .step-form-sec input[type=button].next:hover{
   background-color: #000000;
 }
+.step-form-sec .backbtn{
+  background-color: #000;
+    font-size: 22px;
+   color: #ffffff;
+    font-weight: 500;
+  padding: 18px 70px;
+  float: none;
+  border: none;
+    margin-top: 30px;
+  border-radius: 30px;
+}
+
 
 
 /*============ Step Form Thanks Message ============*/
@@ -3986,6 +4017,18 @@ div[class^="cat"] label {
     margin-bottom: 8px;
     font-size: 20px;
 }
+.tableTopbg .fa-close{
+    font-size: 20px;
+    color: red;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.tableTopbg .fa-check{
+    font-size: 20px;
+    color: #1468d2;
+    font-weight: 400;
+    margin-left: 5px;
+}
 .tableTopbg .tableleftCol{
     width: 50%;
     text-align: center;
@@ -4004,18 +4047,21 @@ div[class^="cat"] label {
     justify-content: center;
 }
 .application-form-group {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   margin:0 15px;
 }
-
-.application-form-group input {
+.application-form-group img{
+  margin-right: 7px;
+}
+/* .application-form-group input {
   padding: 0;
   height: initial;
   width: initial;
   margin-bottom: 0;
   display: none;
   cursor: pointer;
-}
+} */
 
 .application-form-group label {
   position: relative;
@@ -4024,7 +4070,7 @@ div[class^="cat"] label {
   align-items: center;
 }
 
-.application-form-group label:before {
+/* .application-form-group label:before {
   content:'';
   -webkit-appearance: none;
   background-color: transparent;
@@ -4050,7 +4096,7 @@ div[class^="cat"] label {
   border: solid #0079bf;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
-}
+} */
 
 
 
@@ -4390,6 +4436,70 @@ div[class^="cat"] label {
     position: sticky;
     top: 140px;
 }
+.backpack{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.backpack .stcleftSec{
+    width: 35%;
+    margin-bottom: 30px;
+}
+.backpack .stcRightSec{
+    width: 60%;
+}
+.cat-one{
+    border-radius: 10px 70px 70px 10px;
+    height: 100%;
+    margin-bottom: 30px;
+}
+.cat-two{
+    border-radius: 70px 10px 10px 70px;
+    height: 100%;
+    margin-bottom: 30px;
+}
+.backpack-list li{
+    padding: 0 !important;
+}
+.p-dFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.p-dFlex-left{
+    width: 45%;
+}
+.p-dFlex-right{
+    width: 45%;
+}
+.investor-form{
+    width: 85%;
+}
+.investor-form .formFlex span{
+    color: #000;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+.investor-form .formFlex input{
+    border-radius: 50px;
+    height: 50px;
+    padding: 2px 25px 5px;
+    font-size: 17px;
+}
+.investor-form .formFlex select{
+    border-radius: 50px;
+    height: 50px;
+    padding: 2px 25px 5px;
+    font-size: 17px;
+}
+.investor-form .selectDropdownSec:after {
+    top: 14px;
+    right: 24px;
+}
+
+
+
+
 @media screen and (min-width: 1280px) {
     .section-6.color {
         border: 1px #000;
@@ -4487,6 +4597,30 @@ div[class^="cat"] label {
 }
 
 @media (max-width: 767px) {
+    .innerStaticBodyOuter {
+        margin-top: 75px;
+    }
+    .backpack{
+        flex-wrap: wrap;
+    }
+    .backpack .stcRightSec {
+        width: 100%;
+    }
+    .backpack .stcleftSec {
+        width: 100%;
+    }
+    .investor-form {
+        width: 100%;
+    }
+    .investor-form .applyButton{
+        margin-top: 30px;
+    }
+    .p-dFlex-left{
+        width: 100%;
+    }
+    .p-dFlex-right{
+        width: 100%;
+    }
     .mobText-center{
         text-align: center !important;
     }

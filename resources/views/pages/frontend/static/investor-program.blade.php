@@ -294,12 +294,52 @@
                 <p>Start earning more from your money. Grow your capital with confidence.
                     Join a network of investors who trust Verifen to protect their funds and deliver consistent returns.
                 </p>
-                 <ul>
-                    <li><span>🔒</span> Secure your position now.</li>
-                    <li><span>📩</span> Contact us at: ir@verifen.com</li>
-                    <li><span>📞</span> Call: (888) 788-6160</li>
-                    <li><span>🌐</span> Visit: www.verifen.com</li>
-                 </ul>
+
+                <form class="investor-form">
+                    <div class="formFlex">
+                        <div class="formCol">
+                            <span>Company Name</span>
+                            <input type="text" placeholder="Company Name" />
+                        </div>
+                        <div class="formCol">
+                            <span>Company Address</span>
+                            <input type="text" placeholder="Company Address">
+                        </div>
+                    </div>
+
+                    <div class="formFlex">
+                        <div class="formCol">
+                            <span>Email Address</span>
+                            <input type="text" placeholder="Email Address" />
+                        </div>
+                        <div class="formCol">
+                            <span>Phone Number</span>
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+                    </div>
+
+                    <div class="formFlex">
+                        <div class="formCol fullWidth">
+                            <span>Potential Investment Amount</span>
+                            <div class="selectDropdownSec">
+                                <select class="selectDropdown">
+                                    <option selected="">Select One</option>
+                                    <option>Up to $50,000</option>
+                                    <option>$50,000 - $100,000</option>
+                                    <option>$100,000 - $250,000</option>
+                                    <option>$250,000 - $500,000</option>
+                                    <option>$500,000 +</option>
+                                </select>
+                            </div>
+                        </div>                        
+                    </div>
+
+                    <div class="text-center">
+                        <input type="button" class="applyButton" value="Review & Submit" />
+                    </div>
+
+                </form>
+                
                 </div>
             </div>
         </div>

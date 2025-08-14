@@ -36,7 +36,30 @@
     @include('includes.frontend.header')
 
     <!-- ================ Banner Section ================ -->
-    <section class="home-banner-sec">
+     <section class="home-banner-sec">
+        <div class="landingbannerSec">
+            <div class="container">
+                <div class="lanbannerBg">
+                    <div class="lanban-con-holder">
+                        <h3>Your Partner in Business Growth</h3>
+                        <h2>Grow Your Business Without Limits</h2>
+                        <p>Access the capital you need to expand, innovate, and succeed. Verifen
+                            empowers businesses with quick,
+                            transparent, and affordable funding solutions tailored to meet your goals.
+                        </p>
+                        <a class="applyButton" href="{{ route('business.loan.application.step-1') }}"
+                            target="_blank"><span>Apply Now</span></a>
+                    </div>
+                    <div class="lanban-img-holder">
+                        <img src="{{ 'assets/images/home-banner.png' }}">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <section class="home-banner-sec">
         <div id="carouselExampleControls" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item itembg1 active">
@@ -51,7 +74,7 @@
                                             empowers businesses with quick,
                                             transparent, and affordable funding solutions tailored to meet your goals.
                                         </p>
-                                        <a class="applyButton" href="{{ route('application') }}"
+                                        <a class="applyButton" href="{{ route('business.loan.application.step-1') }}"
                                             target="_blank"><span>Apply Now</span></a>
                                     </aside>
                                     <aside class="slider_right">
@@ -62,7 +85,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="carousel-item">
+                <div class="carousel-item">
         <img src="{{ 'assets/images/home-banner-2.jpg' }}" alt="">
         <div class="bnr-caption">
           <div class="container">
@@ -94,12 +117,12 @@
             </aside>
           </div>
         </div>
-      </div> -->
+      </div>
             </div>
-            <!-- <a class="bnr-carousel-cntrl carousel-control-prev" data-bs-target="#carouselExampleControls" data-bs-slide="prev"></a>
-    <a class="bnr-carousel-cntrl carousel-control-next" data-bs-target="#carouselExampleControls" data-bs-slide="next"></a> -->
+            <a class="bnr-carousel-cntrl carousel-control-prev" data-bs-target="#carouselExampleControls" data-bs-slide="prev"></a>
+    <a class="bnr-carousel-cntrl carousel-control-next" data-bs-target="#carouselExampleControls" data-bs-slide="next"></a>
         </div>
-    </section>
+    </section> -->
 
     <!-- ================ Logo Section ================ -->
 
@@ -824,7 +847,7 @@
                 </div>
 
                 <div class="layoutBlock">
-                    <a class="applyButtonBlack mt-30" href="{{ route('application') }}" target="_blank">Apply
+                    <a class="applyButtonBlack mt-30" href="{{ route('business.loan.application.step-1') }}" target="_blank">Apply
                         Now</a>
                 </div>
 
@@ -1106,7 +1129,7 @@
             <h2>Ready to grow your business?</h2>
             <p>See how Verifen can help you achieve growth</p>
             <div class="flex">
-                <a class="applyButtonBlack" href="/my-application" target="_blank">Apply Now</a>
+                <a class="applyButtonBlack" href="/business-loan-application" target="_blank">Apply Now</a>
                 <a class="contactButton" href="/contact" target="_blank">Contact</a>
             </div>
         </div>

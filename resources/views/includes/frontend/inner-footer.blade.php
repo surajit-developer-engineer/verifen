@@ -26,6 +26,7 @@
                     <li><a href="#industries">Industries</a></li>                    
                     <li><a href="#faqs">FAQs</a></li>
                     <li><a href="/contact">Contact Us</a></li>
+                     <li><a href="/investor-program">Investor Program</a></li>  
                 </ul>
             </div>
             <div class="columnThree">
@@ -80,11 +81,9 @@
                 <li>|</li>
                 <li><a href="/tcpa-consent">CCPA Notice</a></li>
                 <li>|</li>
-                <li><a href="/terms-of-application">Terms of Application</a></li> 
-                <li>|</li>
-                <li><a href="/investor-program">Investor Program</a></li>               
+                <li><a href="/terms-of-application">Terms of Application</a></li>                             
             </ul>
-            <small><i>Do Not Sell My Personal Information</i></small>
+            <small><i><a href="/opt-out">Do Not Sell My Personal Information</a></i></small>
             <p>Copyright &copy; 2025 Verifen. All rights reserved.</p>
         </div>
 
@@ -92,7 +91,7 @@
 
     <!-- ================ Disclaimer Section ================ -->
 
-    <!-- <div class="disclaimerSec">
+    <div class="disclaimerSec">
         <div class="container">
             <p>Verifen provides business capital solutions, including business loans and revenue-based financing,
                 directly and through a network of trusted third-party funding providers. All funding offers are subject
@@ -115,6 +114,6 @@
                 for more details.
             </p>
         </div>
-    </div> -->
+    </div>
 
 </footer>

@@ -74,7 +74,7 @@
                         <p>Apply in minutes. Get approved fast. Access capital and growth support tailored to your goals. 
                             Verifen delivers fast capital with zero fluff, and the expert support to turn every dollar 
                             into a lasting impact.</p>
-                        <a class="applyButton mt-4" href="#">Check Your Eligibility</a>
+                        <a class="applyButton mt-4" href="/business-loan-application">Check Your Eligibility</a>
                     </div>
                     <div class="lanban-img-holder">
                         <img src="{{ 'assets/images/landing-banner2.png' }}">
@@ -175,29 +175,29 @@
             <div class="bgopacity becomeSecBg">                
                 <div class="verifen-different-sec">
                     <h2>See What Makes Verifen Different</h2>
-                    <div class="tableTopbg">
+                    <!-- <div class="tableTopbg">
                         <div class="tableleftCol">See What Makes</div>
                         <div class="tableleftCol bderrightNone">Verifen Different</div>
                     </div>
                     <div class="tableTopbg textColor">
                         <div class="tableleftCol">Traditional Lenders</div>
                         <div class="tableleftCol bderrightNone">Verifen</div>
+                    </div> -->
+                    <div class="tableTopbg textColor">
+                        <div class="tableleftCol">Long waits & red tape <i class="fa fa-close"></i></div>
+                        <div class="tableleftCol bderrightNone">Fast approvals <i class="fa fa-check"></i></div>
                     </div>
                     <div class="tableTopbg textColor">
-                        <div class="tableleftCol">Long waits & red tape</div>
-                        <div class="tableleftCol bderrightNone">Fast approvals</div>
+                        <div class="tableleftCol">Confusing terms <i class="fa fa-close"></i></div>
+                        <div class="tableleftCol bderrightNone">Transparent pricing <i class="fa fa-check"></i></div>
                     </div>
                     <div class="tableTopbg textColor">
-                        <div class="tableleftCol">Confusing terms</div>
-                        <div class="tableleftCol bderrightNone">Transparent pricing</div>
+                        <div class="tableleftCol">No support after funding <i class="fa fa-close"></i></div>
+                        <div class="tableleftCol bderrightNone">Ongoing business Support <i class="fa fa-check"></i></div>
                     </div>
                     <div class="tableTopbg textColor">
-                        <div class="tableleftCol">No support after funding</div>
-                        <div class="tableleftCol bderrightNone">Ongoing business Support</div>
-                    </div>
-                    <div class="tableTopbg textColor">
-                        <div class="tableleftCol">One-size-fits-all offers</div>
-                        <div class="tableleftCol bderrightNone">Tailored solutions</div>
+                        <div class="tableleftCol">One-size-fits-all offers <i class="fa fa-close"></i></div>
+                        <div class="tableleftCol bderrightNone">Tailored solutions <i class="fa fa-check"></i></div>
                     </div>
 
 
@@ -294,7 +294,7 @@
                         <li><strong>Trusted and Secure</strong></li>
                         <li><strong>Real Humans. Real Support.</strong></li>
                     </ul>
-                    <a class="applyButton mt-1" href="#">Check Your Eligibility in Minutes</a></br></br>
+                    <a class="applyButton mt-1" href="/business-loan-application">Check Your Eligibility in Minutes</a></br></br>
                     <small>No credit impact. No obligation.</small>
                 </div>
             </div>

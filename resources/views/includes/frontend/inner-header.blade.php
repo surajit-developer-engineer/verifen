@@ -54,9 +54,9 @@
                     <!-- <li><a href="/partner">Partner</a></li> -->
                     <li><a href="/#faqs">FAQs</a></li>
                     <li class="mobView">
-                    <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('application') }}" target="_blank">
+                    <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('business.loan.application.step-1') }}" target="_blank">
                     <span>Apply Now</span></a>
-                    <a class="applyButton" href="{{ route('application') }}" target="_blank">
+                    <a class="applyButton" href="{{ route('business.loan.application.step-1') }}" target="_blank">
                         Become a Member</a></div>
                     <a class="applyButtonStroke" href="tel:(888) 788-6160" target="_blank">
                     <span><i><img src="{{ 'assets/images/phone-call.png' }}"></i> Call Us: (888) 788-6160</span></a>

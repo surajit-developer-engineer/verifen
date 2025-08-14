@@ -112,79 +112,114 @@ and other patterns derived from collected data.</div>
 collect may appear in more than one category.</div>
         </div>
 
-
     </div>
 
 
-    <h3>Sensitive Personal Information</h3>
-     <p>We may collect sensitive information as defined under California law, which may include:</p>
-     <ul>
-        <li>Social Security number, passport, or driver's license</li>
-        <li>Login credentials and related security codes</li>
-        <li>Precise location data</li>
-        <li>Racial or ethnic origin</li>
-        <li>Sexual orientation or related preferences</li>
-     </ul>
-        <p>We do not retain this information for longer than necessary to fulfill its intended purpose, in compliance
-with applicable laws and internal retention policies. Factors affecting retention include the duration of our
-relationship with you, regulatory obligations, and legal considerations.</p>
+        <div class="backpack mt-5">               
+                <div class="stcRightSec">
+                        <h3 class="pt-0">Sensitive Personal Information</h3>
+                        <p>We may collect sensitive information as defined under California law, which may include:</p>
+                        <ul class="backpack-list">
+                                <li>Social Security number, passport, or driver's license</li>
+                                <li>Login credentials and related security codes</li>
+                                <li>Precise location data</li>
+                                <li>Racial or ethnic origin</li>
+                                <li>Sexual orientation or related preferences</li>
+                        </ul>
+                                <p>We do not retain this information for longer than necessary to fulfill its intended purpose, in compliance
+                        with applicable laws and internal retention policies. Factors affecting retention include the duration of our
+                        relationship with you, regulatory obligations, and legal considerations.</p>
+               </div>
+                <div class="stcleftSec"><img  class="cat-one" src="{{ 'assets/images/privacy-img1.png' }}" alt=""></div>
+	</div>
 
-        <h3>2. Purpose for Collecting Information</h3>
-        <p>We may use your personal and sensitive personal information as described in our Privacy Policy, primarily
-for:</p>
-        <ul>
-            <li>Service delivery and operations</li>
-            <li>Security and fraud prevention</li>
-            <li>Legal compliance</li>
-            <li>Advertising and analytics</li>
-            <li>Customer service and support</li>
-        </ul>
-        <h3>3. Information Sources</h3>
-        <p>Personal information may be collected from:</p>
-        <ul>
-            <li>Direct interactions with you</li>
-            <li>Your use of our websites and services</li>
-            <li>Financial and business documents you provide</li>
-            <li>Service providers and data partners</li>
-        </ul>
-        <p>Refer to Section 1.3 and Section 2 of our <a href="/privacy-policy">Privacy Policy</a> for full details.</p>
-        <h3>4. Sharing and Disclosure</h3>
-        <p>We may disclose your personal data to service providers and third parties, as necessary to operate our
-business. When sharing data for a business purpose, we maintain contracts that require confidentiality and
-prohibit use for any purpose beyond service performance.</p>
-        <p>In the past twelve (12) months, we have disclosed all of the above categories of personal and sensitive
-information for business purposes.</p>
-        <p>Additionally, <strong>Verifen</strong> may "sell" or "share" information as defined by the CCPA—primarily for crosscontext
-behavioral advertising. Like many digital companies, we use advertising platforms that deploy
-cookies and similar tools to serve relevant ads based on your interactions with our site.</p>
-        <p><strong>Categories of information "sold/shared":</strong></p>
-        <ul>
-            <li>Identifiers</li>
-            <li>Personal details under Cal. Civ. Code § 1798.80(e)</li>
-            <li>Internet/network activity</li>
-        </ul>
-        <p>See Sections 1.2, 2, and 5 of our <a href="/privacy-policy">Privacy Policy</a> for more.</p>
-        <h3>5. Your Privacy Rights in California</h3>
-        <p>If you are a California resident, you have the right to:</p>
-        <ul>
-            <li><strong>Access Information –</strong> Request disclosure of the categories or specific data we’ve collected, used, or
-            shared.</li>
-            <li><strong>Request Deletion –</strong> Ask us to delete personal information we’ve collected, with certain exceptions.</li>
-            <li><strong>Opt-Out –</strong> Opt out of the “sale” or “sharing” of your personal information.</li>
-            <li><strong>Limit Use of Sensitive Information –</strong> Restrict how we use and disclose sensitive data.</li>
-            <li><strong>Request Corrections –</strong> Correct inaccurate personal information.</li>
-            <li><strong>Freedom from Discrimination –</strong> You won’t be penalized for exercising any of these rights.</li>
-        </ul>
-        <p><strong>How to Exercise Your Rights</strong></p>
-        <p>To make a request, please contact us via:</p>
 
-        <ul>
-            <li>Email: <a href="mailto:privacy@Verifen.com">privacy@Verifen.com</a></li>
-            <li>Phone: (888) 788-6160</li>
-            <li>Online: <a href="www.Verifen.com/privacy-request">www.Verifen.com/privacy-request</a></li>
-        </ul>
-        <p>Verification of your identity (name and email at minimum) may be required. If acting on behalf of someone
-else, you must provide legal documentation such as a power of attorney.</p>
+        <div class="backpack mt-5"> 
+                <div class="stcleftSec"><img  class="cat-two" src="{{ 'assets/images/privacy-img2.png' }}" alt=""></div>              
+                <div class="stcRightSec">
+                        <h3 class="pt-0">2. Purpose for Collecting Information</h3>
+                        <p>We may use your personal and sensitive personal information as described in our Privacy Policy, 
+                                primarily for:</p>
+                        <ul class="backpack-list">
+                                <li>Service delivery and operations</li>
+                                <li>Security and fraud prevention</li>
+                                <li>Legal compliance</li>
+                                <li>Advertising and analytics</li>
+                                <li>Customer service and support</li>
+                        </ul>
+                </div>                
+	</div>
+
+
+        <div class="backpack mt-5">               
+                <div class="stcRightSec">
+                       
+                        <h3 class="pt-0">3. Information Sources</h3>
+                        <p>Personal information may be collected from:</p>
+                        <ul class="backpack-list">
+                                <li>Direct interactions with you</li>
+                                <li>Your use of our websites and services</li>
+                                <li>Financial and business documents you provide</li>
+                                <li>Service providers and data partners</li>
+                        </ul>
+                        <p>Refer to Section 1.3 and Section 2 of our <a href="/privacy-policy">Privacy Policy</a> for full details.</p>
+               </div>
+                <div class="stcleftSec"><img  class="cat-one" src="{{ 'assets/images/privacy-img3.png' }}" alt=""></div>
+	</div>
+
+
+ 
+        <div class="backpack mt-5"> 
+                <div class="stcleftSec"><img  class="cat-two" src="{{ 'assets/images/privacy-img4.png' }}" alt=""></div>              
+                <div class="stcRightSec">
+                        <h3 class="pt-0">4. Sharing and Disclosure</h3>
+                        <p>We may disclose your personal data to service providers and third parties, as necessary to operate our
+                business. When sharing data for a business purpose, we maintain contracts that require confidentiality and
+                prohibit use for any purpose beyond service performance.</p>
+                        <p>In the past twelve (12) months, we have disclosed all of the above categories of personal and sensitive
+                information for business purposes.</p>
+                        <p>Additionally, <strong>Verifen</strong> may "sell" or "share" information as defined by the CCPA—primarily for crosscontext
+                behavioral advertising. Like many digital companies, we use advertising platforms that deploy
+                cookies and similar tools to serve relevant ads based on your interactions with our site.</p>
+                        <p><strong>Categories of information "sold/shared":</strong></p>
+                        <ul class="backpack-list">
+                        <li>Identifiers</li>
+                        <li>Personal details under Cal. Civ. Code § 1798.80(e)</li>
+                        <li>Internet/network activity</li>
+                        </ul>
+                        <p>See Sections 1.2, 2, and 5 of our <a href="/privacy-policy">Privacy Policy</a> for more.</p>
+                </div>                
+	</div>
+        
+        <div class="backpack mt-5">               
+                <div class="stcRightSec">
+                       <h3>5. Your Privacy Rights in California</h3>
+                        <p>If you are a California resident, you have the right to:</p>
+                         <ul class="backpack-list">
+                        <li><strong>Access Information –</strong> Request disclosure of the categories or specific data we’ve collected, used, or
+                        shared.</li>
+                        <li><strong>Request Deletion –</strong> Ask us to delete personal information we’ve collected, with certain exceptions.</li>
+                        <li><strong>Opt-Out –</strong> Opt out of the “sale” or “sharing” of your personal information.</li>
+                        <li><strong>Limit Use of Sensitive Information –</strong> Restrict how we use and disclose sensitive data.</li>
+                        <li><strong>Request Corrections –</strong> Correct inaccurate personal information.</li>
+                        <li><strong>Freedom from Discrimination –</strong> You won’t be penalized for exercising any of these rights.</li>
+                        </ul>
+                        <p><strong>How to Exercise Your Rights</strong></p>
+                        <p>To make a request, please contact us via:</p>
+
+                        <ul class="backpack-list">
+                        <li>Email: <a href="mailto:privacy@Verifen.com">privacy@Verifen.com</a></li>
+                        <li>Phone: (888) 788-6160</li>
+                        <li>Online: <a href="www.Verifen.com/privacy-request">www.Verifen.com/privacy-request</a></li>
+                        </ul>
+                        <p>Verification of your identity (name and email at minimum) may be required. If acting on behalf of someone
+                else, you must provide legal documentation such as a power of attorney.</p>
+               </div>
+                <div class="stcleftSec"><img  class="cat-one" src="{{ 'assets/images/privacy-img5.png' }}" alt=""></div>
+	</div>
+        
+       
+        
 
         <h3>Household and Minor Data</h3>
         <p>We do not knowingly collect data from individuals under the age of 18 or aggregate data at the household

@@ -44,14 +44,11 @@
                             <div class="container">
                                 <div class="bdFlex">
                                     <aside class="slider_left">
-                                        <h3>Fund Smarter, Earn More, with Zero Risk</h3>
+                                        <h3>Fund Smarter, Earn More, No Gimmicks.</h3>
                                         <h2>Welcome to the Verifen Partner Program</h2>
-                                        <p>your gateway to connecting with verified, high-quality funding requests from
-                                            merchants.
-                                            With transparency, a zero-risk guarantee, and powerful tools for funders,
-                                            Verifen is
-                                            revolutionizing the funding process to make it simple, secure, and
-                                            profitable.
+                                        <p>your gateway to connecting with verified, high-quality business loans applications 
+                                            from qualified bussiness. With transparency, lower risk, and powerful tools for funders, 
+                                            Verifen is revolutionizing the funding process to make it simple, secure, and profitable.
                                         </p>
                                         <!-- <a class="applyButton" href="{{ route('application') }}"
                                             target="_blank"><span>Apply Now</span></a> -->

@@ -49,7 +49,7 @@ features, or content we own or operate (collectively, the “Site(s)”), as wel
 third-party applications relying on our API, and related services (collectively
 referred to as “Services”).</p>
 
-     <p><strong>Verifen</strong> is a small business marketplace dedicated to assisting small
+<p><strong>Verifen</strong> is a small business marketplace dedicated to assisting small
 businesses with accessing and managing capital. This Privacy Policy applies to all
 users who interact with our Sites.</p>
 
@@ -64,8 +64,9 @@ practices and provide you with more choices regarding how we process your data.
 <strong>Section Summary:</strong> This Privacy Policy explains how <strong>Verifen</strong> collects and
 uses your personal data when you interact with our website and services.</p>
 
-        <h3>1. Types of Information We Collect</h3>
-        <p><strong>1.1 Personal Information Collected</strong></p>
+       
+<h4>1. Types of Information We Collect</h4>
+        <h3>1.1 Personal Information Collected</h3>
         <p>While <strong>Verifen</strong> primarily collects information about your business, we
 inevitably collect <strong>Personal Information</strong> about business owners as they seek
 business capital. <strong>Personal Information</strong> is any data that identifies, relates to,
@@ -82,9 +83,11 @@ financial verification), or for other specific purposes described below. As our
 features and Services evolve, we may request additional information from you.
 Please note that failing to provide certain information may result in the inability to
 use some or all of our Services.</p>
-        <p><strong>1.2 Types of Personal Information We Collect</strong></p>
+        
+     
+        <h3>1.2 Types of Personal Information We Collect</h3>
         <p>During the course of offering services, <strong>Verifen</strong> may collect the following
-information:</p>
+information:</p> 
         <ul>
             <li><strong>Personal Identification Information:</strong> Full name, date of birth, utility bills,
 photographs, phone number, home address, IP address, social security
@@ -206,6 +209,8 @@ was provided.</p>
         <p>We may also link to third-party websites, which have their own privacy policies.
 We encourage you to review their privacy and security practices, as we are not
 responsible for their handling of personal information.</p>
+
+
 
         <h3>3. Purpose of Information Usage</h3>
         <p><strong>3.1 Delivering Verifen Services</strong></p>

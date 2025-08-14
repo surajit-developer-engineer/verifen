@@ -5,18 +5,18 @@
 
             <div class="columnOne">
                 <a href="index.html">
-                    <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
+                    <img src="{{ asset('assets/images/logo.svg') }}" alt="Verifen">
                 </a>
-                <img class="fr-fic" src="{{ 'assets/images/bbb_transparent.png' }}" alt="">
+                <img class="fr-fic" src="{{ asset('assets/images/bbb_transparent.png') }}" alt="">
             </div>
 
             <div class="columnThree">
                 <ul>
                     <li><a href="/business-loans">Business Loans</a></li>
-                    <li><a href="/business-loan-application">Business Loan Application</a></li>
+                    <li><a href="/business-loan-application/step-1">Business Loan Application</a></li>
                     <li><a href="#verifen">Why Verifen?</a></li>
                     <li><a href="#howitworks">How It Works</a></li>
-                    <li><a href="#solutions">Solutions</a></li>                    
+                    <li><a href="#solutions">Solutions</a></li>                   
                     
                 </ul>
             </div>
@@ -27,6 +27,7 @@
                     <li><a href="#industries">Industries</a></li>                    
                     <li><a href="#faqs">FAQs</a></li>
                     <li><a href="/contact">Contact Us</a></li>
+                     <li><a href="/investor-program">Investor Program</a></li> 
                 </ul>
             </div>
             <div class="columnThree">
@@ -82,10 +83,8 @@
                 <li><a href="/tcpa-consent">CCPA Notice</a></li>
                 <li>|</li>
                 <li><a href="/terms-of-application">Terms of Application</a></li> 
-                <li>|</li>
-                <li><a href="/investor-program">Investor Program</a></li>               
             </ul>
-            <small><i>Do Not Sell My Personal Information</i></small>
+            <small><i><a href="/opt-out">Do Not Sell My Personal Information</a></i></small>
             <p>Copyright &copy; 2025 Verifen. All rights reserved.</p>
         </div>
 
@@ -93,7 +92,7 @@
 
     <!-- ================ Disclaimer Section ================ -->
 
-    <!-- <div class="disclaimerSec">
+    <div class="disclaimerSec">
         <div class="container">
             <p>Verifen provides business capital solutions, including business loans and revenue-based financing,
                 directly and through a network of trusted third-party funding providers. All funding offers are subject
@@ -116,6 +115,6 @@
                 for more details.
             </p>
         </div>
-    </div> -->
+    </div>
 
 </footer>

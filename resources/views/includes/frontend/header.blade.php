@@ -20,7 +20,7 @@
                             <span>Contact Us</span></a>
                     </li>
                     <li class="button lastmenu">
-                        <a href="{{ route('application') }}" target="_blank">
+                        <a href="{{ route('business.loan.application.step-1') }}" target="_blank">
                             <span>Apply Now</span></a>
                     </li>
                 </ul>
@@ -50,7 +50,7 @@
                     <!-- <li><a href="/partner">Partner</a></li> -->
                     <li><a href="#faqs">FAQs</a></li>
                     <li class="mobView">
-                    <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('application') }}" target="_blank">
+                    <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('business.loan.application.step-1') }}" target="_blank">
                     <span>Apply Now</span></a>
                     <a class="applyButton" href="/contact" target="_blank">
                         Contact Us</a></div>

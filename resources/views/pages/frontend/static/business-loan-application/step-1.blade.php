@@ -8,22 +8,22 @@
     <meta name="description"
         content="Verifen offers transparent business loans with guaranteed lower interest rates. Fast approvals and flexible terms. Trusted by businesses nationwide." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' }}">
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon.png') }}">
     <!-- Bootstrap Css -->
-    <link type="text/css" href="{{ 'assets/css/bootstrap.min.css' }}" rel="stylesheet">
+    <link type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Fontawesome Css -->
     <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         rel="stylesheet">
     <link type="text/css" href="https://cdn.jsdelivr.net/npm/ti-icons@0.1.2/css/themify-icons.min.css" rel="stylesheet">
     <!-- Owl Carousel Css -->
-    <link type="text/css" href="{{ 'assets/css/owl.carousel.min.css' }}" rel="stylesheet">
-    <link type="text/css" href="{{ 'assets/css/owl.theme.default.min.css' }}" rel="stylesheet">
+    <link type="text/css" href="{{ asset('assets/css/owl.carousel.min.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ asset('assets/css/owl.theme.default.min.css') }}" rel="stylesheet">
     <!-- Animate Css -->
-    <link type="text/css" href="{{ 'assets/css/animate.css' }}" rel="stylesheet">
+    <link type="text/css" href="{{ asset('assets/css/animate.css') }}" rel="stylesheet">
     <!-- Menu Css -->
-    <link type="text/css" href="{{ 'assets/css/slimmenu.css' }}" rel="stylesheet">
+    <link type="text/css" href="{{ asset('assets/css/slimmenu.css') }}" rel="stylesheet">
     <!-- Custom Css -->
-    <link type="text/css" href="{{ 'assets/css/style.css' }}" rel="stylesheet">
+    <link type="text/css" href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
     <!-- Font Link -->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -43,7 +43,7 @@
                 <div class="logo-flxRow flxWrap">                 
            <div class="hdr-row2 wAuto">
             <a href="{{ route('index') }}">
-                <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
+                <img src="{{ asset('assets/images/logo.svg') }}" alt="Verifen">
             </a>
            </div> 
            <div class="callSecwe mr-0">
@@ -64,7 +64,7 @@
            <div class="hdrToprow brdNone">
             <ul>
                 <li class="pgap-0">
-                    <img src="{{ 'assets/images/phone-call.png' }}">
+                    <img src="{{ asset('assets/images/phone-call.png') }}">
                     <a href="tel:8887886160" target="_blank">(888) 788-6160</a>
                 </li>                
             </ul>
@@ -88,34 +88,28 @@
                     <div class="first-step-sub-step-one">
                         <div class="title-hdn">
                             <h3>Get the Capital You Need Without the Games</h3></br>
-                            <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p>
-                            <div class="menu">
-                                <a class="button">Simple Application</a>
-                                <a class="button">Flexible Options</a>
-                                <a class="button">No Hidden Fees</a>
-                                <a class="button">Personalized Support</a>                                
-                            </div>
-                            <!-- <div class="application-flex">
+                            <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p>                           
+                            <div class="application-flex">
                                 <div class="application-form-group">
-                                        <input type="checkbox" id="sa">
-                                        <label for="sa">Simple Application</label>
+                                         <img src="{{ asset('assets/images/check-icon.png') }}" alt="check">
+                                        <label>Simple Application</label>
                                     </div>
                                     <div class="application-form-group">
-                                        <input type="checkbox" id="fo">
-                                        <label for="fo">Flexible Options</label>
+                                        <img src="{{ asset('assets/images/check-icon.png') }}" alt="check">
+                                        <label>Flexible Options</label>
                                     </div>
                                     <div class="application-form-group">
-                                        <input type="checkbox" id="nhf">
-                                        <label for="nhf">No Hidden Fees</label>
+                                         <img src="{{ asset('assets/images/check-icon.png') }}" alt="check">
+                                        <label>No Hidden Fees</label>
                                     </div>
                                     <div class="application-form-group">
-                                        <input type="checkbox" id="ps">
-                                        <label for="ps">Personalized Support</label>
+                                         <img src="{{ asset('assets/images/check-icon.png') }}" alt="check">
+                                        <label>Personalized Support</label>
                                     </div>
-                            </div> -->
-                            <!-- <div class="menu">
+                            </div>
+                            <div class="menu">
                                 <a class="button toplink formsim-btn">Go Now <i class="fa fa-long-arrow-right"></i></a>                                
-                             </div> -->
+                             </div>
                         </div>
                     </div>
                 </div>
@@ -261,276 +255,23 @@
                         </div>
                     </div>
                 </div>
+                <input type="button" name="previous" class="backbtn prev action-button" value="Previous" style="display: none;" />
                 <input type="button" name="next" class="next action-button" value="Next" style="display: none;" />
-            </fieldset>
-
-            <!-- Second Step -->
-            <fieldset>
-                <div class="form-card active">
-                    <div class="first-step-sub-step-one">
-                        <div class="title-hdn">
-                            <h3>Get the Capital You Need Without the Games</h3></br>
-                            <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p>
-                            <div class="menu">
-                                <a class="button backToTopBtn formsim-btn">Go Now <i class="fa fa-long-arrow-right"></i></a>                                
-                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>What is your business address?</h3>
-                        <div class="step-form-field">
-                            <label>Business Address</label>
-                            <input type="text" name="businessAddress" placeholder="Business Address" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>What is your business name?</h3>
-                        <div class="step-form-field">
-                            <label>Business Name</label>
-                            <input type="text" name="businessName" placeholder="Business Name" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>What is your full name?</h3>
-                        <div class="step-form-field">
-                            <label>Full Name</label>
-                            <input type="text" name="fullName" placeholder="Full Name" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>What is the best phone number to reach you?</h3>
-                        <div class="step-form-field">
-                            <label>Phone Number</label>
-                            <input type="text" name="phoneNumber" placeholder="Phone Number" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>What is your email address?</h3>
-                        <div class="step-form-field">
-                            <label>Email Address</label>
-                            <input type="text" name="emailAddress" placeholder="Email Address" />
-                        </div>
-                    </div>
-                </div>
-
-                <input type="button" name="next" class="next action-button" value="Next" style="display: none;" />
-            </fieldset>
-
-            <!-- Third Step -->
-            <fieldset>
-                <div class="form-card active">
-                    <div class="first-step-sub-step-one">
-                        <div class="title-hdn">
-                            <h3>Get the Capital You Need Without the Games</h3></br>
-                            <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p>
-                            <div class="menu">
-                                <a class="button formsim-btn">Go Now <i class="fa fa-long-arrow-right"></i></a>                                
-                             </div>
-                        </div>
-                    </div>
-                </div>                
-                <div class="form-card">
-                    <div class="first-step-sub-step-eleven">
-                        <h3>Do you currently have any open business loans?</h3>
-                        <div class="menu">
-                            <a class="button">Yes</a>
-                            <a class="button">No</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-eleven">
-                        <h3>Have you ever defaulted on a business loan?</h3>
-                        <div class="menu">
-                            <a class="button">Yes</a>
-                            <a class="button">No</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>What is your business’s current average daily bank balance?</h3>
-                        <div class="step-form-field">
-                            <label>Daily Bank Balance</label>
-                            <input type="text" name="dailyBankBalance" placeholder="500" />
-                            <i class="fa fa-usd" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-eleven">
-                        <h3>How many returned payments have occurred in the last 3 months?</h3>
-                        <div class="menu">
-                            <a class="button">None</a>
-                            <a class="button">1–3</a>
-                            <a class="button">4–10</a>
-                            <a class="button">10+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-eleven">
-                        <h3>How soon do you need funding?</h3>
-                        <div class="menu">
-                            <a class="button">As soon as possible</a>
-                            <a class="button">Within 2–4 weeks</a>
-                            <a class="button">Just exploring options</a>
-                        </div>
-                    </div>
-                </div>
-
-                <input type="button" name="next" class="next action-button" value="Next" style="display: none;" />
-            </fieldset>
-
-            <!-- Fourth Step -->
-            <fieldset>
-                <div class="form-card active">
-                    <div class="first-step-sub-step-one">
-                        <div class="title-hdn">
-                            <h3>Get the Capital You Need Without the Games</h3></br>
-                            <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p>
-                            <div class="menu">
-                                <a class="button formsim-btn">Go Now <i class="fa fa-long-arrow-right"></i></a>                                
-                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>What is your date of birth?</h3>
-                        <div class="step-form-field">
-                            <label>Date of Birth</label>
-                            <input type="date" name="dateOfBirth" placeholder="MM/DD/YYYY" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>What is your Social Security Number</h3>
-                        <div class="step-form-field">
-                            <label>Social Security Number</label>
-                            <input type="text" name="socialSecurityNumber" placeholder="XXX-XX-XXXX" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>What is your home address?</h3>
-                        <div class="step-form-field">
-                            <label>Home Address</label>
-                            <input type="text" name="homeAddress" placeholder="Home Address" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-eleven">
-                        <h3>Do you rent or own your home?</h3>
-                        <div class="menu">
-                            <a class="button">I Rent My Home</a>
-                            <a class="button">I Own My Home</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-eleven">
-                        <h3>Have you ever filed for bankruptcy?</h3>
-                        <div class="menu">
-                            <a class="button">Yes</a>
-                            <a class="button">No</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-three">
-                        <h3>Which state issued your driver’s license?</h3>
-                        <div class="step-form-field">
-                            <select required>
-                              <option value="" disabled selected>Select a State</option>
-                              <option value="AUS">Australia</option>
-                              <option value="UK">UK</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>What is your driver’s license number?</h3>
-                        <div class="step-form-field">
-                            <label>Driver’s License Number</label>
-                            <input type="text" name="licenseNumber" placeholder="XXX-XX-XXXX" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>Upload a copy of your driver’s license:</h3>
-                        <div class="step-form-field">
-                            <label>Upload Driver’s License</label>
-                            <div class="step-form-input-file-row">
-                                <input class="f-input file-name" readonly />
-                                <div class="fileUpload btn--browse">
-                                    <span>Browse</span>
-                                    <input type="file" class="upload" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>Upload your 6 most recent business bank statements:</h3>
-                        <div class="step-form-field">
-                            <label>Upload Bank Statements</label>
-                            <div class="step-form-input-file-row">
-                                <input class="f-input file-name" readonly />
-                                <div class="fileUpload btn--browse">
-                                    <span>Browse</span>
-                                    <input type="file" class="upload" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <input type="button" name="next" class="next action-button" value="Next" style="display: none;" />
-            </fieldset>
+                
+                <!-- <a class="backbtn action-button" style="display: none;" href=""> Back </a> -->
+                
+            </fieldset>        
 
             <!-- Fifth Final Step -->
             <fieldset>
               <div class="thanks-message">
-                <img class="success-icon" src="assets/images/tick-mark.png" alt="" />
+                <img class="success-icon" src="{{asset('assets/images/tick-mark.png')}}" alt="" />
                 <h4>Application Received!</h4>
                 <p>Thank you for applying with Verifen. One of our experienced Business Advisors will reach out to you shortly to discuss your options. We're here to help you access the capital you need. quickly, clearly, and with expert support every step of the way.</p>
               </div>
             </fieldset>
+
+
         </form>
     </div>
 </section>
@@ -544,14 +285,14 @@
     <!-- Wow JS -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="{{ 'assets/js/bootstrap.min.js' }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- Menu JS -->
-    <script src="{{ 'assets/js/easing.min.js' }}"></script>
-    <script src="{{ 'assets/js/slimmenu.min.js' }}"></script>
+    <script src="{{ asset('assets/js/easing.min.js') }}"></script>
+    <script src="{{ asset('assets/js/slimmenu.min.js') }}"></script>
     <!-- Owl Carousel js -->
-    <script src="{{ 'assets/js/owl.carousel.min.js' }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
     <!-- Custome js -->
-    <script src="{{ 'assets/js/custom.js' }}"></script>
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
     <script>
         $(document).ready(function () {
     var current_fs, next_fs, previous_fs;
@@ -622,6 +363,7 @@
         var $fieldset = $(this);
         var $cards = $fieldset.find(".form-card");
         var $nextBtn = $fieldset.find(".next");
+        var $prevBtn = $fieldset.find(".prev");
         var cardIndex = 0;
 
         function showCard(index) {

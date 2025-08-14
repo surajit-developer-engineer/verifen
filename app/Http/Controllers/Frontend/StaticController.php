@@ -106,9 +106,24 @@ class StaticController extends Controller
         return view('pages.frontend.static.business-loans', compact('meta_data'));
     }
 
-    public function businessLoanApplication()
+    public function businessLoanApplicationStep1()
     {
-        return view('pages.frontend.static.business-loan-application');
+        return view('pages.frontend.static.business-loan-application.step-1');
+    }
+
+    public function businessLoanApplicationStep2()
+    {
+        return view('pages.frontend.static.business-loan-application.step-2');
+    }
+
+    public function businessLoanApplicationStep3()
+    {
+        return view('pages.frontend.static.business-loan-application.step-3');
+    }
+
+    public function businessLoanApplicationStep4()
+    {
+        return view('pages.frontend.static.business-loan-application.step-4');
     }
 
     public function partnersApplication()
