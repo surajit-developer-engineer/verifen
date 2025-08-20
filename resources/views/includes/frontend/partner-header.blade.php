@@ -39,7 +39,7 @@
                 <ul class="slimmenu">
                 <div class="collapse-button closeIcon"> <img src="{{ 'assets/images/close-icon.png' }}" alt="Close Icon"> </div>
                     <li><a href="/">Home</a></li>
-                    <li class="active"><a href="/partner">Partner</a></li>
+                    <li class="active"><a href="/partners">Partner</a></li>
                     <li><a href="#howitworks">How It Works</a></li>
                     <li><a href="#wcVerifen">Why Choose Verifen?</a></li>
                     <li class="mobView">

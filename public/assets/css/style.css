@@ -1683,7 +1683,7 @@ a.dfltBtn:hover {
 }
 
 .readytoproSec p span a {
-    color: #1468d2 !important;
+    color: #fff !important;
     font-family: "Work Sans", sans-serif;
 }
 
@@ -4496,6 +4496,23 @@ div[class^="cat"] label {
     top: 14px;
     right: 24px;
 }
+.ulList-check-icon{
+    margin-left: 0 !important;
+}
+.ulList-check-icon li{
+    position: relative;
+    padding-left: 30px !important;
+    list-style: none !important;
+}
+.ulList-check-icon li:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 0;
+    background: url(../images/check-icon2.png) 0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+}
 
 
 
@@ -4597,6 +4614,9 @@ div[class^="cat"] label {
 }
 
 @media (max-width: 767px) {
+    .lanban-con-holder:after{
+        display: none;
+    }
     .innerStaticBodyOuter {
         margin-top: 75px;
     }

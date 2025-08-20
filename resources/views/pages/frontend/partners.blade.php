@@ -78,27 +78,26 @@
                         <img src="{{ 'assets/images/sign-up-icon.png' }}" alt="">
                     </div>
                     <h3 class="heading-small">Sign Up and Explore</h3>
-                    <p>Access our database of funding requests from pre-qualified merchants in real-time.</p>
+                    <p>Access our database of funding requests from pre-qualified businesses in real-time.</p>
                 </div>
                 <div class="partboxCol">
                     <div class="certified-partner_how-icon">
                         <img src="{{ 'assets/images/deal-icon.png' }}" alt="">
                     </div>
                     <h3 class="heading-small">Choose Your Deal</h3>
-                    <p>Browse funding opportunities, decide whether to fund entirely or partially, and start earning.
-                    </p>
+                    <p>Explore funding opportunities and choose to fund them fully or partially with the 
+                        help of our streamlined tools and platforms.</p>
                 </div>
                 <div class="partboxCol">
                     <div class="certified-partner_how-icon">
                         <img src="{{ 'assets/images/grow-icon.png' }}" alt="">
                     </div>
                     <h3 class="heading-small">Monitor, Manage, and Grow</h3>
-                    <p>Use your dashboard to track deals, monitor payments, and view your earnings as you progress
-                        through the tier system.</p>
+                    <p>Track deals, monitor payments, and view your earnings through our easy-to-use dashboard.</p>
                 </div>
             </div>
 
-            <div class="text-center"><a class="applyButton" href="/partner-signup" target="_blank"><span>Become a
+            <div class="text-center mt-5"><a class="applyButton" href="/partner-signup" target="_blank"><span>Become a
                         Partner</span></a></div>
         </div>
     </div>
@@ -112,9 +111,9 @@
 
             <div class="partWcVerifenFlx">
                 <div class="partWcVerifenFlxLCol">
-                    <h3 class="heading-small">Zero Risk Commitment</h3>
-                    <p>Fund confidently, knowing Verifen fully guarantees all loans. If a loan defaults,
-                        we take full responsibility and ensure your principal is returned in full.</p>
+                    <h3 class="heading-small">Fund Safely with Verifen</h3>
+                    <p>Fund with confidence, Verifen rigorously evaluates each business’s performance, model, 
+                        and risk profile to ensure only qualified, low-risk businesses are approved for funding.</p>
                 </div>
                 <div class="partWcVerifenFlxRCol">
                     <img src="{{ 'assets/images/partner-img2.png' }}" alt="">
@@ -153,11 +152,11 @@
                 <div class="partWcVerifenFlxLCol">
                     <h3 class="heading-small">Monitor and Manage All Deals in One Place</h3>
                     <p>Gain full control and visibility over your funding portfolio:</p>
-                    <ul>
-                        <li>- *Track Every Deal:* Monitor all funded deals in real-time using our intuitive portal.</li>
-                        <li>- *Funding History at Your Fingertips:* Review your funding history with ease,
+                    <ul class="ulList-check-icon">
+                        <li><strong>Track Every Deal:*</strong> Monitor all funded deals in real-time using our intuitive portal.</li>
+                        <li><strong>Funding History at Your Fingertips:*</strong> Review your funding history with ease,
                             ensuring you stay informed about your portfolio's growth.</li>
-                        <li>- *Payment and Earnings Tracking:* Stay up-to-date on payments and view your earnings,
+                        <li><strong>Payment and Earnings Tracking:*</strong> Stay up-to-date on payments and view your earnings,
                             all from your funder account dashboard.</li>
                         <li>With Verifen’s powerful tools, managing your investments has never been simpler or more
                             transparent.</li>
@@ -169,21 +168,23 @@
 
             <div class="partWcVerifenFlx">
                 <div class="partWcVerifenFlxLCol">
-                    <h3 class="heading-small">Earning Tiers That Reward Your Commitment</h3>
-                    <p>As you fund more deals, you unlock greater earning potential with our tiered rewards system:</p>
-                    <ul>
-                        <li>- *Silver Funder:* Fund up to $50K → *5% earning on principal*</li>
-                        <li>- *Gold Funder:* Fund up to $100K → *6% earning on principal*</li>
-                        <li>- *Platinum Funder:* Fund up to $250K → *7% earning on principal*</li>
-                        <li>- *Black Funder:* Fund up to $500K → *8% earning on principal*</li>
-                        <li>- *Diamond Funder:* Fund up to $1M → *9% earning on principal*</li>
-                        <li>- *Diamond Preferred Funder:* Fund over $1M → *10% earning on principal*</li>
+                    <h3 class="heading-small">Built on Relationships, Powered by Trust</h3>
+                    <p>At Verifen, we focus on long-term relationships, not just transactions. As you build your 
+                        funding history with us, you'll gain access to higher-earning opportunities, lower risk profiles, 
+                        and exclusive loan deals reserved for our most qualified partners.</p>
+                    <ul class="ulList-check-icon">
+                        <li><strong>Silver Funder:*</strong> Fund up to $50K.</li>
+                        <li><strong>Gold Funder:*</strong> Fund up to $100K.</li>
+                        <li><strong>Platinum Funder:*</strong> Fund up to $250K.</li>
+                        <li><strong>Black Funder:*</strong> Fund up to $500K.</li>
+                        <li><strong>Diamond Funder:*</strong> Fund up to $1M.</li>
+                        <li><strong>Diamond Preferred Funder:*</strong> Fund over $1M.</li>
                     </ul>
                 </div>
                 <div class="partWcVerifenFlxRCol">
                     <img src="{{ 'assets/images/partner-im5.png' }}" alt="">
                 </div>
-            </div>
+            </div>      
 
 
             <div class="partWcVerifenFlx">
@@ -209,11 +210,9 @@
 
     <div class="readytoproSec">
         <div class="container">
-            <h2>Ready to proceed?</h2>
-            <p>Please <a href="#" target="_blank"><u>complete a quick application</u></a> or call us at <span>
-                    <a href="tel:(877)%20400-0297" rel="noopener noreferrer" target="_blank">(877)
-                        400-0297</a></span>
-            </p>
+            <h2>Earn with Verifen</h2>
+            <p>Ready to become an authorized Verifen Partner? Submit the quick form below to 
+                get started and unlock new funding opportunities.</p>
         </div>
     </div>
 

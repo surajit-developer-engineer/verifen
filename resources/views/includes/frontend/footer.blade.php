@@ -26,14 +26,10 @@
                     <li><a href="#benefits">Benefits</a></li>
                     <li><a href="#industries">Industries</a></li>                    
                     <li><a href="#faqs">FAQs</a></li>
-                    <li><a href="/contact">Contact Us</a></li>
-                     <li><a href="/investor-program">Investor Program</a></li> 
+                    <li><a href="/contact">Contact Us</a></li>                    
                 </ul>
             </div>
-            <div class="columnThree">
-                <p class="boldText">Call Us
-                    <span><a href="tel:8887886160" target="_blank">(888) 788-6160</a></span>
-                </p>
+            <div class="columnThree">               
                 <p class="boldText">Follow Us</p>
                 <ul class="socials">
                     <li><a href="https://www.facebook.com/Verifenmca" target="_blank"><i class="fa fa-fw fa-facebook" alt="Facebook"></i></a><br>
@@ -49,9 +45,17 @@
                     <li><a href="https://www.youtube.com/@VerifenFunding" target="_blank"><i class="fa fa-fw fa-youtube-play" alt="linkedin"></i></a><br>
                     </li>
                 </ul>
+                </br>
+                <ul>
+                    <li><a href="/partners">Partners</a></li>
+                    <li><a href="/investor-program">Investor Program</a></li>
+                </ul>
             </div>
 
             <div class="columnThree">
+                 <p class="boldText">Call Us
+                    <span><a href="tel:8887886160" target="_blank">(888) 788-6160</a></span>
+                </p>
                 <p class="boldText">Monday - Friday
                     <span> 9:00 AM - 8:00 PM</span>
                 </p>

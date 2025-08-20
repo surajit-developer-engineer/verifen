@@ -25,13 +25,13 @@ class IndexController extends Controller
         return view('pages.frontend.application', compact('meta_data'));
     }
 
-    public function partner()
+    public function partners()
     {
         $meta_data = [
             "title" => "Apply to Be a Verifen Partner | Transparent MCA Funding Program",
             "description" => "Apply to join Verifen as an MCA and loan funder. Help qualified businesses access transparent funding with fast and simple funding process."
         ];
-        return view('pages.frontend.partner', compact('meta_data'));
+        return view('pages.frontend.partners', compact('meta_data'));
     }
 
     public function partnerSignup()

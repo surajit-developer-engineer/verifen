@@ -51,8 +51,9 @@
                     <li><a href="/#funding">Funding</a></li>
                     <li><a href="/#benefits">Benefits</a></li>
                     <li><a href="/#industries">Industries</a></li>
-                    <!-- <li><a href="/partner">Partner</a></li> -->
                     <li><a href="/#faqs">FAQs</a></li>
+                    <li class="mobView"><a href="/partners">Partners</a></li>
+                    <li class="mobView"><a href="/investor-program">Investor Program</a></li>
                     <li class="mobView">
                     <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('business.loan.application.step-1') }}" target="_blank">
                     <span>Apply Now</span></a>

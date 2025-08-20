@@ -393,7 +393,7 @@
                         <!-- The content -->
                         <div class="detailsDesc">
                             <div class="detailsDescInner">
-                                You will still receive your guaranteed 2% monthly return. Your earnings are not dependent on whether 
+                                You will still receive your guaranteed monthly returns. Your earnings are not dependent on whether 
                                 your capital is used or repaid, returns are fixed and backed by Verifen’s reserve structure.
                             </div>
                         </div>
@@ -409,7 +409,7 @@
                         <!-- The content -->
                         <div class="detailsDesc">
                             <div class="detailsDescInner">
-                            We deposit your 2% return directly into your bank account, and you can track it in your investor portal.
+                            We deposit your monthly returns directly into your bank account, and you can track it in your investor portal.
                             </div>
                         </div>
                     </div>
