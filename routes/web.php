@@ -31,7 +31,8 @@ Route::get('/business-loan-application/step-1', [StaticController::class, 'busin
 Route::get('/business-loan-application/step-2', [StaticController::class, 'businessLoanApplicationStep2'])->name('business.loan.application.step-2');
 Route::get('/business-loan-application/step-3', [StaticController::class, 'businessLoanApplicationStep3'])->name('business.loan.application.step-3');
 Route::get('/business-loan-application/step-4', [StaticController::class, 'businessLoanApplicationStep4'])->name('business.loan.application.step-4');
-Route::get('/partners-application', [StaticController::class, 'partnersApplication'])->name('partners.application');
+Route::get('/partners-application/step-1', [StaticController::class, 'partnersApplicationStep1'])->name('partners.application.step-1');
+Route::get('/partners-application/step-2', [StaticController::class, 'partnersApplicationStep2'])->name('partners.application.step-2');
 Route::get('/investors-application', [StaticController::class, 'investorsApplication'])->name('investors.application');
 Route::get('/business-growth-center', [StaticController::class, 'businessGrowthCenter'])->name('business.growth.center');
 Route::get('/blog-details', [StaticController::class, 'blogDetails'])->name('blog.details');

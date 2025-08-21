@@ -175,7 +175,7 @@ a.dfltBtn:hover {
     width: 100%;
     height: auto;
     background-color: #ffffff;
-    z-index: 4;
+    z-index: 10;
     float: none;
     clear: both;
     display: inline-block;
@@ -3951,7 +3951,7 @@ div[class^="cat"] label {
   position: relative;
   max-width: 600px;
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 80px 0 0;
   text-align: center;
 }
 .thanks-message .success-icon{
@@ -3960,7 +3960,7 @@ div[class^="cat"] label {
 }
 .thanks-message h4{
   font-size: 30px;
-  color: #008000;
+  color: #1468d2;
   font-weight: 700;
   margin: 0 0 25px 0;
 }
@@ -4049,7 +4049,7 @@ div[class^="cat"] label {
 .application-form-group {
   display: flex;
   flex-wrap: wrap;
-  margin:0 15px;
+  margin:3px 15px;
 }
 .application-form-group img{
   margin-right: 7px;
@@ -4068,6 +4068,7 @@ div[class^="cat"] label {
   cursor: pointer;
   display: flex;
   align-items: center;
+  font-weight: 500;
 }
 
 /* .application-form-group label:before {
@@ -4614,6 +4615,13 @@ div[class^="cat"] label {
 }
 
 @media (max-width: 767px) {
+    .application-flex{
+        flex-direction: column;
+    }
+    .application-flex {
+        width: 245px;
+        margin: 0 auto;
+    }
     .lanban-con-holder:after{
         display: none;
     }

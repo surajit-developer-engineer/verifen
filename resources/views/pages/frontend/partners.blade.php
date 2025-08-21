@@ -97,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="text-center mt-5"><a class="applyButton" href="/partner-signup" target="_blank"><span>Become a
+            <div class="text-center mt-5"><a class="applyButton" href="/partners-application/step-1" target="_blank"><span>Become a
                         Partner</span></a></div>
         </div>
     </div>
@@ -198,7 +198,7 @@
                 </div>
             </div>
 
-            <div class="text-center"><a class="applyButton" href="/partner-signup" target="_blank"><span>Become a
+            <div class="text-center"><a class="applyButton" href="/partners-application/step-1" target="_blank"><span>Become a
                         Partner</span></a></div>
 
         </div>

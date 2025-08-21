@@ -175,11 +175,11 @@
             <div class="bgopacity becomeSecBg">                
                 <div class="verifen-different-sec">
                     <h2>See What Makes Verifen Different</h2>
-                    <!-- <div class="tableTopbg">
-                        <div class="tableleftCol">See What Makes</div>
-                        <div class="tableleftCol bderrightNone">Verifen Different</div>
+                    <div class="tableTopbg">
+                        <div class="tableleftCol">Others</div>
+                        <div class="tableleftCol bderrightNone"><img style="width:120px; border-radius:0;" src="{{ 'assets/images/logo.svg' }}" alt="Verifen"></div>
                     </div>
-                    <div class="tableTopbg textColor">
+                    <!-- <div class="tableTopbg textColor">
                         <div class="tableleftCol">Traditional Lenders</div>
                         <div class="tableleftCol bderrightNone">Verifen</div>
                     </div> -->

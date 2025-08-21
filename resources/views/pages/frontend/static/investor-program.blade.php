@@ -334,8 +334,30 @@
                         </div>                        
                     </div>
 
+                    <div class="formFlex">
+                        <div class="formCol">
+                            <span>Contact Name</span>
+                            <input type="text" placeholder="Contact Name" />
+                        </div>
+                        <div class="formCol">
+                            <span>Contact Phone Number</span>
+                            <input type="text" placeholder="Contact Phone Number">
+                        </div>
+                    </div>
+                    </br>
+
                     <div class="text-center">
                         <input type="button" class="applyButton" value="Review & Submit" />
+                    </div>
+
+                    </br>
+
+                    <div class="text-center">
+                        <small>By submitting an application to Verifen, you agree to receive calls and text/SMS messages, 
+                            including those sent via an automatic dialing system, from Verifen or its agents at the 
+                            phone number(s) you provide, including your mobile number, even if you are registered on a federal, 
+                            state, or corporate do not call list. You also confirm your agreement to Verifen’s Privacy Policy 
+                            and Terms of Use, and acknowledge this as your electronic signature.</small>
                     </div>
 
                 </form>

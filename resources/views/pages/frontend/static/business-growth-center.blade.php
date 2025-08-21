@@ -35,7 +35,38 @@
     <!-- ================ Header Section ================ -->
     @include('includes.frontend.header')
 
-       <section class="innerConBodyOuter blog-list-body-sec">
+        <section class="home-banner-sec">
+            <div id="carouselExampleControls" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item itembg1 active">
+                        <div class="featured_img_overlay">
+                            <div class="bnr-caption">
+                                <div class="container">
+                                    <div class="bdFlex">
+                                        <aside class="slider_left">
+                                            <h3>Our Blogs</h3>
+                                            <h2>Help your business growth up to high level</h2>
+                                            <p>your gateway to connecting with verified, high-quality business loans applications 
+                                                from qualified bussiness. With transparency, lower risk, and powerful tools for funders, 
+                                                Verifen is revolutionizing the funding process to make it simple, secure, and profitable.
+                                            </p>
+                                            <!-- <a class="applyButton" href="{{ route('application') }}"
+                                                target="_blank"><span>Apply Now</span></a> -->
+                                        </aside>
+                                        <aside class="slider_right">
+                                            <img src="{{ 'assets/images/blog-banner.png' }}" alt="">
+                                        </aside>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+       <section class="blog-list-body-sec">
             <div class="container">
                 <div class="blog-list-row">
                     <div class="blog-list-clmn">
@@ -143,11 +174,23 @@
 
                 </div>
             </div>
-        </section>
+        </section>  
+    
+    
+    <!-- ================ Ready to proceed Section ================ -->
+
+    <div class="readytoproSec">
+        <div class="container">
+            <h2>Earn with Verifen</h2>
+            <p>Ready to become an authorized Verifen Partner? Submit the quick form below to 
+                get started and unlock new funding opportunities.</p>
+        </div>
+    </div>
 
 
-    <!-- ================ Footer Section ================ -->
-    @include('includes.frontend.footer')
+        <!-- ================ Footer Section ================ -->
+    
+        @include('includes.frontend.footer')
 
     <!-- JS Start here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

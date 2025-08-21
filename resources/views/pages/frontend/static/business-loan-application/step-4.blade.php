@@ -43,7 +43,7 @@
                 <div class="logo-flxRow flxWrap">                 
            <div class="hdr-row2 wAuto">
             <a href="{{ route('index') }}">
-                <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
+                <img src="{{ asset('assets/images/logo.svg') }}" alt="Verifen">
             </a>
            </div> 
            <div class="callSecwe mr-0">
@@ -64,7 +64,7 @@
            <div class="hdrToprow brdNone">
             <ul>
                 <li class="pgap-0">
-                    <img src="{{ 'assets/images/phone-call.png' }}">
+                    <img src="{{ asset('assets/images/phone-call.png') }}">
                     <a href="tel:8887886160" target="_blank">(888) 788-6160</a>
                 </li>                
             </ul>
@@ -210,7 +210,7 @@
             <!-- Fifth Final Step -->
             <fieldset>
               <div class="thanks-message">
-                <img class="success-icon" src="assets/images/tick-mark.png" alt="" />
+                <img class="success-icon" src="{{ asset('assets/images/tick-mark.png') }}" alt="" />
                 <h4>Application Received!</h4>
                 <p>Thank you for applying with Verifen. One of our experienced Business Advisors will reach out to you shortly to discuss your options. We're here to help you access the capital you need. quickly, clearly, and with expert support every step of the way.</p>
               </div>
@@ -218,8 +218,18 @@
 
 
         </form>
+    </br></br>
+            <div class="text-center">
+                <small>By submitting an application to Verifen, you agree to receive calls and text/SMS messages, 
+                    including those sent via an automatic dialing system, from Verifen or its agents at the 
+                    phone number(s) you provide, including your mobile number, even if you are registered on a federal, 
+                    state, or corporate do not call list. You also confirm your agreement to Verifen’s Privacy Policy 
+                    and Terms of Use, and acknowledge this as your electronic signature.</small>
+            </div>
     </div>
 </section>
+
+
 <!--=============== End Step Form ===============-->
 
     <!-- ================ Footer Section ================ -->
