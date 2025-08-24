@@ -3312,6 +3312,8 @@ div[class^="cat"] label {
 .becomeSec h2{
    color: #1468d2; 
    padding-bottom: 15px;
+   font-size: 45px;
+   font-weight: 600;
 }
 .becomeSec ul{
     display: flex;

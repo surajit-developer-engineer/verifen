@@ -285,88 +285,88 @@
 
 
     <div class="landing-commonSec">
-    <div class="container">
-        <div class="lanimagebgsec iplanimagebgsec">
-            <!-- <img alt="Image" src="{{ 'assets/images/office-indoor.jpg' }}">	 -->
-            <div class="bgopacity becomeSecBg">
-                <div class="text-center becomeSec">
-                    <h2>Become a Verifen Investor Today</h2>
-                <p>Start earning more from your money. Grow your capital with confidence.
-                    Join a network of investors who trust Verifen to protect their funds and deliver consistent returns.
-                </p>
+        <div class="container">
+            <div class="lanimagebgsec iplanimagebgsec">
+                <!-- <img alt="Image" src="{{ 'assets/images/office-indoor.jpg' }}">	 -->
+                <div class="bgopacity becomeSecBg">
+                    <div class="text-center becomeSec">
+                        <h2>Become a Verifen Investor Today</h2>
+                    <p>Start earning more from your money. Grow your capital with confidence.
+                        Join a network of investors who trust Verifen to protect their funds and deliver consistent returns.
+                    </p>
 
-                <form class="investor-form">
-                    <div class="formFlex">
-                        <div class="formCol">
-                            <span>Company Name</span>
-                            <input type="text" placeholder="Company Name" />
-                        </div>
-                        <div class="formCol">
-                            <span>Company Address</span>
-                            <input type="text" placeholder="Company Address">
-                        </div>
-                    </div>
-
-                    <div class="formFlex">
-                        <div class="formCol">
-                            <span>Email Address</span>
-                            <input type="text" placeholder="Email Address" />
-                        </div>
-                        <div class="formCol">
-                            <span>Phone Number</span>
-                            <input type="text" placeholder="Phone Number">
-                        </div>
-                    </div>
-
-                    <div class="formFlex">
-                        <div class="formCol fullWidth">
-                            <span>Potential Investment Amount</span>
-                            <div class="selectDropdownSec">
-                                <select class="selectDropdown">
-                                    <option selected="">Select One</option>
-                                    <option>Up to $50,000</option>
-                                    <option>$50,000 - $100,000</option>
-                                    <option>$100,000 - $250,000</option>
-                                    <option>$250,000 - $500,000</option>
-                                    <option>$500,000 +</option>
-                                </select>
+                    <form class="investor-form">
+                        <div class="formFlex">
+                            <div class="formCol">
+                                <span>Company Name</span>
+                                <input type="text" placeholder="Company Name" />
                             </div>
-                        </div>                        
-                    </div>
-
-                    <div class="formFlex">
-                        <div class="formCol">
-                            <span>Contact Name</span>
-                            <input type="text" placeholder="Contact Name" />
+                            <div class="formCol">
+                                <span>Company Address</span>
+                                <input type="text" placeholder="Company Address">
+                            </div>
                         </div>
-                        <div class="formCol">
-                            <span>Contact Phone Number</span>
-                            <input type="text" placeholder="Contact Phone Number">
+
+                        <div class="formFlex">
+                            <div class="formCol">
+                                <span>Email Address</span>
+                                <input type="text" placeholder="Email Address" />
+                            </div>
+                            <div class="formCol">
+                                <span>Phone Number</span>
+                                <input type="text" placeholder="Phone Number">
+                            </div>
                         </div>
+
+                        <div class="formFlex">
+                            <div class="formCol fullWidth">
+                                <span>Potential Investment Amount</span>
+                                <div class="selectDropdownSec">
+                                    <select class="selectDropdown">
+                                        <option selected="">Select One</option>
+                                        <option>Up to $50,000</option>
+                                        <option>$50,000 - $100,000</option>
+                                        <option>$100,000 - $250,000</option>
+                                        <option>$250,000 - $500,000</option>
+                                        <option>$500,000 +</option>
+                                    </select>
+                                </div>
+                            </div>                        
+                        </div>
+
+                        <div class="formFlex">
+                            <div class="formCol">
+                                <span>Contact Name</span>
+                                <input type="text" placeholder="Contact Name" />
+                            </div>
+                            <div class="formCol">
+                                <span>Contact Phone Number</span>
+                                <input type="text" placeholder="Contact Phone Number">
+                            </div>
+                        </div>
+                        </br>
+
+                        <div class="text-center">
+                            <input type="button" class="applyButton" value="Review & Submit" />
+                        </div>
+
+                        </br>
+
+                        <div class="text-center">
+                            <small>By submitting an application to Verifen, you agree to receive calls and text/SMS messages, 
+                                including those sent via an automatic dialing system, from Verifen or its agents at the 
+                                phone number(s) you provide, including your mobile number, even if you are registered on a federal, 
+                                state, or corporate do not call list. You also confirm your agreement to Verifen’s Privacy Policy 
+                                and Terms of Use, and acknowledge this as your electronic signature.</small>
+                        </div>
+
+                    </form>
+                    
                     </div>
-                    </br>
-
-                    <div class="text-center">
-                        <input type="button" class="applyButton" value="Review & Submit" />
-                    </div>
-
-                    </br>
-
-                    <div class="text-center">
-                        <small>By submitting an application to Verifen, you agree to receive calls and text/SMS messages, 
-                            including those sent via an automatic dialing system, from Verifen or its agents at the 
-                            phone number(s) you provide, including your mobile number, even if you are registered on a federal, 
-                            state, or corporate do not call list. You also confirm your agreement to Verifen’s Privacy Policy 
-                            and Terms of Use, and acknowledge this as your electronic signature.</small>
-                    </div>
-
-                </form>
-                
                 </div>
             </div>
         </div>
     </div>
-</div>
 
     
 
