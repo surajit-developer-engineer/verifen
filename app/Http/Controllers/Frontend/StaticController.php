@@ -151,4 +151,9 @@ class StaticController extends Controller
         return view('pages.frontend.static.blog-details');
     } 
 
+    public function pageNotFound ()
+    {
+        return view('pages.frontend.static.page-not-found');
+    } 
+
 }

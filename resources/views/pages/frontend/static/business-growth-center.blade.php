@@ -44,8 +44,8 @@
                                 <div class="container">
                                     <div class="bdFlex">
                                         <aside class="slider_left">
-                                            <h3>Our Blogs</h3>
-                                            <h2>Help your business growth up to high level</h2>
+                                            <h3>Learning Center</h3>
+                                            <h2>Help Your Business Grow Successfully</h2>
                                             <p>your gateway to connecting with verified, high-quality business loans applications 
                                                 from qualified bussiness. With transparency, lower risk, and powerful tools for funders, 
                                                 Verifen is revolutionizing the funding process to make it simple, secure, and profitable.
@@ -177,13 +177,16 @@
         </section>  
     
     
-    <!-- ================ Ready to proceed Section ================ -->
+     <!-- ================ Ready to proceed Section ================ -->
 
     <div class="readytoproSec">
         <div class="container">
-            <h2>Earn with Verifen</h2>
-            <p>Ready to become an authorized Verifen Partner? Submit the quick form below to 
-                get started and unlock new funding opportunities.</p>
+            <h2>Ready to grow your business?</h2>
+            <p>See how Verifen can help you achieve growth</p>
+            <div class="flex">
+                <a class="applyButtonBlack" href="/business-loan-application" target="_blank">Apply Now</a>
+                <a class="contactButton" href="/contact" target="_blank">Contact</a>
+            </div>
         </div>
     </div>
 

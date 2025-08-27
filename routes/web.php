@@ -36,7 +36,7 @@ Route::get('/partners-application/step-2', [StaticController::class, 'partnersAp
 Route::get('/investors-application', [StaticController::class, 'investorsApplication'])->name('investors.application');
 Route::get('/business-growth-center', [StaticController::class, 'businessGrowthCenter'])->name('business.growth.center');
 Route::get('/blog-details', [StaticController::class, 'blogDetails'])->name('blog.details');
-
+Route::get('/page-not-found', [StaticController::class, 'pageNotFound'])->name('page.not.found');
 
 
 
