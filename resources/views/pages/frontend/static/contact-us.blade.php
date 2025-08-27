@@ -43,12 +43,12 @@
                     <p>Our business advisors are ready to help your business grow.</p>
                     <div class="contFlex">
                         <div class="conInfoBox">
-                            <div class="conInfoBoxIcon"><img src="assets/images/phone-call.png"></div>
+                            <div class="conInfoBoxIcon"><i class="fa fa-envelope-o"></i></div>
                             <h3>Email Address</h3>
                             <p><a href="mailto:contact@Verifen.com  target="_blank">contact@Verifen.com </a></p>
                         </div>
                         <div class="conInfoBox">
-                            <div class="conInfoBoxIcon"><i class="fa fa-envelope-o"></i></div>
+                            <div class="conInfoBoxIcon"><img src="assets/images/phone-call.png"></div>
                             <h3>Phone Number</h3>
                             <p><a href="tel:8887886160" target="_blank">(888) 788-6160</a></p>
                         </div>

@@ -85,7 +85,7 @@
        
             <!-- Second Step -->
             <fieldset>
-                <div class="form-card active">
+                <!-- <div class="form-card active">
                     <div class="first-step-sub-step-one">
                         <div class="title-hdn">
                             <h3>Get the Capital You Need Without the Games</h3></br>
@@ -95,9 +95,9 @@
                              </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="form-card">
+                <div class="form-card active">
                     <div class="first-step-sub-step-nine">
                         <h3>What is your business address?</h3>
                         <div class="step-form-field">

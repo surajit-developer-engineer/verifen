@@ -4526,7 +4526,10 @@ div[class^="cat"] label {
     font-weight: 600;
     padding-top: 50px;
 }
-
+.detailsSummary::marker{
+    display: none !important;
+    content: none;
+}
 
 
 

@@ -88,8 +88,14 @@
                     <div class="first-step-sub-step-one">
                         <div class="title-hdn">
                             <h3>Get the Capital You Need Without the Games</h3></br>
-                            <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p>                           
-                            <div class="application-flex">
+                            <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p> 
+                            <div class="menu">
+                                <a class="button">Simple Application</a>
+                                <a class="button">Flexible Options</a>
+                                <a class="button">No Hidden Fees</a>
+                                <a class="button">Personalized Support</a>                                
+                            </div>                          
+                            <!--<div class="application-flex">
                                 <div class="application-form-group">
                                          <img src="{{ asset('assets/images/check-icon.png') }}" alt="check">
                                         <label>Simple Application</label>
@@ -107,9 +113,9 @@
                                         <label>Personalized Support</label>
                                     </div>
                             </div>
-                            <div class="menu">
+                             <div class="menu">
                                 <a class="button toplink formsim-btn">Go Now <i class="fa fa-long-arrow-right"></i></a>                                
-                             </div>
+                             </div> -->
                         </div>
                     </div>
                 </div>
