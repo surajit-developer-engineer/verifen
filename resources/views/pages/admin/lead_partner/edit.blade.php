@@ -13,7 +13,7 @@
             <div class="company-list-area">
                 <form action="{{ route('admin.company.update', $dataArr['companyArr']->id) }}" method="POST"
                     id="company_form">
-                    {{ csrf_field() }}
+                    @csrf
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="form-group">
