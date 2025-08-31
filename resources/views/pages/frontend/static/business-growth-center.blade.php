@@ -191,6 +191,222 @@
     </div>
 
 
+     <!-- ================ Recent Articale Section ================ -->
+
+<section class="blog-list-row recentblog">
+        <div class="container">
+            <h2>Recent Articles</h2>           
+
+            <div class="recentblogBox owl-carousel owl-theme featuredBrands-carousel">
+                <div class="item">
+                    <div class="blog-list-clmn">
+                        <figure>
+                            <a href="/blog-details">
+                                <img alt="Blog" src="{{ 'assets/images/blog-img1.jpg' }}">
+                            </a>
+                        </figure>
+                        <article>
+                            <dt>25 June, 2022</dt>
+                            <h2 class="blog-title">
+                                <a href="/blog-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </h2>
+                            <a class="blog-read-more" href="/blog-details">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="blog-list-clmn">
+                        <figure>
+                            <a href="/blog-details">
+                                <img alt="Blog" src="{{ 'assets/images/blog-img2.jpg' }}">
+                            </a>
+                        </figure>
+                        <article>
+                            <dt>25 June, 2022</dt>
+                            <h2 class="blog-title">
+                                <a href="/blog-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </h2>
+                            <a class="blog-read-more" href="/blog-details">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-list-clmn">
+                        <figure>
+                            <a href="/blog-details">
+                                <img alt="Blog" src="{{ 'assets/images/blog-img3.jpg' }}">
+                            </a>
+                        </figure>
+                        <article>
+                            <dt>25 June, 2022</dt>
+                            <h2 class="blog-title">
+                                <a href="/blog-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </h2>
+                            <a class="blog-read-more" href="/blog-details">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-list-clmn">
+                        <figure>
+                            <a href="/blog-details">
+                                <img alt="Blog" src="{{ 'assets/images/blog-img4.jpg' }}">
+                            </a>
+                        </figure>
+                        <article>
+                            <dt>25 June, 2022</dt>
+                            <h2 class="blog-title">
+                                <a href="/blog-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </h2>
+                            <a class="blog-read-more" href="/blog-details">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-list-clmn">
+                        <figure>
+                            <a href="/blog-details">
+                                <img alt="Blog" src="{{ 'assets/images/blog-img5.jpg' }}">
+                            </a>
+                        </figure>
+                        <article>
+                            <dt>25 June, 2022</dt>
+                            <h2 class="blog-title">
+                                <a href="/blog-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </h2>
+                            <a class="blog-read-more" href="/blog-details">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="blog-list-clmn">
+                        <figure>
+                            <a href="/blog-details">
+                                <img alt="Blog" src="{{ 'assets/images/blog-img6.jpg' }}">
+                            </a>
+                        </figure>
+                        <article>
+                            <dt>25 June, 2022</dt>
+                            <h2 class="blog-title">
+                                <a href="/blog-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </h2>
+                            <a class="blog-read-more" href="/blog-details">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+     <!-- ================ Featured Articale Section ================ -->
+
+<section class="blog-list-row featured_article">
+        <div class="container">
+            <h2>Popular Articles</h2>           
+
+            <div class="recentblogBox owl-carousel owl-theme featuredBrands-carousel">
+                <div class="item">
+                    <div class="blog-list-clmn">
+                        <figure>
+                            <a href="/blog-details">
+                                <img alt="Blog" src="{{ 'assets/images/blog-img1.jpg' }}">
+                            </a>
+                        </figure>
+                        <article>
+                            <dt>25 June, 2022</dt>
+                            <h2 class="blog-title">
+                                <a href="/blog-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </h2>
+                            <a class="blog-read-more" href="/blog-details">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="blog-list-clmn">
+                        <figure>
+                            <a href="/blog-details">
+                                <img alt="Blog" src="{{ 'assets/images/blog-img2.jpg' }}">
+                            </a>
+                        </figure>
+                        <article>
+                            <dt>25 June, 2022</dt>
+                            <h2 class="blog-title">
+                                <a href="/blog-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </h2>
+                            <a class="blog-read-more" href="/blog-details">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-list-clmn">
+                        <figure>
+                            <a href="/blog-details">
+                                <img alt="Blog" src="{{ 'assets/images/blog-img3.jpg' }}">
+                            </a>
+                        </figure>
+                        <article>
+                            <dt>25 June, 2022</dt>
+                            <h2 class="blog-title">
+                                <a href="/blog-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </h2>
+                            <a class="blog-read-more" href="/blog-details">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-list-clmn">
+                        <figure>
+                            <a href="/blog-details">
+                                <img alt="Blog" src="{{ 'assets/images/blog-img4.jpg' }}">
+                            </a>
+                        </figure>
+                        <article>
+                            <dt>25 June, 2022</dt>
+                            <h2 class="blog-title">
+                                <a href="/blog-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </h2>
+                            <a class="blog-read-more" href="/blog-details">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-list-clmn">
+                        <figure>
+                            <a href="/blog-details">
+                                <img alt="Blog" src="{{ 'assets/images/blog-img5.jpg' }}">
+                            </a>
+                        </figure>
+                        <article>
+                            <dt>25 June, 2022</dt>
+                            <h2 class="blog-title">
+                                <a href="/blog-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </h2>
+                            <a class="blog-read-more" href="/blog-details">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="blog-list-clmn">
+                        <figure>
+                            <a href="/blog-details">
+                                <img alt="Blog" src="{{ 'assets/images/blog-img6.jpg' }}">
+                            </a>
+                        </figure>
+                        <article>
+                            <dt>25 June, 2022</dt>
+                            <h2 class="blog-title">
+                                <a href="/blog-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </h2>
+                            <a class="blog-read-more" href="/blog-details">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
         <!-- ================ Footer Section ================ -->
     
         @include('includes.frontend.footer')

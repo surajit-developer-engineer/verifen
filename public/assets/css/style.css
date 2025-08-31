@@ -4106,7 +4106,7 @@ div[class^="cat"] label {
 /*=========================== Blog Page Style Sheet Start Here ===========================*/
 .blog-list-body-sec{
 	position: relative;
-	padding: 100px 0 120px 0;
+	padding: 70px 0 80px 0;
 }
 .blog-list-row{
 	display: flex;
@@ -4530,6 +4530,56 @@ div[class^="cat"] label {
     display: none !important;
     content: none;
 }
+.recentblogBox .blog-list-clmn{
+    width: 100%;
+    min-height: auto;
+}
+.recentblogBox .blog-list-clmn figure img{
+    height: 210px;
+}
+.recentblogBox .blog-list-clmn article{
+    padding: 20px 20px;
+}
+.recentblogBox .blog-list-clmn .blog-title {
+    font-size: 19px;
+    min-height: 65px;
+}
+.recentblogBox .owl-prev {
+    left: -20px;
+    margin-top: -23px !important;
+}
+.recentblogBox .owl-next {
+    right: -27px;
+    margin-top: -23px !important;
+}
+.recentblog{
+    margin-top: 50px;
+}
+.recentblog h2 {
+    margin-top: 0px;
+    font-size: 72px;
+    color: #1468d2;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.featured_article {
+    background: rgba(0, 0, 0, 0.03);
+    height: 100%;
+    width: 100%;
+}
+.featured_article{
+    margin-top: 50px;
+    padding: 70px 0;
+}
+.featured_article h2 {
+    margin-top: 0px;
+    font-size: 72px;
+    color: #1468d2;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
 
 
 
@@ -4630,6 +4680,12 @@ div[class^="cat"] label {
 }
 
 @media (max-width: 767px) {
+    .recentblog h2 {
+        font-size: 30px;
+    }
+    .featured_article h2 {
+        font-size: 30px;
+    }
     .pageNotFound h3{
         font-size: 25px;
     }
