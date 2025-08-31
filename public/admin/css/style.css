@@ -621,7 +621,7 @@ p {
 .dashboardBody .dashFourClm {
     width: 24.2%;
     border: 1px solid #b1d3fd;
-    border-left: 5px solid #b1d3fd;    
+    border-left: 5px solid #b1d3fd;
     border-radius: 10px;
     padding: 20px 20px;
     margin-bottom: 30px;
@@ -1292,92 +1292,94 @@ table {
     padding: 0;
     width: 100%;
     table-layout: fixed;
-  }
-  
-  table caption {
+}
+
+table caption {
     font-size: 1.5em;
     margin: .5em 0 .75em;
-  }
-  
-  table tr {
+}
+
+table tr {
     background-color: #f8f8f8;
     border: 1px solid #ddd;
     padding: .35em;
-  }
-  
-  table th,
-  table td {
+}
+
+table th,
+table td {
     padding: .625em;
     text-align: center;
-  }
-  
-  table th {
+}
+
+table th {
     font-size: .85em;
     letter-spacing: .1em;
     text-transform: uppercase;
-  }
-  
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     table {
-      border: 0;
+        border: 0;
     }
-  
+
     table caption {
-      font-size: 1.3em;
+        font-size: 1.3em;
     }
-    
+
     table thead {
-      border: none;
-      clip: rect(0 0 0 0);
-      height: 1px;
-      margin: -1px;
-      overflow: hidden;
-      padding: 0;
-      position: absolute;
-      width: 1px;
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
     }
-    
+
     table tr {
-      border-bottom: 3px solid #ddd;
-      display: block;
-      margin-bottom: .625em;
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
     }
-    
+
     table td {
-      border-bottom: 1px solid #ddd;
-      display: block;
-      font-size: .8em;
-      text-align: right;
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
     }
-    
+
     table td::before {
-      /*
+        /*
       * aria-label has no advantage, it won't be read inside a table
       content: attr(aria-label);
       */
-      content: attr(data-label);
-      float: left;
-      font-weight: bold;
-      text-transform: uppercase;
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
     }
-    
+
     table td:last-child {
-      border-bottom: 0;
+        border-bottom: 0;
     }
-  }
-  
-  .dashFourClmFlx{
+}
+
+.dashFourClmFlx {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .dashFourClmFlx p{
+}
+
+.dashFourClmFlx p {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
-  }
-  .iconBox{
+}
+
+.iconBox {
     background: #fff;
     /* border: solid 1px #ccc; */
     width: 40px;
@@ -1388,21 +1390,25 @@ table {
     align-items: center;
     margin-bottom: 10px;
     box-shadow: 0 0 5px #ccc;
-  }
-  .iconBox i{
+}
+
+.iconBox i {
     color: #1468d2;
     font-size: 20px;
-  }
-  .dashDataTable{
+}
+
+.dashDataTable {
     margin-top: 20px;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+}
+
+.no-hover {
+    transition: none !important; /* disable any transition effect */
+}
+
+.no-hover:hover {
+    background-color: #6c757d !important; /* keep same color */
+    color: #fff !important;              /* keep text color same */
+    box-shadow: none !important;         /* remove any hover shadow */
+    padding: 0.375rem 0.75rem !important; /* keep original button padding */
+    border: 1px solid #6c757d !important; /* ensure border stays same */
+}

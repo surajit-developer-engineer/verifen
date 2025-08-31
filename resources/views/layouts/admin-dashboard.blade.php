@@ -19,9 +19,9 @@
 
 
 
-                      
+
         </div>
-        
+
         <!-- ===================== Admin Profile Update Modal Popup Start ===================== -->
         <div class="notification-modal-popup" id="myModalChangePassword">
             <div class="noti-popup-box">
@@ -128,7 +128,7 @@
         </div>
         @stack('modals')
 </section>
-@include('includes.footer-text')  
+@include('includes.footer-text')
 @include('includes.footer')
 
 
@@ -151,20 +151,22 @@
             }
         });
     });
-    $('.delete-confirm').on('click', function(event) {
-        event.preventDefault();
-        const url = $(this).attr('href');
+    $('.delete-confirm').on('submit', function(event) {
+        event.preventDefault(); // stop immediate form submit
+        const form = this; // reference to current form
+
         swal({
             title: 'Are you sure?',
-            text: 'This record will be permanantly deleted!',
+            text: 'This record will be permanently deleted!',
             icon: 'warning',
             buttons: ["Cancel", "Yes!"],
         }).then(function(value) {
             if (value) {
-                window.location.href = url;
+                form.submit(); // submit the form after confirmation
             }
         });
     });
+
 
     $('.status-confirm').on('click', function(event) {
         event.preventDefault();
@@ -185,10 +187,10 @@
 
 <script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
 <script>
-    let description_editor = CKEDITOR.replace('description', {
+    let editor = CKEDITOR.replace('editor', {
         allowedContent: true
     });
-    description_editor.on('required', function(evt) {
+    editor.on('required', function(evt) {
         $(".cke_notification ").hide();
         editor.showNotification('This field is required.', 'warning');
         evt.cancel();

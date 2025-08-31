@@ -5,6 +5,66 @@
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <url>
+    <loc>https://www.verifen.com</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.verifen.com/my-application</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.verifen.com/partners</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.verifen.com/partner-signup</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.verifen.com/terms-of-use</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.verifen.com/privacy-policy</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.verifen.com/tcpa-consent</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.verifen.com/terms-of-application</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.verifen.com/california-privacy</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.verifen.com/credit-authorization</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.verifen.com/electronic-disclosure</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.verifen.com/opt-out</loc>
+    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
+  </url>
+
+  <url>
     <loc>https://www.verifen.com/contact</loc>
     <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
@@ -20,52 +80,47 @@
   </url>
 
   <url>
-    <loc>https://www.verifen.com/business-loans-application</loc>
+    <loc>https://www.verifen.com/business-loan-application/step-1</loc>
     <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
-    <loc>https://www.verifen.com/credit-authorization</loc>
+    <loc>https://www.verifen.com/business-loan-application/step-2</loc>
     <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
-    <loc>https://www.verifen.com/electronic-disclosure</loc>
+    <loc>https://www.verifen.com/business-loan-application/step-3</loc>
     <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
-    <loc>https://www.verifen.com/california-privacy</loc>
+    <loc>https://www.verifen.com/business-loan-application/step-4</loc>
     <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
-    <loc>https://www.verifen.com/privacy-policy</loc>
+    <loc>https://www.verifen.com/partners-application/step-1</loc>
     <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
-    <loc>https://www.verifen.com/terms-of-use</loc>
+    <loc>https://www.verifen.com/partners-application/step-2</loc>
     <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
-    <loc>https://www.verifen.com/tcpa-consent</loc>
+    <loc>https://www.verifen.com/investors-application</loc>
     <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
-    <loc>https://www.verifen.com/terms-of-application</loc>
+    <loc>https://www.verifen.com/business-growth-center</loc>
     <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 
   <url>
-    <loc>https://www.verifen.com/opt-out</loc>
-    <lastmod>2025-08-12T10:45:00+00:00</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.verifen.com/partners</loc>
+    <loc>https://www.verifen.com/blog-details</loc>
     <lastmod>2025-08-12T10:45:00+00:00</lastmod>
   </url>
 

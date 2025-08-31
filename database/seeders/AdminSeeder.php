@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\User;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
 
 class AdminSeeder extends Seeder
 {
@@ -13,7 +14,7 @@ class AdminSeeder extends Seeder
     public function run(): void
     {
         User::create([
-            'id' => '1',
+            'id' => Str::uuid()->toString(),
             'email' => 'info@Verifen.com',
             'password' => bcrypt('Verifen@2024'),
             'name' => 'Admin'

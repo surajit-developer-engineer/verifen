@@ -9,12 +9,12 @@ use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ProfileController;
 use App\Http\Controllers\Admin\LeadPartnerController;
 use App\Http\Controllers\Admin\LeadController;
+use App\Http\Controllers\Admin\BlogController;
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/my-application', [IndexController::class, 'application'])->name('application');
 Route::get('/partners', [IndexController::class, 'partners'])->name('partners');
 Route::get('/partner-signup', [IndexController::class, 'partnerSignup'])->name('partner.signup');
-
 
 Route::get('/terms-of-use', [StaticController::class, 'termsOfUse'])->name('terms.of.use');
 Route::get('/privacy-policy', [StaticController::class, 'privacyPolicy'])->name('privacy.policy');
@@ -37,8 +37,6 @@ Route::get('/investors-application', [StaticController::class, 'investorsApplica
 Route::get('/business-growth-center', [StaticController::class, 'businessGrowthCenter'])->name('business.growth.center');
 Route::get('/blog-details', [StaticController::class, 'blogDetails'])->name('blog.details');
 Route::get('/page-not-found', [StaticController::class, 'pageNotFound'])->name('page.not.found');
-
-
 
 Route::group([
     'prefix' => 'administrator'
@@ -66,6 +64,15 @@ Route::group([
         Route::get('edit/{id}', [LeadPartnerController::class, 'edit'])->name('admin.lead.partner.edit');
         Route::put('update/{id}', [LeadPartnerController::class, 'update'])->name('admin.lead.partner.update');
         Route::delete('delete/{id}', [LeadPartnerController::class, 'delete'])->name('admin.lead.partner.delete');
+    });
+
+    Route::group(['prefix' => 'blog'], function () {
+        Route::get('', [BlogController::class, 'index'])->name('admin.blog');
+        Route::get('add', [BlogController::class, 'add'])->name('admin.blog.add');
+        Route::post('insert', [BlogController::class, 'insert'])->name('admin.blog.insert');
+        Route::get('edit/{id}', [BlogController::class, 'edit'])->name('admin.blog.edit');
+        Route::put('update/{id}', [BlogController::class, 'update'])->name('admin.blog.update');
+        Route::delete('delete/{id}', [BlogController::class, 'delete'])->name('admin.blog.delete');
     });
 
     Route::group(['prefix' => 'loan'], function () {
