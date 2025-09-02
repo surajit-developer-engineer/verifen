@@ -11,9 +11,9 @@
         </div>
         <div class="hdrProfileSetting">
             <ul>
-                {{-- <li><a href="javascript:void(0);" onclick="$('#myModalUpdateUser').show();"><i class="fa fa-cog"></i> Update Profile</a></li>
+                <li><a href="javascript:void(0);" onclick="$('#myModalUpdateUser').show();"><i class="fa fa-cog"></i> Update Profile</a></li>
                 <li><a href="javascript:void(0);" onclick="$('#myModalChangePassword').show();"><i
-                            class="fa fa-pencil"></i> Change Password</a></li> --}}
+                            class="fa fa-pencil"></i> Change Password</a></li>
                 <li><a href="{{ route('admin.logout') }}"><i class="fa fa-sign-out"></i> Logout</a></li>
             </ul>
         </div>
