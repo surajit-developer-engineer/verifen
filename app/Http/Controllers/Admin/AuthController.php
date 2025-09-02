@@ -21,23 +21,21 @@ class AuthController extends Controller
      */
     public function login(Request $request)
     {
-        // Validate form inputs
+        // Validate the form data
         $request->validate([
-            'email'    => 'required|email',
+            'email' => 'required|email',
             'password' => 'required|min:6',
         ]);
 
+        // Attempt to log the user in
         $credentials = $request->only('email', 'password');
 
-        // Attempt login with credentials + active status
-        if (Auth::guard('web')->attempt($credentials + ['status' => true])) {
-            // Prevent session fixation attacks
-            $request->session()->regenerate();
-
+        if (Auth::attempt($credentials + ['status' => true])) {
+            // Login successful
             return redirect()->route('admin.dashboard')->with([
                 'message' => [
                     'result' => 'success',
-                    'msg'    => 'Welcome back!',
+                    'msg' => 'Welcome back!',
                 ],
             ]);
         }
@@ -48,7 +46,7 @@ class AuthController extends Controller
             ->with([
                 'message' => [
                     'result' => 'error',
-                    'msg'    => 'Invalid Credentials or Account Inactive.',
+                    'msg' => 'Invalid Credentials Or Account Inactive',
                 ],
             ]);
     }
@@ -58,16 +56,14 @@ class AuthController extends Controller
      */
     public function logout(Request $request)
     {
-        Auth::guard('web')->logout();
-
-        // Invalidate the session & regenerate CSRF token
+        Auth::logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
         return redirect()->route('login')->with([
             'message' => [
                 'result' => 'success',
-                'msg'    => 'You have been logged out successfully.',
+                'msg' => 'You Have Been Logged Out Successfully.',
             ],
         ]);
     }
