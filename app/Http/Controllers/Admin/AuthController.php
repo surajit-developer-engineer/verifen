@@ -21,21 +21,23 @@ class AuthController extends Controller
      */
     public function login(Request $request)
     {
-        // Validate the form data
+        // Validate form inputs
         $request->validate([
-            'email' => 'required|email',
+            'email'    => 'required|email',
             'password' => 'required|min:6',
         ]);
 
-        // Attempt to log the user in
         $credentials = $request->only('email', 'password');
 
-        if (Auth::attempt($credentials + ['status' => true])) {
-            // Login successful
+        // Attempt login with credentials + active status
+        if (Auth::guard('web')->attempt($credentials + ['status' => true])) {
+            // Prevent session fixation attacks
+            $request->session()->regenerate();
+
             return redirect()->route('admin.dashboard')->with([
                 'message' => [
                     'result' => 'success',
-                    'msg' => 'Welcome back!',
+                    'msg'    => 'Welcome back!',
                 ],
             ]);
         }
@@ -46,7 +48,7 @@ class AuthController extends Controller
             ->with([
                 'message' => [
                     'result' => 'error',
-                    'msg' => 'Invalid Credentials Or Account Inactive',
+                    'msg'    => 'Invalid Credentials or Account Inactive.',
                 ],
             ]);
     }
@@ -54,14 +56,18 @@ class AuthController extends Controller
     /**
      * Handle admin logout.
      */
-    public function logout()
+    public function logout(Request $request)
     {
-        Auth::logout();
+        Auth::guard('web')->logout();
+
+        // Invalidate the session & regenerate CSRF token
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
 
         return redirect()->route('login')->with([
             'message' => [
                 'result' => 'success',
-                'msg' => 'You Have Been Logged Out Successfully.',
+                'msg'    => 'You have been logged out successfully.',
             ],
         ]);
     }
