@@ -17,7 +17,7 @@ class AdminSeeder extends Seeder
         User::create([
             'id' => Str::uuid()->toString(),
             'email' => 'info@verifen.com',
-            'password' => bcrypt('Verifen@2024'),
+            'password' => bcrypt('Verifen@2025'),
             'name' => 'Admin',
             'status' => true
         ]);
