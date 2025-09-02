@@ -17,7 +17,8 @@ class AdminSeeder extends Seeder
             'id' => Str::uuid()->toString(),
             'email' => 'info@verifen.com',
             'password' => bcrypt('Verifen@2025'),
-            'name' => 'Admin'
+            'name' => 'Admin',
+            'status' => true
         ]);
     }
 }
