@@ -3421,7 +3421,7 @@ div[class^="cat"] label {
     width: 55%;
     position: absolute;
     top: -180px;
-    right: 50px;
+    left: 50px;
     z-index: 9;
     height: 100%;
     background-size: 100%;
@@ -3442,9 +3442,9 @@ div[class^="cat"] label {
     width: 200px;
     height: 150%;
     position: absolute;
-    border-radius: 70px 0 0 70px;
+    border-radius: 0 70px 70px 0;
     top: -15%;
-    left: -60px;
+    right: -60px;
 }
 .lanban-con-holder h2{
     font-size: 65px;
@@ -4580,6 +4580,17 @@ div[class^="cat"] label {
     font-weight: 500;
     padding-bottom: 30px;
 }
+.recentblogBox2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.recentblogBox2 .item{
+    width: 31%;
+    margin: 0 1.1%;
+}
+
+
 
 
 
@@ -4680,6 +4691,10 @@ div[class^="cat"] label {
 }
 
 @media (max-width: 767px) {
+    .recentblogBox2 .item{
+     width: 100%;
+     margin: 0;
+    }
     .recentblog h2 {
         font-size: 30px;
     }
@@ -5222,8 +5237,12 @@ div[class^="cat"] label {
     }
 
     .readytoproSec h2 {
-        font-size: 30px;
+        font-size: 22px;
         line-height: 45px;
+    }
+    .readytoproSec p{
+        font-size: 15px;
+        padding-top: 0;
     }
 
     .slider_left {
