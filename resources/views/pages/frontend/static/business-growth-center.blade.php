@@ -179,12 +179,12 @@
     
      <!-- ================ Ready to proceed Section ================ -->
 
-    <div class="readytoproSec">
+     <div class="readytoproSec">
         <div class="container">
-            <h2>Ready to grow your business?</h2>
+            <h2>Ready to Grow Your Business?</h2>
             <p>See how Verifen can help you achieve growth</p>
             <div class="flex">
-                <a class="applyButtonBlack" href="/business-loan-application" target="_blank">Apply Now</a>
+                <a class="applyButtonBlack" href="/business-loan-application/step-1" target="_blank">Apply Now</a>
                 <a class="contactButton" href="/contact" target="_blank">Contact</a>
             </div>
         </div>
@@ -197,7 +197,7 @@
         <div class="container">
             <h2>Recent Articles</h2>           
 
-            <div class="recentblogBox owl-carousel owl-theme featuredBrands-carousel">
+            <div class="recentblogBox recentblogBox2">
                 <div class="item">
                     <div class="blog-list-clmn">
                         <figure>

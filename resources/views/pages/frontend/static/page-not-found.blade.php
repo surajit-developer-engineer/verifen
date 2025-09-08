@@ -39,8 +39,8 @@
         <div class="container text-center pageNotFound">
             <h3>Oops... Not here</h3>
             <img src="{{ 'assets/images/404-image.png' }}" alt="">
-            <p>This page doesn't seem to exist anymore.</p>
-            <a class="applyButton mb-5" href="{{ route('index') }}">Go back home</a>
+            <p>The page you are looking got cannot be found. Apply for a business loan today.</p>
+            <a class="applyButton mb-5" href="/business-loan-application/step-1">Apply Now</a>
         </div>
     </section>
 

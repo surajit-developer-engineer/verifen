@@ -87,22 +87,16 @@
                         <div class="title-hdn">
                             <h3>Funder Application</h3></br>
                             <p>Become a partner with Verifen and start earning interest. Complete the funder application below to get started.</p>
-                            <div class="menu">
-                                <a class="button toplink formsim-btn">Go Now <i class="fa fa-long-arrow-right"></i></a>                                
-                             </div>
+                            <!-- <h3>What is your company name</h3> -->
+                            <div class="step-form-field">
+                                <label>What is your company name</label>
+                                <input type="text" name="cm" placeholder="Company Name" />
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="form-card">
-                    <div class="first-step-sub-step-two">
-                        <h3>What is your company name</h3>
-                        <div class="step-form-field">
-                            <label>Company Name</label>
-                            <input type="text" name="cm" placeholder="Company Name" />
-                        </div>
-                    </div>
-                </div>
+               
 
                 <div class="form-card">
                     <div class="first-step-sub-step-three">

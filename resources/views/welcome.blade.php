@@ -587,13 +587,11 @@
 
     <!-- ================ Ready to proceed Section ================ -->
 
-    <div class="readytoproSec">
+     <div class="readytoproSec">
         <div class="container">
-            <h2>Ready to proceed?</h2>
-            <p>Please <a href="#" target="_blank"><u>complete a quick application</u></a> or call us at <span>
-                    <a href="tel:(877)%20400-0297" rel="noopener noreferrer" target="_blank">(877)
-                        400-0297</a></span>
-            </p>
+            <h2>Earn with Verifen</h2>
+            <p>Ready to become an authorized Verifen Partner? Submit the quick form below to 
+                get started and unlock new funding opportunities.</p>
         </div>
     </div>
 

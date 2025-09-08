@@ -4,7 +4,7 @@
         <div class="footerFlex">
 
             <div class="columnOne">
-                <a href="index.html">
+                <a href="{{ route('index') }}">
                     <img src="{{ 'assets/images/logo.svg' }}" alt="Verifen">
                 </a>
                 <img class="fr-fic" src="{{ 'assets/images/bbb_transparent.png' }}" alt="">
