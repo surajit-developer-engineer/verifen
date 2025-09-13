@@ -89,38 +89,49 @@
                         <div class="title-hdn">
                             <h3>Get the Capital You Need Without the Games</h3></br>
                             <p>Get approved in as little as 24 hours. No complex banking hoops. No bait-and-switch offers.</p> 
-                            <div class="menu">
+                            <!-- <div class="menu">
                                 <a class="button">Simple Application</a>
                                 <a class="button">Flexible Options</a>
                                 <a class="button">No Hidden Fees</a>
                                 <a class="button">Personalized Support</a>                                
-                            </div>                          
-                            <!--<div class="application-flex">
+                            </div>                           -->
+                            <div class="application-flex">
                                 <div class="application-form-group">
-                                         <img src="{{ asset('assets/images/check-icon.png') }}" alt="check">
-                                        <label>Simple Application</label>
+                                        <input type="checkbox" id="sa"> 
+                                        <label for="sa">Simple Application</label>
                                     </div>
                                     <div class="application-form-group">
-                                        <img src="{{ asset('assets/images/check-icon.png') }}" alt="check">
-                                        <label>Flexible Options</label>
+                                        <input type="checkbox" id="fo">                                        
+                                        <label for="fo">Flexible Options</label>
                                     </div>
                                     <div class="application-form-group">
-                                         <img src="{{ asset('assets/images/check-icon.png') }}" alt="check">
-                                        <label>No Hidden Fees</label>
+                                         <input type="checkbox" id="nhf">  
+                                        <label for="nhf">No Hidden Fees</label>
                                     </div>
                                     <div class="application-form-group">
-                                         <img src="{{ asset('assets/images/check-icon.png') }}" alt="check">
-                                        <label>Personalized Support</label>
+                                         <input type="checkbox" id="ps">  
+                                        <label for="ps">Personalized Support</label>
                                     </div>
                             </div>
-                             <div class="menu">
+
+                            <div class="first-step-sub-step-two">
+                                <h3>When did you start your business?</h3>
+                                <div class="menu">
+                                    <a class="button">0 – 12 Months</a>
+                                    <a class="button">1 – 2 Years</a>
+                                    <a class="button">2 - 5 Years</a>
+                                    <a class="button">5 - 10 Years</a>
+                                    <a class="button">10+ Years</a>
+                                </div>
+                            </div>
+                             <!-- <div class="menu">
                                 <a class="button toplink formsim-btn">Go Now <i class="fa fa-long-arrow-right"></i></a>                                
                              </div> -->
                         </div>
                     </div>
                 </div>
 
-                <div class="form-card">
+                <!-- <div class="form-card">
                     <div class="first-step-sub-step-two">
                         <h3>When did you start your business?</h3>
                         <div class="menu">
@@ -131,7 +142,7 @@
                             <a class="button">10+ Years</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="form-card">
                     <div class="first-step-sub-step-three">
@@ -150,7 +161,7 @@
                         <h3>In which state was your business formed?</h3>
                         <div class="step-form-field">
                             <select required>
-                              <option value="" disabled selected>State of Formation</option>
+                              <option value="" disabled selected>Please Select an item in the list.</option>
                               <option value="CA">California</option>
                               <option value="NY">New York</option>
                             </select>
@@ -186,10 +197,29 @@
                 <div class="form-card">
                     <div class="first-step-sub-step-seven">
                         <h3>What percentage of the business do you own?</h3>
-                        <div class="step-form-field">
-                            <label>Business Percentage</label>
-                            <input type="text" name="percentage" placeholder="(1–100)" />
-                            <i class="fa fa-percent" aria-hidden="true"></i>
+                        <div class="flexRowfromStep">
+                            <div class="step-form-field w50">
+                                <label>Percentage of Ownership</label>
+                                <input type="text" name="percentage" placeholder="(1–100)" />
+                                <i class="fa fa-percent" aria-hidden="true"></i>
+                            </div>
+                            <div class="step-form-field w50">
+                                <label>Credit Score</label>
+                                <input type="text" name="percentage" placeholder="500" />
+                                <!-- <i class="fa fa-percent" aria-hidden="true"></i> -->
+                            </div>                            
+                        </div>
+                         <div class="flexRowfromStep">
+                            <div class="step-form-field w50">
+                                <label>Owner 2: Percentage of Ownership</label>
+                                <input type="text" name="percentage" placeholder="(1–100)" />
+                                <i class="fa fa-percent" aria-hidden="true"></i>
+                            </div>
+                            <div class="step-form-field w50">
+                                <label>Owner 2: Credit Score</label>
+                                <input type="text" name="percentage" placeholder="500" />
+                                <!-- <i class="fa fa-percent" aria-hidden="true"></i> -->
+                            </div>                            
                         </div>
                     </div>
                 </div>
@@ -261,24 +291,14 @@
                         </div>
                     </div>
                 </div>
-                <input type="button" name="previous" class="backbtn prev action-button" value="Previous" style="display: none;" />
-                <input type="button" name="next" class="next action-button" value="Next" style="display: none;" />
+                <!-- <input type="button" name="previous" class="backbtn prev action-button" value="Previous" style="display: none;" />
+                <input type="button" name="next" class="next action-button" value="Next" style="display: none;" /> -->
                 
                 <!-- <a class="backbtn action-button" style="display: none;" href=""> Back </a> -->
                 
             </fieldset>        
 
-            <!-- Fifth Final Step -->
-            <fieldset>
-              <div class="thanks-message">
-                <img class="success-icon" src="{{asset('assets/images/tick-mark.png')}}" alt="" />
-                <h4>Application Received!</h4>
-                <p>Thank you for applying with Verifen. One of our experienced Business Advisors will reach out to you shortly to discuss your options. We're here to help you access the capital you need. quickly, clearly, and with expert support every step of the way.</p>
-              </div>
-              <div class="menu">
-                <a href="/business-loan-application/step-2" class="button toplink formsim-btn">Upload Documents</a>                                
-              </div>
-            </fieldset>
+            <!-- Fifth Final Step -->           
 
 
         </form>

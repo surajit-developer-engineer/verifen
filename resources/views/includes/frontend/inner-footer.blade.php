@@ -41,7 +41,7 @@
                     </li>
                     <li><a href="https://www.linkedin.com/company/Verifenfunding" target="_blank"><i class="fa fa-fw fa-linkedin" alt="linkedin"></i></a><br>
                     </li>
-                    <li><a href="https://www.youtube.com/@VerifenFunding" target="_blank"><i class="fa fa-fw fa-youtube-play" alt="linkedin"></i></a><br>
+                    <li><a style="margin-top:3px;" href="https://www.youtube.com/@VerifenFunding" target="_blank"><i class="fa fa-fw fa-youtube-play" alt="linkedin"></i></a><br>
                     </li>
                 </ul>
                 </br>

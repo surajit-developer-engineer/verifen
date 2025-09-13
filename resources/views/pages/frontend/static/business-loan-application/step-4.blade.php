@@ -87,7 +87,7 @@
 
             <!-- Fourth Step -->
             <fieldset>
-                <div class="form-card active">
+                <!-- <div class="form-card active">
                     <div class="first-step-sub-step-one">
                         <div class="title-hdn">
                             <h3>Get the Capital You Need Without the Games</h3></br>
@@ -97,9 +97,9 @@
                              </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="form-card">
+                <div class="form-card active">
                     <div class="first-step-sub-step-nine">
                         <h3>What is your date of birth?</h3>
                         <div class="step-form-field">
@@ -175,8 +175,51 @@
                 <div class="form-card">
                     <div class="first-step-sub-step-nine">
                         <h3>Upload a copy of your driver’s license:</h3>
+
+                       <div class="flexRowfromStep">
+                         <div class="step-form-field">
+                            <label>Upload Driver’s License Front Side</label>
+                            <div class="step-form-input-file-row">
+                                <input class="f-input file-name" readonly />
+                                <div class="fileUpload btn--browse">
+                                    <span>Browse</span>
+                                    <input type="file" class="upload" />
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="step-form-field">
-                            <label>Upload Driver’s License</label>
+                            <label>Upload Driver’s License Back Side</label>
+                            <div class="step-form-input-file-row">
+                                <input class="f-input file-name" readonly />
+                                <div class="fileUpload btn--browse">
+                                    <span>Browse</span>
+                                    <input type="file" class="upload" />
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+
+                    </div>
+                </div>
+
+                <div class="form-card">
+                    <div class="first-step-sub-step-nine">
+                        <h3>Upload your 6 most recent business bank statements:</h3>
+
+                    <div class="flexRowfromStep">
+                            <div class="step-form-field">
+                            <label>Upload Bank Statements Front Side</label>
+                            <div class="step-form-input-file-row">
+                                <input class="f-input file-name" readonly />
+                                <div class="fileUpload btn--browse">
+                                    <span>Browse</span>
+                                    <input type="file" class="upload" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-form-field">
+                            <label>Upload Bank Statements Back Side</label>
                             <div class="step-form-input-file-row">
                                 <input class="f-input file-name" readonly />
                                 <div class="fileUpload btn--browse">
@@ -186,13 +229,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="form-card">
-                    <div class="first-step-sub-step-nine">
-                        <h3>Upload your 6 most recent business bank statements:</h3>
-                        <div class="step-form-field">
-                            <label>Upload Bank Statements</label>
+                    <div class="flexRowfromStep">
+                            <div class="step-form-field">
+                            <label>Upload Bank Statements Front Side</label>
                             <div class="step-form-input-file-row">
                                 <input class="f-input file-name" readonly />
                                 <div class="fileUpload btn--browse">
@@ -201,6 +241,41 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="step-form-field">
+                            <label>Upload Bank Statements Back Side</label>
+                            <div class="step-form-input-file-row">
+                                <input class="f-input file-name" readonly />
+                                <div class="fileUpload btn--browse">
+                                    <span>Browse</span>
+                                    <input type="file" class="upload" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flexRowfromStep">
+                            <div class="step-form-field">
+                            <label>Upload Bank Statements Front Side</label>
+                            <div class="step-form-input-file-row">
+                                <input class="f-input file-name" readonly />
+                                <div class="fileUpload btn--browse">
+                                    <span>Browse</span>
+                                    <input type="file" class="upload" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-form-field">
+                            <label>Upload Bank Statements Back Side</label>
+                            <div class="step-form-input-file-row">
+                                <input class="f-input file-name" readonly />
+                                <div class="fileUpload btn--browse">
+                                    <span>Browse</span>
+                                    <input type="file" class="upload" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     </div>
                 </div>
 
@@ -379,7 +454,7 @@
             fileInput.value = fileName;
         });
         });
-    </script>
+    </script> 
 
     
 </body>

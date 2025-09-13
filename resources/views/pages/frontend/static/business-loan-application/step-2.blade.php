@@ -147,7 +147,7 @@
                     </div>
                 </div>
 
-                <input type="button" name="next" class="next action-button" value="Next" style="display: none;" />
+                <!-- <input type="button" name="next" class="next action-button" value="Next" style="display: none;" /> -->
             </fieldset>
 
          

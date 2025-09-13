@@ -39,10 +39,14 @@
         <div class="container">
         <div class="applicationBody">
             <form>
-                <div class="cat-1">
-                    <h3 class="optTitle">Opt Out of Data Sharing</h3>
-
-                    <div class="question-wrap">
+                <ul class="tabs">
+                    <li class="active" rel="tab1">Opt Out of Communications</li>
+                    <li rel="tab2">I don't want Verifen to Contact me via SMS</li>                    
+                </ul>
+                    <div class="tab_container">
+                    <h3 class="d_active tab_drawer_heading optTitle" rel="tab1">Opt Out of Communications</h3>
+                    <div id="tab1" class="tab_content cat-1">                    
+                        <div class="question-wrap">
                         <p>Please provide the following information for identity verification:</p>
                         <div class="formFlex">
                             <div style="width:100%;" class="formCol">
@@ -91,11 +95,68 @@
                             </div>
                         </div>
 
-                        <input style="position:relative; float: none; z-index:1;" type="button" name="next" class="next action-button" value="Submit" />
+                        <input style="position:relative; float: none; z-index:1; margin-top:0;" type="button" name="next" class="next action-button" value="Submit" />
 
                     </div>
+                    </div>
+                    <!-- #tab1 -->
+                    <h3 class="tab_drawer_heading optTitle" rel="tab2">I don't want Verifen to Contact me via SMS</h3>
+                    <div id="tab2" class="tab_content">
+                    <div class="question-wrap">
+                        <p>Please provide the following information for identity verification:</p>
+                        <div class="formFlex">
+                            <div style="width:100%;" class="formCol">
+                                <span>Business Name</span>
+                                <input type="text" placeholder="">
+                            </div>
+                        </div>
 
-                </div>
+                        <div class="formFlex">
+                            <div class="formCol">
+                                <span>Owner's First Name</span>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="formCol">
+                                <span>Owner's Last Name</span>
+                                <input type="text" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="formFlex">
+                            <div class="formCol">
+                                <span>Business Email</span>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="formCol">
+                                <span>Business Phone</span>
+                                <input type="text" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="basic-check-container">
+                            <div class="formCol">
+                                <strong>Select the reason for your request</strong>
+                            </div>
+                            <div class="checkcol">
+                                <input type="checkbox" id="basic1" checked>
+                                <label for="basic1">I don't want Verifen to Contact me via Phone calls</label>
+                            </div>
+                            <div class="checkcol">
+                                <input type="checkbox" id="basic2">
+                                <label for="basic2">I don't want to be contacted by Verifen</label>
+                            </div>                            
+                        </div>
+
+                        <input style="position:relative; float: none; z-index:1; margin-top:0;" type="button" name="next" class="next action-button" value="Submit" />
+
+                    </div>
+                    </div>
+                    <!-- #tab2 -->                    
+                    </div>
+                    <!-- .tab_container -->
+                    </div>
+
+                
             </form>
 
         </div>
@@ -118,6 +179,48 @@
     <script src="{{ 'assets/js/owl.carousel.min.js' }}"></script>
     <!-- Custome js -->
     <script src="{{ 'assets/js/custom.js' }}"></script>
+
+
+    <script>
+         // tabbed content
+    // http://www.entheosweb.com/tutorials/css/tabs.asp
+    $(".tab_content").hide();
+    $(".tab_content:first").show();
+
+  /* if in tab mode */
+    $("ul.tabs li").click(function() {
+		
+      $(".tab_content").hide();
+      var activeTab = $(this).attr("rel"); 
+      $("#"+activeTab).fadeIn();		
+		
+      $("ul.tabs li").removeClass("active");
+      $(this).addClass("active");
+
+	  $(".tab_drawer_heading").removeClass("d_active");
+	  $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
+	  
+    });
+	/* if in drawer mode */
+	$(".tab_drawer_heading").click(function() {
+      
+      $(".tab_content").hide();
+      var d_activeTab = $(this).attr("rel"); 
+      $("#"+d_activeTab).fadeIn();
+	  
+	  $(".tab_drawer_heading").removeClass("d_active");
+      $(this).addClass("d_active");
+	  
+	  $("ul.tabs li").removeClass("active");
+	  $("ul.tabs li[rel^='"+d_activeTab+"']").addClass("active");
+    });
+	
+	
+	/* Extra class "tab_last" 
+	   to add border to right side
+	   of last tab */
+	$('ul.tabs li').last().addClass("tab_last");
+    </script>
 
 </body>
 

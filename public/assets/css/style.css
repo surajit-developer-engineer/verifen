@@ -2703,6 +2703,7 @@ div[class^="cat"] label {
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bold;
+    margin-top: -1px;
 }
 .basic-check-container label {
     font-weight: 500;
@@ -3442,9 +3443,9 @@ div[class^="cat"] label {
     width: 200px;
     height: 150%;
     position: absolute;
-    border-radius: 0 70px 70px 0;
+    border-radius: 70px 0 0 70px;
     top: -15%;
-    right: -60px;
+    left: -60px;
 }
 .lanban-con-holder h2{
     font-size: 65px;
@@ -4056,14 +4057,14 @@ div[class^="cat"] label {
 .application-form-group img{
   margin-right: 7px;
 }
-/* .application-form-group input {
+.application-form-group input {
   padding: 0;
   height: initial;
   width: initial;
   margin-bottom: 0;
   display: none;
   cursor: pointer;
-} */
+}
 
 .application-form-group label {
   position: relative;
@@ -4073,7 +4074,7 @@ div[class^="cat"] label {
   font-weight: 500;
 }
 
-/* .application-form-group label:before {
+.application-form-group label:before {
   content:'';
   -webkit-appearance: none;
   background-color: transparent;
@@ -4099,7 +4100,7 @@ div[class^="cat"] label {
   border: solid #0079bf;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
-} */
+}
 
 
 
@@ -4590,7 +4591,51 @@ div[class^="cat"] label {
     margin: 0 1.1%;
 }
 
+.flexRowfromStep{
+    display: flex;
+    flex-wrap: wrap;
+    width: 815px;
+    margin: 0 auto;
+}
 
+
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+	width: 100%;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #ccc;
+}
+ul.tabs li {
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+    margin-right: 50px;
+    }
+ul.tabs li:hover {
+	color: #1468d2;
+}
+ul.tabs li.active {
+	background-color: #fff;
+	color: #1468d2;
+	display: block;
+}
+.tab_container {
+	border-top: none;
+	clear: both;
+	width: 100%;
+	background: #fff;
+	overflow: auto;
+}
+.tab_content {
+	display: none;
+    margin-bottom: 50px;
+}
+.tab_drawer_heading { display: none; }
 
 
 
@@ -4691,6 +4736,9 @@ div[class^="cat"] label {
 }
 
 @media (max-width: 767px) {
+    .flexRowfromStep{
+        width: auto;
+    }
     .recentblogBox2 .item{
      width: 100%;
      margin: 0;
@@ -5665,10 +5713,41 @@ div[class^="cat"] label {
     #progressbar li strong {
         display: none;
     }
-
+    .basic-check-container label {
+        width: 90% !important;
+    }
+    .checkcol{
+        align-items: flex-start;
+    }
+    .basic-check-container input[type="checkbox"]{
+        margin-top: 3px;
+    }
 
 }
 
+@media screen and (max-width: 480px) {
+	ul.tabs {
+		display: none;
+	}
+	.tab_drawer_heading {
+		color: #333;
+		border-bottom: 1px solid #ccc;
+		margin: 0;
+		padding: 5px 0;
+		display: block;
+		cursor: pointer;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+        margin-bottom: 20px;
+	}
+	.d_active {
+		color: #1468d2;
+	}
+}
 
 @media (max-width: 400px) {
     .blog-list-row .blog-list-clmn{

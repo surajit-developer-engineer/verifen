@@ -44,7 +44,7 @@
 					<h2>Football Drills For Youth</h2>
 					<ul>
 						<li><i class="fa fa-user-o"></i> By Admin</li>
-						<li><i class="fa fa-clock-o"></i> 16.06.2020</li>
+						<li><i class="fa fa-clock-o"></i> 25 June, 2022</li>
 					</ul>
 				</div>
 				<div class="single-blog-itm-bnr">
@@ -79,70 +79,70 @@
 							<figure><img src="assets/images/blog-img1.jpg"></figure>
 							<article>
 								<h3><a href="#">Football Drills For Youth</a></h3>
-								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 16.06.2020</p>
+								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 25 June, 2022</p>
 							</article>
 						</li>
 						<li>
 							<figure><img src="assets/images/blog-img2.jpg"></figure>
 							<article>
 								<h3><a href="#">The Defensive back</a></h3>
-								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 16.06.2020</p>
+								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 25 June, 2022</p>
 							</article>
 						</li>
 						<li>
 							<figure><img src="assets/images/blog-img3.jpg"></figure>
 							<article>
 								<h3><a href="#">Learn how to play</a></h3>
-								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 16.06.2020</p>
+								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 25 June, 2022</p>
 							</article>
 						</li>
 						<li>
 							<figure><img src="assets/images/blog-img4.jpg"></figure>
 							<article>
 								<h3><a href="#">Football Drills For Youth</a></h3>
-								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 16.06.2020</p>
+								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 25 June, 2022</p>
 							</article>
 						</li>
 						<li>
 							<figure><img src="assets/images/blog-img5.jpg"></figure>
 							<article>
 								<h3><a href="#">The Defensive back</a></h3>
-								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 16.06.2020</p>
+								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 25 June, 2022</p>
 							</article>
 						</li>
 						<li>
 							<figure><img src="assets/images/blog-img6.jpg"></figure>
 							<article>
 								<h3><a href="#">Learn how to play</a></h3>
-								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 16.06.2020</p>
+								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 25 June, 2022</p>
 							</article>
 						</li>
 						<li>
 							<figure><img src="assets/images/blog-img7.jpg"></figure>
 							<article>
 								<h3><a href="#">Football Drills For Youth</a></h3>
-								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 16.06.2020</p>
+								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 25 June, 2022</p>
 							</article>
 						</li>
 						<li>
 							<figure><img src="assets/images/blog-img8.jpg"></figure>
 							<article>
 								<h3><a href="#">The Defensive back</a></h3>
-								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 16.06.2020</p>
+								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 25 June, 2022</p>
 							</article>
 						</li>
 						<li>
 							<figure><img src="assets/images/blog-img9.jpg"></figure>
 							<article>
 								<h3><a href="#">Learn how to play</a></h3>
-								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 16.06.2020</p>
+								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 25 June, 2022</p>
 							</article>
 						</li>
 						<li>
 							<figure><img src="assets/images/blog-img5.jpg"></figure>
 							<article>
 								<h3><a href="#">Learn how to play</a></h3>
-								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 16.06.2020</p>
+								<p class="ltst-post-date"><i class="fa fa-clock-o"></i> 25 June, 2022</p>
 							</article>
 						</li>
 					</ul>
@@ -150,6 +150,12 @@
 				<div class="recent-article-area">
 					<h2 class="sec-hdn">Featured Articles</h2>
 					<ul>
+						<li><a href="#">We teach or WR’s how to understand each coverage</a></li>
+						<li><a href="#">Learn how to cut better, block better and be a deadly</a></li>
+						<li><a href="#">We also teach them how to be a leader and control the team.</a></li>
+						<li><a href="#">We teach or WR’s how to understand each coverage</a></li>
+						<li><a href="#">Learn how to cut better, block better and be a deadly</a></li>
+						<li><a href="#">We also teach them how to be a leader and control the team.</a></li>
 						<li><a href="#">We teach or WR’s how to understand each coverage</a></li>
 						<li><a href="#">Learn how to cut better, block better and be a deadly</a></li>
 						<li><a href="#">We also teach them how to be a leader and control the team.</a></li>

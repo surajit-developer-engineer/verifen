@@ -42,7 +42,7 @@
                     </li>
                     <li><a href="https://www.linkedin.com/company/Verifenfunding" target="_blank"><i class="fa fa-fw fa-linkedin" alt="linkedin"></i></a><br>
                     </li>
-                    <li><a href="https://www.youtube.com/@VerifenFunding" target="_blank"><i class="fa fa-fw fa-youtube-play" alt="linkedin"></i></a><br>
+                    <li><a style="margin-top:3px;" href="https://www.youtube.com/@VerifenFunding" target="_blank"><i class="fa fa-fw fa-youtube-play" alt="linkedin"></i></a><br>
                     </li>
                 </ul>
                 </br>
@@ -111,10 +111,10 @@
                 phone number(s) you provide, including your mobile number, even if you are registered on a federal,
                 state, or corporate do not call list. You also confirm your agreement to Verifen’s Privacy Policy
                 and Terms of Use, and acknowledge this as your electronic signature. Consent to communication is
-                optional and not required to get a quote or funding; you can call us at (000) 000-0000 instead.
+                optional and not required to get a quote or funding; you can call us at (888) 788-6160 instead.
                 By signing up for text/SMS messaging, you agree to receive automated marketing and informational
                 messages about Verifen’s products, services, and updates on your applications. You can stop
-                receiving messages at any time by texting STOP, and for help, you can text HELP or call us at (000) 000-0000.
+                receiving messages at any time by texting STOP, and for help, you can text HELP or call us at (888) 788-6160.
                 Consent to receive messages is not a condition for funding. See Verifen’s SMS Terms and Privacy Policy
                 for more details.
             </p>

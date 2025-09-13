@@ -85,7 +85,7 @@
           
             <!-- Third Step -->
             <fieldset>
-                <div class="form-card active">
+                <!-- <div class="form-card active">
                     <div class="first-step-sub-step-one">
                         <div class="title-hdn">
                             <h3>Get the Capital You Need Without the Games</h3></br>
@@ -95,8 +95,9 @@
                              </div>
                         </div>
                     </div>
-                </div>                
-                <div class="form-card">
+                </div>    -->
+
+                <div class="form-card active">
                     <div class="first-step-sub-step-eleven">
                         <h3>Do you currently have any open business loans?</h3>
                         <div class="menu">
@@ -150,22 +151,10 @@
                     </div>
                 </div>
 
-                <input type="button" name="next" class="next action-button" value="Next" style="display: none;" />
+                <!-- <input type="button" name="next" class="next action-button" value="Next" style="display: none;" /> -->
             </fieldset>
 
-          <!-- Fifth Final Step -->
-            <fieldset>
-              <div class="thanks-message">
-                <img class="success-icon" src="{{ asset('assets/images/tick-mark.png') }}" alt="" />
-                <h4>Application Received!</h4>
-                <p>Thank you for applying with Verifen. One of our experienced Business Advisors will reach out to you 
-                    shortly to discuss your options. We're here to help you access the capital you need. quickly, clearly, 
-                    and with expert support every step of the way.</p>
-                <div class="menu">
-                    <a href="/business-loan-application/step-4" class="button toplink formsim-btn">Continue</a>                                
-                </div>
-              </div>
-            </fieldset>
+                   
 
 
         </form>
