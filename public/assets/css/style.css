@@ -4651,8 +4651,8 @@ ul.tabs li.active {
 }
 .servicesGrid{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
 }
 .servicesCol{
     background: #fff;
@@ -4660,7 +4660,7 @@ ul.tabs li.active {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .servicesImgHolder{
-    height: 200px;
+    height: 220px;
 }
 .servicesImgHolder img{
     height: 100%;

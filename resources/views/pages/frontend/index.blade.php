@@ -392,6 +392,19 @@
                     </div>
                 </div>
 
+                <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/private-travel.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>Private Travel</h3>
+                        <p>Your Personal Jet, Reimagined. Skip the hassle of commercial travel and discover Verifen Jet Charter. 
+                            Our concierge team ensures every detail is handled, from luggage to luxury dining, 
+                            while you enjoy private, stress-free travel at transparent, competitive rates.</p>
+                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
