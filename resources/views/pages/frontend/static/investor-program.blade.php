@@ -190,7 +190,7 @@
                         <div class="featured-icon-holder2">						
                             <img class="maxWidth130" alt="Business Strategy" src="assets/images/icon-666.png">												
                         </div>
-                        <h3 class="leftText">12-Month Terms with Simple Renewa</h3>
+                        <h3 class="leftText">12-Month Terms with Simple Renewal</h3>
                         <p class="leftText">At the end of each term:</br>
                             * Reinvest your capital in a new cycle</br>
                             * Withdraw your principal</br>

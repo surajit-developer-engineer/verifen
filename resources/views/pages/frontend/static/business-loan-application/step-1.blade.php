@@ -414,6 +414,7 @@
             // Setup triggers
             var $buttons = $activeCard.find(".button");
             var $inputs = $activeCard.find("input, select");
+            
 
             if ($buttons.length > 0) {
                 $buttons.off("click.substep").on("click.substep", function () {
@@ -423,7 +424,7 @@
                 });
             }
 
-            if ($inputs.length > 0) {
+              if ($inputs.length > 0) {
                 $inputs.off(".substep");
 
                 // Use `change` instead of `input` to avoid auto-skip
@@ -434,6 +435,8 @@
                     }
                 });
             }
+
+            
 
             // No input or button? Show next card
             if ($buttons.length === 0 && $inputs.length === 0) {

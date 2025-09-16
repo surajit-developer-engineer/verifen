@@ -77,7 +77,7 @@
                         <p>Apply in minutes. Get approved fast. Access capital and growth support tailored to your goals. 
                             Verifen delivers fast capital with zero fluff, and the expert support to turn every dollar 
                             into a lasting impact.</p>
-                        <a class="applyButton mt-4" href="/business-loan-application">Check Your Eligibility</a>
+                        <a class="applyButton mt-4" target="_blank" href="https://calendly.com/verifen">Check Your Eligibility</a>
                     </div>
                     
                 </div>
@@ -163,7 +163,7 @@
             </li>
         </ul>
         <div class="text-center">
-            <a class="applyButton" href="/business-loan-application">Get Funded Now</a>
+            <a class="applyButton" target="_blank" href="https://calendly.com/verifen">Get Funded Now</a>
         </div>
     </div>
   </div>
@@ -295,7 +295,7 @@
                         <li><strong>Trusted and Secure</strong></li>
                         <li><strong>Real Humans. Real Support.</strong></li>
                     </ul>
-                    <a class="applyButton mt-1" href="/business-loan-application">Check Your Eligibility in Minutes</a></br></br>
+                    <a class="applyButton mt-1" target="_blank" href="https://calendly.com/verifen">Check Your Eligibility in Minutes</a></br></br>
                     <small>No credit impact. No obligation.</small>
                 </div>
             </div>

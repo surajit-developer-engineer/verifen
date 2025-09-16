@@ -287,7 +287,7 @@
 
     <div class="servicesSec">
         <div class="container">
-            <h2>Our Services</h2>
+            <h2>Solutions Tailored For You</h2>
             <div class="servicesGrid">
                 <div class="servicesCol">
                     <div class="servicesImgHolder">
