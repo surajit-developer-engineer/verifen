@@ -77,7 +77,7 @@ do not provide this consent, you will be <strong>unable to open or maintain an a
 
 
             <div class="backpack mt-5">   
-                <div class="stcleftSec"><img  class="cat-two" src="{{ 'assets/images/electronic-delivery-img2.png' }}" alt=""></div>             
+                <div class="stcleftSec order-2"><img  class="cat-two" src="{{ 'assets/images/electronic-delivery-img2.png' }}" alt=""></div>             
                 <div class="stcRightSec">                    
                     <h3>Technology Requirements</h3>
                     <p>To access and retain electronic Communications, you must have:</p>
@@ -119,7 +119,7 @@ do not provide this consent, you will be <strong>unable to open or maintain an a
 
 
              <div class="backpack mt-5">   
-                <div class="stcleftSec"><img  class="cat-two" src="{{ 'assets/images/electronic-delivery-img4.png' }}" alt=""></div>             
+                <div class="stcleftSec order-2"><img  class="cat-two" src="{{ 'assets/images/electronic-delivery-img4.png' }}" alt=""></div>             
                 <div class="stcRightSec">                    
                     <h3>Legal Effect of Electronic Communications</h3>
                     <p>Communications provided electronically or on paper will be considered as "in writing" under all applicable

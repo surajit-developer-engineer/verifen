@@ -83,7 +83,7 @@
                 <li>|</li>
                 <li><a href="/terms-of-use">Terms of Service</a></li>
                 <li>|</li>
-                <li><a href="/tcpa-consent">CCPA Notice</a></li>
+                <li><a href="/tcpa-consent">TCPA Notice</a></li>
                 <li>|</li>
                 <li><a href="/terms-of-application">Terms of Application</a></li>                             
             </ul>

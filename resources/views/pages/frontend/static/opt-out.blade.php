@@ -40,11 +40,11 @@
         <div class="applicationBody">
             <form>
                 <ul class="tabs">
-                    <li class="active" rel="tab1">Opt Out of Communications</li>
-                    <li rel="tab2">I don't want Verifen to Contact me via SMS</li>                    
+                    <li class="active" rel="tab1">Opt Out of Data Sharing</li>
+                    <li rel="tab2">Opt Out of Communications</li>                    
                 </ul>
                     <div class="tab_container">
-                    <h3 class="d_active tab_drawer_heading optTitle" rel="tab1">Opt Out of Communications</h3>
+                    <h3 class="d_active tab_drawer_heading optTitle" rel="tab1">Opt Out of Data Sharing</h3>
                     <div id="tab1" class="tab_content cat-1">                    
                         <div class="question-wrap">
                         <p>Please provide the following information for identity verification:</p>
@@ -68,11 +68,11 @@
 
                         <div class="formFlex">
                             <div class="formCol">
-                                <span>Business Email</span>
+                                <span>Email Address</span>
                                 <input type="text" placeholder="">
                             </div>
                             <div class="formCol">
-                                <span>Business Phone</span>
+                                <span>Phone Number</span>
                                 <input type="text" placeholder="">
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                     </div>
                     </div>
                     <!-- #tab1 -->
-                    <h3 class="tab_drawer_heading optTitle" rel="tab2">I don't want Verifen to Contact me via SMS</h3>
+                    <h3 class="tab_drawer_heading optTitle" rel="tab2">Opt Out of Communications</h3>
                     <div id="tab2" class="tab_content">
                     <div class="question-wrap">
                         <p>Please provide the following information for identity verification:</p>
@@ -124,11 +124,11 @@
 
                         <div class="formFlex">
                             <div class="formCol">
-                                <span>Business Email</span>
+                                <span>Email Address</span>
                                 <input type="text" placeholder="">
                             </div>
                             <div class="formCol">
-                                <span>Business Phone</span>
+                                <span>Phone Number</span>
                                 <input type="text" placeholder="">
                             </div>
                         </div>

@@ -292,7 +292,6 @@ a.dfltBtn:hover {
     cursor: pointer;
     border: none;
 }
-
 .applyButton:hover {
     background: #000 !important;
 }
@@ -3443,9 +3442,9 @@ div[class^="cat"] label {
     width: 200px;
     height: 150%;
     position: absolute;
-    border-radius: 70px 0 0 70px;
+    border-radius: 0 70px 70px 0;
     top: -15%;
-    left: -60px;
+    right: -60px;
 }
 .lanban-con-holder h2{
     font-size: 65px;
@@ -4637,6 +4636,78 @@ ul.tabs li.active {
 }
 .tab_drawer_heading { display: none; }
 
+.servicesSec{
+    width: 100%;
+    margin: 100px 0 0;
+}
+.servicesSec h2 {
+    margin-top: 0px;
+    font-size: 72px;
+    color: #1468d2;
+    font-weight: 500;
+    padding-bottom: 50px;
+    text-align: center;
+    line-height: 75px;
+}
+.servicesGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.servicesCol{
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.servicesImgHolder{
+    height: 200px;
+}
+.servicesImgHolder img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.servicesContentHolder{
+    padding: 20px 15px 25px 20px;
+}
+.servicesContentHolder h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 10px;
+}
+.servicesContentHolder p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #4e4e4e;
+    padding: 0;
+    line-height: 25px;
+    margin-bottom: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.moreBtn{
+    padding: 10px 15px !important;
+    color: #fff !important;
+    line-height: 15px;
+    font-weight: 600;
+    background-color: #1468d2 !important;
+    border-radius: 40px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.moreBtn i{
+    margin-left: 5px;
+}
+.moreBtn:hover {
+    background: #000 !important;
+}
+
 
 
 @media screen and (min-width: 1280px) {
@@ -4736,6 +4807,28 @@ ul.tabs li.active {
 }
 
 @media (max-width: 767px) {
+    .servicesSec h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .servicesSec{
+        width: 100%;
+        margin: 50px 0 0;
+    }
+    .servicesGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .step-form-sec .step-form-field{
+        margin-top: 20px;
+    }
+    .w50 {
+        width: 100%;
+    }
+    .order-2{
+        order: 2;
+    }
     .flexRowfromStep{
         width: auto;
     }
@@ -4929,7 +5022,7 @@ ul.tabs li.active {
         font-size: 30px;
     }
     .step-form-sec fieldset h3 {
-        font-size: 30px;
+        font-size: 25px;
     }
     #msform fieldset{
        padding: 0 30px 80px; 
@@ -4948,8 +5041,8 @@ ul.tabs li.active {
         flex-wrap: wrap;
     }
     .hdr-progress-bar #progressbar li {    
-        font-size: 12px;
-        padding: 12px 0;
+        font-size: 15px;
+        padding: 23px 0;
     }
     .step-form-sec .title-hdn h1 {
         font-size: 30px;
@@ -5726,6 +5819,9 @@ ul.tabs li.active {
 }
 
 @media screen and (max-width: 480px) {
+    .servicesGrid{
+        display: block;       
+    }
 	ul.tabs {
 		display: none;
 	}

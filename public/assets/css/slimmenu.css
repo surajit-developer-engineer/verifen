@@ -95,10 +95,10 @@ ul.slimmenu li ul {
 	padding-top: 20px;
 	text-align: left;
 	min-width: 200px;
-	background-color: #ffffff;
+	/* background-color: #ffffff; */
 	box-shadow: 0 -3px 20px rgba(0, 0, 0, 0.15);
 	padding: 0 20px;
-	border-radius: 10px;
+	border-radius: 0;
 }
 ul.slimmenu li.has-submenu ul li {
 	background-color: #ffffff;
@@ -108,9 +108,9 @@ ul.slimmenu li.has-submenu ul li {
 	padding: 0;
 	position: relative;
 	margin: 0;
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 20px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	border-bottom: 1px solid #b9b9b9;
 }
 ul.slimmenu li.has-submenu ul li:last-child{
@@ -135,6 +135,7 @@ ul.slimmenu li>ul {
 	display: none;
 	width: auto;
 	margin-top: 0;
+	background: #fff;
 }
 ul.slimmenu li>ul::before{
 	position: absolute;
@@ -156,15 +157,19 @@ ul.slimmenu li>ul>li ul {
 	display: none;
 }
 ul.slimmenu li .sub-toggle { 
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.075);
+	/* background: none repeat scroll 0 0 rgba(0, 0, 0, 0.075); */
 	position: absolute;
 	right: 0;
-	top: 0;
+	top: 6px;
 	z-index: 999;
 	width: 0;
 	height: 100%;
 	text-align: center;
 	cursor: pointer;
+}
+ul.slimmenu li.has-submenu > a::after{
+	top: 24px;
+    position: relative;
 }
 ul.slimmenu li .sub-toggle:before { 
 	font-family: 'FontAwesome';
@@ -197,14 +202,14 @@ ul.slimmenu li .sub-toggle>i {
 	ul.slimmenu li.has-submenu > a::after{
 		position: absolute;
 		content: '';
-		top: 20px;
+		top: 24px;
 		right: -14px;
 		display: inline-block;
 		margin-left: 0.255em;
 		vertical-align: 0.255em;
-		content: "\f078";
+		/* content: "\f078"; */
 		font-family: "FontAwesome";
-		font-size: 12px;
+		font-size: 20px;
 		/*border-top: 5px solid #000000;
 		border-right: 5px solid transparent;
 		border-bottom: 0;
@@ -297,8 +302,8 @@ ul.slimmenu.collapsed li {
 ul.slimmenu.collapsed li>ul {
 	position: static;
 	display: none;
-	padding: 0 0 0 20px;
-	background-color: transparent;
+	padding: 0 20px;
+	/* background-color: transparent; */
 }
 ul.slimmenu.collapsed li>ul::before{
 	display: none;
@@ -316,7 +321,7 @@ ul.slimmenu.collapsed li a:hover{
 }
 ul.slimmenu.collapsed li .sub-toggle {
 	height: auto;
-	width: auto;
+	width: 100%;
 	right: 0;
 	padding: 10px 10px 9px 14px;
 }
@@ -448,6 +453,15 @@ ul.slimmenu li.mobView{
 	}
 }
 @media only screen and (max-width:768px){
+	ul.slimmenu.collapsed li:last-child a{
+		border-bottom: none;
+	}
+	ul.slimmenu li>ul {
+		background: #343a40;
+	}
+	ul.slimmenu li.has-submenu > a::after{
+		top: 2px;
+	}
 	.collapse-button{
 		right: 75px;
 		top: 10px;

@@ -69,6 +69,9 @@
         <div class="landingbannerSec">
             <div class="container">
                 <div class="lanbannerBg">
+                    <div class="lanban-img-holder">
+                        <img src="{{ 'assets/images/landing-banner2.png' }}">
+                    </div>
                     <div class="lanban-con-holder">
                         <h2>The Smarter Way to Fund and Grow Your Business</h2>
                         <p>Apply in minutes. Get approved fast. Access capital and growth support tailored to your goals. 
@@ -76,9 +79,7 @@
                             into a lasting impact.</p>
                         <a class="applyButton mt-4" href="/business-loan-application">Check Your Eligibility</a>
                     </div>
-                    <div class="lanban-img-holder">
-                        <img src="{{ 'assets/images/landing-banner2.png' }}">
-                    </div>
+                    
                 </div>
             </div>
         </div>

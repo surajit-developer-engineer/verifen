@@ -42,6 +42,7 @@
                     <li class="active"><a href="/partners">Partner</a></li>
                     <li><a href="#howitworks">How It Works</a></li>
                     <li><a href="#wcVerifen">Why Choose Verifen?</a></li>
+                    <li><a href="#partnerApplication">Partner Application</a></li>
                     <li class="mobView">
                     <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('business.loan.application.step-1') }}" target="_blank">
                     <span>Apply Now</span></a>

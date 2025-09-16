@@ -283,6 +283,121 @@
         </div>
     </section>
 
+    <!-- ================ Service Section ================ -->
+
+    <div class="servicesSec">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="servicesGrid">
+                <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/business-loans.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>Business Loans</h3>
+                        <p>Fuel your growth with flexible business loans designed to meet your needs. At Verifen, 
+                            we provide straightforward funding without hidden fees or gimmicks, so you can focus on 
+                            building your business with confidence.</p>
+                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/consultation.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>Consultation</h3>
+                        <p>Success starts with the right strategy. Our consultations give you clear, actionable 
+                            guidance built on proven formulas that work across industries, helping you create a path 
+                            to lasting business growth.</p>
+                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/credit-repair.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>Credit Repair</h3>
+                        <p>A strong credit profile opens doors to better financing. We work with you to identify issues, 
+                            repair your credit, and position your business to qualify for the funding it deserves.</p>
+                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/credit-monitoring.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>Credit Monitoring</h3>
+                        <p>Stay ahead with real-time credit monitoring. Our service keeps you informed, protects your 
+                            business reputation, and ensures you’re always ready when the right funding 
+                            opportunity comes along.</p>
+                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/line-credit.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>Line of Credit</h3>
+                        <p>Access funds when you need them with a flexible line of credit. Whether it’s 
+                            managing expenses or seizing new opportunities, Verifen ensures you have reliable 
+                            capital at your fingertips.</p>
+                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/sba-loans.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>SBA Loans</h3>
+                        <p>Grow with affordable financing backed by the Small Business Administration. 
+                            Our SBA loans provide lower rates and longer terms, making it easier for your business 
+                            to expand with peace of mind.</p>
+                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/term-loans.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>Term Loans</h3>
+                        <p>Plan for the future with fixed-rate term loans tailored to your business goals. 
+                            Whether investing in new equipment or scaling operations, you’ll benefit from 
+                            clear terms and no surprises.</p>
+                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/working-capital.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>Working Capital</h3>
+                        <p>Keep your operations running smoothly with working capital solutions that put cash flow within reach. 
+                            Verifen helps you cover day-to-day expenses while staying focused on long-term success.</p>
+                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- ================ Membership How It Works Section ================ -->
     {{-- <section id="membership" class="memberhowitWorksSec">
         <div class="container">

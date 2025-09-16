@@ -205,7 +205,7 @@
     </div>
 
 
-<div class="landing-commonSec">
+<div id="partnerApplication" class="landing-commonSec">
         <div class="container">
             <div class="lanimagebgsec iplanimagebgsec">
                 <!-- <img alt="Image" src="{{ 'assets/images/office-indoor.jpg' }}">	 -->
