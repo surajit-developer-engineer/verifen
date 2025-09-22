@@ -37,6 +37,12 @@ Route::get('/investors-application', [StaticController::class, 'investorsApplica
 Route::get('/business-growth-center', [StaticController::class, 'businessGrowthCenter'])->name('business.growth.center');
 Route::get('/blog-details', [StaticController::class, 'blogDetails'])->name('blog.details');
 Route::get('/page-not-found', [StaticController::class, 'pageNotFound'])->name('page.not.found');
+Route::get('/small-business-loans', [StaticController::class, 'smallBusinessLoans'])->name('small.business.loans');
+Route::get('/consultation', [StaticController::class, 'consulTation'])->name('consulTation');
+Route::get('/credit-repair', [StaticController::class, 'creditRepair'])->name('credit.repair');
+Route::get('/credit-monitoring', [StaticController::class, 'creditMonitoring'])->name('credit.monitoring');
+Route::get('/line-of-credit', [StaticController::class, 'lineOfcredit'])->name('line.of.credit');
+
 
 Route::group([
     'prefix' => 'administrator'

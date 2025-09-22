@@ -356,6 +356,22 @@ a.dfltBtn:hover {
     background-repeat: no-repeat;
     height: 600px;
 }
+.servicebg2 {
+    position: relative;
+    height: 600px;
+}
+.servicebg2:after{
+    content: "";
+    background: url(../images/bg-thumb-print-gray-1.svg) right 0 no-repeat;
+    width: 55%;
+    position: absolute;
+    top: -180px;
+    right: 50px;
+    z-index: 9;
+    height: 100%;
+    background-size: 100%;
+    opacity: 0.7;
+}
 
 .home-banner-sec .carousel-item {
     position: relative;
@@ -4711,6 +4727,113 @@ ul.tabs li.active {
 }
 
 
+.ser-subHeading{
+    font-size: 60px !important;
+    line-height: 65px !important;
+}
+.ser-subHeading span{
+    display: block;    
+}
+.ser-paragraph{
+    width: 80%;
+    margin: 0 auto;
+}
+.serviceBox-row {
+    display: flex;
+    justify-content: space-between;
+    width:95%;
+    margin: 0 auto;
+}
+.serviceBox-row .serviceBox {
+    border-radius: 40px;
+    padding: 50px 20px;
+    border-top: 2px solid rgb(0 98 224 / 20%);
+    border-left: 2px solid rgb(0 98 224 / 20%);
+    box-shadow: rgb(0 98 224 / 18%) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 31%;
+}
+.serviceBox-row p{
+    padding: 0;
+}
+.serviceBox-row h5{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0 15px;
+    color: #1468d2;
+    font-weight: 600;
+}
+.serviceBox-row h5 span {
+    font-weight: 700;
+    display: block;
+    color: #01188f;
+}
+.serviceList li{
+    color: #000;
+}
+.sw50{
+    width: 50% !important;
+}
+.sw43{
+    width: 43% !important;
+}
+.sp-top-bottom{
+    padding: 70px 0 !important;
+}
+.simgRadius{
+    border-radius: 50px;
+}
+.whychoose-sec{
+    justify-content:center;
+}
+.whychoose-sec li{
+    width: 23% !important;
+    height: 100%;
+    padding: 40px 11px;
+    -webkit-transition: box-shadow .4s ease, background .4s ease, color .4s ease;
+    transition: box-shadow .4s ease, background .4s ease, color .4s ease;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+	text-align: center;
+    margin: 0 1%;
+    display: flex;
+    justify-content: center;
+}
+.whychoose-sec li p{
+    text-align: center !important;
+    color: #000;
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.whychoose-sec li p span{
+    padding-top: 15px !important;
+}
+.whychoose-sec li figure{
+    margin-bottom: 20px;
+    margin-right: 0 !important;
+    width: 55px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1280px) {
     .section-6.color {
@@ -4809,6 +4932,9 @@ ul.tabs li.active {
 }
 
 @media (max-width: 767px) {
+    .mobDnone{
+        display:none !important;
+    }
     .servicesSec h2 {
         font-size: 30px;
         line-height: 35px;

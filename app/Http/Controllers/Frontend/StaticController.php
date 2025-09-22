@@ -156,4 +156,29 @@ class StaticController extends Controller
         return view('pages.frontend.static.page-not-found');
     } 
 
+    public function smallBusinessLoans ()
+    {
+        return view('pages.frontend.static.small-business-loans');
+    } 
+
+    public function consulTation ()
+    {
+        return view('pages.frontend.static.consultation');
+    } 
+
+    public function creditRepair ()
+    {
+        return view('pages.frontend.static.credit-repair');
+    } 
+
+    public function creditMonitoring ()
+    {
+        return view('pages.frontend.static.credit-monitoring');
+    } 
+
+    public function lineOfcredit ()
+    {
+        return view('pages.frontend.static.line-of-credit');
+    }    
+
 }

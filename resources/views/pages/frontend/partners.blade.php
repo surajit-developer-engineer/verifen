@@ -33,7 +33,7 @@
 <body>
 
     <!-- ================ Header Section ================ -->
-    @include('includes.frontend.partner-header')
+    @include('includes.frontend.header')
 
     <section class="home-banner-sec">
         <div id="carouselExampleControls" class="carousel slide">

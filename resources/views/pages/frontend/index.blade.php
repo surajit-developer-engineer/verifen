@@ -289,6 +289,7 @@
         <div class="container">
             <h2>Solutions Tailored For You</h2>
             <div class="servicesGrid">
+
                 <div class="servicesCol">
                     <div class="servicesImgHolder">
                         <img src="{{ 'assets/images/business-loans.png' }}" alt="">
@@ -298,7 +299,31 @@
                         <p>Fuel your growth with flexible business loans designed to meet your needs. At Verifen, 
                             we provide straightforward funding without hidden fees or gimmicks, so you can focus on 
                             building your business with confidence.</p>
-                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                        <a class="moreBtn" href="/small-business-loans"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+                 <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/business-insurance.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>Business Insurance</h3>
+                        <p>Tailored coverage options that protect businesses from risks, giving owners peace of mind to focus on growth.</p>
+                        <a class="moreBtn" href="/business-insurance"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/business-regulations.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>Business Regulations</h3>
+                        <p>Comprehensive support from business startup to corporate growth, 
+                            including LLC formation, corporate opening, licensing, and ongoing regulatory 
+                            compliance, so businesses can operate with confidence.</p>
+                        <a class="moreBtn" href="/business-regulations"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
 
@@ -311,7 +336,7 @@
                         <p>Success starts with the right strategy. Our consultations give you clear, actionable 
                             guidance built on proven formulas that work across industries, helping you create a path 
                             to lasting business growth.</p>
-                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                        <a class="moreBtn" href="/consultation"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
 
@@ -323,7 +348,7 @@
                         <h3>Credit Repair</h3>
                         <p>A strong credit profile opens doors to better financing. We work with you to identify issues, 
                             repair your credit, and position your business to qualify for the funding it deserves.</p>
-                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                        <a class="moreBtn" href="/credit-repair"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
 
@@ -336,7 +361,7 @@
                         <p>Stay ahead with real-time credit monitoring. Our service keeps you informed, protects your 
                             business reputation, and ensures you’re always ready when the right funding 
                             opportunity comes along.</p>
-                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                        <a class="moreBtn" href="/credit-monitoring"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
 
@@ -349,7 +374,32 @@
                         <p>Access funds when you need them with a flexible line of credit. Whether it’s 
                             managing expenses or seizing new opportunities, Verifen ensures you have reliable 
                             capital at your fingertips.</p>
-                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                        <a class="moreBtn" href="/line-of-credit"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/payment-processing.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>Payment Processing</h3>
+                        <p>Seamless, secure, and efficient payment solutions to help businesses accept 
+                            transactions with ease while ensuring compliance and fraud protection.</p>
+                        <a class="moreBtn" href="/payment-processing"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="servicesCol">
+                    <div class="servicesImgHolder">
+                        <img src="{{ 'assets/images/private-travel.png' }}" alt="">
+                    </div>
+                    <div class="servicesContentHolder">
+                        <h3>Private Travel</h3>
+                        <p>Your Personal Jet, Reimagined. Skip the hassle of commercial travel and discover Verifen Jet Charter. 
+                            Our concierge team ensures every detail is handled, from luggage to luxury dining, 
+                            while you enjoy private, stress-free travel at transparent, competitive rates.</p>
+                        <a class="moreBtn" href="/private-travel"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
 
@@ -362,7 +412,7 @@
                         <p>Grow with affordable financing backed by the Small Business Administration. 
                             Our SBA loans provide lower rates and longer terms, making it easier for your business 
                             to expand with peace of mind.</p>
-                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                        <a class="moreBtn" href="/sba-loans"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
 
@@ -376,7 +426,7 @@
                         <p>Plan for the future with fixed-rate term loans tailored to your business goals. 
                             Whether investing in new equipment or scaling operations, you’ll benefit from 
                             clear terms and no surprises.</p>
-                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                        <a class="moreBtn" href="/term-loans"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
 
@@ -388,22 +438,10 @@
                         <h3>Working Capital</h3>
                         <p>Keep your operations running smoothly with working capital solutions that put cash flow within reach. 
                             Verifen helps you cover day-to-day expenses while staying focused on long-term success.</p>
-                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
+                        <a class="moreBtn" href="/working-capital"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
 
-                <div class="servicesCol">
-                    <div class="servicesImgHolder">
-                        <img src="{{ 'assets/images/private-travel.png' }}" alt="">
-                    </div>
-                    <div class="servicesContentHolder">
-                        <h3>Private Travel</h3>
-                        <p>Your Personal Jet, Reimagined. Skip the hassle of commercial travel and discover Verifen Jet Charter. 
-                            Our concierge team ensures every detail is handled, from luggage to luxury dining, 
-                            while you enjoy private, stress-free travel at transparent, competitive rates.</p>
-                        <a class="moreBtn" href="javascript:void(0)"><span>Read More</span> <i class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
 
             </div>
         </div>

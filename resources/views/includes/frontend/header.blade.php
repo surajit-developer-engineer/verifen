@@ -40,36 +40,56 @@
             <div class="hdr-menu">
                 <ul class="slimmenu">
                 <div class="collapse-button closeIcon"> <img src="{{ 'assets/images/close-icon.png' }}" alt="Close Icon"> </div>
-                    {{-- <li class="active"><a href="#membership">Membership</a></li> --}}
-                    <li class="dropdown"><a class="dropdown-toggle" href="#">Services</a>
-                        <ul  class="dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="#">Business Loans</a></li>
-                            <li><a class="dropdown-item" href="#">Consultation</a></li>
-                            <li><a class="dropdown-item" href="#">Credit Repair</a></li>
-                            <li><a class="dropdown-item" href="#">Credit Monitoring</a></li>
-                            <li><a class="dropdown-item" href="#">Line of Credit</a></li>
-                            <li><a class="dropdown-item" href="#">Privet Travel</a></li>
-                            <li><a class="dropdown-item" href="#">SBA Loans</a></li>
-                            <li><a class="dropdown-item" href="#">Term Loans</a></li>
-                            <li><a class="dropdown-item" href="#">Working Capital</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" href="/consultation">Consultations</a>
+                        <ul  class="dropdown-menu dropdown-menu-dark">                            
+                            <li><a class="dropdown-item" href="/business-insurance">Business Insurance</a></li>
+                            <li><a class="dropdown-item" href="/business-loan-advisor">Business Loans</a></li>
+                            <li><a class="dropdown-item" href="/business-optimization">Business Optimization</a></li>
+                            <li><a class="dropdown-item" href="/business-regulations-and-compliance">Business Regulations</a></li>
+                            <li><a class="dropdown-item" href="/credit-repair-consultation">Credit Monitoring</a></li> 
+                            <li><a class="dropdown-item" href="/credit-repair-consultation">Credit Repair</a></li>
+                            <li><a class="dropdown-item" href="/payment-processing">Payment Processing</a></li>
+                            <li><a class="dropdown-item" href="/privet-travel">Privet Travel</a></li>
                         </ul>
-                    </li>
-                    <li><a href="#Verifen">Why Verifen?</a></li>
-                    <li><a href="#howitworks">How It Works</a></li>
-                    <li><a href="#solutions">Solutions</a></li>
-                    <li><a href="#funding">Funding</a></li>
-                    <li><a href="#benefits">Benefits</a></li>
-                    <li><a href="#industries">Industries</a></li>                    
-                    <li><a href="#faqs">FAQs</a></li>
-                    <li class="mobView"><a href="/partners">Partners</a></li>
-                    <li class="mobView"><a href="/investor-program">Investor Program</a></li>
+                    </li> 
+                    <li class="dropdown"><a class="dropdown-toggle" href="/business-loans">Funding</a>
+                        <ul  class="dropdown-menu dropdown-menu-dark">                            
+                            <li><a class="dropdown-item" href="/business-loan-application/step-1">Application</a></li>
+                            <li><a class="dropdown-item" href="/small-business-loans">Business Loans</a></li>
+                            <li><a class="dropdown-item" href="/line-of-credit">Line of Credit</a></li> 
+                            <li><a class="dropdown-item" href="/sba-loans">SBA Loans</a></li>
+                            <li><a class="dropdown-item" href="/term-loans">Term Loans</a></li>
+                            <li><a class="dropdown-item" href="/working-capital">Working Capital</a></li>                        
+                        </ul>
+                    </li> 
+                    <li><a href="/private-travel">Travel</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" href="#">Credit</a>
+                        <ul  class="dropdown-menu dropdown-menu-dark">                            
+                            <li><a class="dropdown-item" href="/credit-monitoring">Credit Monitoring</a></li>
+                            <li><a class="dropdown-item" href="/credit-repair">Credit Repair</a></li>                                                    
+                        </ul>
+                    </li>                   
+                   <li class="dropdown"><a class="dropdown-toggle" href="#">Solutions</a>
+                        <ul  class="dropdown-menu dropdown-menu-dark">                            
+                            <li><a class="dropdown-item" href="/business-insurance-solutions">Business Insurance</a></li>
+                            <li><a class="dropdown-item" href="/business-regulations">Business Regulations</a></li>
+                            <li><a class="dropdown-item" href="/payment-processing-high-risk-business">Payment Processing</a></li>                                                    
+                        </ul>
+                    </li>                     
+                    <li><a href="/business-growth-center">Growth Center</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" href="#">Why Verifen?</a>
+                        <ul  class="dropdown-menu dropdown-menu-dark">                            
+                            <li><a class="dropdown-item" href="/investor-program">Investors</a></li>
+                            <li><a class="dropdown-item" href="/partners">Partners</a></li>
+                            <li><a class="dropdown-item" href="/why-verifen">Why Verifen?</a></li>                                                    
+                        </ul>
+                    </li>                    
                     <li class="mobView">
-                    <div class="dFlex mobBtnSec">
-                        <a class="applyButton" href="{{ route('business.loan.application.step-1') }}" target="_blank">
+                    <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('business.loan.application.step-1') }}" target="_blank">
                     <span>Apply Now</span></a>
-                    <a style="margin-top:15px;" class="applyButton" href="/contact" target="_blank">
-                        Contact Us</a></div>
-                    <a class="applyButtonStroke" href="tel:8887886160" target="_blank">
+                    <a class="applyButton" href="{{ route('business.loan.application.step-1') }}" target="_blank">
+                        Become a Member</a></div>
+                    <a class="applyButtonStroke" href="tel:(888) 788-6160" target="_blank">
                     <span><i><img src="{{ 'assets/images/phone-call.png' }}"></i> Call Us: (888) 788-6160</span></a>
                 </li>
                 </ul>
