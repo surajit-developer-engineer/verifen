@@ -59,7 +59,7 @@
                         </div>
                         <div class="conInfoBox">
                             <div class="conInfoBoxIcon"><i class="fa fa-clock-o"></i></div>
-                            <h3>Time</h3>
+                            <h3>Our Hours</h3>
                             <p> (Monday - Friday)</br> 9:00 AM - 8:00 PM</p>
                         </div>
                     </div>
@@ -99,15 +99,39 @@
                                         <div class="basic-container checkbox-container">
                                             <div class="checkbox-containerCol">
                                                 <input type="checkbox" id="basic1" checked>
-                                                <label for="basic1">Strategy Consultation</label>
+                                                <label for="basic1">Business Insurance</label>
                                             </div>
                                             <div class="checkbox-containerCol">
                                                 <input type="checkbox" id="basic2">
-                                                <label for="basic2">Funding</label>
+                                                <label for="basic2">Business Loans</label>
                                             </div>
                                             <div class="checkbox-containerCol">
                                                 <input type="checkbox" id="basic3">
-                                                <label for="basic3">Others</label>
+                                                <label for="basic3">Business Regulations</label>
+                                            </div>
+                                            <div class="checkbox-containerCol">
+                                                <input type="checkbox" id="basic4">
+                                                <label for="basic4">Credit Repair</label>
+                                            </div>
+                                            <div class="checkbox-containerCol">
+                                                <input type="checkbox" id="basic5">
+                                                <label for="basic5">Credit Monitoring</label>
+                                            </div>
+                                            <div class="checkbox-containerCol">
+                                                <input type="checkbox" id="basic6">
+                                                <label for="basic6">Optimization and Strategy</label>
+                                            </div>
+                                            <div class="checkbox-containerCol">
+                                                <input type="checkbox" id="basic7">
+                                                <label for="basic7">Payment Processing</label>
+                                            </div>
+                                            <div class="checkbox-containerCol">
+                                                <input type="checkbox" id="basic8">
+                                                <label for="basic8">Private Travel</label>
+                                            </div>
+                                            <div class="checkbox-containerCol">
+                                                <input type="checkbox" id="basic9">
+                                                <label for="basic9">Other</label>
                                             </div>
                                         </div>
                                     </div>
@@ -124,7 +148,7 @@
                             <div class="formCol fullWith">
                                     <div class="section">
                                         <div class="basic-container checkbox-container mt-0">
-                                            <div style="margin-right:0;" class="checkbox-containerCol">
+                                            <div style="margin-right:0;" class="checkbox-containerCol fullWidth">
                                                 <input type="checkbox" id="basic1">
                                                 <label class="w90" for="basic1"> By submitting this form, you consent to calls and texts from Verifen regarding your inquiry. Message and data rates may apply.</label>
                                             </div>

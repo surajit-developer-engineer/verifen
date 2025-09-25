@@ -49,7 +49,7 @@
                             <li><a class="dropdown-item" href="/credit-repair-consultation">Credit Monitoring</a></li> 
                             <li><a class="dropdown-item" href="/credit-repair-consultation">Credit Repair</a></li>
                             <li><a class="dropdown-item" href="/payment-processing">Payment Processing</a></li>
-                            <li><a class="dropdown-item" href="/privet-travel">Privet Travel</a></li>
+                            <li><a class="dropdown-item" href="/private-travel">Private Travel</a></li>
                         </ul>
                     </li> 
                     <li class="dropdown"><a class="dropdown-toggle" href="/business-loans">Funding</a>
@@ -77,7 +77,7 @@
                         </ul>
                     </li>                     
                     <li><a href="/business-growth-center">Growth Center</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" href="#">Why Verifen?</a>
+                    <li class="dropdown"><a class="dropdown-toggle" href="/why-verifen">Why Verifen?</a>
                         <ul  class="dropdown-menu dropdown-menu-dark">                            
                             <li><a class="dropdown-item" href="/investor-program">Investors</a></li>
                             <li><a class="dropdown-item" href="/partners">Partners</a></li>
@@ -87,8 +87,7 @@
                     <li class="mobView">
                     <div class="dFlex mobBtnSec"><a class="applyButton" href="{{ route('business.loan.application.step-1') }}" target="_blank">
                     <span>Apply Now</span></a>
-                    <a class="applyButton" href="{{ route('business.loan.application.step-1') }}" target="_blank">
-                        Become a Member</a></div>
+                   </div>
                     <a class="applyButtonStroke" href="tel:(888) 788-6160" target="_blank">
                     <span><i><img src="{{ 'assets/images/phone-call.png' }}"></i> Call Us: (888) 788-6160</span></a>
                 </li>

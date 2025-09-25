@@ -12,21 +12,20 @@
 
             <div class="columnThree">
                 <ul>
-                    <li><a href="/business-loans">Business Loans</a></li>
-                    <li><a href="/business-loan-application/step-1">Business Loan Application</a></li>
-                    <li><a href="#verifen">Why Verifen?</a></li>
-                    <li><a href="#howitworks">How It Works</a></li>
-                    <li><a href="#solutions">Solutions</a></li>                   
-                    
+                    <li><a href="/consultation">Consultations</a></li>
+                    <li><a href="/business-loan-advisor">Business Loans</a></li>                    
+                    <li><a href="/business-loan-application/step-1">Business Loan Application</a></li> 
+                    <li><a href="/why-verifen">Why Verifen?</a></li>
+                    <li><a href="/private-travel">Travel</a></li>                    
                 </ul>
             </div>
-            <div class="columnThree w13">
-                <ul>   
-                    <li><a href="#funding">Funding</a></li>                 
-                    <li><a href="#benefits">Benefits</a></li>
-                    <li><a href="#industries">Industries</a></li>                    
-                    <li><a href="#faqs">FAQs</a></li>
-                    <li><a href="/contact">Contact Us</a></li>                    
+            <div class="columnThree">
+                <ul>    
+                    <li><a href="/business-loans">Funding</a></li> 
+                    <li><a href="/business-insurance-solutions">Business Insurance</a></li>                    
+                    <li><a href="/business-regulations">Business Regulations</a></li>
+                    <li><a href="/payment-processing-high-risk-business">Payment Processing</a></li>
+                    <li><a href="/contact">Contact Us</a></li>                       
                 </ul>
             </div>
             <div class="columnThree">               

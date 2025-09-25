@@ -179,6 +179,46 @@ class StaticController extends Controller
     public function lineOfcredit ()
     {
         return view('pages.frontend.static.line-of-credit');
-    }    
+    }  
+
+    public function businessInsurance ()
+    {
+        return view('pages.frontend.static.business-insurance');
+    } 
+
+    public function businessRegulations ()
+    {
+        return view('pages.frontend.static.business-regulations');
+    } 
+
+    public function paymentProcessing ()
+    {
+        return view('pages.frontend.static.payment-processing');
+    } 
+
+    public function privateTravel ()
+    {
+        return view('pages.frontend.static.private-travel');
+    } 
+
+    public function sbaLoans ()
+    {
+        return view('pages.frontend.static.sba-loans');
+    }
+
+    public function termLoans ()
+    {
+        return view('pages.frontend.static.term-loans');
+    }
+   
+    public function workingCapital ()
+    {
+        return view('pages.frontend.static.working-capital');
+    }
+
+    public function whyVerifen ()
+    {
+        return view('pages.frontend.static.why-verifen');
+    }
 
 }

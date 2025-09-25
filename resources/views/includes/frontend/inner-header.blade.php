@@ -81,7 +81,7 @@
                         </ul>
                     </li>                     
                     <li><a href="/business-growth-center">Growth Center</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" href="#">Why Verifen?</a>
+                    <li class="dropdown"><a class="dropdown-toggle" href="/why-verifen">Why Verifen?</a>
                         <ul  class="dropdown-menu dropdown-menu-dark">                            
                             <li><a class="dropdown-item" href="/investor-program">Investors</a></li>
                             <li><a class="dropdown-item" href="/partners">Partners</a></li>

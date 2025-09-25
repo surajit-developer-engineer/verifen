@@ -44,15 +44,16 @@
                                 <div class="container">
                                     <div class="bdFlex">
                                         <aside class="slider_left">
-                                            <h3>Line of Credit</h3>
-                                            <h2>Flexible Funding, When You Need It Most</h2>
-                                            <p>Cash flow fluctuations shouldn’t hold your business back. With a Verifen 
-                                                Line of Credit, you gain flexible access to funds exactly when you need them , 
-                                                empowering you to manage expenses, seize opportunities, and grow with confidence.</p>
-                                            <a class="applyButton" href="/business-loan-application/step-1"><span>Apply for a Line of Credit Today</span></a>
+                                            <h3>Term Loans</h3>
+                                            <h2>Plan for Growth with Clear, Fixed-Rate Financing</h2>
+                                            <p>Whether you’re investing in new equipment, expanding operations, 
+                                                or managing long-term projects, Verifen Term Loans provide predictable, fixed-rate financing 
+                                                tailored to your business goals. With clear terms and no surprises, 
+                                                you can plan for the future with confidence.</p>
+                                            <a class="applyButton" href="/business-loan-application/step-1"><span>Apply for a Term Loan Today</span></a>
                                         </aside>
                                         <aside class="slider_right">
-                                            <img src="{{ 'assets/images/line-credit-banner.png' }}" alt="">
+                                            <img src="{{ 'assets/images/term-loans-banner.png' }}" alt="">
                                         </aside>
                                     </div>
                                 </div>
@@ -69,33 +70,33 @@
 
     <section class="brands-sec about-us-sec m-5">
         <div class="container">
-            <h2 class="ser-subHeading">Why Businesses Need a Line of Credit</h2>
-            <p class="pb-3 ser-paragraph">Every business faces unpredictable expenses , from seasonal slowdowns to sudden opportunities. Without flexible funding, you might:</p>
+            <h2 class="ser-subHeading">Why Businesses Choose Term Loans</h2>
+            <p class="pb-3 ser-paragraph">Many businesses need structured financing to achieve specific goals. Without a term loan, you might face:</p>
             
             
             <div class="serviceBox-row">
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_01.png" alt="">
                     </br>
-                    <p>Miss time-sensitive opportunities</p>
+                    <p>High-interest short-term debt that complicates cash flow</p>
                 </div>
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_02.png" alt="">
                      </br>
-                    <p>Struggle to cover payroll, inventory, or unexpected costs</p>
+                    <p>Limited capital for strategic investments</p>
                 </div>
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_03.png" alt="">
                     </br>
-                    <p>Face operational bottlenecks that slow growth</p>
+                    <p>Uncertainty around repayment schedules</p>
                 </div>
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_04.png" alt="">
                     </br>
-                    <p>Over-rely on high-interest credit cards or short-term loans</p>
+                    <p>Missed opportunities due to lack of predictable funding</p>
                 </div>
             </div>
-              <p>Verifen provides a smarter, more reliable solution.</p>         
+              <p>Verifen Term Loans give you a reliable, transparent solution that aligns with your business plans.</p>         
             
         </div>
     </section>
@@ -108,19 +109,19 @@
                 </div>
                 <div class="c-partner_left-block sw50">
                     <div class="c-partner_sticky">
-                            <h2 class="pb-3">How Verifen Lines of Credit Work</h2>
-                                <p>Our approach is simple, transparent, and tailored to your business:</p>     
+                            <h2 class="pb-3">How Verifen Term Loans Work</h2>
+                                <p>Term loans provide a fixed amount of funding with scheduled repayments over a set period. With Verifen:</p>     
                                 <div class="staticPages">                           
                                     <ul class="backpack-list serviceList">
-                                        <li><strong>Flexible Access:</strong> Draw funds as needed, repay, and reuse the credit line.</li>
-                                        <li><strong>Transparent Terms:</strong> Clear interest rates, repayment schedules, and no hidden fees.</li>
-                                        <li><strong>Fast Approval:</strong> Get access to capital quickly, often within days.</li>
-                                        <li><strong>Ongoing Support:</strong> Our team is available to adjust your credit line as your business evolves.</li>
+                                        <li><strong>Tailored Loan Amounts:</strong> Fund the exact amount needed for your project or expansion.</li>
+                                        <li><strong>Fixed-Rate Repayment:</strong> Know your monthly obligations in advance with no surprises.</li>
+                                        <li><strong>Flexible Terms:</strong> Repayment schedules designed to suit your cash flow.</li>
+                                        <li><strong>Expert Guidance:</strong> Our team helps structure the loan for maximum benefit.</li>
                                        
                                     </ul>
                                 </div>
                                 
-                                <a class="applyButton mt-3" href="/business-loan-application/step-1">Unlock Flexible Funding Today</a> 
+                                <a class="applyButton mt-3" href="/business-loan-application/step-1">See Your Term Loan Options</a> 
                         </div>
                 </div>
             </div>
@@ -132,17 +133,77 @@
             <div class="deliversSecFlex">               
                 <div class="c-partner_left-block sw50">
                     <div class="c-partner_sticky">
-                            <h2 class="pb-3">Benefits of a Verifen Line of Credit</h2>
-                                     
+                            <h2 class="pb-3">What You Need to Qualify</h2>
+                            <p>To ensure a smooth approval process, businesses typically need the following documentation:</p>       
                                 <div class="staticPages">                           
                                     <ul class="backpack-list serviceList">
-                                        <li><strong>Operational Freedom:</strong> Cover short-term expenses without stress.</li>
-                                        <li><strong>Business Agility:</strong> Seize opportunities without waiting for traditional loan approvals.</li>
-                                        <li><strong>Financial Security:</strong> Smooth out cash flow and maintain stability.</li>
-                                        <li><strong>Growth Ready:</strong> Position your business to expand when the timing is right.</li>
-                                        <li><strong>Transparent & Reliable:</strong> Know your terms upfront, no surprises, no hidden fees.</li>
+                                        <li><strong>Business Tax Returns:</strong> Last 2 years of filed business returns</li>
+                                        <li><strong>Personal Tax Returns:</strong> Last 2 years for business owners</li>
+                                        <li><strong>Bank Statements:</strong> Most recent 6 months of business banking activity</li>
+                                        <li><strong>Profit & Loss Statement:</strong> Most recent financial snapshot of your business</li>
+                                        <li><strong>Cash Flow Statement:</strong> Demonstrates ability to repay the loan</li>
+                                        <li><strong>Business Licenses & Registrations:</strong> Proof of legal operations</li>
+                                        <li><strong>Debt Schedule:</strong> List of current obligations and liabilities</li>
+                                        <li><strong>Ownership & Management Details:</strong> Information on all significant owners</li>                                        
                                     </ul>
                                 </div> 
+                                <p>Having these documents ready helps Verifen process your loan quickly and efficiently.</p>
+                    </div>
+                </div>
+
+                <div class="c-partner_right-block sw43 mt-0">
+                    <img class="simgRadius" src="assets/images/business-support.jpg" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+     <div class="deliversSec sp-top-bottom">
+        <div class="container">
+            <div class="deliversSecFlex">
+                <div class="c-partner_right-block sw43 mt-0">
+                    <img class="simgRadius" src="assets/images/service-img2.jpg" alt="">
+                </div>
+                <div class="c-partner_left-block sw50">
+                    <div class="c-partner_sticky">
+                            <h2 class="pb-3">Benefits of Verifen Term Loans</h2>                                    
+                                <div class="staticPages">                           
+                                    <ul class="backpack-list serviceList">
+                                        <li><strong>Predictable Payments:</strong> Fixed interest and monthly payments for easier financial planning</li>
+                                        <li><strong>Flexible Use:</strong> Fund equipment, expansion, debt consolidation, or long-term projects</li>
+                                        <li><strong>Transparent Terms:</strong> No hidden fees or confusing fine print</li>
+                                        <li><strong>Support & Guidance:</strong> Expert assistance throughout the loan lifecycle</li>
+                                        <li><strong>Growth Ready:</strong> Provides the stability you need to execute your business plan</li>                                       
+                                    </ul>
+                                </div>
+                                
+                                
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="deliversSec sp-top-bottom">
+        <div class="container">
+            <div class="deliversSecFlex">               
+                <div class="c-partner_left-block sw50">
+                    <div class="c-partner_sticky">
+                            <h2 class="pb-3">Beyond the Loan: Complete Business Support</h2>
+                            <p>Verifen doesn’t just provide financing , we help ensure your business thrives financially:</p>       
+                                <div class="staticPages">                           
+                                    <ul class="backpack-list serviceList">
+                                        <li><strong>Cash Flow Planning:</strong> Optimize repayment without disrupting operations</li>
+                                        <li><strong>Credit Insights:</strong> Maintain a strong profile for future funding</li>
+                                        <li><strong>Regulatory Compliance:</strong> Ensure your loan and operations meet legal requirements</li>
+                                        <li><strong>Business Insurance Guidance:</strong> Protect your investments and assets</li>                                                                                
+                                    </ul>
+                                </div> 
+                                
                     </div>
                 </div>
 
@@ -156,64 +217,36 @@
     </div>
 
 
-     <div class="deliversSec sp-top-bottom">
-        <div class="container">
-            <div class="deliversSecFlex">
-                <div class="c-partner_right-block sw43 mt-0">
-                    <img class="simgRadius" src="assets/images/business-support.jpg" alt="">
-                </div>
-                <div class="c-partner_left-block sw50">
-                    <div class="c-partner_sticky">
-                            <h2 class="pb-3">Beyond Funding: Comprehensive Business Support</h2>
-                                <p>Verifen doesn’t just provide a line of credit , we help ensure your business thrives financially: </p>     
-                                <div class="staticPages">                           
-                                    <ul class="backpack-list serviceList">
-                                        <li><strong>Cash Flow Planning:</strong> Tools and guidance to manage funds efficiently.</li>
-                                        <li><strong>Credit Optimization:</strong> Recommendations to maintain a strong credit profile.</li>
-                                        <li><strong>Regulatory Guidance:</strong> Stay compliant while leveraging credit effectively.</li>
-                                        <li><strong>Insurance & Risk Management:</strong> Protect your assets and operations while using borrowed capital wisely.</li>
-                                       
-                                    </ul>
-                                </div>
-                                
-                                
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
 
 
     <section id="howitworks" class="howitWorksSec sp-top-bottom">
             <div class="container">
                 <h2>Why Choose Verifen?</h2>
-                <p>We built our Line of Credit services around <strong>care, transparency, and delivery</strong>:</p>
+                <p>Our Term Loan services are built around <strong>care, transparency, and delivery</strong>:</p>
                 
                 <ul class="whychoose-sec">
                     <li>
                         <figure>
                             <img src="assets/images/ventilation_2.png" class="fr-fic fr-dib " alt="Apply Online">
                         </figure>
-                        <p>Care<span> We understand the pressures of running a business and provide guidance that fits your goals.</span></p>
+                        <p>Care<span> We take the time to understand your goals and align the loan with your strategy.</span></p>
                     </li>
                     <li>
                         <figure>
                             <img src="assets/images/insurance_1.png" class="fr-fic fr-dib " alt="Get Approved">
                         </figure>
-                        <p>Transparency<span> No confusing fine print , only clear, upfront terms.</span></p>
+                        <p>Transparency<span> Clear, straightforward terms so you know exactly what to expect.</span></p>
                     </li>
                     <li>
                         <figure>
                             <img src="assets/images/consulting_1.png" class="fr-fic fr-dib " alt="Receive Funds">
                         </figure>
-                        <p>Delivery<span> Fast, reliable access to funds whenever you need them.</span></p>
+                        <p>Delivery<span> Fast, reliable funding when your business needs it most.</span></p>
                     </li>
                     
                 </ul>
 
-                <div class="text-center"><a class="applyButton" href="/business-loan-application/step-1"><span>Apply for a Line of Credit Today</span></a></div>
+                <div class="text-center"><a class="applyButton" href="/business-loan-application/step-1"><span>Apply for Your Term Loan Today</span></a></div>
             </div>
         </section>
 
@@ -228,40 +261,40 @@
                     <details class="detailsContainer">
                         <summary class="detailsSummary">
                             <!-- The title -->
-                            <h3 class="detailsTitle">How quickly can I access funds?</h3>
+                            <h3 class="detailsTitle">Can I use a term loan for multiple purposes?</h3>
                         </summary>
                     </details>
                     <!-- The content -->
                     <div class="detailsDesc">
-                        <div class="detailsDescInner">Many clients can draw funds within days of approval.</div>
+                        <div class="detailsDescInner">Yes. Term loans are versatile and can fund equipment, expansion, working capital, or debt consolidation.</div>
                     </div>
                 </div>
                 <div class="details">
                     <details class="detailsContainer">
                         <summary class="detailsSummary">
                             <!-- The title -->
-                            <h3 class="detailsTitle">Can I reuse the line of credit?</h3>
+                            <h3 class="detailsTitle">How long does the approval process take?</h3>
                         </summary>
                     </details>
                     <!-- The content -->
                     <div class="detailsDesc">
-                        <div class="detailsDescInner">Yes. As you repay, funds become available to use again, giving you ongoing flexibility.</div>
+                        <div class="detailsDescInner">With all required documentation, many businesses receive approval within a few days to a week.</div>
                     </div>
                 </div>
                 <div class="details">
                     <details class="detailsContainer">
                         <summary class="detailsSummary">
                             <!-- The title -->
-                            <h3 class="detailsTitle">Are there hidden fees?</h3>
+                            <h3 class="detailsTitle">Are the interest rates fixed?</h3>
                         </summary>
                     </details>
                     <!-- The content -->
                     <div class="detailsDesc">
-                        <div class="detailsDescInner">Never. Verifen is committed to complete transparency.</div>
+                        <div class="detailsDescInner">Yes. Fixed rates provide predictable payments and protect you from market fluctuations.</div>
                     </div>
                 </div>
 
-                <div class="text-center mt-5"><a class="applyButton" href="/business-loan-application/step-1"><span>Get Your Line of Credit Today</span></a></div>
+                <div class="text-center mt-5"><a class="applyButton" href="/business-loan-application/step-1"><span>Get Your Term Loan Today</span></a></div>
                
 
             </div>
@@ -274,9 +307,9 @@
      <div class="readytoproSec">
         <div class="container">  
              <h2>Ready to Grow Your Business?</h2>          
-            <p>Your business needs flexibility to grow and adapt. A Verifen Line of Credit gives you reliable capital, clear terms, and a partner who truly cares about your success.</p>
+            <p>Plan for your business’s future with confidence. Verifen Term Loans provide predictable, transparent financing, backed by a team that cares about your success.</p>
             <div class="flex">
-                <a class="contactButton" href="/business-loan-application/step-1" target="_blank">Apply Now for Flexible Funding</a>
+                <a class="contactButton" href="/business-loan-application/step-1" target="_blank">Apply for a Term Loan Now</a>
                 
             </div>
         </div>

@@ -42,6 +42,16 @@ Route::get('/consultation', [StaticController::class, 'consulTation'])->name('co
 Route::get('/credit-repair', [StaticController::class, 'creditRepair'])->name('credit.repair');
 Route::get('/credit-monitoring', [StaticController::class, 'creditMonitoring'])->name('credit.monitoring');
 Route::get('/line-of-credit', [StaticController::class, 'lineOfcredit'])->name('line.of.credit');
+Route::get('/business-insurance', [StaticController::class, 'businessInsurance'])->name('business.insurance');
+Route::get('/business-regulations', [StaticController::class, 'businessRegulations'])->name('business.regulations');
+Route::get('/payment-processing', [StaticController::class, 'paymentProcessing'])->name('payment.processing');
+Route::get('/private-travel', [StaticController::class, 'privateTravel'])->name('private.travel');
+Route::get('/sba-loans', [StaticController::class, 'sbaLoans'])->name('sba.loans');
+Route::get('/term-loans', [StaticController::class, 'termLoans'])->name('term.loans');
+Route::get('/working-capital', [StaticController::class, 'workingCapital'])->name('working-capital');
+Route::get('/why-verifen', [StaticController::class, 'whyVerifen'])->name('why-verifen');
+
+
 
 
 Route::group([

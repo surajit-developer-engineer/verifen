@@ -44,15 +44,16 @@
                                 <div class="container">
                                     <div class="bdFlex">
                                         <aside class="slider_left">
-                                            <h3>Line of Credit</h3>
-                                            <h2>Flexible Funding, When You Need It Most</h2>
-                                            <p>Cash flow fluctuations shouldn’t hold your business back. With a Verifen 
-                                                Line of Credit, you gain flexible access to funds exactly when you need them , 
-                                                empowering you to manage expenses, seize opportunities, and grow with confidence.</p>
-                                            <a class="applyButton" href="/business-loan-application/step-1"><span>Apply for a Line of Credit Today</span></a>
+                                            <h3>Private Travel</h3>
+                                            <h2>Your Personal Jet, Reimagined</h2>
+                                            <p>Skip the hassle of commercial travel and experience true freedom in the sky 
+                                                with Verifen Jet Charter. Our concierge-level service ensures every detail is handled , 
+                                                from luggage and ground transportation to luxury dining , so you can focus on 
+                                                what matters most: arriving refreshed, on time, and in style.</p>
+                                            <a class="applyButton" href="/business-loan-application/step-1"><span>Book Your Private Jet Experience Today</span></a>
                                         </aside>
                                         <aside class="slider_right">
-                                            <img src="{{ 'assets/images/line-credit-banner.png' }}" alt="">
+                                            <img src="{{ 'assets/images/private-travel-banner.png' }}" alt="">
                                         </aside>
                                     </div>
                                 </div>
@@ -69,33 +70,34 @@
 
     <section class="brands-sec about-us-sec m-5">
         <div class="container">
-            <h2 class="ser-subHeading">Why Businesses Need a Line of Credit</h2>
-            <p class="pb-3 ser-paragraph">Every business faces unpredictable expenses , from seasonal slowdowns to sudden opportunities. Without flexible funding, you might:</p>
+            <h2 class="ser-subHeading">The Problem with Traditional Travel</h2>
+            <p class="pb-3 ser-paragraph">Commercial flights are stressful: </p>
             
             
             <div class="serviceBox-row">
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_01.png" alt="">
                     </br>
-                    <p>Miss time-sensitive opportunities</p>
+                    <p>Long security lines and crowded airports</p>
                 </div>
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_02.png" alt="">
                      </br>
-                    <p>Struggle to cover payroll, inventory, or unexpected costs</p>
+                    <p>Unpredictable delays and cancellations</p>
                 </div>
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_03.png" alt="">
                     </br>
-                    <p>Face operational bottlenecks that slow growth</p>
+                    <p>Impersonal service and cramped spaces</p>
                 </div>
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_04.png" alt="">
                     </br>
-                    <p>Over-rely on high-interest credit cards or short-term loans</p>
+                    <p>Hidden fees that drive up costs</p>
                 </div>
             </div>
-              <p>Verifen provides a smarter, more reliable solution.</p>         
+              <p>Traditional private charters solve some problems but often come with opaque pricing and 
+                limited support. That’s where Verifen Jet Charter redefines the experience.</p>         
             
         </div>
     </section>
@@ -108,19 +110,19 @@
                 </div>
                 <div class="c-partner_left-block sw50">
                     <div class="c-partner_sticky">
-                            <h2 class="pb-3">How Verifen Lines of Credit Work</h2>
-                                <p>Our approach is simple, transparent, and tailored to your business:</p>     
+                            <h2 class="pb-3">How Verifen Jet Charter Works</h2>
+                                <p>We combine transparency, care, and concierge-level delivery to make every trip effortless: </p>     
                                 <div class="staticPages">                           
                                     <ul class="backpack-list serviceList">
-                                        <li><strong>Flexible Access:</strong> Draw funds as needed, repay, and reuse the credit line.</li>
-                                        <li><strong>Transparent Terms:</strong> Clear interest rates, repayment schedules, and no hidden fees.</li>
-                                        <li><strong>Fast Approval:</strong> Get access to capital quickly, often within days.</li>
-                                        <li><strong>Ongoing Support:</strong> Our team is available to adjust your credit line as your business evolves.</li>
+                                        <li><strong>Flexible Scheduling:</strong> Flights that fit your schedule, not the airline’s.</li>
+                                        <li><strong>Concierge Service:</strong> Luggage, ground transportation, dining, and in-flight preferences handled seamlessly.</li>
+                                        <li><strong>Transparent Pricing:</strong> Competitive rates with no hidden fees or last-minute surprises.</li>
+                                        <li><strong>VIP Experience:</strong> Privacy, comfort, and full attention from takeoff to landing.</li>
                                        
                                     </ul>
                                 </div>
                                 
-                                <a class="applyButton mt-3" href="/business-loan-application/step-1">Unlock Flexible Funding Today</a> 
+                                <a class="applyButton mt-3" href="/business-loan-application/step-1">Discover Stress-Free Private Travel</a> 
                         </div>
                 </div>
             </div>
@@ -132,15 +134,15 @@
             <div class="deliversSecFlex">               
                 <div class="c-partner_left-block sw50">
                     <div class="c-partner_sticky">
-                            <h2 class="pb-3">Benefits of a Verifen Line of Credit</h2>
+                            <h2 class="pb-3">Benefits of Flying with Verifen Jet Charter</h2>
                                      
                                 <div class="staticPages">                           
                                     <ul class="backpack-list serviceList">
-                                        <li><strong>Operational Freedom:</strong> Cover short-term expenses without stress.</li>
-                                        <li><strong>Business Agility:</strong> Seize opportunities without waiting for traditional loan approvals.</li>
-                                        <li><strong>Financial Security:</strong> Smooth out cash flow and maintain stability.</li>
-                                        <li><strong>Growth Ready:</strong> Position your business to expand when the timing is right.</li>
-                                        <li><strong>Transparent & Reliable:</strong> Know your terms upfront, no surprises, no hidden fees.</li>
+                                        <li><strong>Time Efficiency:</strong> Skip long airport lines and unnecessary delays.</li>
+                                        <li><strong>Stress-Free Travel:</strong> Concierge service handles every detail.</li>
+                                        <li><strong>Flexibility:</strong> Change your itinerary if your schedule shifts.</li>
+                                        <li><strong>Luxury and Comfort:</strong> Personalized in-flight amenities tailored to your needs.</li>
+                                        <li><strong>Transparent Costs:</strong> Know the full price upfront, no surprises.</li>
                                     </ul>
                                 </div> 
                     </div>
@@ -164,14 +166,14 @@
                 </div>
                 <div class="c-partner_left-block sw50">
                     <div class="c-partner_sticky">
-                            <h2 class="pb-3">Beyond Funding: Comprehensive Business Support</h2>
-                                <p>Verifen doesn’t just provide a line of credit , we help ensure your business thrives financially: </p>     
+                            <h2 class="pb-3">Beyond the Flight: Complete Business Travel Support</h2>
+                                <p>Verifen goes beyond just flying you from point A to B. Our private travel service integrates with the broader needs of business and VIP travelers: </p>     
                                 <div class="staticPages">                           
                                     <ul class="backpack-list serviceList">
-                                        <li><strong>Cash Flow Planning:</strong> Tools and guidance to manage funds efficiently.</li>
-                                        <li><strong>Credit Optimization:</strong> Recommendations to maintain a strong credit profile.</li>
-                                        <li><strong>Regulatory Guidance:</strong> Stay compliant while leveraging credit effectively.</li>
-                                        <li><strong>Insurance & Risk Management:</strong> Protect your assets and operations while using borrowed capital wisely.</li>
+                                        <li><strong>Ground Transportation Coordination: </strong> From your office to the airport, we handle logistics.</li>
+                                        <li><strong>Luxury Accommodation Assistance: </strong> Concierge help for hotels and stays at your destination.</li>
+                                        <li><strong>Event & Meeting Coordination: </strong> We assist with timing, setup, and arrivals to ensure you’re always prepared.</li>
+                                        <li><strong>Regulatory Compliance: </strong> All flights and logistics comply with aviation regulations and safety standards.</li>
                                        
                                     </ul>
                                 </div>
@@ -189,31 +191,31 @@
     <section id="howitworks" class="howitWorksSec sp-top-bottom">
             <div class="container">
                 <h2>Why Choose Verifen?</h2>
-                <p>We built our Line of Credit services around <strong>care, transparency, and delivery</strong>:</p>
+                <p>We built our jet charter service around <strong>care, transparency, and delivery</strong>:</p>
                 
                 <ul class="whychoose-sec">
                     <li>
                         <figure>
                             <img src="assets/images/ventilation_2.png" class="fr-fic fr-dib " alt="Apply Online">
                         </figure>
-                        <p>Care<span> We understand the pressures of running a business and provide guidance that fits your goals.</span></p>
+                        <p>Care<span> Every detail, from luggage to in-flight meals, is tailored to your preferences.</span></p>
                     </li>
                     <li>
                         <figure>
                             <img src="assets/images/insurance_1.png" class="fr-fic fr-dib " alt="Get Approved">
                         </figure>
-                        <p>Transparency<span> No confusing fine print , only clear, upfront terms.</span></p>
+                        <p>Transparency<span> Full pricing and service details provided upfront.</span></p>
                     </li>
                     <li>
                         <figure>
                             <img src="assets/images/consulting_1.png" class="fr-fic fr-dib " alt="Receive Funds">
                         </figure>
-                        <p>Delivery<span> Fast, reliable access to funds whenever you need them.</span></p>
+                        <p>Delivery<span> Reliable, punctual, and professional service ensures a seamless journey every time.</span></p>
                     </li>
                     
                 </ul>
 
-                <div class="text-center"><a class="applyButton" href="/business-loan-application/step-1"><span>Apply for a Line of Credit Today</span></a></div>
+                <div class="text-center"><a class="applyButton" href="/business-loan-application/step-1"><span>Book Your Private Jet Today</span></a></div>
             </div>
         </section>
 
@@ -228,40 +230,40 @@
                     <details class="detailsContainer">
                         <summary class="detailsSummary">
                             <!-- The title -->
-                            <h3 class="detailsTitle">How quickly can I access funds?</h3>
+                            <h3 class="detailsTitle">Are the rates competitive?</h3>
                         </summary>
                     </details>
                     <!-- The content -->
                     <div class="detailsDesc">
-                        <div class="detailsDescInner">Many clients can draw funds within days of approval.</div>
+                        <div class="detailsDescInner">Yes. Verifen Jet Charter offers transparent, competitive pricing without hidden fees.</div>
                     </div>
                 </div>
                 <div class="details">
                     <details class="detailsContainer">
                         <summary class="detailsSummary">
                             <!-- The title -->
-                            <h3 class="detailsTitle">Can I reuse the line of credit?</h3>
+                            <h3 class="detailsTitle">Can my travel itinerary change last minute?</h3>
                         </summary>
                     </details>
                     <!-- The content -->
                     <div class="detailsDesc">
-                        <div class="detailsDescInner">Yes. As you repay, funds become available to use again, giving you ongoing flexibility.</div>
+                        <div class="detailsDescInner">Yes. Our flexible scheduling accommodates your changing needs whenever possible.</div>
                     </div>
                 </div>
                 <div class="details">
                     <details class="detailsContainer">
                         <summary class="detailsSummary">
                             <!-- The title -->
-                            <h3 class="detailsTitle">Are there hidden fees?</h3>
+                            <h3 class="detailsTitle"> Is concierge service included?</h3>
                         </summary>
                     </details>
                     <!-- The content -->
                     <div class="detailsDesc">
-                        <div class="detailsDescInner">Never. Verifen is committed to complete transparency.</div>
+                        <div class="detailsDescInner">Absolutely. Our team handles luggage, ground transport, and in-flight requests.</div>
                     </div>
                 </div>
 
-                <div class="text-center mt-5"><a class="applyButton" href="/business-loan-application/step-1"><span>Get Your Line of Credit Today</span></a></div>
+                <div class="text-center mt-5"><a class="applyButton" href="/business-loan-application/step-1"><span>Experience Stress-Free Private Travel Today</span></a></div>
                
 
             </div>
@@ -274,9 +276,9 @@
      <div class="readytoproSec">
         <div class="container">  
              <h2>Ready to Grow Your Business?</h2>          
-            <p>Your business needs flexibility to grow and adapt. A Verifen Line of Credit gives you reliable capital, clear terms, and a partner who truly cares about your success.</p>
+            <p>Reimagine what travel can be. With Verifen Jet Charter, you’ll enjoy privacy, luxury, and peace of mind , all at transparent, competitive rates.</p>
             <div class="flex">
-                <a class="contactButton" href="/business-loan-application/step-1" target="_blank">Apply Now for Flexible Funding</a>
+                <a class="contactButton" href="/business-loan-application/step-1" target="_blank">Book Your Private Jet Experience Now</a>
                 
             </div>
         </div>

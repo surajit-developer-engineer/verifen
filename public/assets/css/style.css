@@ -2849,6 +2849,7 @@ div[class^="cat"] label {
 .basic-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 16px;
     margin-top: 15px;
 }
@@ -2903,6 +2904,7 @@ div[class^="cat"] label {
 .checkbox-containerCol{
     margin-right: 30px;
     display: flex;
+    width: 40%;
     /* align-items: center; */
 }
 .w90{
@@ -4740,8 +4742,9 @@ ul.tabs li.active {
 }
 .serviceBox-row {
     display: flex;
-    justify-content: space-between;
-    width:95%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width:100%;
     margin: 0 auto;
 }
 .serviceBox-row .serviceBox {
@@ -4755,7 +4758,8 @@ ul.tabs li.active {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 31%;
+    width: 30%;
+    margin: 1.5% 1.5%;
 }
 .serviceBox-row p{
     padding: 0;
@@ -4820,8 +4824,15 @@ ul.tabs li.active {
     margin-right: 0 !important;
     width: 55px !important;
 }
-
-
+.text-left{
+    text-align: left !important;
+}
+.text-left h2{
+    text-align: left !important;
+}
+.text-left p{
+    text-align: left !important;
+}
 
 
 
@@ -4932,6 +4943,9 @@ ul.tabs li.active {
 }
 
 @media (max-width: 767px) {
+    .checkbox-containerCol{
+        width: 100%;
+    }
     .mobDnone{
         display:none !important;
     }
@@ -5421,10 +5435,13 @@ ul.tabs li.active {
         width: 45%;
         margin-top: 50px;
     }
+    .columnOne .fr-fic{
+        margin-bottom: 50px;
+    }
 
     .columnThree {
-        width: 45%;
-        margin-top: 50px;
+        width: 100%;
+        margin-top: 0;
         text-align: center;
     }
 

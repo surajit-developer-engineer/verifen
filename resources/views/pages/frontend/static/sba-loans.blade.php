@@ -44,15 +44,17 @@
                                 <div class="container">
                                     <div class="bdFlex">
                                         <aside class="slider_left">
-                                            <h3>Line of Credit</h3>
-                                            <h2>Flexible Funding, When You Need It Most</h2>
-                                            <p>Cash flow fluctuations shouldn’t hold your business back. With a Verifen 
-                                                Line of Credit, you gain flexible access to funds exactly when you need them , 
-                                                empowering you to manage expenses, seize opportunities, and grow with confidence.</p>
-                                            <a class="applyButton" href="/business-loan-application/step-1"><span>Apply for a Line of Credit Today</span></a>
+                                            <h3>SBA Loans</h3>
+                                            <h2>Affordable Financing to Grow Your Business</h2>
+                                            <p>Small businesses are the backbone of the economy, and they deserve 
+                                                financing that empowers growth without creating financial strain. 
+                                                Verifen SBA Loans provide low-interest, government-backed funding 
+                                                with longer repayment terms , helping your business expand with 
+                                                confidence.</p>
+                                            <a class="applyButton" href="/business-loan-application/step-1"><span>Apply for an SBA Loan Today</span></a>
                                         </aside>
                                         <aside class="slider_right">
-                                            <img src="{{ 'assets/images/line-credit-banner.png' }}" alt="">
+                                            <img src="{{ 'assets/images/sba-loans-banner.png' }}" alt="">
                                         </aside>
                                     </div>
                                 </div>
@@ -69,33 +71,33 @@
 
     <section class="brands-sec about-us-sec m-5">
         <div class="container">
-            <h2 class="ser-subHeading">Why Businesses Need a Line of Credit</h2>
-            <p class="pb-3 ser-paragraph">Every business faces unpredictable expenses , from seasonal slowdowns to sudden opportunities. Without flexible funding, you might:</p>
+            <h2 class="ser-subHeading">The Challenge Small Businesses Face</h2>
+            <p class="pb-3 ser-paragraph">Many entrepreneurs struggle to secure financing: </p>
             
             
             <div class="serviceBox-row">
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_01.png" alt="">
                     </br>
-                    <p>Miss time-sensitive opportunities</p>
+                    <p>High interest rates on conventional loans</p>
                 </div>
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_02.png" alt="">
                      </br>
-                    <p>Struggle to cover payroll, inventory, or unexpected costs</p>
+                    <p>Short repayment terms that strain cash flow</p>
                 </div>
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_03.png" alt="">
                     </br>
-                    <p>Face operational bottlenecks that slow growth</p>
+                    <p>Limited access to capital for expansion or equipment</p>
                 </div>
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_04.png" alt="">
                     </br>
-                    <p>Over-rely on high-interest credit cards or short-term loans</p>
+                    <p>Complex, confusing application processes</p>
                 </div>
             </div>
-              <p>Verifen provides a smarter, more reliable solution.</p>         
+              <p>Verifen simplifies this process, giving you access to affordable funding while guiding you through every step.</p>         
             
         </div>
     </section>
@@ -108,19 +110,19 @@
                 </div>
                 <div class="c-partner_left-block sw50">
                     <div class="c-partner_sticky">
-                            <h2 class="pb-3">How Verifen Lines of Credit Work</h2>
-                                <p>Our approach is simple, transparent, and tailored to your business:</p>     
+                            <h2 class="pb-3">How Verifen SBA Loans Work</h2>
+                                <p>SBA Loans are designed to support small businesses with longer repayment terms and lower interest rates, thanks to backing from the Small Business Administration. With Verifen:</p>     
                                 <div class="staticPages">                           
                                     <ul class="backpack-list serviceList">
-                                        <li><strong>Flexible Access:</strong> Draw funds as needed, repay, and reuse the credit line.</li>
-                                        <li><strong>Transparent Terms:</strong> Clear interest rates, repayment schedules, and no hidden fees.</li>
-                                        <li><strong>Fast Approval:</strong> Get access to capital quickly, often within days.</li>
-                                        <li><strong>Ongoing Support:</strong> Our team is available to adjust your credit line as your business evolves.</li>
+                                        <li><strong>Guided Application:</strong> We walk you through the SBA loan process step by step.</li>
+                                        <li><strong>Affordable Terms: </strong> Low-interest rates and extended repayment schedules make funding manageable.</li>
+                                        <li><strong>Transparent Process:</strong> Clear explanations of requirements, fees, and repayment schedules.</li>
+                                        <li><strong>Ongoing Support:</strong> Assistance throughout the loan lifecycle to ensure your business succeeds.</li>
                                        
                                     </ul>
                                 </div>
                                 
-                                <a class="applyButton mt-3" href="/business-loan-application/step-1">Unlock Flexible Funding Today</a> 
+                                <a class="applyButton mt-3" href="/business-loan-application/step-1">Start Your SBA Loan Application Now</a> 
                         </div>
                 </div>
             </div>
@@ -132,22 +134,29 @@
             <div class="deliversSecFlex">               
                 <div class="c-partner_left-block sw50">
                     <div class="c-partner_sticky">
-                            <h2 class="pb-3">Benefits of a Verifen Line of Credit</h2>
-                                     
+                            <h2 class="pb-3">What You Need to Qualify</h2>
+                             <p>To streamline your SBA loan approval, Verifen recommends preparing the following documentation:</p>        
                                 <div class="staticPages">                           
                                     <ul class="backpack-list serviceList">
-                                        <li><strong>Operational Freedom:</strong> Cover short-term expenses without stress.</li>
-                                        <li><strong>Business Agility:</strong> Seize opportunities without waiting for traditional loan approvals.</li>
-                                        <li><strong>Financial Security:</strong> Smooth out cash flow and maintain stability.</li>
-                                        <li><strong>Growth Ready:</strong> Position your business to expand when the timing is right.</li>
-                                        <li><strong>Transparent & Reliable:</strong> Know your terms upfront, no surprises, no hidden fees.</li>
+                                        <li><strong>Business Tax Returns:</strong>  Last 2 years of filed business tax returns</li>
+                                        <li><strong>Personal Tax Returns:</strong>  Last 2 years of personal tax returns for business owners</li>
+                                        <li><strong>Bank Statements:</strong> Most recent 6 months of business bank statements</li>
+                                        <li><strong>Profit & Loss Statement:</strong> Most recent report showing revenue and expenses</li>
+                                        <li><strong>Cash Flow Statement:</strong> Documenting inflows and outflows to demonstrate repayment ability</li>
+                                        <li><strong>Balance Sheet:</strong> Overview of assets, liabilities, and equity</li>
+                                        <li><strong>Business Licenses & Registrations: </strong> Proof of legal operations and compliance</li>
+                                        <li><strong>Debt Schedule:</strong> Current debts and obligations</li>
+                                        <li><strong>Ownership & Management Information:</strong> Details on all owners with 20%+ stake</li>
                                     </ul>
                                 </div> 
-                    </div>
+                                <p>Having these documents ready helps us expedite your approval and ensures you qualify for the most favorable terms.</p>
+                                
+                                 <a class="applyButton mt-3" href="/business-loan-application/step-1">Check Your Eligibility for an SBA Loan</a>
+                            </div>
                 </div>
 
                 <div class="c-partner_right-block sw43 mt-0">
-                    <img class="simgRadius" src="assets/images/service-img2.jpg" alt="">
+                    <img class="simgRadius" src="assets/images/business-support.jpg" alt="">
                 </div>
             </div>
 
@@ -160,19 +169,18 @@
         <div class="container">
             <div class="deliversSecFlex">
                 <div class="c-partner_right-block sw43 mt-0">
-                    <img class="simgRadius" src="assets/images/business-support.jpg" alt="">
+                    <img class="simgRadius" src="assets/images/service-img2.jpg" alt="">
                 </div>
                 <div class="c-partner_left-block sw50">
                     <div class="c-partner_sticky">
-                            <h2 class="pb-3">Beyond Funding: Comprehensive Business Support</h2>
-                                <p>Verifen doesn’t just provide a line of credit , we help ensure your business thrives financially: </p>     
+                            <h2 class="pb-3">Benefits of Verifen SBA Loans</h2>                                     
                                 <div class="staticPages">                           
                                     <ul class="backpack-list serviceList">
-                                        <li><strong>Cash Flow Planning:</strong> Tools and guidance to manage funds efficiently.</li>
-                                        <li><strong>Credit Optimization:</strong> Recommendations to maintain a strong credit profile.</li>
-                                        <li><strong>Regulatory Guidance:</strong> Stay compliant while leveraging credit effectively.</li>
-                                        <li><strong>Insurance & Risk Management:</strong> Protect your assets and operations while using borrowed capital wisely.</li>
-                                       
+                                        <li><strong>Lower Interest Rates:</strong> Reduce financing costs and improve cash flow.</li>
+                                        <li><strong>Longer Terms:</strong> Spread repayment over a manageable period.</li>
+                                        <li><strong>Access to Larger Loans: </strong> SBA backing allows higher loan amounts than typical small business loans.</li>
+                                        <li><strong>Business Growth Ready:</strong> Fund expansion, equipment, inventory, or working capital.</li>
+                                        <li><strong>Expert Guidance:</strong> Navigate the SBA application process with ease.</li>                                       
                                     </ul>
                                 </div>
                                 
@@ -183,37 +191,62 @@
         </div>
     </div>
 
+    <div class="deliversSec sp-top-bottom">
+            <div class="container">
+                <div class="deliversSecFlex">               
+                    <div class="c-partner_left-block sw50">
+                        <div class="c-partner_sticky">
+                                <h2 class="pb-3">Beyond the Loan: Comprehensive Support</h2>
+                                <p>Verifen goes beyond just funding. We provide guidance to ensure your business is fully prepared:</p>        
+                                    <div class="staticPages">                           
+                                        <ul class="backpack-list serviceList">
+                                            <li><strong>Regulatory Guidance:</strong>   Ensure compliance with SBA and industry requirements.</li>
+                                            <li><strong>Business Insurance Insights:</strong>  Protect assets and operations while leveraging financing.</li>
+                                            <li><strong>Credit Preparation:</strong> Optimize your credit profile to qualify for better terms.</li>
+                                            <li><strong>Financial Planning Support:</strong> Plan cash flow and repayment without compromising growth.</li>
+                                        </ul>
+                                    </div>                                      
+                                </div>
+                    </div>
 
+                    <div class="c-partner_right-block sw43 mt-0">
+                        <img class="simgRadius" src="assets/images/service-img2.jpg" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
 
 
     <section id="howitworks" class="howitWorksSec sp-top-bottom">
             <div class="container">
                 <h2>Why Choose Verifen?</h2>
-                <p>We built our Line of Credit services around <strong>care, transparency, and delivery</strong>:</p>
+                <p>Our SBA loan services are built on <strong>care, transparency, and delivery</strong>:</p>
                 
                 <ul class="whychoose-sec">
                     <li>
                         <figure>
                             <img src="assets/images/ventilation_2.png" class="fr-fic fr-dib " alt="Apply Online">
                         </figure>
-                        <p>Care<span> We understand the pressures of running a business and provide guidance that fits your goals.</span></p>
+                        <p>Care<span> We take time to understand your business goals and funding needs.</span></p>
                     </li>
                     <li>
                         <figure>
                             <img src="assets/images/insurance_1.png" class="fr-fic fr-dib " alt="Get Approved">
                         </figure>
-                        <p>Transparency<span> No confusing fine print , only clear, upfront terms.</span></p>
+                        <p>Transparency<span> Clear guidance and upfront terms prevent surprises.</span></p>
                     </li>
                     <li>
                         <figure>
                             <img src="assets/images/consulting_1.png" class="fr-fic fr-dib " alt="Receive Funds">
                         </figure>
-                        <p>Delivery<span> Fast, reliable access to funds whenever you need them.</span></p>
+                        <p>Delivery<span> Fast, reliable assistance throughout the application and funding process.</span></p>
                     </li>
                     
                 </ul>
 
-                <div class="text-center"><a class="applyButton" href="/business-loan-application/step-1"><span>Apply for a Line of Credit Today</span></a></div>
+                <div class="text-center"><a class="applyButton" href="/business-loan-application/step-1"><span>Apply for Affordable SBA Financing Today</span></a></div>
             </div>
         </section>
 
@@ -228,24 +261,24 @@
                     <details class="detailsContainer">
                         <summary class="detailsSummary">
                             <!-- The title -->
-                            <h3 class="detailsTitle">How quickly can I access funds?</h3>
+                            <h3 class="detailsTitle">How long does the SBA loan process take?</h3>
                         </summary>
                     </details>
                     <!-- The content -->
                     <div class="detailsDesc">
-                        <div class="detailsDescInner">Many clients can draw funds within days of approval.</div>
+                        <div class="detailsDescInner">Processing times vary, but Verifen’s guidance helps streamline approvals.</div>
                     </div>
                 </div>
                 <div class="details">
                     <details class="detailsContainer">
                         <summary class="detailsSummary">
                             <!-- The title -->
-                            <h3 class="detailsTitle">Can I reuse the line of credit?</h3>
+                            <h3 class="detailsTitle">What types of businesses qualify?</h3>
                         </summary>
                     </details>
                     <!-- The content -->
                     <div class="detailsDesc">
-                        <div class="detailsDescInner">Yes. As you repay, funds become available to use again, giving you ongoing flexibility.</div>
+                        <div class="detailsDescInner">Most small businesses across industries qualify, provided they meet SBA criteria.</div>
                     </div>
                 </div>
                 <div class="details">
@@ -257,11 +290,11 @@
                     </details>
                     <!-- The content -->
                     <div class="detailsDesc">
-                        <div class="detailsDescInner">Never. Verifen is committed to complete transparency.</div>
+                        <div class="detailsDescInner"> Never. Verifen ensures full transparency on all costs and requirements.</div>
                     </div>
                 </div>
 
-                <div class="text-center mt-5"><a class="applyButton" href="/business-loan-application/step-1"><span>Get Your Line of Credit Today</span></a></div>
+                <div class="text-center mt-5"><a class="applyButton" href="/business-loan-application/step-1"><span>Start Your SBA Loan Application Today</span></a></div>
                
 
             </div>
@@ -274,9 +307,9 @@
      <div class="readytoproSec">
         <div class="container">  
              <h2>Ready to Grow Your Business?</h2>          
-            <p>Your business needs flexibility to grow and adapt. A Verifen Line of Credit gives you reliable capital, clear terms, and a partner who truly cares about your success.</p>
+            <p>Affordable financing is key to sustainable growth. With Verifen SBA Loans, your business gains access to low-cost funding, expert guidance, and a partner invested in your success.</p>
             <div class="flex">
-                <a class="contactButton" href="/business-loan-application/step-1" target="_blank">Apply Now for Flexible Funding</a>
+                <a class="contactButton" href="/business-loan-application/step-1" target="_blank">Apply Now and Grow Your Business</a>
                 
             </div>
         </div>

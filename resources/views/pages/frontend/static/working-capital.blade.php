@@ -44,15 +44,16 @@
                                 <div class="container">
                                     <div class="bdFlex">
                                         <aside class="slider_left">
-                                            <h3>Line of Credit</h3>
-                                            <h2>Flexible Funding, When You Need It Most</h2>
-                                            <p>Cash flow fluctuations shouldn’t hold your business back. With a Verifen 
-                                                Line of Credit, you gain flexible access to funds exactly when you need them , 
-                                                empowering you to manage expenses, seize opportunities, and grow with confidence.</p>
-                                            <a class="applyButton" href="/business-loan-application/step-1"><span>Apply for a Line of Credit Today</span></a>
+                                            <h3>Working Capital</h3>
+                                            <h2>Keep Your Business Running Smoothly</h2>
+                                            <p>Cash flow is the lifeblood of your business. Verifen Working Capital 
+                                                solutions provide the funds you need to cover day-to-day expenses, 
+                                                seize new opportunities, and maintain operational stability , 
+                                                all with clear, transparent terms.</p>
+                                            <a class="applyButton" href="/business-loan-application/step-1"><span>Apply for Working Capital Today</span></a>
                                         </aside>
                                         <aside class="slider_right">
-                                            <img src="{{ 'assets/images/line-credit-banner.png' }}" alt="">
+                                            <img src="{{ 'assets/images/working-capital-banner.png' }}" alt="">
                                         </aside>
                                     </div>
                                 </div>
@@ -69,33 +70,35 @@
 
     <section class="brands-sec about-us-sec m-5">
         <div class="container">
-            <h2 class="ser-subHeading">Why Businesses Need a Line of Credit</h2>
-            <p class="pb-3 ser-paragraph">Every business faces unpredictable expenses , from seasonal slowdowns to sudden opportunities. Without flexible funding, you might:</p>
+            <h2 class="ser-subHeading">Why Businesses Need Working Capital</h2>
+            <p class="pb-3 ser-paragraph">Even profitable businesses can face short-term cash shortages due to:</p>
             
             
             <div class="serviceBox-row">
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_01.png" alt="">
                     </br>
-                    <p>Miss time-sensitive opportunities</p>
+                    <p>Seasonal sales fluctuations</p>
                 </div>
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_02.png" alt="">
                      </br>
-                    <p>Struggle to cover payroll, inventory, or unexpected costs</p>
+                    <p>Unexpected expenses</p>
                 </div>
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_03.png" alt="">
                     </br>
-                    <p>Face operational bottlenecks that slow growth</p>
+                    <p>Inventory and supply chain demands</p>
                 </div>
                 <div class="serviceBox">
                     <img src="assets/images/expert-icon_04.png" alt="">
                     </br>
-                    <p>Over-rely on high-interest credit cards or short-term loans</p>
+                    <p>Payroll and operational costs</p>
                 </div>
             </div>
-              <p>Verifen provides a smarter, more reliable solution.</p>         
+              <p>Without adequate working capital, businesses risk slowed growth, missed opportunities, 
+                and operational challenges. Verifen ensures you always have the funds to keep 
+                your business moving.</p>         
             
         </div>
     </section>
@@ -108,19 +111,19 @@
                 </div>
                 <div class="c-partner_left-block sw50">
                     <div class="c-partner_sticky">
-                            <h2 class="pb-3">How Verifen Lines of Credit Work</h2>
-                                <p>Our approach is simple, transparent, and tailored to your business:</p>     
+                            <h2 class="pb-3">How Verifen Working Capital Solutions Work</h2>
+                                <p>Our approach is simple, flexible, and built around your business needs: </p>     
                                 <div class="staticPages">                           
                                     <ul class="backpack-list serviceList">
-                                        <li><strong>Flexible Access:</strong> Draw funds as needed, repay, and reuse the credit line.</li>
-                                        <li><strong>Transparent Terms:</strong> Clear interest rates, repayment schedules, and no hidden fees.</li>
-                                        <li><strong>Fast Approval:</strong> Get access to capital quickly, often within days.</li>
-                                        <li><strong>Ongoing Support:</strong> Our team is available to adjust your credit line as your business evolves.</li>
+                                        <li><strong>Flexible Funding:</strong> Access the capital you need, when you need it.</li>
+                                        <li><strong>Transparent Terms:</strong> Clear repayment schedules and interest rates, no hidden fees.</li>
+                                        <li><strong>Fast Access:</strong> Get the funds quickly to avoid disruptions.</li>
+                                        <li><strong>Expert Support:</strong> Guidance on optimizing cash flow and managing funds effectively.</li>
                                        
                                     </ul>
                                 </div>
                                 
-                                <a class="applyButton mt-3" href="/business-loan-application/step-1">Unlock Flexible Funding Today</a> 
+                                <a class="applyButton mt-3" href="/business-loan-application/step-1">Secure Your Working Capital Today</a> 
                         </div>
                 </div>
             </div>
@@ -132,17 +135,19 @@
             <div class="deliversSecFlex">               
                 <div class="c-partner_left-block sw50">
                     <div class="c-partner_sticky">
-                            <h2 class="pb-3">Benefits of a Verifen Line of Credit</h2>
-                                     
+                            <h2 class="pb-3">What You Need to Qualify</h2>
+                              <p>To streamline approval and ensure you get the right amount, prepare the following: </p>       
                                 <div class="staticPages">                           
                                     <ul class="backpack-list serviceList">
-                                        <li><strong>Operational Freedom:</strong> Cover short-term expenses without stress.</li>
-                                        <li><strong>Business Agility:</strong> Seize opportunities without waiting for traditional loan approvals.</li>
-                                        <li><strong>Financial Security:</strong> Smooth out cash flow and maintain stability.</li>
-                                        <li><strong>Growth Ready:</strong> Position your business to expand when the timing is right.</li>
-                                        <li><strong>Transparent & Reliable:</strong> Know your terms upfront, no surprises, no hidden fees.</li>
+                                        <li><strong>Business Tax Returns:</strong> Last 2 years filed</li>
+                                        <li><strong>Personal Tax Returns:</strong>  Last 2 years for business owners</li>
+                                        <li><strong>Bank Statements:</strong> Most recent 6 months of business banking activity</li>
+                                        <li><strong>Business Licenses & Registrations:</strong> Proof of legal operations</li>
+                                        <li><strong>Debt Schedule:</strong> Existing loans and obligations</li>
+                                        <li><strong>Ownership & Management Details:</strong> Information for all major stakeholders</li>
                                     </ul>
                                 </div> 
+                                <p>Having these ready speeds up the approval process and ensures smooth access to funds.</p>
                     </div>
                 </div>
 
@@ -164,18 +169,17 @@
                 </div>
                 <div class="c-partner_left-block sw50">
                     <div class="c-partner_sticky">
-                            <h2 class="pb-3">Beyond Funding: Comprehensive Business Support</h2>
-                                <p>Verifen doesn’t just provide a line of credit , we help ensure your business thrives financially: </p>     
+                            <h2 class="pb-3">Benefits of Verifen Working Capital</h2>
+                                     
                                 <div class="staticPages">                           
                                     <ul class="backpack-list serviceList">
-                                        <li><strong>Cash Flow Planning:</strong> Tools and guidance to manage funds efficiently.</li>
-                                        <li><strong>Credit Optimization:</strong> Recommendations to maintain a strong credit profile.</li>
-                                        <li><strong>Regulatory Guidance:</strong> Stay compliant while leveraging credit effectively.</li>
-                                        <li><strong>Insurance & Risk Management:</strong> Protect your assets and operations while using borrowed capital wisely.</li>
-                                       
+                                        <li><strong>Operational Continuity:</strong> Ensure payroll, bills, and expenses are covered</li>
+                                        <li><strong>Flexibility:</strong> Use funds for inventory, marketing, or unexpected costs</li>
+                                        <li><strong>Growth Opportunities:</strong> Act quickly when new opportunities arise</li>
+                                        <li><strong>Predictable Repayment:</strong> Clear terms allow accurate cash flow planning</li>
+                                       <li><strong>Full Support:</strong> Verifen provides guidance to maintain financial health</li>
                                     </ul>
-                                </div>
-                                
+                                </div>                                
                                 
                         </div>
                 </div>
@@ -185,35 +189,66 @@
 
 
 
+     <div class="deliversSec sp-top-bottom">
+        <div class="container">
+            <div class="deliversSecFlex">               
+                <div class="c-partner_left-block sw50">
+                    <div class="c-partner_sticky">
+                            <h2 class="pb-3">Beyond Funding: Business Support</h2>
+                              <p>Verifen doesn’t stop at providing capital. We help ensure your business is prepared for both today and the future: </p>       
+                                <div class="staticPages">                           
+                                    <ul class="backpack-list serviceList">
+                                        <li><strong>Cash Flow Optimization:</strong> Maximize efficiency and avoid shortages</li>
+                                        <li><strong>Credit Monitoring & Repair:</strong> Maintain a strong financial profile for future funding</li>
+                                        <li><strong>Regulatory Compliance Guidance:</strong> Ensure your business stays legally compliant</li>
+                                        <li><strong>Insurance & Risk Management:</strong> Protect assets while utilizing working capital effectively</li>
+                                        
+                                    </ul>
+                                </div> 
+                                
+                    </div>
+                </div>
+
+                <div class="c-partner_right-block sw43 mt-0">
+                    <img class="simgRadius" src="assets/images/service-img2.jpg" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
 
     <section id="howitworks" class="howitWorksSec sp-top-bottom">
             <div class="container">
                 <h2>Why Choose Verifen?</h2>
-                <p>We built our Line of Credit services around <strong>care, transparency, and delivery</strong>:</p>
+                <p>Our Working Capital services are built around <strong>care, transparency, and delivery</strong>:</p>
                 
                 <ul class="whychoose-sec">
                     <li>
                         <figure>
                             <img src="assets/images/ventilation_2.png" class="fr-fic fr-dib " alt="Apply Online">
                         </figure>
-                        <p>Care<span> We understand the pressures of running a business and provide guidance that fits your goals.</span></p>
+                        <p>Care<span> We take time to understand your operational needs.</span></p>
                     </li>
                     <li>
                         <figure>
                             <img src="assets/images/insurance_1.png" class="fr-fic fr-dib " alt="Get Approved">
                         </figure>
-                        <p>Transparency<span> No confusing fine print , only clear, upfront terms.</span></p>
+                        <p>Transparency<span> No hidden fees, just clear, upfront terms.</span></p>
                     </li>
                     <li>
                         <figure>
                             <img src="assets/images/consulting_1.png" class="fr-fic fr-dib " alt="Receive Funds">
                         </figure>
-                        <p>Delivery<span> Fast, reliable access to funds whenever you need them.</span></p>
+                        <p>Delivery<span> Fast, reliable access to funds to keep your business running smoothly.</span></p>
                     </li>
                     
                 </ul>
 
-                <div class="text-center"><a class="applyButton" href="/business-loan-application/step-1"><span>Apply for a Line of Credit Today</span></a></div>
+                <div class="text-center"><a class="applyButton" href="/business-loan-application/step-1"><span>Apply for Working Capital Today</span></a></div>
             </div>
         </section>
 
@@ -228,24 +263,24 @@
                     <details class="detailsContainer">
                         <summary class="detailsSummary">
                             <!-- The title -->
-                            <h3 class="detailsTitle">How quickly can I access funds?</h3>
+                            <h3 class="detailsTitle">How quickly can I access working capital?</h3>
                         </summary>
                     </details>
                     <!-- The content -->
                     <div class="detailsDesc">
-                        <div class="detailsDescInner">Many clients can draw funds within days of approval.</div>
+                        <div class="detailsDescInner">Many clients receive funds within a few days of approval.</div>
                     </div>
                 </div>
                 <div class="details">
                     <details class="detailsContainer">
                         <summary class="detailsSummary">
                             <!-- The title -->
-                            <h3 class="detailsTitle">Can I reuse the line of credit?</h3>
+                            <h3 class="detailsTitle">Can working capital be used for multiple purposes?</h3>
                         </summary>
                     </details>
                     <!-- The content -->
                     <div class="detailsDesc">
-                        <div class="detailsDescInner">Yes. As you repay, funds become available to use again, giving you ongoing flexibility.</div>
+                        <div class="detailsDescInner">Yes. Funds can cover operational costs, inventory, payroll, marketing, or other business needs.</div>
                     </div>
                 </div>
                 <div class="details">
@@ -257,11 +292,11 @@
                     </details>
                     <!-- The content -->
                     <div class="detailsDesc">
-                        <div class="detailsDescInner">Never. Verifen is committed to complete transparency.</div>
+                        <div class="detailsDescInner">Never. Verifen ensures complete transparency on all costs and terms.</div>
                     </div>
                 </div>
 
-                <div class="text-center mt-5"><a class="applyButton" href="/business-loan-application/step-1"><span>Get Your Line of Credit Today</span></a></div>
+                <div class="text-center mt-5"><a class="applyButton" href="/business-loan-application/step-1"><span>Secure Your Working Capital Today</span></a></div>
                
 
             </div>
@@ -274,9 +309,9 @@
      <div class="readytoproSec">
         <div class="container">  
              <h2>Ready to Grow Your Business?</h2>          
-            <p>Your business needs flexibility to grow and adapt. A Verifen Line of Credit gives you reliable capital, clear terms, and a partner who truly cares about your success.</p>
+            <p>Keep your business operating efficiently and confidently. Verifen Working Capital solutions provide the flexibility, transparency, and support you need to manage daily operations and fuel growth.</p>
             <div class="flex">
-                <a class="contactButton" href="/business-loan-application/step-1" target="_blank">Apply Now for Flexible Funding</a>
+                <a class="contactButton" href="/business-loan-application/step-1" target="_blank">Apply for Working Capital Now</a>
                 
             </div>
         </div>
